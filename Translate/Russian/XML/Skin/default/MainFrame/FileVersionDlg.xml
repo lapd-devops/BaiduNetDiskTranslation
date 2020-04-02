@@ -1,0 +1,75 @@
+<UI version="1.0">
+	<IBGCommonWin name="fileVersionDialog" rect="0,0,550,352" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="mainPanel">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="550,35" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,8" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2593" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!-- VIP面板 -->
+					<IBGRegionPanel name="fileVerVipTip" dock="DOCK_TOP" size="526,36" margin="0,0,0,0" unseen="true">
+						<Children>
+							<IBGRegionPanel dock="DOCK_FILL" size="526,36" unseen="false" config="fileVerVipTipPanel" margin="0,0,0,0">
+								<Children>
+									<IBGGIFControl name="memberIcon" dock="DOCK_LEFT" margin="14,10,5,10" image="Resource:\\Texture\\Menu\\vip_open.png" size="16, 16"></IBGGIFControl>
+									<IBGStaticEx name="memberTip" textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2608" margin="5, 10, 3, 5" dock="DOCK_LEFT"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 付费用户面板 -->
+					<IBGRegionPanel name="fileVerPaidTip" dock="DOCK_TOP" size="526,36" margin="0,0,0,0" unseen="true">
+						<Children>
+							<IBGRegionPanel dock="DOCK_FILL" size="526,36" unseen="false" config="fileVerVipTipPanel" margin="0,0,0,0">
+								<Children>
+									<IBGStaticEx textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2610" margin="14, 10, 3, 5" dock="DOCK_LEFT"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 底部按钮区域 -->
+					<IBGRegionPanel size="550,35" margin="0,0,0,0" dock="DOCK_BOTTOM">
+						<Properties>
+							<bkground>
+								<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xfaf5ec" clrEnd="0xfaf5ec"/>
+							</bkground>
+						</Properties>
+						<Children>
+							<IBGRegionPanel size="420,35" margin="20,0,0,0" dock="DOCK_LEFT">
+								<Children>
+									<IBGGIFControl name="loadingGif" dock="DOCK_LEFT" margin="0,8,10,9" image="Resource:\\MainFrame\\FileVersionDlg\\loading.gif" unseen="true" size="18, 18"></IBGGIFControl>
+									<IBGStaticEx name="tip" autoCalcHeight="true" autoCalcWidth="true" textClr="0xc89443" margin="0, 9, 0, 9" dock="DOCK_LEFT" endEllipsis="true" unseen="true"/>
+									<IBGStaticEx name="tipSuffix" autoCalcHeight="true" autoCalcWidth="true" textClr="0xc89443" margin="0, 9, 0, 9" dock="DOCK_LEFT" endEllipsis="true" unseen="true"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGButton name="closeBtn" config="button" size="75, 24" tabOrder="11" dock="DOCK_RIGHT" margin="0, 7, 10, 4" text="$2600"/>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 历史版本区域 -->
+					<IBGRegionPanel size="550,282" margin="0,0,0,0" dock="DOCK_FILL" config="fileVerListVipPanel">
+						<Children>
+							<IBGScrollBar size="0, 18" name="listctrlex_hscrollbar" dock="DOCK_BOTTOM" unseen="true" config="horizontalScrollBarApp"/>
+							<IBGRegionPanel name="ListCtrlPanel" size="550,282" margin="0,0,0,0" dock="DOCK_FILL">
+								<Children>
+									<IBGScrollBar size="18, 0" name="listctrlex_scrollbar" dock="DOCK_RIGHT" config="verticalScrollBarApp" unseen="true"/>
+									<IBGRegionPanel size="0, 0" name="listctrlex_panel" dock="DOCK_FILL" unseen="true"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

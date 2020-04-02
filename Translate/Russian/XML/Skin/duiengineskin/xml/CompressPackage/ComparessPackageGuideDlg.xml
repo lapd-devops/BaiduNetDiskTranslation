@@ -1,0 +1,17 @@
+<layer name="CompressPackageGuideDlg" width="504" height="322" appwin="0" ncRect="0,0,0,0" resize="0" translucent="1" nomaxsize="1">
+  <body>
+    <dlg pos="0,0,-0,-0" class="cls_dlg_frame">
+      <!--标题栏-->
+      <caption pos="0,0,-0,38">
+        <img pos="10,8" skin="common_logo_main"/>
+        <text name="txt_title" pos="39,9" class="cls_dlg_title_text">%str830%</text>
+        <imgbtn name="btn_close" skin="btn_sys_close" pos="-34,1,-2,21" cursor="arrow" tip="%str250%" animate="1"/>
+      </caption>
+      
+      <dlg pos="0,37,-0,-0">
+        <img pos="1,0,503,284" name="img_guide" skin="compresspackage_guide1_vip_image"/>
+        <imgbtn name="btn_ok" pos="176, 216, 328, 262" cursor="arrow" skin="compresspackage_upgrade_vip_btn"/>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

@@ -1,0 +1,69 @@
+<UI version="1.0">
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelTrayHintTemplate" size="210,120" ncHitTest="1">
+		<Children>
+			<IBGRegionPanel name="panel_op" dock="DOCK_BOTTOM" size="210,24">
+				<Children>
+					<IBGStaticEx name="link_ignore" autoCalcHeight="true" autoCalcWidth="true" text="$2370" margin="10, 0, 0, 4" handCursor="true" dock="DOCK_LEFT">
+						<Children>
+							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+						</Children>
+					</IBGStaticEx>
+					<IBGStaticEx name="link_onekeybackup" autoCalcHeight="true" autoCalcWidth="true" text="$2371" margin="0, 0, 10, 4" handCursor="true" dock="DOCK_RIGHT">
+						<Children>
+							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+						</Children>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_TOP" margin="8,0,3,0" size="210,25">
+				<Children>
+					<IBDGuiCell size="24,20" margin="2,3,7,2" dock="DOCK_LEFT">
+						<Properties>
+							<bkground>
+								<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+							</bkground>
+						</Properties>
+					</IBDGuiCell>
+					<IBGButton name="nmBtnSetting" margin="0,1,0,5" size="31,19" dock="DOCK_RIGHT">
+						<Properties>
+							<normalBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\PortableDevice\icon_setting_normal.png" changeLight="false" colorize="false"/>
+							</normalBkg>
+							<onBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\PortableDevice\icon_setting_hover.png" changeLight="false" colorize="false"/>
+							</onBkg>
+							<downBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\PortableDevice\icon_setting_down.png" changeLight="false" colorize="false"/>
+							</downBkg>
+						</Properties>
+					</IBGButton>
+					<IBGStaticEx name="nmStaticTitle" text="$2963" dock="DOCK_FILL" endEllipsis="true" margin="1,5,0,0" textClr="0x333333">
+						<Properties>
+							<textFont>
+								<IBGFont weight="1000"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_FILL" name="nmPanelContainer" margin="0,0,0,0"/>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel name="nmPanelPortableDeviceInfoItem" dock="DOCK_TOP" size="210,42" margin="10, 10, 10, 0" autoCalcHeight="true" ncHitTest="1">
+		<Children>
+			<IBGStaticEx name="device_info_tip" dock="DOCK_LEFT" size="190,0" endEllipsis="true" autoCalcHeight="true" textColorize="false" config="staticex_portabledevicebackup">
+				<Children>
+					<IBGLinkItem config="linkItem_portabledevicebackup" positionMode="true" position="0,-1"/>
+				</Children>
+			</IBGStaticEx>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelTrayShowPortableDevice" ncHitTest="1">
+		<Children>
+			<IBGRegionPanel name="device_info_container" dock="DOCK_FILL">
+				<Children>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+</UI>

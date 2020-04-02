@@ -1,0 +1,323 @@
+<UI version="1.0">
+	<IBGRegionPanel name="transPanel" dock="DOCK_FILL" sizeAsParent="true" size="735,550" unseen="true">
+		<Children>
+			<!-- 传输面板 -->
+			<IBGRegionPanel dock="DOCK_FILL" size="735, 550">
+				<Properties>
+					<bkground>
+						<IBGVeins drawStyle="DRAWMODE_ADAPT" file="Resource:MainFrame\MainPanel\TransPanel\TransPanelBkg.png" transparent="true"/>
+					</bkground>
+				</Properties>
+				<Children>
+					<!-- 进度条区域（用于正在上传和正在下载列表） -->
+					<IBGRegionPanel name="progressPanel" size="0,35" dock="DOCK_TOP">
+						<Children>
+							<IBGRegionPanel size="0,34" margin="0, 0, 0, 0" dock="DOCK_TOP">
+								<Children>
+									<IBGRegionPanel size="84,34" margin="0, 0, 0, 0" dock="DOCK_LEFT">
+										<Children>
+											<IBGStaticEx name="totalProgTip" autoCalcHeight="true" autoCalcWidth="true" textClr="0x89683c" text="$2237" margin="14, 10, 0, 8" dock="DOCK_LEFT"/>
+										</Children>
+									</IBGRegionPanel>
+									<IBGButton name="delBtn" dock="DOCK_RIGHT" size="80,23" config="button" text="$2244" margin="0, 8, 20, 3"/>
+									<IBGButton name="opBtn" dock="DOCK_RIGHT" size="80,23" config="button" text="$2243" margin="12, 8, 8, 3" enable="false"/>
+									<IBGRegionPanel size="80,34" margin="0, 0, 0, 0" dock="DOCK_RIGHT">
+										<Children>
+											<IBGStaticEx name="transSpeed" autoCalcHeight="true" autoCalcWidth="true" textClr="0xf9ab35" margin="0, 10, 0, 8" dock="DOCK_RIGHT"/>
+										</Children>
+									</IBGRegionPanel>
+									<IBGRegionPanel size="0,15" name="progPanel" margin="4, 11, 0, 9" dock="DOCK_FILL"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="0,1" margin="0, 0, 0, 0" dock="DOCK_BOTTOM">
+								<Properties>
+									<bkground>
+										<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xebebeb" clrEnd="0xebebeb"/>
+									</bkground>
+								</Properties>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 传输完成一键清除列表区域（用于传输完成列表） -->
+					<IBGRegionPanel name="HisCountTipPanel" size="0,35" dock="DOCK_TOP" unseen="true">
+						<Children>
+							<IBGRegionPanel size="0,34" margin="0, 0, 0, 0" dock="DOCK_TOP">
+								<Children>
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" text="$2253" textClr="0x343434" margin="14, 6, 0, 6" dock="DOCK_LEFT">
+										<Properties>
+											<textFont>
+												<IBGFont height="22"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="tipHisCount" autoCalcHeight="true" autoCalcWidth="true" textClr="0xf78c51" margin="0, 6, 0, 6" dock="DOCK_LEFT">
+										<Properties>
+											<textFont>
+												<IBGFont height="22"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" text="$2254" textClr="0x343434" margin="0, 6, 0, 6" dock="DOCK_LEFT">
+										<Properties>
+											<textFont>
+												<IBGFont height="22"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGButton name="clearHisBtn" size="92,23" margin="0,7,20,4" text="$2252" config="button" dock="DOCK_RIGHT"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="0,1" margin="0, 0, 0, 0" dock="DOCK_BOTTOM">
+								<Properties>
+									<bkground>
+										<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xebebeb" clrEnd="0xebebeb"/>
+									</bkground>
+								</Properties>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 云端任务操作区域（用于云传输列表） -->
+					<IBGRegionPanel name="CloudTransOpPanel" size="0,35" dock="DOCK_TOP" unseen="true">
+						<Children>
+							<IBGRegionPanel size="0,34" margin="0, 0, 0, 0" dock="DOCK_TOP">
+								<Children>
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" text="$2312" textClr="0x89683c" margin="20, 9, 0, 7" dock="DOCK_LEFT">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGButton name="clearCloudTaskBtn" size="92,23" margin="0,7,20,4" text="$2297" config="button" dock="DOCK_RIGHT"/>
+									<IBGButton name="startOrPauseCloudTaskBtn" size="92,23" margin="0,7,10,4" text="$2295" config="button" dock="DOCK_RIGHT"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="0,1" margin="0, 0, 0, 0" dock="DOCK_BOTTOM">
+								<Properties>
+									<bkground>
+										<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xebebeb" clrEnd="0xebebeb"/>
+									</bkground>
+								</Properties>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 提示条区域（用于正在上传列表） -->
+					<IBGRegionPanel name="tipPanel" size="0,24" dock="DOCK_TOP" config="TransTipPanel" unseen="true">
+						<Children>
+							<IBGGIFControl dock="DOCK_LEFT" margin="14,4,8,4" image="Resource:MainFrame\\MainPanel\\TransPanel\\tips_smile.png" size="16, 16"></IBGGIFControl>
+							<IBGStaticEx name="tipStatic" autoCalcHeight="true" autoCalcWidth="true" textClr="0x0877d5" text="$2282" margin="0, 4, 0, 4" dock="DOCK_LEFT"/>
+							<IBGButton name="tipCloseBtn" size="10,10" margin="0,7,20,7" dock="DOCK_RIGHT">
+								<Properties>
+									<normalDraw>
+										<IBGVeins file="Resource:MainFrame\\MainPanel\\TransPanel\\tips_close_normal.png" drawStyle="DRAWMODE_NORMAL" transparent="true" colorize="false"/>
+									</normalDraw>
+									<onDraw>
+										<IBGVeins file="Resource:MainFrame\\MainPanel\\TransPanel\\tips_close_highlight.png" drawStyle="DRAWMODE_NORMAL" transparent="true" colorize="false"/>
+									</onDraw>
+									<downDraw>
+										<IBGVeins file="Resource:MainFrame\\MainPanel\\TransPanel\\tips_close_down.png" drawStyle="DRAWMODE_NORMAL" transparent="true" colorize="false"/>
+									</downDraw>
+								</Properties>
+							</IBGButton>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 提速提示区域 （用于正在上传，正在下载列表，历史记录列表，包括北京联通，安徽电信, VIP加速等）-->
+					<IBGRegionPanel name="SpeedupTipPannel" unseen="true" ncHitTest="1" size="0,54" dock="DOCK_TOP" config="SpeedupTipPannel">
+						<Children>
+							<IBGRegionPanel name="SpeedupTryoutTipPanel" unseen="false" size="0,54" dock="DOCK_FILL">
+								<Children>
+									<!--引导文案最长490*36，高亮颜色0x0877d5(20h)-->
+									<IBGGIFControl dock="DOCK_LEFT" margin="14, 19, 8, 20" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\tip_smile.png" size="15, 15"></IBGGIFControl>
+									<IBGStaticEx name="guideSpeedupTip" autoCalcHeight="true" autoCalcWidth="true" text="$2765" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGButton name="tryBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2740" margin="20, 14, 0, 15"/>
+									<IBGButton name="closeBtn" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 22, 20, 22"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel name="SpeedupBuyTipPanel" unseen="true" size="0,54" dock="DOCK_FILL">
+								<Children>
+									<IBGGIFControl dock="DOCK_LEFT" margin="14, 19, 8, 20" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\tip_smile.png" size="15, 15"></IBGGIFControl>
+									<IBGStaticEx name="bandwidthTip1" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="remainTimeTip" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT" textClr="0x333333" margin="3, 19, 0, 17">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGButton name="buyBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2741" margin="20, 14, 0, 15"/>
+									<IBGButton name="closeBtn1" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 22, 20, 22"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel name="SpeedupDeadlineTipPanel" unseen="true" size="0,54" dock="DOCK_FILL">
+								<Children>
+									<IBGGIFControl dock="DOCK_LEFT" margin="14, 19, 8, 20" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\tip_smile.png" size="15, 15"></IBGGIFControl>
+									<IBGStaticEx name="speedupEndTip" autoCalcHeight="true" autoCalcWidth="true" text="$2767" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGButton name="speedupExtendBtn" dock="DOCK_LEFT" autoCalcHeight="true" autoCalcWidth="true" config="SpeedupExtendBtn" text="$2748" unseen="true" margin="20, 14, 0, 15"/>
+									<IBGButton name="renewBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2743" margin="20, 14, 0, 15"/>
+									<IBGButton name="closeBtn2" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 22, 20, 22"/>
+									<IBGButton name="speedupExtendCornerBtn" dock="DOCK_NULL" size="0,15" autoCalcWidth="true" config="SpeedupCornerBtn" unseen="true" margin="0, 3, 0, 36"/>
+									<IBGButton name="renewCornerBtn" dock="DOCK_NULL" size="0,15" autoCalcWidth="true" config="SpeedupCornerBtn" unseen="true" margin="0, 3, 0, 36"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 加速券提速提示区域 （用于正在下载列表，历史记录列表）-->
+					<IBGRegionPanel name="TicketTipPanel" unseen="true" ncHitTest="1" size="0,54" dock="DOCK_TOP" config="SpeedupTicketTipPannel">
+						<Children>
+							<IBGRegionPanel name="TicketGuideTipPanel" unseen="false" size="0,54" dock="DOCK_FILL">
+								<Children>
+									<!--引导文案最长490*36，高亮颜色0x0877d5(20h)-->
+									<IBGGIFControl dock="DOCK_LEFT" margin="14, 17, 8, 17" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\ticket.png" size="20, 20"></IBGGIFControl>
+									<IBGStaticEx name="guideTicketTip" autoCalcHeight="true" autoCalcWidth="true" text="$2765" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGButton name="ticketUseBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupUseBtn" text="$2740" margin="20, 14, 0, 15"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel name="TicketUsingTipPanel" unseen="true" size="0,54" dock="DOCK_FILL">
+								<Children>
+									<IBGGIFControl name="ticketSpeeding" dock="DOCK_LEFT" margin="14, 17, 8, 17" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\speeding.gif" size="20, 20"></IBGGIFControl>
+									<IBGStaticEx name="ticketUsingTip1" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="ticketRemainTimeTip" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT" textClr="0x333333" margin="3, 19, 0, 17">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel name="TicketEndTipPanel" unseen="true" size="0,54" dock="DOCK_FILL">
+								<Children>
+									<IBGGIFControl dock="DOCK_LEFT" margin="14, 19, 8, 20" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\tip_ticket.png" size="15, 15"></IBGGIFControl>
+									<IBGStaticEx name="ticketEndTip" autoCalcHeight="true" autoCalcWidth="true" text="$2767" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGButton name="buyTicketBtn" dock="DOCK_LEFT" autoCalcHeight="true" autoCalcWidth="true" config="SpeedupExtendBtn" text="$2748" unseen="true" margin="20, 14, 0, 15"/>
+									<IBGButton name="buySvipBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2743" margin="20, 14, 0, 15"/>
+									<IBGButton name="ticketCloseBtn2" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 13, 20, 13"/>
+									<IBGButton name="buyTicketCornerBtn" dock="DOCK_NULL" size="0,15" autoCalcWidth="true" config="SpeedupCornerBtn" unseen="true" margin="0, 3, 0, 36"/>
+									<IBGButton name="buySvipCornerBtn" dock="DOCK_NULL" size="0,15" autoCalcWidth="true" config="SpeedupCornerBtn" unseen="true" margin="0, 3, 0, 36"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 列表区域（所有列表复用） -->
+					<IBGRegionPanel name="transListPanel" size="323,400" margin="0,0,4,8" dock="DOCK_FILL">
+						<Children>
+							<IBGScrollBar size="0, 18" name="listctrlex_hscrollbar" dock="DOCK_BOTTOM" unseen="true" config="horizontalScrollBarApp"/>
+							<IBGRegionPanel name="ListCtrlPanel" size="323,400" margin="0,0,0,0" dock="DOCK_FILL">
+								<Children>
+									<IBGScrollBar size="18, 0" name="listctrlex_scrollbar" dock="DOCK_RIGHT" config="verticalScrollBarApp" unseen="true"/>
+									<IBGRegionPanel size="0, 0" name="listctrlex_panel" dock="DOCK_FILL" unseen="true"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 空面板区域（所有列表复用） -->
+					<IBGRegionPanel name="emptyPanel" size="776,500" margin="0,0,4,8" dock="DOCK_FILL" unseen="true">
+						<Children>
+							<IBGRegionPanel name="localEmptyPanel" size="236,170" margin="43,0,44,0" dock="DOCK_TOP">
+								<Children>
+									<IBGGIFControl name="emptyImage" image="Resource:MainFrame\\MainPanel\\TransPanel\\localtask_empty.png" dock="DOCK_TOP" margin="0,0,0,0" size="236,144"/>
+									<IBGStaticEx name="emptyTip" autoCalcHeight="true" autoCalcWidth="true" text="$2291" dock="DOCK_TOP" textClr="0x333333" margin="54, 0, 0, 0">
+										<Properties>
+											<textFont>
+												<IBGFont height="20"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel name="emptyCloudTipPanel" size="697,500" margin="0,0,0,0" dock="DOCK_FILL" unseen="true">
+								<Children>
+									<IBGGIFControl name="emptyTipImage" image="Resource:MainFrame\\MainPanel\\TransPanel\\CloudPanel\\empty.png" dock="DOCK_TOP" margin="0,0,0,0" size="697, 500"></IBGGIFControl>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 加载中和加载失败面板区域（用于云端推送列表） -->
+					<IBGRegionPanel name="loadingPanel" size="776,500" margin="0,0,4,8" dock="DOCK_FILL" unseen="true">
+						<Children>
+							<IBGStaticEx name="loadingAndErrorTip" autoCalcHeight="true" autoCalcWidth="true" text="$2291" dock="DOCK_TOP" textClr="0x333333" margin="350, 300, 350, 300">
+								<Properties>
+									<textFont>
+										<IBGFont height="20"/>
+									</textFont>
+								</Properties>
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+			<!-- 速度反馈提示区域 -->
+			<IBGRegionPanel name="SpeedFeedbackTipPannel" unseen="true" size="190,37" dock="DOCK_NULL" config="SpeedupTipPannel">
+				<Children>
+					<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" text="$2985" dock="DOCK_LEFT" textClr="0x333333" margin="10, 10, 0, 0">
+						<Properties>
+							<textFont>
+								<IBGFont height="18"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+					<IBGStaticEx name="feedbackLink" autoCalcHeight="true" autoCalcWidth="true" text="$2986" margin="5, 10, 0, 2" handCursor="true" dock="DOCK_LEFT">
+						<Children>
+							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+						</Children>
+					</IBGStaticEx>
+					<IBGButton name="closeFeedBackBtn" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 7, 12, 6"/>
+				</Children>
+			</IBGRegionPanel>
+			<!-- 提速活动广告区域 -->
+			<IBGRegionPanel name="SpeedupAdTipPanel" unseen="true" size="148,27" dock="DOCK_NULL">
+				<Children>
+					<IBGGIFControl name="adImage" cursorType="hand" dock="DOCK_LEFT" margin="0, 0, 0, 0" size="148, 27"></IBGGIFControl>
+				</Children>
+			</IBGRegionPanel>
+			<!-- 操作中提示区域 -->
+			<IBGRegionPanel name="OperatingTipPannel" config="ErrorTipPanel" unseen="true" size="180,56" dock="DOCK_NULL">
+				<Children>
+					<IBGStaticEx name="operatingTip" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT" textClr="0xffffff" margin="5, 19, 0, 19">
+						<Properties>
+							<textFont>
+								<IBGFont height="18"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+</UI>

@@ -1,0 +1,74 @@
+<UI version="1.0">
+	<IBGCommonWin name="advanceSettingDialog" rect="0,0,420,300" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="mainPanel">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="420,35" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,8" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2452" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="420,265" margin="0,0,0,0" sizeAsParent="false" dock="DOCK_FILL" config="settingPanel">
+						<Children>
+							<!-- P2P开关提示 -->
+							<IBGRegionPanel name="p2pTipPanel" size="180,155" position="230,5" config="SettingDlgTipPanel" dock="DOCK_NULL" unseen="true">
+								<Children>
+									<IBGStaticEx size="178,51" text="$2455" textClr="0x666666" unMultiline="FALSE" margin="6,4,6,0" dock="DOCK_LEFT">
+									</IBGStaticEx>
+								</Children>
+							</IBGRegionPanel>
+							<!-- P2P开关 -->
+							<IBGRegionPanel size="420,60" margin="0,45,0,0" dock="DOCK_TOP" unseen="false">
+								<Children>
+									<IBGStaticEx size="62,16" text="$2453" margin="20,20,0,24" dock="DOCK_LEFT"/>
+									<IBGRegionPanel size="300,48" margin="0,12,0,0" dock="DOCK_LEFT">
+										<Children>
+											<IBGCheckButton name="p2pCheckBtn" dock="DOCK_LEFT" autoCalcWidth="true" size="0,14" check="true" config="checkButton" text="$2454" margin="2, 9, 2, 25"/>
+											<IBGButton name="p2pQuestionBtn" dock="DOCK_LEFT" size="18,18" config="iconButtonQuestion" text="" margin="4, 8, 0, 22"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 远程推送提示 -->
+							<IBGRegionPanel name="sleepTipPanel" size="142,55" position="266,136" config="SettingDlgTipPanel" dock="DOCK_NULL" unseen="true">
+								<Children>
+									<IBGStaticEx size="133,51" text="$2576" textClr="0x666666" unMultiline="FALSE" margin="6,4,3,0" dock="DOCK_LEFT">
+									</IBGStaticEx>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 远程推送 -->
+							<IBGRegionPanel size="420,48" margin="0,47,0,0" dock="DOCK_TOP" unseen="false">
+								<Children>
+									<IBGStaticEx size="62,16" text="$2574" margin="20,8,0,24" dock="DOCK_LEFT"/>
+									<!-- 省电模式不中断推送 -->
+									<IBGRegionPanel size="300,48" margin="0,0,0,0" dock="DOCK_LEFT">
+										<Children>
+											<IBGCheckButton name="continuePushOnSeelp" dock="DOCK_LEFT" autoCalcWidth="true" size="0,14" check="true" config="checkButton" text="$2575" margin="2, 9, 2, 25"/>
+											<IBGButton name="questionBtn" dock="DOCK_LEFT" size="18,18" config="iconButtonQuestion" text="" margin="4, 8, 0, 22"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 按钮区域 -->
+							<IBGRegionPanel name="bottomBtnPanel" size="420,33" margin="0,0,0,0" dock="DOCK_BOTTOM">
+								<Children>
+									<IBGButton name="CancelBtn" tabOrder="12" dock="DOCK_RIGHT" enableFocus="true" size="72,26" config="button" text="$2060" margin="0,0,12,7"/>
+									<IBGButton name="FixBtn" tabOrder="11" dock="DOCK_RIGHT" enableFocus="true" size="72,26" config="button" text="$2054" margin="0,0,6,7"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

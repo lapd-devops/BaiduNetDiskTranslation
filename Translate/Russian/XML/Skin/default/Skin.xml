@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BDSkin>
+	<BDSkinInfo>
+		<Name Value="Default"/>
+		<Color Value="0,0,0"/>
+		<Preview Value="PreView.png"/>
+		<DisplayName Value="蓝色经典（默认）" />
+		<Author Value="百度Kx"/>
+		<Default Value="TRUE"/>
+		<Time Value="2011-1-1"/>
+		<Association Value="kxservice@baidu.com"/>	
+		<Version Value="1.0.0.0"/>
+	</BDSkinInfo>
+</BDSkin>
+
+	

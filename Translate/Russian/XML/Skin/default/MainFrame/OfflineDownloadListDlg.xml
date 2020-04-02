@@ -1,0 +1,97 @@
+<UI version="1.0">
+	<IBGCommonWin name="offlineDownloadListDlg" rect="0,0,552,390" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" toolWin="true" showMinButton="true" showMaxButton="false" config="btDownloadCommonWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="550,33" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,7,6" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2806" margin="1, 8, 3, 3" dock="DOCK_LEFT"/>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel name="contentContainer" size="552,292" margin="0,2,0,0" dock="DOCK_FILL" config="commonPanel">
+						<Children>
+							<!--- 页面导航-->
+							<IBGRegionPanel name="pageNavBarContainer" dock="DOCK_BOTTOM" size="552, 45">
+								<Children>
+									<IBGRegionPanel name="pageNavBarContainer" dock="DOCK_LEFT" size="420, 45">
+										<Children>
+											<IBGGIFControl name="statusImage" dock="DOCK_LEFT" margin="2,9,2,9" unseen="true" image="Resource:MainFrame\MainPanel\PageNavi\status_loading.gif" size="16, 16"></IBGGIFControl>
+											<IBGRegionPanel name="PageNavPanel" size="400,34" margin="20,5,0,8" dock="DOCK_BOTTOM" enableFocus="true" ncHitTest="1" unseen="false">
+												<Children>
+													<IBGButton name="LastPageBtn" dock="DOCK_LEFT" size="16,16" config="iconButtonLastPage" text="" margin="28, 7, 0, 11"/>
+													<IBGButton name="NextPageBtn" dock="DOCK_LEFT" size="16,16" config="iconButtonNextPage" text="" margin="21, 7, 0, 11"/>
+												</Children>
+											</IBGRegionPanel>
+										</Children>
+									</IBGRegionPanel>
+									<IBGButton name="BackGroudBtn" dock="DOCK_RIGHT" size="80,24" config="button" text="$2807" margin="0, 10, 22, 11"/>
+								</Children>
+							</IBGRegionPanel>
+							<!--下载列表-->
+							<IBGRegionPanel name="downloadlist_pannel" unseen="true" config="offlineDownloadBkgPanel" sizeAsParent="true" dock="DOCK_FILL" margin="22,16,22,0">
+								<Children>
+									<IBGRegionPanel name="list_pannel" sizeAsParent="true" dock="DOCK_FILL" margin="1,1,1,0">
+										<Children>
+											<IBGScrollBar size="0, 18" name="listctrlex_hscrollbar" dock="DOCK_BOTTOM" config="horizontalScrollBarApp" unseen="true"/>
+											<IBGRegionPanel name="ListCtrlExPanel" dock="DOCK_FILL">
+												<Children>
+													<IBGScrollBar size="18, 0" name="listctrlex_scrollbar" dock="DOCK_RIGHT" config="verticalScrollBarApp" unseen="true"/>
+													<IBGRegionPanel size="0, 0" name="listctrlex_panel" dock="DOCK_FILL" unseen="true"/>
+												</Children>
+											</IBGRegionPanel>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!--正在加载面板-->
+							<IBGRegionPanel name="loading_pannel" unseen="true" sizeAsParent="true" config="offlineDownloadBkgPanel" dock="DOCK_FILL" margin="22,16,22,0">
+								<Children>
+									<IBGStatic text="$2808" autoCalcHeight="true" color="0x666666" colorHilight="0x666666" colorPushed="0x666666" margin="180,110,150,100" autoCalcWidth="true" dock="DOCK_LEFT"/>
+								</Children>
+							</IBGRegionPanel>
+							<!--加载错误面板-->
+							<IBGRegionPanel name="error_pannel" unseen="true" sizeAsParent="true" config="offlineDownloadBkgPanel" dock="DOCK_FILL" margin="22,16,22,0">
+								<Children>
+									<IBDGuiCell size="108,122" margin="202,67,199,3" dock="DOCK_TOP" autoCalcHeight="true" autoCalcWidth="true">
+										<Properties>
+											<bkground>
+												<IBGVeins file="Resource:MainFrame\OfflineDownload\load_error.png" transparent="true" colorize="false"/>
+											</bkground>
+										</Properties>
+									</IBDGuiCell>
+									<IBGStatic text="$2809" autoCalcHeight="true" color="0x0000FF" colorHilight="0x0000FF" colorPushed="0x0000FF" margin="150,0,0,92" autoCalcWidth="true" dock="DOCK_TOP"/>
+								</Children>
+							</IBGRegionPanel>
+							<!--加载成功，无离线下载任务-->
+							<IBGRegionPanel name="empty_pannel" unseen="false" sizeAsParent="true" config="offlineDownloadBkgPanel" dock="DOCK_FILL" margin="22,16,22,0">
+								<Children>
+									<IBGStaticEx text="$2810" autoCalcHeight="true" textClr="0x3c6889" margin="80,80,0,0" autoCalcWidth="true" dock="DOCK_TOP">
+										<Properties>
+											<textFont>
+												<IBGFont height="20"/>
+											</textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGRegionPanel dock="DOCK_TOP" sizeAsParent="true">
+										<Children>
+											<IBGButton name="CreateNormalDownloadLink" dock="DOCK_LEFT" enableFocus="true" size="100,36" config="defaultBtn" text="$2811" margin="120,36,0,192"/>
+											<IBGButton name="CreateBTDownloadLink" dock="DOCK_LEFT" enableFocus="true" size="100,36" config="defaultBtn" text="$2812" margin="60,36,0,192"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

@@ -1,0 +1,66 @@
+<UI version="1.0">
+	<IBGCommonWin name="VideoPlayDialog" rect="0,0,900,650" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="true" showMaxButton="false" config="standardWebWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel name="titlePanel" margin="1,1,1,0" size="898,33" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,6" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGRegionPanel size="898,33" dock="DOCK_FILL" margin="0,0,70,0">
+								<Children>
+									<IBGStatic color="0xffffff" colorHilight="0xffffff" colorPushed="0xffffff" name="titleStatic" ncHitTest="0" text="$2897" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" margin="7, 7, 0, 8" dock="DOCK_LEFT">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStatic>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="898,675" margin="1,-1,1,1" sizeAsParent="false" dock="DOCK_FILL" config="webframePanel">
+						<Children>
+							<!-- 视频播放页面 -->
+							<IBGWebFrame name="webFramePanel" size="898,665" margin="0,0,0,0" dock="DOCK_FILL"/>
+							<!-- 网络异常页面 -->
+							<IBGRegionPanel name="netErrPanel" size="898,675" margin="0,0,0,0" dock="DOCK_FILL" unseen="true" config="docViewPanel">
+								<Children>
+									<IBGRegionPanel name="netErrTipPanel" size="160,180" margin="425,230,425,255">
+										<Children>
+											<IBGGIFControl dock="DOCK_TOP" margin="27, 0, 30, 40" image="Resource:MainFrame\\info.png" size="108, 122"></IBGGIFControl>
+											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2899" margin="5, 3, 0, 0" dock="DOCK_TOP"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 加载出错页面 -->
+							<IBGRegionPanel name="playVideoErrPanel" size="898,675" margin="0,0,0,0" dock="DOCK_FILL" unseen="true" config="docViewPanel">
+								<Children>
+									<IBGRegionPanel name="playVideoErrTipPanel" size="225,235" margin="405,200,405,230">
+										<Children>
+											<IBGGIFControl dock="DOCK_TOP" margin="52, 0, 65, 40" image="Resource:MainFrame\\DocViewDlg\\UnsupportType.png" size="108, 122"></IBGGIFControl>
+											<IBGStaticEx name="errTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2898" margin="5, 3, 0, 0" dock="DOCK_TOP"/>
+											<IBGRegionPanel size="74,25" margin="70,20,0,2" dock="DOCK_TOP">
+												<Children>
+													<IBGButton name="DownBtn" text="$2616" size="74,25" margin="0, 0, 0, 0" tabOrder="11" config="defaultBtn" dock="DOCK_LEFT"/>
+												</Children>
+											</IBGRegionPanel>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

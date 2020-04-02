@@ -1,0 +1,53 @@
+<UI version="1.0">
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelSpeedup" size="338,138" ncHitTest="1">
+		<Children>
+			<IBGRegionPanel dock="DOCK_BOTTOM" size="338,40">
+				<Children>
+					<IBGCheckButton name="tipCheckBtn" size="70,14" margin="8, 10, 0, 16" text="$2526" check="false" dock="DOCK_LEFT" config="checkButton"/>
+					<IBGButton name="speedBtn" size="90,30" text="$2527" margin="158,0,12,10" dock="DOCK_RIGHT" config="redColorBtn"/>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_TOP" margin="0,0,0,0" size="338,25">
+				<Children>
+					<IBDGuiCell size="24,20" margin="5,3,7,2" dock="DOCK_LEFT">
+						<Properties>
+							<bkground>
+								<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+							</bkground>
+						</Properties>
+					</IBDGuiCell>
+					<IBGButton name="nmBtnClose" margin="0,1,0,5" size="31,19" dock="DOCK_RIGHT" toolText="$2048">
+						<Properties>
+							<normalBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_normal.png" changeLight="false" colorize="false"/>
+							</normalBkg>
+							<onBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_hover.png" changeLight="false" colorize="false"/>
+							</onBkg>
+							<downBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_down.png" changeLight="false" colorize="false"/>
+							</downBkg>
+						</Properties>
+					</IBGButton>
+					<IBGStaticEx name="nmStaticTitle" text="$2520" dock="DOCK_FILL" endEllipsis="true" margin="1,5,0,0" textClr="0x333333">
+						<Properties>
+							<textFont>
+								<IBGFont weight="1000"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_FILL" name="nmPanelContainer" margin="0,0,0,0">
+				<Children>
+					<IBGStaticEx name="speedupTip1" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2523" margin="10,12,0,12" dock="DOCK_TOP"/>
+					<IBGStaticEx name="speedupTip2" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" margin="10,0,0,0" dock="DOCK_TOP"/>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelContainer" size="338,138" ncHitTest="1">
+		<Children>
+		</Children>
+	</IBGRegionPanel>
+</UI>

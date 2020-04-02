@@ -1,0 +1,9 @@
+<UI version="1.0">
+	<!-- 工具栏 -->
+	<IBGRegionPanel size="430,32" name="Progressbar" margin="0,0,0,0" ncHitTest="1" dock="DOCK_BOTTOM" sizeAsParent="false">
+		<Children>
+			<IBGGIFControl name="arrowGifCtl" image="Resource:\\MainFrame\\MainPanel\\TransStatusBar\\arrow_up.png" dock="DOCK_LEFT" margin="18,10,0,6" size="16, 16" supportOleDrop="true"></IBGGIFControl>
+			<IBGButton name="ViewDetails" dock="DOCK_RIGHT" size="66,23" config="button" text="$2076" margin="0, 7, 18, 2"/>
+		</Children>
+	</IBGRegionPanel>
+</UI>
