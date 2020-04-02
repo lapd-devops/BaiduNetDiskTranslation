@@ -1,0 +1,312 @@
+﻿Baidu network disk PC version V6.9.1 update: 18 March 2020
+    update content:
+    1. Fixed some experience problems and improved stability
+
+Baidu network disk PC version V6.9.0 update: 13 March 2020
+    update content:
+    1. Download experience optimization
+
+Baidu network disk PC version V6.8.9 Updated: December 25, 2019
+    update content:
+    1. Fixed some experience issues
+
+Baidu network disk PC version V6.8.8 Updated: December 12, 2019
+    update content:
+    1. Better support for IPv6 network
+
+Baidu network disk PC version V6.8.7 Updated: December 3, 2019
+    update content:
+    1. Fixed some experience issues
+
+Baidu network disk PC version V6.8.6 Updated: November 29, 2019
+    update content:
+    1. Fixed some experience issues
+
+Baidu network disk PC version V6.8.5 Updated: November 19, 2019
+    update content:
+    1. Support scan code to unlock cloud housekeeper, more convenient and safe
+    2. Improve stability
+
+Baidu network disk PC version V6.8.4 Updated: October 24, 2019
+    update content:
+    1. Fixed some experience issues
+
+Baidu network disk PC version V6.8.3 Updated: October 22, 2019
+    update content:
+    1. Fixed some experience issues
+
+Baidu network disk PC version V6.8.2 Updated: October 15, 2019
+    update content:
+    1. Add a new friend notification message to easily process friend applications
+    2. Add group QR code to conveniently invite friends to add groups
+
+Baidu network disk PC version V6.8.1 Updated: August 22, 2019
+    update content:
+    1. Optimized the method of adding friend verification.
+
+Baidu network disk PC version V6.8.0 Updated: August 14, 2019
+    update content:
+    1. Optimize performance and improve system stability.
+
+Baidu network disk PC version V6.7.4 Updated: May 16, 2019
+    update content:
+    1. Optimize the use experience of some functions and improve system stability.
+
+Baidu network disk PC version V6.7.3 Updated: April 12, 2019
+    update content:
+    1. Optimize the use experience of some functions and improve system stability.
+
+Baidu network disk PC version V6.7.2 Updated: March 29, 2019
+    update content:
+    1. Optimize the use experience of some functions and improve system stability.
+
+Baidu network disk PC version V6.7.1 Updated: February 27, 2019
+    update content:
+    1. New video playlist
+    2. Added video playback history
+
+Baidu network disk PC version V6.7.0 Updated: December 27, 2018
+    update content:
+    1. Optimize some interface views
+    2. Improve system stability
+
+Baidu network disk PC version V6.6.0 Updated: December 3, 2018
+    update content:
+    1. Optimize performance and improve system stability
+
+Baidu network disk PC version V6.5.0 Updated: November 16, 2018
+    update content:
+    1. The file sharing link supports packaging into small program codes, making it easier to make ppt and posters
+
+Baidu network disk PC version V6.4.0 Updated: October 30, 2018
+    update content:
+    1. Optimize some user experience and improve system stability
+
+Baidu network disk PC version V6.3.2 Updated: October 9, 2018
+    update content:
+    1. Fix some crashes
+
+Baidu network disk PC version V6.3.0 Updated: September 13, 2018
+    update content:
+    1. Added [Recent] function to facilitate you to quickly find recently used content
+    2. Added video double-speed playback privilege
+
+Baidu network disk PC version V6.2.4 Updated: August 7, 2018
+    update content:
+    1. Support SMS login and scan code login function
+    2. Optimized shortcut operations such as drag and drop
+    3.Optimized the main interface view
+
+Baidu network disk PC version V6.2.0 Updated: May 30, 2018
+    update content:
+    1.Improved interface loading performance
+    2. Optimize the experience and make it easier to view and manage files
+
+Baidu network disk PC version V6.1.0 Updated: April 19, 2018
+    update content:
+    1. Optimize the experience of viewing pictures, bring a better immersive preview experience
+    2. Optimize the [My Sharing] page for more convenient operation and more efficient display of file information
+    3. Optimization of other details
+
+Baidu network disk PC version V6.0.2 Updated: March 6, 2018
+    update content:
+    1. Brand new interface, refreshed, simple and efficient
+
+Baidu network disk PC version V5.7.3 Updated: February 7, 2018
+    update content:
+    1. Solved the problem that some users cannot play videos
+
+Baidu network disk PC version V5.7.2 Updated: November 16, 2017
+    update content:
+    1. Improve player performance and optimize video playback experience
+    2. Support super member junk file cleaning, effectively save space
+    3. Fix some crashes
+
+Baidu network disk PC version V5.7.1 Updated: November 2, 2017
+    update content:
+    1. Improve player performance and optimize video playback experience
+    2. Support super member junk file cleaning, effectively save space
+    3. Optimized performance and improved stability
+
+Baidu network disk PC version V5.7.0 Updated: October 30, 2017
+    update content:
+    1. Improve player performance and optimize video playback experience
+    2. Support super member junk file cleaning, effectively save space
+
+Baidu network disk PC version V5.6.3 Updated: September 11, 2017
+    update content:
+    1. Support document editing
+    2. Improve upload stability
+    3. Create a share to increase the validity period
+    4. After supporting IOS11 photo backup, online preview of network disk
+
+Baidu network disk PC version V5.6.2 Updated: July 31, 2017
+    update content:
+    1. Support document editing
+    2. Improve upload stability
+    3. Create a share to increase the validity period
+    4. Fix some crashes
+
+Baidu network disk PC version V5.6.1 Updated: June 22, 2017
+    update content:
+    1. Support document editing
+    2. Improve upload stability
+    3. Create a share to increase the validity period
+    4. Fix some crashes
+
+Baidu network disk PC version V5.6.0 Updated: June 8, 2017
+    update content:
+    1. Support document editing
+    2. Improve upload stability
+    3. Create a share to increase the validity period
+
+Baidu network disk PC version V5.5.5 Updated: May 23, 2017
+    update content:
+    1. Improve system stability
+
+Baidu network disk PC version V5.5.4 Updated: March 2, 2017
+    update content:
+    1. Improve the login stability of some operating systems
+
+Baidu network disk PC version V5.5.3 Updated: February 20, 2017
+    update content:
+    1. Performance optimization, improve stability
+
+Baidu network disk PC version V5.5.2 Updated: January 3, 2017
+    update content:
+    1. Security service upgrade
+    2. Solve system compatibility issues
+
+Baidu network disk PC version V5.5.1 Updated: December 15, 2016
+    update content:
+    1. Security service upgrade
+
+Baidu network disk PC version V5.5.0 Updated: October 31, 2016
+    update content:
+    1. "Baidu Cloud Manager" officially changed its name to "Baidu Netdisk"
+    2. Support file and folder attribute viewing
+
+Baidu network disk PC version V5.4.10 Updated: September 18, 2016
+    update content:
+    1. Bug fix
+
+Baidu cloud housekeeper V5.4.9 Updated: July 28, 2016
+    update content:
+    1. Improve stability
+
+Baidu cloud housekeeper V5.4.8 Updated: July 14, 2016
+    update content:
+    1. Bug fix
+
+Baidu cloud housekeeper V5.4.7 Updated: July 11, 2016
+    update content:
+    1. Bug fix
+
+Baidu cloud housekeeper V5.4.6 Updated: July 4, 2016
+    update content:
+    1. Improve stability
+
+Baidu cloud housekeeper V5.4.5 Updated: June 2, 2016
+    update content:
+    1. Multiple interface upgrades and performance optimization
+
+Baidu cloud housekeeper V5.4.4 Updated: May 19, 2016
+    update content:
+    1. Fix the problem of uploading large files
+
+Baidu cloud housekeeper V5.4.3 Updated: April 13, 2016
+    update content:
+    1. Fix known bugs
+
+Baidu cloud housekeeper V5.4.1 Updated: March 21, 2016
+    update content:
+    1. Fix the problem of uploading large files
+
+Baidu cloud housekeeper V5.4.0 Updated: March 17, 2016
+    update content:
+    1. Introduce a super member to enjoy the ultimate cloud experience
+    2. Added support for online decompression of compressed packages for members, and encrypted compressed packages are also difficult!
+
+Baidu cloud housekeeper V5.3.6 Updated: December 8, 2015
+    update content:
+    1. Performance optimization and bug fixes
+
+Baidu cloud housekeeper V5.3.5 Updated: December 3, 2015
+    update content:
+    1. Solve the cloud manager log problem and improve stability
+
+Baidu cloud housekeeper V5.3.4 Updated: September 17, 2015
+    update content:
+    1.Fixed the problem that the download of Chrome browser version 42 or above cannot call up the cloud housekeeper
+
+Baidu cloud housekeeper V5.3.2 Updated: August 4, 2015
+    update content:
+    1. Fixed the problem of incomplete backup when the camera is backed up with one click
+    2. Greatly improved the loading speed of picture thumbnails
+
+Baidu cloud housekeeper V5.3.1 Updated: July 21, 2015
+    update content:
+    1. Brand new sharing methods and visual interaction experience
+    2. Support friends to share, the message is instant, convenient and fast
+    3. Support group sharing, one person sharing, all group sharing
+
+Baidu cloud housekeeper V5.2.7 Updated: May 5, 2015
+    update content:
+    1. Solve the problem of slow download speed and increase download speed
+
+Baidu cloud housekeeper V5.2.6 Updated: April 16, 2015
+    update content:
+    1. Solve the problem of slow download speed of Cloud Manager in some scenarios
+
+Baidu cloud housekeeper V5.2.5 Updated: April 2, 2015
+    update content:
+    1. Solve the problem that the cloud housekeeper keeps printing logs
+
+Baidu cloud housekeeper V5.2.1 Updated: March 17, 2015
+    update content:
+    1. Optimize the transmission function and enhance the download experience of some scenarios
+
+Baidu cloud housekeeper V5.2.0 Updated: January 29, 2015
+    update content:
+    1. New member entrance, support one-click member purchase
+    2. Increase the loading speed of the file list, the operation is more smooth
+
+Baidu cloud housekeeper V5.1.0 Updated: December 8, 2014
+    update content:
+    1. New mobile phone forget function, support to receive missed calls and SMS reminders during forget phone
+    2.Optimize the automatic backup function to solve the problem of repeated backup of some user files
+
+Baidu cloud housekeeper V5.0.1 Updated: November 12, 2014
+    update content:
+    1. Optimize the transmission function and enhance the download experience of some scenarios
+
+Baidu cloud housekeeper V5.0.0 Updated: October 22, 2014
+    update content:
+    1. New data cable function: computer mobile phones can easily connect and transfer files
+    2. Support to open CAD documents online
+    3. Support online playing asf format files
+
+Baidu cloud housekeeper V4.8.5 Updated: September 17, 2014
+    update content:
+    1. Fix the crash of some machines
+
+Baidu cloud housekeeper V4.8.3 Updated: August 25, 2014
+    update content:
+    1. Fix the problem that some users cannot start after upgrading
+
+Baidu cloud housekeeper V4.8.2 Updated: August 11, 2014
+    update content:
+    1. Fix the crash problem when inserting a digital device
+    2.Fixed the problem of failure when downloading shared files
+
+Baidu cloud housekeeper V4.8.1 Updated: August 11, 2014
+    update content:
+    1. Fix some download failures
+
+Baidu cloud housekeeper V4.8.0 Updated: July 31, 2014
+    update content:
+    1. New hidden space function to hide your little secrets
+    2. Extreme speed installation, greatly improve the installation speed
+    3. Digital camera photo recognition, one-key backup
+
+Baidu Cloud Manager V4.7.0 more

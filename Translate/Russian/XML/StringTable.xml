@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- baseid = 1024-->
+<StringTable language="2052">
+  <String id="IDS_STANDARDWIN_CLOSE" value="Закрыть" />
+  <String id="IDS_STANDARDWIN_MAX" value="Развернуть" />
+  <String id="IDS_STANDARDWIN_MIN" value="Свернуть" />
+  <String id="IDS_STANDARDWIN_RECOV" value="Востановить" />
+  <String id="IDS_ID_NO" value="Нет" />
+  <String id="IDS_ID_YES" value="Да" />
+  <String id="IDS_ID_OK" value="ОК" />
+  <String id="IDS_ID_APPLY" value="Применить" />
+  <String id="IDS_ID_CONTINUE" value="Продолжить" />
+  <String id="IDS_ID_RETRY" value="Повторить" />
+  <String id="IDS_ID_TERMINATE" value="Стоп" />
+  <String id="IDS_ID_IGNORE" value="Пропустить" />
+  <String id="IDS_ID_CANCEL" value="Отмена" />
+  <String id="IDS_ID_EXIT" value="Выйти" />
+  <String id="IDS_ID_WARNING" value="Предупреждение" />
+  <String id="IDS_WEB_LOADING" value="Загрузка..." />
+  <String id="IDS_WEB_FAILED" value="Непредвиденный сбой загрузки страницы，\nПожалуйста обновите и повторите попытку." />
+  <String id="IDS_WEB_REFRESH" value="Обновить" />
+  <String id="IDS_GET_TEXT_HEIGHT" value="11" />
+  <String id="IDS_MSGBOX_OPEN_MAINFRAME" value="Открыть сетевой диск(&amp;O)" />
+  <String id="IDS_MSGBOX_VIEW_ALL" value="Показать все" />
+  <String id="IDS_MSGBOX_IGNORE_ALL" value="Пропустить" />
+  <String id="IDS_CRT_GRP_NO_RT_DETAIL" value="Подробно" />
+  <String id="IDS_SYSMSG_TITLE" value="Состояние" />
+  <String id="IDS_SONG_TYPEFACE" value="Arial" />
+  
+  <!--Основная панель -->
+  <String id="IDS_TITLEBAR_MENUBTN_SETTING" value="Настройки" />
+  <String id="IDS_TITLEBAR_BTN_USERHELP" value="Помощь" />
+  <String id="IDS_PAGENAVI_TOTALPAGESTATIC" value="Всего %u страниц" />
+  <String id="IDS_VIEWDETAILSBTN" value="Подробнее" />
+  <String id="IDS_COMMONERROR_NETWORKFAIL_TIP" value="Ошибка сетевого подкл" />
+  <String id="IDS_PUSH_TOOMANY_PUSHFILES_TIP" value="Слишком много файлов, пожалуйста, выберите меньше" />
+  <String id="IDS_PUSH_TOOFREQ_PUSHFILES_TIP" value="Ошибка, попробуйте позже" />
+  <String id="IDS_PUSH_TARGETDEVICE_DISKISFULL_TIP" value="Не хватает свободного места" />
+  <String id="IDS_PUSH_UNKNOWERROR_TIP" value="Неизвестная ошибка：%d" />
+  <String id="IDS_FOLDERNAVIGATOR_TEXT_ALLFILE" value="Мой диск" />
+  <String id="IDS_FOLDERNAVIGATOR_TEXT_SAFEBOX" value="Сейф" />
+  <String id="IDS_SELECTED_FILECOUNT_TIP" value="Выделено %d Файлов/Папок" />
+  <String id="IDS_TOTAL_FILECOUNT_TIP" value="Выделено %d Файлов/Папок" />
+  <String id="IDS_SELECT_FILE_TITLE" value="Пожалуйста, выберите файл/папку" />
+  <String id="IDS_SELECT_FILE_OK" value="OK" />
+  <String id="IDS_TIP_REFRESH" value="Обновить" />
+  <String id="IDS_HOTRESVIEW_LOAD_FAILED" value="Загрузка не удалось" />
+  <String id="IDS_HOTRESVIEW_TIP_NETWORK_ERROR" value="Пожалуйста, проверьте подключение к сети" />
+  <String id="IDS_HOTRESVIEW_TIP_RETRY" value="Повтор" />
+  
+  <!--Строка заголовка главной панели-->
+  <String id="IDS_TIPTEXT_INVALID_UPLOADINGFILES" value="Тип файла не поддерживается" />
+  <String id="IDS_TIPTEXT_EXIT_WITHTASKRUNNING" value="После закрытия, все задачи будут остановлены. Выйти?" />
+  <String id="IDS_TIPTEXT_EXIT_WITHTASKRUNNING_GENERATING" value="После выхода задачу не возожно будет возобновить. Вы уверены, что хотите выйти?" />
+  <String id="IDS_TIPTEXT_EXIT_WITH_DATACABLE_TASKRUNNING" value="Задача все еще выполняется. Остновить?" />
+  <String id="IDS_TIPTEXT_EXIT_WITHTASKSPEEDING" value="После выхода загрузку не возожно будет возобновить. Вы уверены, что хотите выйти?" />
+  <String id="IDS_TIP_TEXT_DOTPREFIXFOLDERNAME" value="Неподдерживаемые знаки в имени файла" />
+  <String id="IDS_TIPTEXT_OPERATING" value="Пожалуйста, подождите..." />
+
+  <!--Новый диалог задач загрузки-->
+  <String id="IDS_DOWNLOADTASK_TITLE_TEXT_FORQA" value="Указать каталог загрузки" />
+  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_BROWSE" value="Обзор" />
+  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_DOWNLOAD" value="Скачать" />
+  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_CANCEL" value="Отмена" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADSOURCE_YUN" value="Источник загрузки: Мой Диск" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADPATHTIP" value="Чтобы изменить путь загрузки, измените его на вкладке «Настройки» - «Сеть»." />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADDIR" value="Каталог загрузки" />
+  <String id="IDS_DOWNLOADTASK_TITLE" value="Указать путь:" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_LEFTSPACE" value="Свободно:" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE" value="Размер файла:" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE_LOADING" value="Размер файла: вычисление..." />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE_ERROR" value="Размер файла: N/A" />
+  <String id="IDS_DOWNLOADTASK_INVALID_PATH_TIP" value="Путь неверен, пожалуйста, выберите заново" />
+  <String id="IDS_DOWNLOADTASK_SET_DEFAULT_DOWNLOADDIR" value="Путь загрузки по умолчанию" />
+
+  <!--Выберите файл облака для диалогового окна устройства-->
+  <String id="IDS_DEVICECLOUDFILETRANSDLG_TITLE_FORQA" value="Укажите путь" />
+  <String id="IDS_DEVICECLOUDFILETRANSDLG_TITLE" value="Выберите файл" />
+  <String id="IDS_DEVICECLOUDFILETRANSDLG_NET_ERROR_TIP" value="Ошибка сетевого подкл" />
+
+  <!--Выберите Облако Файл Диалог-->
+  <String id="IDS_CLOUDFILESELECTDLG_TITLE" value="Выберите файлы для перемещения" />
+  <String id="IDS_CLOUDFILESELECTDLG_TITLE1" value="Выберите файл" />
+  <String id="IDS_CLOUDFILESELECTDLG_NET_ERROR_TIP" value="Ошибка сетевого подкл" />
+
+  <!--Диалог выбора друга-->
+  <String id="IDS_FRIENDSELECTDLG_TITLE" value="Выберите друга" />
+  <String id="IDS_FRIENDSELECTDLG_NET_ERROR_TIP" value="Ошибка сетевого подкл" />
+
+  <!-- Диалог со списком моб устройства-->
+  <String id="IDS_TITLE_TEXT_MYDEVICE" value="Мои устройства" />
+  <String id="IDS_DEVICELISTDLG_TEXT_EMPTY" value="Нeт устройства" />
+  <String id="IDS_DEVICELISTDLG_USEAGE_TIP" value="Может также использовать“%s”другие устройства" />
+  <String id="IDS_DEVICELISTDLG_ERROR_TIP" value="Не удалось обновить список устройств!" />
+  <String id="IDS_DEVICELISTDLG_LOADING_DEVICE_TIP" value="Извлечение устр...." />
+
+  <String id="IDS_STATIC_NODEVICE_TITLE" value="Как это сделать：" />
+  <String id="IDS_STATIC_NODEVICE_STEP1" value="1) Включите компьютер" />
+  <String id="IDS_STATIC_NODEVICE_STEP2" value="2) Войдите на Baidu Web Disk 4.6 и выше с %s" />
+  <String id="IDS_STATIC_NODEVICE_STEP3" value="3) Обновите список, чтобы увидеть новые комп" />
+
+  <String id="IDS_TITLE_TEXT_MYPHONE" value="Выберите забытый телефон" />
+  <String id="IDS_STATIC_NOPHONE_CONNECT" value="Нет соединения мобильного телефона" />
+  <String id="IDS_STATIC_NOOTHERPHONE_CONNECT" value="Другой телефон не обнаружен" />
+  <String id="IDS_STATIC_NOPHONE_TITLE" value="Как увидеть мой телефон?" />
+  <String id="IDS_STATIC_NOPHONE_STEP1" value="1) Сетевое подключение 3G/Wifi" />
+  <String id="IDS_STATIC_NOPHONE_STEP2" value="2) Компьютер и сотовый в одной учетной записи" />
+  <String id="IDS_STATIC_NOPHONE_STEP3" value="3) В мобильном терминале “Открыть мобильный телефон” Включите эту функцию" />
+  <String id="IDS_STATIC_NOPHONE_STEP4" value="（Поддерживает только Baidu SkyDrive Android 7.4 и выше）" />
+  <String id="IDS_DEVICELISTDLG_PHONEERROR_TIP" value="Не удалось обновить список телефонов!" />
+  <String id="IDS_DEVICELISTDLG_LOADING_PHONE_TIP" value="Извлечение телефона..." />
+  <!-- Поделиться -->
+  <String id="IDS_TIP_SHARE_CREATING" value="Создание приватной ссылки защ паролем..." />
+  <String id="IDS_TIP_SHARE_CREATING_PUBLIC" value="Создание ссылки..." />
+  <String id="IDS_TIP_SHARE_CREATING_SUCCESS" value="Пароль сгенерирован, только ваши друзья могут видеть общий досту" />
+  <String id="IDS_TIP_SHARE_CREATING_FAILE" value="Не удалось создать ссылку" />
+  <String id="IDS_TIP_SHARE_TMP_FORBIDDEN" value="(Экранированный)" />
+  <String id="IDS_SHARE_BUTTON_COPYLINK" value="Копир. ссылку" />
+  <String id="IDS_SHARE_BUTTON_COPYLINKANDPASSWORD" value="Скопировать ссылку и пароль" />
+  <String id="IDS_TIP_SHARE_COPYLINK_SUCCESS" value="Успешно скопировано!" />
+  <String id="IDS_TITLE_TEXT_CREATESHARE" value="Поделиться" />
+  <String id="IDS_SHARELISTDLG_COPYLINK_FORMAT" value="Ссылка %s Пароль %s" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_DAY" value="%dd" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_HOUER" value="%dh" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_MINUTE" value="%dm" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_INVAILID" value="Срок истёк" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_FOREVER" value="Никогда" />
+  <String id="IDS_SHAREMGRDLG_STATICTEXT_SHARE" value="Ссылка на сайт" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_END" value="Подождите" />
+  <String id="IDS_SHAREMGRDLG_STATICTEXT_PASSWORD" value="Пароль" />
+  <String id="IDS_SHAREMGRDLG_STATICTEXT_QRCODE" value="QR код:" />
+  <String id="IDS_SHAREMGRDLG_TEXT_QRCODE_2_FRIEND" value="Поделитесь QR-кодом с друзьями," />
+  <String id="IDS_SHAREMGRDLG_TEXT_SCAN_TO_GET_FILE" value="Сканирование другой стороны, чтобы получить файл" />
+  <String id="IDS_SHAREMGRDLG_TEXT_WECHATSCAN_TO_GET_FILE" value="Сканирование WeChat другой стороны, чтобы получить файл" />
+  <String id="IDS_SHAREMGRDLG_TEXT_COPY_QRCODE" value="Скопируйте QR-код" />
+  <String id="IDS_SHAREMGRDLG_TEXT_CONTAIN_PWD" value="Код извлечения включен, после сканирования вводить не нужно" />
+  <String id="IDS_SHAREMGRDLG_TEXT_QRCODE_COPYED" value="QR-код скопирован" />
+  <String id="IDS_SHAREMGRDLG_TEXT_CREATING_QRCODE" value="Генерация QR-кода ..." />
+  <String id="IDS_SHAREMGRDLG_TEXT_CREATE_QRCODE_FAIL" value="Сборка не удалась" />
+  <String id="IDS_SHAREMGRDLG_TEXT_RETRY_QRCODE" value="Повторите" />
+  <String id="IDS_SHARE_TIP_TOOMANYSHARE" value="Одна операция не может превышать%d файлов. Пожалуйста, выберите меньше файлов" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_DELETED" value="Обменниваемые файлы были удалены" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_VERIFING" value="Проверка ..." />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_VERIFYFAIL" value="Ошибка проверки" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_EXPIRE" value="Истек срок обмена файлом" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_MOVETOSAFEBOX" value="Обмениваемый файл был перемещен в Сейф" />
+
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_UID_FORBIDDEN" value="Этот пользователь был забанен" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_UID" value="Ошибка обмена, пользователь не вошел" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_NO_PERMISSIOM" value="Документ не разрешен для обмена" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_LINK_NUM" value="Слишком много общих ссылок, пожалуйста, отмените некоторые" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_SMS_NUM" value="Достигнуто ограничение по количеству ежедневных сообщений." />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_EMAIL_NUM" value="Ежедневный лимит электронной почты достигнут предел. Поделитесь через ссылки или SMS" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_LINK_BANNED" value="Ссылка была забанена" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_FILE_NUM" value="Доля ссылок не может превышать 100, выберите меньше" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_INPUT_WRONG" value="Ошибка ввода кода подтверждения, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_REQUEST_WRONG" value="Ошибка проверки кода, обновите и повторите попытку" />
+
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_1" value="Файл уже существует на диске" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_2" value="Проблема при копировании ссылки, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_3" value="Код ошибки: %d" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_QCODE" value="Сбой генерации Qcode" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_ERR" value="Ошибка кода подтверждения, пожалуйста, обновите и повторите попытку" />
+
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_TOO_FREQ" value="Доля ссылок превышает предел, перейдите в раздел «Обмен», чтобы просмотреть ссылки на общие файлы." />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_SPAM" value="Имя файла содержит конфиденциальные (запрещенные) слова, пожалуйста, измените" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_SENSITIVE_WORDS" value="Описывает содержание чувствительных (запрещенных) слов" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_VIRUS" value="О, файл может содержать вирус. Поделиться не удалось" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_SHORTURL_ERR" value="Сбой создания ссылки" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_PASSWORD" value="Неправильный пароль" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_FILE_NOT_EXIST" value="Файл не существует" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXPIRES" value="Общий доступ к файлам был отменен" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_ERROR_NORMAL" value="Поделиться кодом ошибки:%d" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_FSID" value="Файл не существует,повторите попытку" />
+  <String id="IDS_SHARE_NETWORK_FAIL" value="Не удалось подключиться к сети, повторите попытку позже" />
+  <String id="IDS_SHARE_CREATE_LINK" value="Создать ссылку" />
+  <String id="IDS_SHARE_CREATING_LINK" value="Создайте ссылку для обмена, пожалуйста, подождите ..." />
+  <String id="IDS_SHARE_COPY_LINK_SUCCESS" value="Копирование успешно" />
+  <String id="IDS_SHARE_LINK_SHARE" value="Поделиться с друзьями через QQ, WeChat, Weibo, QQ" />
+  <String id="IDS_SHARE_PRIVATELINK_WITH_NO_PWD_DESC" value="Код извлечения не требуется, только пользователи со ссылкой могут просматривать" />
+  <String id="IDS_SHARE_PRIVATELINK_WITH_PWD_DESC" value="Только те, у кого есть пароль, могут просматривать его, больше конфиденциальности и безопасности" />
+  <String id="IDS_SHARE_TABBUTTON_LINKSHARE" value="Поделиться ссылкой" />
+  <String id="IDS_SHARE_TABBUTTON_MEESAGESHARE" value="Поделиться с друг" />
+  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_PWD" value="С паролем" />
+  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD" value="Без пароля" />
+  <String id="IDS_SHARE_LINK_TYPE" value="Тип обмена" />
+  <String id="IDS_SHARE_POLICY_WARNNING" value="ПРЕДУПРЕЖДЕНИЕ: Baidu не допустит распространения порнографического или вульгарного материала" />
+  <String id="IDS_SHARE_PRIVATE_LINK_COPY" value="Ссылка и пароль скопированы" />
+  <String id="IDS_SHARE_PUBLIC_LINK_COPY" value="Ссылка скопирована" />
+  <String id="IDS_SHARE_BTN_CLOSE" value="Закрыть" />
+  <String id="IDS_SHARE_BTN_CANCEL" value="Отмена" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_LIMIT" value="Действительно:" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_NONE" value="Неограниченный" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_7DAYS" value="7д" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1д" />
+  <String id="IDS_SHARE_PUBLIC_LINK_DAYS_EXPIRE" value=" Ссылка истечет  через %d дней" />
+
+  <!-- свалка-->
+  <String id="IDS_TRANSFER_ERR_DEFAULT" value="Ошибка: Код ошибки%d" />
+  <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="Файл не существует" />
+  <String id="IDS_TRANSFER_ERR_INVALID_LINK_PWD" value="Неверно, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_TRANSFER_ERR_FILE_ALREADY_EXIST" value="Ошибка: файл уже существует" />
+  <String id="IDS_TRANSFER_ERR_SPACE_IS_FULL" value="Сбой из-за дискового пространства в сети" />
+  <String id="IDS_TRANSFER_ERR_FILE_TOO_MUCH" value="Дамп не выполнен, дамп не может быть больше 1000" />
+
+  <!-- Поле выбора каталога на стороне сервера-->
+  <String id="IDS_SERVERFOLDER_TITLE" value="Укажите путь" />
+  <String id="IDS_SERVERFOLDER_LOADING" value="Загрузка подкаталогов" />
+  <String id="IDS_SERVERFOLDER_BUTTON_NEWFOLDER" value="Новая папка" />
+  <String id="IDS_SERVERFOLDER_NEWFOLDER_DEFAULTNAME" value="Новая папка" />
+
+  <!-- Буква виртуального диска-->
+  <String id="IDS_VIRTUALFOLDER_NAME" value="Baidu NetDisk" />
+  <String id="IDS_VIRTUALFOLDER_INFOTIP" value="Дважды щелкните, чтобы запустить Baidu Network Disk" />
+
+  <!--Панель типов файлов-->
+  <String id="IDS_FILETYPEPANEL_ALL" value="Все файлы" />
+
+  <!--Панель Загрузок -->
+  <String id="IDS_TRANPANEL_AUTOBACKUP_FOLDER_TEXT" value="Папка автоматического резервного копирования" />
+  <String id="IDS_TRANPANEL_PORTABLEDEVBACKUP_FOLDER_TEXT" value="Папка для резервного копирования портативного устройства" />
+  <String id="IDS_TRANPANEL_TOTAL_DOWN_PROGRESS" value="Общий прогресс загрузки" />
+  <String id="IDS_TRANPANEL_TOTAL_UP_PROGRESS" value="Общий прогресс загрузки" />
+  <String id="IDS_TRANPANEL_TIP_MORE_TASK" value="Другие задачи поставлены в очередь ..." />
+  <String id="IDS_TRANPANEL_STARTBTN" value="Продолжить" />
+  <String id="IDS_TRANPANEL_PAUSEBTN" value="Приостановить" />
+  <String id="IDS_TRANPANEL_DELETEBTN" value="Удалить" />
+  <String id="IDS_TRANPANEL_TOTALSTARTBTN" value="Старт-все" />
+  <String id="IDS_TRANPANEL_TOTALPAUSEBTN" value="Приостановить все" />
+  <String id="IDS_TRANPANEL_TOTALDELETEBTN" value="Удалить все" />
+  <String id="IDS_TRANPANEL_AUTOBACKUP_PAUSE" value="Пауза - резрв. копир"/>
+  <String id="IDS_TRANPANEL_AUTOBACKUP_START" value="Старт - резерв. копир"/>
+  <String id="IDS_TRANPANEL_AUTOBACKUP_DELETE" value="Стоп - резерв. копир"/>
+  <String id="IDS_TRANPANEL_PORTABLEDEV_PAUSE" value="Стоп порт резерв копир"/>
+  <String id="IDS_TRANPANEL_PORTABLEDEV_START" value="Старт порт резер копир"/>
+  <String id="IDS_TRANPANEL_PORTABLEDEV_DELETE" value="Удалить портабл устройства"/>
+
+
+  <String id="IDS_TRANPANEL_OPENBTN" value="Открыть" />
+  <String id="IDS_TRANPANEL_CLEARHISBTN" value="Очистить все" />
+  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP1" value="Всего переводов завершено" />
+  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP2" value="Файлы!" />
+  <String id="IDS_TRANPANEL_OPENFOLDERBTN" value="Открыть папку" />
+  <String id="IDS_TRANPANEL_CLOUDUPLOAD" value="Загружается" />
+  <String id="IDS_TRANPANEL_UPLOADED" value="Выгруженное" />
+  <String id="IDS_TRANPANEL_CLOUDDOWNLOAD" value="Загружается" />
+  <String id="IDS_TRANPANEL_DOWNLOADING" value="загрузка" />
+  <String id="IDS_TRANPANEL_DOWNLOADED" value="Загруженные" />
+  <String id="IDS_TRANPANEL_PAUSED_TIP" value="Приостановлено ..." />
+  <String id="IDS_TRANPANEL_UPWAITING_TIP" value="В ожидании загрузки ..." />
+  <String id="IDS_TRANPANEL_DOWNWAITING_TIP" value="В ожидании загрузки ..." />
+  <String id="IDS_TRANPANEL_READINGFILE_TIP" value="Чтение файла" />
+  <String id="IDS_TRANPANEL_SELECTALL" value="Выбрать все" />
+  <String id="IDS_TRANPANEL_TOP" value="Верх" />
+  <String id="IDS_TRANPANEL_TASKTYPE_UPLOAD" value="Готова" />
+  <String id="IDS_TRANPANEL_TASKTYPE_DOWNLOAD" value="Загружается" />
+  <String id="IDS_TRANPANEL_TIP_RAPIDUPLOAD" value="Быстрая загрузка" />
+  <String id="IDS_TRANPANEL_TIP_DELETEALLUPTASK" value="Удалить все задачи загрузки?" />
+  <String id="IDS_TRANPANEL_TIP_DELETEALLDOWNTASK" value="Удалить все задачи загрузки?" />
+  <String id="IDS_TRANPANEL_TIP_DELETEALLHISTASK" value="Удалить всю историю загрузок и вызагрузок?" />
+  <String id="IDS_TRANPANEL_TIP_SVIPGUIDE" value="Откройте Супер Членство и наслаждайтесь Extreme Download" />
+  <String id="IDS_TIP_FILE_NOTEXIST" value="Файл не существует !" />
+  <String id="IDS_TIP_FILE_CANNOTOPEN" value="Не поддерживает открытие этого типа файла!" />
+  <String id="IDS_TIP_FOLDER_NOTEXIST" value="Папка не существует!" />
+  <String id="IDS_TIP_RAPIDUPLOAD" value="Быстрая загрузка" />
+  <String id="IDS_TIP_UPLOADCOMPLETE" value="полный" />
+  <String id="IDS_TIP_DOWNLOADCOMPLETE" value="Завершенный" />
+  <String id="IDS_TIP_FILE_CANNOT_DOWNLOAD" value="Файл был удален и не может быть повторно загружен" />
+  <String id="IDS_TIP_ADDING_NEW_TASK" value="Добавление нового задания" />
+  <String id="IDS_TIP_MEMBER_PRIVILEGE" value="Про участники, могут загружать большие файлы максимум 20 ГБ" />
+  <String id="IDS_TIP_P2P_DOWNLOAD_TASK" value="P2P используется для ускорения загрузки. Улучшенная скорость загрузки также увеличит скорость обмена для других пользователей." />
+  <String id="IDS_TIP_NO_LOW_SPEED_TIP_AGAIN" value="Не нпоминать снова" />
+  <String id="IDS_TIP_CANCEL_UPLOAD" value="Удалить загрузку" />
+  <String id="IDS_TIP_CANCEL_DOWNLOAD" value="Удалить файл" />
+  <String id="IDS_TIP_EXPAND_AUTOBACKUPITEM" value="Развернуть список автоматического резерв. копир" />
+  <String id="IDS_TIP_COLLAPSED_AUTOBACKUPITEM" value="Свернуть список автоматического резерв. копир" />
+  <String id="IDS_TIP_DEL_HIS_ITEM" value="Очистить историю" />
+  <String id="IDS_TIP_OPEN_FILE" value="Открыть файл" />
+  <String id="IDS_TIP_NO_TRANS_TASK" value="Нет задач" />
+  <String id="IDS_TIP_NO_UPLOAD_TRANS_TASK" value="В настоящее время нет задач загрузки" />
+  <String id="IDS_TIP_NO_DOWNLOAD_TRANS_TASK" value="В настоящее время нет задач загрузки" />
+  <String id="IDS_TIP_NO_TRANS_RECORD" value="Не задач" />
+  <String id="IDS_TRANPANEL_PAUSE_CLOUDTASK_BTN" value="Приостановить все" />
+  <String id="IDS_TRANPANEL_START_CLOUDTASK_BTN" value="Начать все" />
+  <String id="IDS_TRANPANEL_CANCEL_CLOUDTASK_BTN" value="Отменить все" />
+  <String id="IDS_TRANPANEL_CURRENT_DEVICE" value="Текущее устройство" />
+  <String id="IDS_TRANPANEL_LOADING_DEVICE_TASK_LIST" value="Загрузка списка принудительных задач в облаке устройства ..." />
+  <String id="IDS_TRANPANEL_LOAD_DEVICE_TASK_FAIL" value="Не удается выполнить загрузку облачного устройства, попробуйте еще раз" />
+  <String id="IDS_TRANPANEL_PAUSING_CLOUDTASK_TIP" value="Задача облачного приостановлена ​​..." />
+  <String id="IDS_TRANPANEL_PAUSE_CLOUDTASK_FAIL_TIP" value="Ошибка паузы в облачной задаче" />
+  <String id="IDS_TRANPANEL_STARTING_CLOUDTASK_TIP" value="Запуск облачной задачи ..." />
+  <String id="IDS_TRANPANEL_START_CLOUDTASK_FAIL_TIP" value="Сбой запуска облачной задачи" />
+  <String id="IDS_TRANPANEL_CANCELING_CLOUDTASK_TIP" value="Отмена облачной задачи ..." />
+  <String id="IDS_TRANPANEL_CANCEL_CLOUDTASK_FAIL_TIP" value="Отмена сбоя облачной задачи" />
+  <String id="IDS_TRANPANEL_MORE_CLOUDTASK_TIP" value="Больше задач облачного толчка" />
+  <String id="IDS_TRANPANEL_DELETE_CLOUDTASK_TIP" value="Удалить задание будет прервать передачу?" />
+  <String id="IDS_TRANPANEL_DST_DEVICE_OFFLINE" value="Устройство не в сети" />
+  <String id="IDS_TRANPANEL_DELETE_ALL_CLOUDTASK_TIP" value="Вы уверены, что хотите отменить все задачи и удалить записи?" />
+  <String id="IDS_TRANPANEL_CLOUDTASK_UNSTART_TIP" value="Ждите..." />
+  <String id="IDS_TRANPANEL_PUSH_DELAY_TIP" value="Небольшая задержка в процессе обработки, пожалуйста, будьте терпеливы" />
+  <String id="IDS_TRANPANEL_DOWNLOAD_REQUESTING_TIP" value="Скачать запрос ..." />
+  <String id="IDS_TRANPANEL_UPLOAD_REQUESTING_TIP" value="Загрузить запрос ..." />
+  <String id="IDS_TRANPANEL_REQUESTING_TIP" value="Запрос..." />
+  <!--Сообщение об ошибке на панели передачи -->
+  
+  <!--Ссылка на решение об ошибке передачи-->
+  <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_TOO_BIG" value="Файл слишком большой" />
+  <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_SUPER_BIG" value="Файл  супер большой" />
+  <String id="IDS_RESOLUTION_SPACE_NOT_ENOUGH" value="Недостаточно пространства" />
+  <String id="IDS_RESOLUTION_BACKUP_QUOTA_NOT_ENOUGH" value="Файл превышает лимит, у VIP пользователей нет ограничений на размер рез.копии" />
+
+  <!--Загрузить советы -->
+  <String id="IDS_ERRORTIP_UP_FAIL" value="Загрузка не удалась" />
+  <String id="IDS_ERRORTIP_FILE_TOO_BIG" value="Максимальный размер файла 4 ГБ" />
+  <String id="IDS_ERRORTIP_FILE_SUPER_BIG" value="Превышение лимита %d" />
+  <String id="IDS_ERRORTIP_FILE_TOO_BIG_MERMBER" value="Загрузка не удалась, максимальный размер файла ограничен 20 ГБ" />
+  <String id="IDS_ERRORTIP_SPACE_NOT_ENOUGH" value="Нехватка облачного пространства" />
+  <String id="IDS_ERRORTIP_SAFEBOXSPACE_NOT_ENOUGH" value="Сейф недостаточно места" />
+  <String id="IDS_ERRORTIP_FILE_PATH_INVALID" value="Локальный путь к файлу не существует или является недопустимым" />
+  <String id="IDS_ERRORTIP_PATH_TOO_LONG" value="Путь к файлу слишком длинный. Уменьшить путь или длину имени" />
+  <String id="IDS_ERRORTIP_FILE_IS_USED" value="Файл используется, пожалуйста, повторите" />
+  <String id="IDS_ERRORTIP_OPEN_FILE_FAIL" value="Не удалось открыть локальный файл" />
+  <String id="IDS_ERRORTIP_READ_FILE_FAIL" value="Ощибка чтения локальных файлов" />
+  <String id="IDS_ERRORTIP_LOCALFILE_CHANGE" value="Файл изменен, загрузка не удалась" />
+  <String id="IDS_ERRORTIP_FILE_CONTAIN_INVALID_BLOCK" value="Файл неполный и не может быть загружен" />
+  <String id="IDS_ERRORTIP_TOOMUCH_FILE" value="Слишком много файлов на сетевом диске, загрузка не удалась" />
+  <!--Скачать советы -->
+  <String id="IDS_ERRORTIP_DELETE_FILE_FAIL" value="Не удалось удалить локальный файл" />
+  <String id="IDS_ERRORTIP_CREATE_FILE_FAIL" value="Не удалось создать локальный файл" />
+  <String id="IDS_ERRORTIP_MOVE_FILE_FAIL" value="Не удалось переместить локальный файл" />
+  <String id="IDS_ERRORTIP_WRITE_FILE_FAIL" value="Не удалось записать локальный файл" />
+  <String id="IDS_ERRORTIP_ILLEGALFILE" value="Загружаемый контент содержащий нелегальный материал!" />
+  <String id="IDS_ERRORTIP_DOWN_FORBIDDEN" value="Этот аккаунт нарушения правила и временно заморожен!" />
+  <String id="IDS_ERRORTIP_DOWN_FAIL" value="Загрузка не удалась" />
+  <String id="IDS_ERRORTIP_DISK_NO_SPACE" value="Нет места на диске, попробуйте и почистите" />
+  <String id="IDS_ERRORTIP_FILE_NOT_EXSIT" value="Файлы были удалены" />
+  <String id="IDS_ERRORTIP_NETWORK_FAILED" value="Сетевая ошибка" />
+  <String id="IDS_ERRORTIP_ACCESS_DENY" value="Доступ запрещен" />
+  <String id="IDS_ERRORTIP_PATH_INVALID" value="Путь неверен" />
+  <String id="IDS_ERRORTIP_DOWNLOAD_FILE_OCCUPIED" value="Файл используется, закройте и повторите попытку" />
+  <String id="IDS_ERRORTIP_INVALIDPATH_TOOLTIP" value="Локальный путь сохранения не существует или не имеет разрешения на запись" />
+  <String id="IDS_ERRORTIP_LINK_ERR_PASSWD" value="Ошибка пароля связи" />
+  <String id="IDS_ERRORTIP_SHARE_CANCELED" value="Файл удален из обмен" />
+  <String id="IDS_ERRORTIP_FILE_SYSTEM_INCAPABLE" value="Системная ошибка, не могу скачать" />
+  <String id="IDS_ERRORTIP_FILE_FORBIDDEDN_BY_MIS" value="Файл был заблокирован" />
+  <String id="IDS_ERRORTIP_LINK_INVALID_FSID" value="Файл не существует" />
+  <String id="IDS_ERRORTIP_INVALID_FILE" value="Файл является поврежден и не может быть загружен" />
+  <!--Напоминание о задании в облаке -->
+  <String id="IDS_ERRORTIP_CLOUDTASK_DOWNLOAD_FAIL" value="Загрузка не удалась" />
+  <String id="IDS_ERRORTIP_CLOUDTASK_WRITE_FILE_FAIL" value="Ошибка записи файла" />
+  <String id="IDS_ERRORTIP_CLOUDTASK_DISK_NO_SPACE" value="Недостаточно места, очистите и повторите попытку" />
+  <String id="IDS_ERRORTIP_CLOUDTASK_NETWORK_FAILED" value="Ошибка сетевого устройства" />
+  <String id="IDS_ERRORTIP_CLOUDTASK_ACCESS_DENY" value="Другое устройство не имеет разрешения на загрузку" />
+  <String id="IDS_ERRORTIP_CLOUDTASK_PATH_INVALID" value="Недопустимый путь  для загрузки" />
+  <String id="IDS_ERRORTIP_CLOUDTASK_FILE_OCCUPIED" value="Ошибка сброса другого устройства, файл используется" />
+  <String id="IDS_ERRORTIP_CLOUDTASK_NO_USB_PLUGED_INBOXORTV" value="Нет USB подключен в Box / TV" />
+
+  <!--Ускоренные советы по обслуживанию -->
+  <String id="IDS_ERRORTIP_EXPERIENCE_SPEEDUP_FAIL" value="Сбой службы получения высокой скорости" />
+  <String id="IDS_ERRORTIP_SPEEDUPSERVICE_BINDED" value="Текущий счет получения скоростного доступа" />
+  <!--Удалить приглашение-->
+  <String id="IDS_DELETETIP_TEXT" value="Вы уверены, что хотите удалить %s?" />
+  <String id="IDS_DELETEFILESTIP_TEXT" value="Вы уверены, что хотите удалить эти %d файлы или папки?" />
+  <String id="IDS_DELETEFILESTIP_TEXT_TIP" value="(Вы можете восстановить удаленные файлы из Корзины)" />
+  <String id="IDS_DELETEFILESTIP_SAFEBOXTEXT_TIP" value="Удаленные файлы не попадут в Корзину" />
+
+  <!--Соответствующая копия диалогового окна резервного копирования портативного устройства-->
+  <String id="IDS_PORTABLE_DEVICE_VIDEO_POSTFIX_TIP_TEXT" value="Видео" />
+  <String id="IDS_PORTABLE_DEVICE_PICTURE_POSTFIX_TIP_TEXT" value="Фотографии" />
+
+  <!--便携式设备气泡提示-->
+  <String id="IDS_PORTABLE_DEVICE_NOTIFY_IGNORE_TEXT" value="Игнорировать" />
+  <String id="IDS_PORTABLE_DEVICE_NOTIFY_ONEKEYBACKUP_TEXT" value="Один ключ резервного копирования" />
+  <String id="IDS_PORTABLE_DEVICE_IMPORT_WINDOW_TITLE_PREFIX" value="Резервное копирование фотографий" />
+  <String id="IDS_PORTABLE_DEVICE_IMPORT_COUNT_TEXT" value="%d фото,%d видео не сохранены в облаке" />
+  <String id="IDS_PORTABLE_DEVICE_IMPORT_TRAYTIP_PREFIX_TEXT" value="%s всего" />
+  <String id="IDS_PORTABLE_DEVICE_VIDEO_POSTFIX_TEXT" value="%d видео" />
+  <String id="IDS_PORTABLE_DEVICE_PICTURE_POSTFIX_TEXT" value="%d фото" />
+  <String id="IDS_PORTABLE_DEVICE_IMPORT_TRAYTIP_POSTFIX_TEXT" value="Ожидание резервного копирования" />
+
+  <!--登录窗口 -->
+  <String id="IDS_LOGINDLG_TASKITEM_NAME" value="Добро пожаловать на Baidu NetDisk" />
+  <String id="IDS_STATIC_NO_ACCOUNT" value="Нет аккаунта Baidu?" />
+  <String id="IDS_STATIC_SELECT_LOGIN_WAY" value="Как бы вы хотели войти?" />
+  <String id="IDS_STATIC_ACCOUNT_LOGIN" value="Логин аккаунта" />
+  <String id="IDS_STATIC_PHONE_LOGIN" value="Телефон Логин" />
+  <String id="IDS_STATIC_DEFAULT_USERNAME_TIP" value="Номер телефона/E-mail/Имя пользователя" />
+  <String id="IDS_STATIC_LOGIN" value="Авторизоваться" />
+  <String id="IDS_STATIC_REGISTER" value="Зарегистрироватья" />
+  <String id="IDS_STATIC_FORGET_PASSWD" value="Забыли?" />
+  <String id="IDS_STATIC_REMEMBER_PASSWD" value="Запомнить" />
+  <String id="IDS_STATIC_AUTO_LOGIN" value="Автовход" />
+  <String id="IDS_STATIC_VCODE_ISNOT_CLEAR" value="Изменить" />
+  <String id="IDS_STATIC_VCODE" value="Проверочный код:" />
+  <String id="IDS_STATIC_INPUT_VCODE_TIP" value="Пожалуйста, введите проверочный код" />
+  <String id="IDS_STATIC_QUIT_APP_TIP" value="Выйти немедленно?" />
+  <String id="IDS_STATIC_APP_TITLE_NAME" value="Baidu NetDisk (русскификация от ZloiSupport)" />
+  <String id="IDS_STATIC_USERNAME_FORMAT_ERROR_TIP" value="Неверный формат" />
+  <String id="IDS_STATIC_USERNAME_NOT_EXIST_TIP" value="Пользователь не существует" />
+  <String id="IDS_STATIC_USERNAME_INPUT_TIP" value="Пожалуйста, введите учетную запись Baidu" />
+  <String id="IDS_STATIC_USERNAME_NOT_ACTIVATE_TIP" value="Аккаунт не активирован" />
+  <String id="IDS_STATIC_PASSWD_ERROR_TIP" value="Неверный пароль" />
+  <String id="IDS_STATIC_PASSWD_INPUT_TIP" value="Пожалуйста введите пароль" />
+  <String id="IDS_STATIC_VCODE_NOT_MATCH_TIP" value="Неверный код подтверждения" />
+  <String id="IDS_STATIC_LOGIN_NETWORK_ERROR_TIP" value="Сетевая ошибка" />
+  <String id="IDS_STATIC_LOGIN_TOOMUCH_ERROR_TIP" value="Слишком много неудачных попыток входа в систему. Пожалуйста, попробуйте еще раз через 24 часа" />
+  <String id="IDS_STATIC_LOGIN_ACTIVE_NOW" value="Активировать теперь" />
+  <String id="IDS_STATIC_LOGIN_PROTECT_ERROR_TIP" value="СМС-проверка включена, пожалуйста, завершите проверку телефона, а затем войдите в систему" />
+  <String id="IDS_STATIC_LOGIN_USER_DISABLE_TIP" value="Не правильный номер счета" />
+  <String id="IDS_LOGINDLG_BTN_LOGINING" value="Происходит вход в систему..." />
+  <String id="IDS_LOGINDLG_SERVER_ERROR_FAIL" value="К сожалению! Ошибка сервера! Пожалуйста, попробуйте позже..." />
+  <String id="IDS_STATIC_APP_IS_RUNNING" value="Baidu NetDisk работает" />
+  <String id="IDS_STATIC_APP_ALREADY_RUN" value="Baidu NetDisk уже работает" />
+  <String id="IDS_STATIC_LOGIN_OTHERACCOUNT" value="Войдите, используя другой аккаунт" />
+  <String id="IDS_STATIC_OTHER_LOGIN_WAY" value="Войти через" />
+  <String id="IDS_THIRDLOGINDLG_LOGIN_FAIL" value="Сеть занята, попробуйте позже" />
+  <String id="IDS_THIRDLOGINDLG_BTN_RETRY" value="Повторить" />
+  <String id="IDS_THIRDLOGINDLG_BTN_CANCEL" value="Отмена" />
+  <String id="IDS_THIRDLOGINDLG_TITLE" value="Войти через" />
+  <String id="IDS_THIRDLOGINDLG_SINAWEIBO_LOGIN" value="Вход в Weibo" />
+  <String id="IDS_THIRDLOGINDLG_RENREN_LOGIN" value="Renren логин" />
+  <String id="IDS_THIRDLOGINDLG_QQ_LOGIN" value="QQ Войти" />
+  <String id="IDS_THIRDLOGINDLG_BINDED_ACCOUNT_TIP" value="Ваш аккаунт был привязан к аккаунту Baidu %s" />
+  <String id="IDS_THIRDLOGINDLG_VISIT_BAIDU_TIP" value="Используйте эту учетную запись для доступа к Baidu Cloud" />
+  <String id="IDS_THIRDLOGINDLG_BTN_KNOWN" value="Я знаю" />
+  <String id="IDS_THIRDLOGINDLG_BTN_REFRESH_TIP" value="Обновление" />
+  <String id="IDS_LOGINDLG_DEL_ACCOUNT_LOGIN_INFO" value="Удалить учетную запись?？" />
+  <String id="IDS_LOGINDLG_DEL_ACCOUNT_ALL_INFO" value="Удалить всю информацию об аккаунте?？" />
+  <String id="IDS_LOGINDLG_DEL_ACCOUNT_INFO" value="Удалить информацию аккаунта" />
+  <String id="IDS_LOGINDLG_TIP_MORNING" value="Доброе утро" />
+  <String id="IDS_LOGINDLG_TIP_MIDDAY" value="Добрый день" />
+  <String id="IDS_LOGINDLG_TIP_AFTERNOON" value="Не забудьте выпивать по 8 стаканов воды в день " />
+  <String id="IDS_LOGINDLG_TIP_EVENING" value="Становится поздно.Не забудьте отдохнуть " />
+  <String id="IDS_LOGINDLG_TIP_DEVICE_FORBIDDEN" value="Вход через данное устойство заблокирован" />
+  <String id="IDS_LOGINDLG_TIP_LOCAL_TIME_ERROR" value="Ошибка неверное время на устройстве" />
+  <String id="IDS_LOGINDLG_TIP_HTTPS_ERROR" value="Ошибка проверки сети" />
+  <!--Окно системных настроек -->
+  <String id="IDS_SETTINGDLG_TASKITEM_NAME" value="Настройки Baidu NetDisk" />
+  <String id="IDS_SETTINGDLG_TAB_GENERAL_SETTING" value="Общая" />
+  <String id="IDS_SETTINGDLG_TAB_NET_SETTING" value="Сеть" />
+  <String id="IDS_SETTINGDLG_TAB_PRIVATE_SETTING" value="Конф-ть" />
+  <String id="IDS_SETTINGDLG_TAB_ADVANCE_SETTING" value="Расширенные" />
+  <String id="IDS_SETTINGDLG_TAB_OTHER_SETTING" value="Прочее" />
+  <String id="IDS_STATIC_DISPALY_FLOATTING_DLG" value="Показать плавающее окно на рабочем столе" />
+  <String id="IDS_STATIC_DISPALY_TRAY_TIP" value="Показать всплывающую подсказку" />
+  <String id="IDS_STATIC_DEVICE_ONLINE_TIP" value="Устройство в сети" />
+  <String id="IDS_STATIC_AUTO_STARTUP" value="Авто запуск Baidu NetDisk(рекомендуется)" />
+  <String id="IDS_STATIC_DISPLAY_VIRTUALDRIVE" value="Показать виртуальный диск Baidu на моем компьютере" />
+  <String id="IDS_STATIC_AUTO_UPDATE" value="Авто обновление ПО" />
+  <String id="IDS_STATIC_AUTO_SHUT_DOWN" value="Авто отключение при завершении загрузок" />
+  <String id="IDS_STATIC_UPLOAD_TASK_COUNT" value="Выгрузки" />
+  <String id="IDS_STATIC_DOWNLOAD_TASK_COUNT" value="Загрузки" />
+  <String id="IDS_STATIC_TASK_COUNT_AUTO" value="Авто" />
+  <String id="IDS_STATIC_TASK_COUNT_TIP" value="Авто(рекомендуется)" />
+  <String id="IDS_STATIC_ASSOCIATE_BT_TYPE" value="Ассоциировать файлы (.torrent-файл)" />
+  <String id="IDS_STATIC_CANCEL_ASSOCIATION_TIP" value="Отключение начальных файлов BT приведет к тому, что двойной щелчок не будет работать" />
+  <String id="IDS_STATIC_ADVANCE_SETTING_TIP" value="Расширенные настройки" />
+  <String id="IDS_ADVANCESETTINGDLG_P2P_TITLE" value="План стимулирования ：" />
+  <String id="IDS_ADVANCESETTINGDLG_CHECK_P2P_OPEN" value="Присоединиться к программе поощрения пользователей" />
+  <String id="IDS_ADVANCESETTINGDLG_INTRODUCE_P2P_TIP" value="«Программа поощрения пользователей» - это деятельность, запущенная Baidu Netdisk для улучшения взаимодействия с клиентами ПК. После открытия начисляйте соответствующие баллы в зависимости от активности и использования пользователя. Очки, полученные с помощью этой программы, эквивалентны вашему богатству на онлайн-диске Baidu. В мобильном приложении вы можете получить доступ к активным участникам диска Baidu, привилегиям или другим щедрым призам. Очки не будут начислены после отмены, пожалуйста, выберите тщательно." />
+  <String id="IDS_STATIC_CLOSE_P2P_TIP" value="«Программа поощрения пользователей» - это деятельность, запущенная Baidu Netdisk для улучшения взаимодействия с клиентами ПК. \r\n После отмены бонусов не будет. Вы уверены, что отмените?" />
+  <String id="IDS_STATIC_FIX_CLOSE_P2P" value="Подтвердить" />
+  <String id="IDS_STATIC_QUIT_CLOSE_P2P" value="Выйти" />
+  <String id="IDS_STATIC_CLOSE_P2P_REMIND_REBOOT" value="После перезапуска клиента Baidu Netdisk вы выйдете из программы поощрения пользователей" />
+  <String id="IDS_STATIC_KNOWN_TIP" value="Я знаю" />
+  <!--Третье стороны советы по безопасности-->
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_TITLE" value="Сделайте вашу информацию более безопасной, всего за 2 шага, вы можете использовать расширенные функции «Блокировки сетевого диска»！" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_TITLE" value="Всего за 2 шага, включите Скрытый сейф ：" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_STEP1" value="1) Используйте партнерскую учетную запись для привязки номера электронной почты / мобильного телефона на веб-странице." />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_STEP2" value="2) Войдите на сетевой диск с привязанным номером электронной почты / мобильного телефона." />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP1" value="1) Привязать номер электронной почты / номер мобильного телефона на веб-странице, используя партнерский аккаунт" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP2" value="2) Войдите на сетевой диск с привязанным номером электронной почты / мобильного телефона." />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP3" value="Функция блокировки теперь включена!" />
+
+
+  <!--Настройки оповещения-->
+  <String id="IDS_STATIC_SOUNDTIP_TITLE" value="Звуки" />
+  <String id="IDS_STATIC_POPTIP_TITLE" value="Уведомления:" />
+  <String id="IDS_STATIC_SYSTEMMSG" value="Системные сообщения" />
+  <String id="IDS_STATIC_FRIENDMSG" value="Сообщения друзей" />
+  <String id="IDS_STATIC_C2CMSG" value="Пользовательские сообщения" />
+  <String id="IDS_STATIC_PORTABLE_DEV_BACK_MSG" value="После подключения устройства, начните резервное копирование" />
+
+  <String id="IDS_STATIC_UPDATE_NOW" value="Обновить" />
+  <String id="IDS_STATIC_SETTING_COCURRENTTASK" value="Параллельные задачи:" />
+  <String id="IDS_STATIC_SETTING_AUTOBACKUP_TITLE" value="Автобэкап" />
+  <String id="IDS_STATIC_SETTING_FRIENDSHARE_TITLE" value="Поделиться" />
+  <String id="IDS_STATIC_FRIEND_MESSAGE_ONLY" value="Поделиться только с друзьями" />
+  <String id="IDS_SETTINGDLG_GENERAL_SETTING_TITLE" value="Основной" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_TITLE" value="Подтверждение дружбы:" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWANYONE" value="Разрешить кому угодно" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NEEDVERIFYMESSAGE" value="Нужна информация для проверки" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NEEDANSWERQUESTION" value="Нужно правильно отвечать на вопросы" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE" value="Никтому не позволять" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_QUESTION" value="Проблема" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ANSWER" value="Ответ" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE_TIP1" value="После изменения другие пользователи не смогут активно добавлять вас в друзья." />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE_TIP2" value="Используйте с QR-кодом" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NETWORK_FAIL" value="Ошибка сети, сбой проверки настроек" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_QUESTION_EMPTY" value="Вопрос не может сожержать пустое значение" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ANSWER_TOO_SHORT" value="Ответ должен быть не менее 2 слов" />
+  <String id="IDS_STATIC_SETTING_TRANS_SPEED" value="Скорость передачи" />
+  <String id="IDS_STATIC_DOWNLOAD_SPEED" value="За" />
+  <String id="IDS_STATIC_UPLOAD_SPEED" value="Вы" />
+  <String id="IDS_STATIC_NO_LIMIT_SPEED" value="Неогр" />
+  <String id="IDS_STATIC_LIMIT_TO" value="Огр" />
+  <String id="IDS_STATIC_STANDARD_SPEED" value="128" />
+  <String id="IDS_STATIC_SPEED_UNIT" value="KB/s" />
+  <String id="IDS_STATIC_DOWNLOAD_LOCATION_SEL" value="Загрузки" />
+  <String id="IDS_STATIC_SET_DEFAULT_DOWNLOAD_DIR" value="По умолчанию" />
+  <String id="IDS_STATIC_AUTO_UPDATE_INFO" value="Обновл" />
+  <String id="IDS_STATIC_AUTO_BACKUP_MANAGE" value="Папка авто рез. копир" />
+  <String id="IDS_STATIC_BACKUP_MANAGE" value="Авто управление папкой рез. копир" />
+  <String id="IDS_SETTING_BUTTON_TEXT_MANAGE" value="Управлять" />
+
+  <String id="IDS_STATIC_PASSWORD_PROTECT" value="Защита паролем" />
+  <String id="IDS_STATIC_TRANSFER_COMPLETE_TIP" value="Передача завершена" />
+
+  <String id="IDS_STATIC_SPACE_USED" value="Емкость: Занято %s / Общая %s" />
+  <String id="IDS_STATIC_CHANGE_DIR" value="Изменить" />
+  <String id="IDS_STATIC_QUIT_CURRENT_ACCOUNT" value="Вы уверены, что хотите выйти из текущего аккаунта?" />
+  <String id="IDS_STATIC_UPDATE_WAY" value="Обновить:" />
+  <String id="IDS_CHECKBOX_SELECTALL" value="Выбрать все" />
+
+  <String id="IDS_STATIC_CHANGE_ACCOUNT_TIP" value="После переключения учетной записи текущие задачи  будут остановлены. Продолжить?" />
+  <String id="IDS_STATIC_CHANGE_ACCOUNT_TIP1" value="Смена аккаунта остановит текущие задачи. Продолжить?" />
+  <String id="IDS_STATIC_CHANGE_ACCOUNT_TIP2" value="После переключения аккаунтов скорость загрузки  будут остановлены. Продолжить?" />
+  <String id="IDS_SETTING_BUTTON_TEXT_BROWSE" value="Обзор" />
+  <String id="IDS_SETTING_BUTTON_TEXT_OPEN" value="Открыть" />
+  <String id="IDS_SETTING_STATIC_TEXT_DOWNLOADDIR" value="Путь для загр" />
+  <String id="IDS_SETTING_STATIC_TEXT_DOWNLOADDIR_INVALID" value="Ограничения доступа к системе, пожалуйста, выберите заново" />
+  <String id="IDS_SETTING_STATIC_TEXT_DOWNLOADDIR_NOTEXIST" value="Эта папка не существует" />
+
+  <String id="IDS_STATIC_VIP_SPEED_GUIDE_TITLE_TIP" value="Уведомление" />
+  <String id="IDS_STATIC_VIP_SPEED_EXPERIENCE_TIP" value="Поздравляем, вы получаете возможность попробовать VIP привилегии" />
+  <String id="IDS_STATIC_NET_SPEED_GUIDE_TITLE_TIP" value="Уведомление" />
+  <String id="IDS_STATIC_NET_SPEED_EXPERIENCE_TIP" value="Поздравляем, вы получаете возможность испытать пробный пакет ускорения сети" />
+  <String id="IDS_STATIC_TICKET_SPEED_GUIDE_TITLE_TIP" value="Использовать уведомление" />
+  <String id="IDS_STATIC_TICKET_SPEED_EXPERIENCE_TIP" value="У вас есть быстрый купон для скачивания" />
+  <String id="IDS_STATIC_NO_MORE_SPEED_TIP" value="Не напоминать снова" />
+  <String id="IDS_STATIC_PRESENT_SPEEDUP_SERVICE_TIP" value="Получить сейчас" />
+  <String id="IDS_STATIC_USE_SPEEDUP_SERVICE_TIP" value="Используйте совет обслуживания скорости" />
+
+  <String id="IDS_STATIC_RENEW_MEMBERSHIP_NOW_TIP" value="Обновить" />
+  <String id="IDS_STATIC_SVIP_DEADLINE_TIP" value="Baidu NetDisk" />
+  <!--Автоматическое управление папками резервного копирования -->
+  <String id="IDS_STATIC_BACKUP_TIP" value="Авто резерв. копирование" />
+  <String id="IDS_STATIC_BACKUP_INFO" value="Автоматическое резервное копирование" />
+  <String id="IDS_STATIC_BACKUP_CHANGE_SERVERPATH" value="Изменить путь" />
+  <String id="IDS_SETTING_STATIC_TEXT_BACKUPMANAGE" value="Автоматическое управление резервным копированием" />
+  <String id="IDS_SETTING_STATIC_TEXT_BACKUPMANAGECOUNT" value="Управление папкой резервного копирования (" />
+  <String id="IDS_SETTING_STATIC_TEXT_AISCAN" value="Найти" />
+  <String id="IDS_SETTING_STATIC_TEXT_CHANGE" value="Изменить" />
+  <String id="IDS_SETTING_STATIC_TEXT_CANCEL" value="Отмена" />
+  <String id="IDS_SETTING_STATIC_TEXT_OK" value="OK" />
+  <String id="IDS_SETTING_STATIC_TEXT_CLOSE" value="Закрыть" />
+  <String id="IDS_SETTING_STATIC_TEXT_ADDFOLDER" value="Добавить папку" />
+  <String id="IDS_SETTING_TIP_CHANGE" value="Заменить резервную копию каталога" />
+  <String id="IDS_SETTING_TIP_CANCEL" value="Отменить резервную копию каталога" />
+  <String id="IDS_SETTING_STARTAISCAN" value="Запустить смарт-сканирование" />
+  <String id="IDS_SETTING_STARTBACKUP" value="Добавить папки вручную" />
+  <String id="IDS_BACKUP_FORM_TITLE" value="Окно автоматического управления резервным копированием" />
+  <String id="IDS_AUTOBACKUP_MULTIVERSION_ENABLE" value="Открыть файл с несколькими версиями Сохранить 10 недавно обновленных" />
+  <String id="IDS_AUTOBACKUP_MEMBER_MULTIVERSION_ENABLE" value="Откройте файл с несколькими версиями Сохранить 100 недавно обновленных" />
+  <String id="IDS_BACKUP_MERGE_TIP" value="Выбранная папка содержит резервную копию, объединить их?" />
+  <String id="IDS_BACKUP_BTNTEXT_KNOWN" value="Я знаю" />
+  <String id="IDS_BACKUP_STATIC_TIPTITLE" value="Вы можете сделать резервную копию" />
+  <String id="IDS_BACKUP_STATIC_TIP1" value="1. Часто используемые файлы на локальном компьютере, фильмы и другое" />
+  <String id="IDS_BACKUP_STATIC_TIP2" value="2. Периодические обновления, фотографии" />
+  <String id="IDS_BACKUP_STATIC_TOAST_TEXT" value="Успешно" />
+  <String id="IDS_BACKUP_SAFEBOX_TIP" value="Сейф не поддерживает несколько версий" />
+
+  <!--Новое окно руководства пользователя -->
+  <String id="IDS_USERGUIDEPAGE_TITLE_FORQA" value="Руководство пользователя" />
+  <String id="IDS_USERGUIDEPAGE_TITLE" value="Руководство пользователя" />
+  <String id="IDS_USERGUIDEPAGE_SKIP_GUIDE" value="Пропустить руководство" />
+  <String id="IDS_USERGUIDEPAGE_FOREWARD_STEP" value="Назад" />
+  <String id="IDS_USERGUIDEPAGE_NEXT_STEP" value="Далее" />
+  <String id="IDS_USERGUIDEPAGE_FINISH" value="Готова" />
+
+  <!--Настройки прокси -->
+  <String id="IDS_PROXYSETTING_TITLE" value="Настройки прокси" />
+  <String id="IDS_PROXYSETTING_TITLE_NET_SETTING" value="Настройки сети" />
+  <String id="IDS_PROXYSETTING_STATIC_TYPE" value="Тип" />
+  <String id="IDS_PROXYSETTING_STATIC_ADDRESS" value="IP" />
+  <String id="IDS_PROXYSETTING_STATIC_PORT" value="Порт" />
+  <String id="IDS_PROXYSETTING_STATIC_USERNAME" value="Имя пользователя:" />
+  <String id="IDS_PROXYSETTING_STATIC_PASSWORD" value="Пароль:" />
+  <String id="IDS_PROXYSETTING_BTN_TEST" value="Тест" />
+  <String id="IDS_PROXYSETTING_STATIC_NOPROXY" value="Не использовать прокси" />
+  <String id="IDS_PROXYSETTING_STATIC_HTTPPROXY" value="Использовать HTTP прокси" />
+  <String id="IDS_PROXYSETTING_STATIC_SOCKSPROXY" value="Использовать SOCK прокси" />
+  <String id="IDS_PROXYSETTING_STATIC_IEPROXY" value="Использовать IE прокси" />
+
+  <!--Настройки удаленного нажатия-->
+  <String id="IDS_STATIC_CLOUDPUSH_TITLE" value="Настройки спящего режима" />
+  <String id="IDS_STATIC_PUSH_ON_SLEEP" value="Передача задания, ваш компьютер не в спящем режиме" />
+  <String id="IDS_STATIC_PUSH_ON_SLEEP_TIP" value="Baidu Cloud будет продолжать выполнять задание на низкой скорости во время сна." />
+
+
+  <!-- Всплывающее окно-->
+  <String id="IDS_TIP_TRAYSHOW_VIEWDETAIL"    value="Подробнее" />
+
+  <!--Плавающее окно -->
+  <String id="IDS_FlOATINDLG_DRAG_FILE_TIP" value="Перетащите файлы для загрузки в Baidu Cloud" />
+  <String id="IDS_FlOATINDLG_NETWORKFAIL" value="Сбой подключения к сети, вы не можете загружать файлы" />
+  <String id="IDS_FlOATINDLG_DRAG_TITLE_TIP" value="Перетащите, чтобы загрузить" />
+  <String id="IDS_FlOATINDLG_DRAG_DROP_TIP" value="Отпустите кнопку мыши, чтобы загрузить" />
+  <String id="IDS_FlOATINDLG_UPLOAD_PROGRESS" value="Статус выгрузки" />
+  <String id="IDS_FlOATINDLG_DOWNLOAD_PROGRESS" value="Статус загрузки" />
+  <String id="IDS_FlOATINDLG_VIEWDETAIL" value="Посмотреть детали" />
+  <String id="IDS_FlOATINDLG_READINGFILE_TIP" value="Чтение файла" />
+
+  <!--О окне -->
+  <String id="IDS_ABOUTDLG_TITLENAME_FORQA" value="О Baidu NetDisk" />
+  <String id="IDS_ABOUTDLG_TITLENAME" value="О Baidu NetDisk" />
+  <String id="IDS_ABOUTDLG_VERSION" value="Номер версии" />
+  <String id="IDS_ABOUTDLG_COPYRIGHT_TIP" value="Aвторское право" />
+  <String id="IDS_ABOUTDLG_COPYRIGHT_COMPANY" value="%d Baidu, Inc. Все права защищены." />
+  <String id="IDS_ABOUTDLG_VIEW_USER_PROTOCOL" value="Просмотр пользовательского соглашения" />
+
+  <!--历史版本窗口 -->
+  <String id="IDS_FILEVERSIONDLG_TITLENAME_FORQA" value="История версий" />
+  <String id="IDS_FILEVERSIONDLG_TITLENAME" value="История версий" />
+  <String id="IDS_FILEVERSIONDLG_HISVERSION" value="Версия (последние 10 версий)" />
+  <String id="IDS_FILEVERSIONDLG_HISVERSION_VIP" value="Версия" />
+  <String id="IDS_FILEVERSIONDLG_FILESIZE" value="Размер" />
+  <String id="IDS_FILEVERSIONDLG_FILEMTIME" value="Последние изменения" />
+  <String id="IDS_FILEVERSIONDLG_OP" value="Состояние" />
+  <String id="IDS_FILEVERSIONDLG_RESUME" value="Восстановить" />
+  <String id="IDS_FILEVERSIONDLG_CLOSE" value="Закрыть" />
+  <String id="IDS_FILEVERSIONDLG_CURVERSION" value="(Текущий)" />
+  <String id="IDS_FILEVERSIONDLG_REVERTING_HISVER" value="Восстановление версии ..." />
+  <String id="IDS_FILEVERSIONDLG_REVERT_SUCCESS" value="Версия успешно восстановлена, новая копия создана" />
+  <String id="IDS_FILEVERSIONDLG_REVERT_FAIL" value="Ошибка восстановления версии, попробуйте еще раз" />
+  <String id="IDS_FILEVERSIONDLG_ERR_NETWORK" value="Ошибка сети" />
+  <String id="IDS_FILEVERSIONDLG_ERR_NO_ENOUGH_SPACE" value="Нет место на диске, очистите место и попробуйте." />
+  <String id="IDS_FILEVERSIONDLG_ERR_FILE_NOT_EXIST" value="Файл не существует, либо удален" />
+  <String id="IDS_FILEVERSIONDLG_VIP_TIP" value="Уважаемый пользователь, вы имеете право сохранять %d версий каждого файла." />
+  <String id="IDS_FILEVERSIONDLG_SVIP_TIP" value="Уважаемый пользователь Super VIP, у вас есть привилегия сохранять %d  версий каждого файла." />
+  <String id="IDS_FILEVERSIONDLG_PAID_TIP" value="Уважаемый пользователь VIP, у вас есть привилегия сохранить 100 версий каждого файла." />
+  <String id="IDS_FILEVERSIONDLG_MORE_VER" value="Откройте VIP доступ для просмотра более исторический версий" />
+
+  <!--Окно просмотра документов-->
+  <String id="IDS_DOCVIEWDLG_TITLENAME_FORQA" value="Просмотр документа" />
+  <String id="IDS_DOCVIEWDLG_TITLENAME" value="Просмотр документа" />
+  <String id="IDS_DOCVIEWDLG_UNSUPPORTED_TYPE" value="Тип файла не поддерживаестя" />
+  <String id="IDS_DOCVIEWDLG_TIP_DOCVIEW_ERROR" value="Предварительный просмотр не досупен" />
+  <String id="IDS_DOCVIEWDLG_BTN_DOWNLOAD" value="Скачать" />
+  <String id="IDS_DOCVIEWDLG_NET_ERR_TIP" value="Не удалось подключиться к сети, повторите попытку позже" />
+  <!--Окно регистрации -->
+  <String id="IDS_REGISTERDLG_TITLENAME" value="Зарегистрировать аккаунт Baidu" />
+
+  <!--Проверить окно телефона -->
+  <String id="IDS_ACCOUNTREANLNAMEDLG_TITLENAME" value="Проверить телефон" />
+  <!--Проверить окно телефона-->
+  <String id="IDS_FUNCMANAGEDLG_TITLENAME_FORQA" value="Управление ярлыками" />
+  <String id="IDS_FUNCMANAGEDLG_TITLENAME" value="Управление ярлыками" />
+  <String id="IDS_FUNCMANAGEDLG_AUTOBACKUP" value="Автобэкап" />
+  <String id="IDS_FUNCMANAGEDLG_LOCKAPP" value="Заблокировать" />
+  <String id="IDS_FUNCMANAGEDLG_NETTESTING" value="Проверка скорости" />
+  <String id="IDS_FUNCMANAGEDLG_MAINPANEL_APP" value="Основная панель" />
+  <String id="IDS_FUNCMANAGEDLG_TIP_AUTOBACKUP" value="Папка авто рез. копир: создайте папку рез. копир \n для авто загрузки новой резервной копии в облако Baidu. \n" />
+  <String id="IDS_FUNCMANAGEDLG_TIP_LOCKAPP" value="Блокировка: быстрая блокировка приложения, \nзащита вашей конфиденциальности, \nвведите пароль для входа, чтобы разблокировать" />
+  <String id="IDS_FUNCMANAGEDLG_TIP_NETTESTING" value="Всегда определять текущую скорость сети \n Загрузка/Выгрузка" />
+  <String id="IDS_FUNCMANAGEDLG_TIP_REMOVE_APP" value="Удалять" />
+  <String id="IDS_FUNCMANAGEDLG_ADD_APP" value="Добавлять" />
+
+  <!--Меню и текст подсказки-->
+  <String id="IDS_COMMON_EXIT" value="Выход" />
+  <String id="IDS_COMMON_SETTING" value="Параметры" />
+  <String id="IDS_COMMON_HELP" value="Помощь" />
+  <String id="IDS_COMMON_HELPCONTENT" value="Помогите" />
+  <String id="IDS_COMMON_ABOUT" value="О программе" />
+  <String id="IDS_COMMON_UPGRADE" value="Обновить версию" />
+  <String id="IDS_COMMON_USERGUIDE" value="Руководство" />
+  <String id="IDS_COMMON_FEEDBACK" value="Обратная связь" />
+  <String id="IDS_COMMON_CHANGEACCOUNT" value="Изменить аккаунт" />
+  <String id="IDS_TRAYICON_OPENNETDISK" value="Открыть программу" />
+  <String id="IDS_TRAYICON_OPENWEBNETDISK" value="Посетите Baidu Cloud" />
+  <String id="IDS_TRAYICON_OPENRECYCLEBIN" value="Открыть корзину" />
+  <String id="IDS_TRAYICON_LOGOUT" value="Выйти" />
+  <String id="IDS_TRAYICON_USEAGE" value="Использовано%s Всего:%s" />
+  <String id="IDS_TRAYICON_BEGINALLTASK" value="Продолжить все" />
+  <String id="IDS_TRAYICON_PAUSEALLTASK" value="Приостановить все" />
+  <String id="IDS_TRAYICON_TRANSCOMPLETESHUTDOWN" value="Авто откл после выполнения задач" />
+  <String id="IDS_TRAYICON_VIEWTRANSFERSTATUS" value="Проверьте список задач" />
+  <String id="IDS_TRAYICON_SHOWFLOATWINDOW" value="Показать поплавок" />
+  <String id="IDS_TRAYICON_HIDEFLOATWINDOW" value="Скрыть поплавок" />
+  <String id="IDS_TRAYICON_LOGIN" value="Авторизоваться" />
+  <String id="IDS_TRAYICON_NETSPEED" value="Проверка скорости" />
+  <String id="IDS_TRAYICON_BUYSPEEDUPSERVICE" value="Купить проверку скорости" />
+  <String id="IDS_MENUID_COMMON_LOCK" value="Заблокировать" />
+  <String id="IDS_MENUID_COMMON_UNLOCK" value="Разблокировать" />
+
+  <!--Подносы-->
+  <String id="IDS_COMMON_INSTALL" value="Устанавливать" />
+  <String id="IDS_COMMON_CANCEL" value="Отмена" />
+  <String id="IDS_COMMON_AUTOUPDATE" value="Авто обновления" />
+  <String id="IDS_COMMON_DETAIL" value="Подробнее" />>
+
+  <String id="IDS_TRAYICON_TIP_LOGINING" value="Происходит вход в систему" />
+  <String id="IDS_TRAYICON_TIP_UNLOGIN" value="Выйти из" />
+  <String id="IDS_TRAYICON_TIP_ONLINE" value="Baidu NetDisk" />
+  <String id="IDS_TRAYICON_TIP_LOCKED" value="Baidu NetDisk заблокирован" />
+  <String id="IDS_TRAYICON_TIP_OFFLINELOCKED" value="Baidu NetDisk заблокирован" />
+  <String id="IDS_TRAYICON_TIP_OFFLINE" value="Ошибка подключения к сети" />
+  <String id="IDS_TRAYICON_TIP_UPLOADING" value="%.1f%% Uploading" />
+  <String id="IDS_TRAYICON_TIP_DOWNLOADING" value="%.1f%% Downloading" />
+  <String id="IDS_TRAYICON_TIP_TRANSERROR" value="Ошибка передачи" />
+
+  <String id="IDS_NO_PROMPT" value="Подсказки" />
+  <String id="IDS_NO_SPACE" value="Недостаточно места!" />
+  <String id="IDS_FILE_PATH_INVALID" value="Неверный путь к файлу!" />
+  <String id="IDS_UPLOAD_SUCCESS" value="Загрузка завершена" />
+  <String id="IDS_UPLOAD_ERROR" value="Загрузка не удалась" />
+  <String id="IDS_DOWNLOAD_SUCCESS" value="Загружено успешно" />
+  <String id="IDS_DOWNLOAD_ERROR" value="Загрузка не удалась" />
+  <String id="IDS_PT2PTTASK_FINISH" value="PT2PT Задача выполнена" />
+  <String id="IDS_PT2PT_DISCONNECT" value="PT2PT Отключен" />
+  <String id="IDS_BACKUP_START_TIP" value="Авто рез. копир запущено" />
+  <String id="IDS_BACKUP_SET_TIP" value="Авто резю копир можно открыть в настройках" />
+  <String id="IDS_PUSH_TASK_SUCCESS_TIP" value="Загрузка файла завершена" />
+  <String id="IDS_PUSH_TASK_FAIL_TIP" value="Ошибка загрузки файла" />
+  <!--Советы по двухточечной передаче-->
+  <String id="IDS_ONE_DEVICE_ONLINE_TIP" value="Устройство %s онлайн" />
+  <String id="IDS_MULTI_DEVICE_ONLINE_TIP" value="Устройство онлайн" />
+  <String id="IDS_PUSH_FILE_REQUEST_TIP" value="Запрос на получение файла" />
+  <String id="IDS_ACCEPTING_PUSH_FILE_TIP" value="Готовы получить файл ..." />
+  <String id="IDS_WAITING_PHONE_CONNECTION_TIP" value="Ожидание телефонного соединения ..." />
+  <String id="IDS_RECEIVE_FILE_SUCCESS_TIP" value="Файл успешно получен" />
+  <String id="IDS_SEND_FILE_SUCCESS_TIP" value="Файл успешно отправлен" />
+  <!--Запросить диалоговое окно для ограничения чтения и записи-->
+  <String id="IDS_TIP_WRITELIMITED_SECTION1" value="Поскольку система ограничивает разрешения на чтение/запись для файлового каталога, программа завершит работу, вы можете повторить попытку." />
+  <String id="IDS_TIP_WRITELIMITED_SECTION2" value="Baidu Cloud не имеет достаточных разрешений. Запустите Baidu Cloud от имени администратора." />
+  <String id="IDS_BUTTON_REDOWNLOAD" value="Скачать Baidu NetDisk" />
+  <String id="IDS_BUTTON_EXIT" value="Выход" />
+  <String id="IDS_TIP_CAPTION" value="Незамедлительный" />
+
+  <!-- Просмотр списка связанных строковых ресурсов -->
+  <String id="IDS_LISTVIEW_COLUMN_FILENAME" value="Имя файла" />
+  <String id="IDS_LISTVIEW_COLUMN_FILESIZE" value="Размер файла" />
+
+  <!--Диалог автоматического выключения-->
+  <String id="IDS_POWEROFF_STATIC_TITLENAME" value="Авто отключение" />
+  <String id="IDS_POWEROFF_STATIC_TIPPRE" value="После завершения передачи" />
+  <String id="IDS_POWEROFF_STATIC_TIPAFTER" value="Через количество секунд после" />
+  <String id="IDS_POWEROFF_BUTTON_POWERNOW" value="Сейчас" />
+  <String id="IDS_POWEROFF_BUTTON_CANCEL" value="Отмена" />
+
+  <!--Окно обнаружения папок -->
+  <String id="IDS_FOLDERDETECTDLG_TITLENAME_FORQA" value="Сканирование папки" />
+  <String id="IDS_FOLDERDETECTDLG_TITLENAME" value="Сканирование папки" />
+  <String id="IDS_STATIC_DETECT_TIP1" value="Тестирование безопасности" />
+  <String id="IDS_STATIC_DETECT_TIP2" value="Несколько дней, используя наиболее часто используемые папки ..." />
+  <String id="IDS_DETECTDLG_DISK_ACEESS_DENY" value="Нет могу получить доступ, требуется администратор" />
+
+  <!--Окно списка обнаружения папок -->
+  <String id="IDS_BACKUPLISTDLG_TITLENAME" value="Сканирование папки" />
+  <String id="IDS_BTN_SELECT" value="Выбрать" />
+  <String id="IDS_BTN_BACKUP" value="Загрузить" />
+  <String id="IDS_BTN_CLOSE" value="Закрыть" />
+  <String id="IDS_BACKUPLISTDLG_TIP" value="Рез. копир последних недель наиболее часто используемых папок" />
+  <String id="IDS_BACKUPLISTDLG_LIMIT_TIP" value="Поддерживает до 5 папок рез. копир" />
+  <String id="IDS_BACKUPLISTDLG_EXCEED_MAX_BACKUP_COUNT" value="До 5 одновременных папок." />
+  <String id="IDS_BACKUPLISTDLG_BACKUP_TIP" value="Советы по авто рез. копир" />
+  <String id="IDS_BACKUPLISTDLG_CHANGE_TIP" value="Изменить" />
+  <String id="IDS_BACKUPLISTDLG_DELETE_TIP" value="Удалить" />
+  <String id="IDS_BACKUPLISTDLG_VIP_USER_TIP" value="Уважаемые пользователи, вы можете наслаждаться неограниченным авто рез.копир папок" />
+  <String id="IDS_BACKUPLISTDLG_SVIP_USER_TIP" value="Уважаемые пользователи Super VIP'a, вы можете пользоваться неограниченными привилегиями для автоматического резервного копирования папок" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="Вы можете использовать функцию автоматического резервного копирования папок для резервного копирования до 2G файлов в месяц" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_GUIDE_TIP" value="Откройте VIP доступ для автоматического резервного копирования без ограничений" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_BUY_VIP" value="Открыть сейчас>" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_TIP" value="Использованные данные за этот месяц：" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_GUIDE_TIP" value="Неограниченный резервный трафик участников" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_EXCEED_TIP" value="Трафик превышен" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_NOT_ENOUGH_TIP" value="Не достаточно трафика" />
+  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TIP1" value="Автоматическое резервное копирование папок теперь доступно для бесплатной пробной версии" />
+  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TIP2" value="Автоматическое резервное копирование локальных папок, больше не беспокоиться о потере файлов" />
+  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TRY" value="Попробывать" />
+
+  <!--Push-файлы на устройство-->
+  <String id="IDS_DEVICE_NAME_PREFIX" value="(Устройство не может быть загружено)" />
+
+  <!--Новое окно функций -->
+  <String id="IDS_GUIDEPANEL_START_AUTO_BACKUP" value="Авто запускать резервную копию папки" />
+  <String id="IDS_GUIDEPANEL_SELECT_BACKUP_DIR" value="Выберите папку для резервного копирования вручную" />
+  <String id="IDS_GUIDEPANEL_ENABLESCAN" value="Включить сканирование" />
+  <String id="IDS_GUIDEPANEL_PHONE_START" value="Телефон Старт" />
+  <!--Окно выбора нескольких папок -->
+  <String id="IDS_MUTLTIFOLDERDLG_CLONETOCLOUD" value="Клон в облако" />
+  <String id="IDS_MUTLTIFOLDERDLG_SELECT_DIR" value="Папка часто используемых файлов не обнаружена, выберите ее вручную" />
+  <String id="IDS_MUTLTIFOLDERDLG_BAOHE_WARNNING" value="Выбранный каталог содержит каталог диска синхронизации. Это будет повторяться для продолжения резервного копирования файлов сетевого диска. \r\nПродолжить?" />
+
+  <!--Заголовок VIP советов -->
+  <String id="IDS_TITLE_VIP_CLOSE_TIP" value="Выйти из VIP" />
+  <String id="IDS_TITLE_VIP_OPEN_TIP" value="Стать VIP участником" />
+  <String id="IDS_TITLE_SVIP_OPEN_TIP" value="Стать Super VIP участником" />
+  <String id="IDS_TITLE_BUY_SPACE_TIP" value="Купить емкость" />
+
+  <!--Советы по ускорению сети -->
+  <String id="IDS_SPEEDUP_BTN_TRY" value="Попробуй это сейчас" />
+  <String id="IDS_SPEEDUP_BTN_BUY" value="Купить сейчас" />
+  <String id="IDS_SPEEDUP_BTN_ENABLE_PRIVILEGE" value="Привилегия включена" />
+  <String id="IDS_SPEEDUP_BTN_RENEW" value="Обновить сейчас" />
+  <String id="IDS_SPEEDUP_BTN_CLOSE" value="Закрыть" />
+  <String id="IDS_SPEEDUP_END_DEFAULT_TIP" value="Купите пакет ускорения и можете наслаждаться ускоренной скоростью" />
+  <String id="IDS_SPEEDUP_REMINDING_TIP" value="(осталось%d секунд ускоренной скорости)" />
+  <String id="IDS_SPEEDUP_SPEEDING_TIP" value="Ускорить" />
+  <!--Советы по быстрой загрузке купонов -->
+  <String id="IDS_SPEEDUP_BTN_EXTEND" value="Продолжайте ускоряться" />
+  <String id="IDS_SPEEDUPTICKET_REMINDING_TIP" value="(оставшиеся%d секунд)" />
+  <String id="IDS_SPEEDUPTICKET_REMINDING_1_TIP" value="(осталось%d часов)" />
+  <String id="IDS_SPEEDUPTICKET_REMINDING_2_TIP" value="(Действительно до%s)" />
+  <String id="IDS_SPEEDUPTICKET_REMINDING_3_TIP" value="(осталось%d минут)" />
+  <String id="IDS_SPEEDUPTICKET_MSGBOX_TITLE_TIP" value="Подсказки" />
+  <String id="IDS_SPEEDUPTICKET_MSGBOX_ADD_DOWNTASK_TIP" value="Я знаю" />
+  <String id="IDS_SPEEDUPTICKET_MSGBOX_OKBTN_TIP" value="Успешно куплено" />
+  <String id="IDS_SPEEDUPTICKET_MSGBOX_CANCELBTN_TIP" value="Проблемы с оплатой" />
+  <String id="IDS_SPEEDUPTICKET_QUERY_STATUS_FAIL" value="Исключение из сети, проверьте сеть и попробуйте снова" />
+  <String id="IDS_SPEEDUPTICKET_QUERY_STATUS_SUCCEED" value="Статус привилегии запроса: покупать или нет:%d покупка:%d время опыта:%d используется:%d" />
+  <String id="IDS_SPEEDUPTICKET_NO_BUY_TIP" value="Этот продукт еще не был куплен" />
+  <String id="IDS_SPEEDUPTICKET_BUY_SUCCESS_TIP" value="Успешно куплено！" />
+  <String id="IDS_SPEEDUPTICKET_EXPIRED_TIP" value="Здравствуйте, срок действия этого продукта истек" />
+  <String id="IDS_SPEEDUPTICKET_EXPIRE_MSGBOX_TITLE_TIP" value="Срок быстрой загрузки купона истек" />
+  <String id="IDS_SPEEDUPTICKET_EXPIRE_MSGBOX_CONTENT_TIP" value="Откройте Супер VIP, чтобы качать быстро и без каких-либо забот" />
+  <String id="IDS_SPEEDUPTICKET_EXPIRE_MSGBOX_BTN_TIP" value="Откройте Супер VIP" />
+  <!--Советы по ускорению членства-->
+  <String id="IDS_VIPSPEEDUP_EXPERIENCE_TIP" value="Быстрая пробная привилегия," />
+  <String id="IDS_VIPSPEEDUP_DOWN_EXPERIENCING_TIP" value="Скоростная привилегия проверяется," />
+  <String id="IDS_VIPSPEEDUP_FINISH_TIP" value="Пробная версия привилегии на конец скорости" />
+  <String id="IDS_VIPSPEEDUP_FINISH_DEFAULT_TIP" value="Включение привилегий для ускорения" />
+  <!--Выбор каталога на стороне сервера-->
+  <String id="IDS_STATIC_SERVERDIRDLG_INFO_TOOMUCHLEVEL" value="Превышен лимит: поддерживается каталог уровня d%." />
+  <String id="IDS_STATIC_GET_SERVER_SUBDIR_FAIL" value="Ошибка получения папки" />
+
+  <!--Новый диалог офлайн загрузки задачи URL-->
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_TITLE_FORQA" value="Новое окно задачи автономной загрузки" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_TITLE" value="Новая задача загрузки" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_INPUTLINK" value="Введите ссылку для загрузки файла" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URLEDIT_DEFAULT" value="Поддерживает HTTP, FTP, магнитную цепь, ссылки eDonkey" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_INVALIDE" value="Ссылка недействительна. Правильный пример http://abc.com/xyz.rmvb" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_NOT_SUPPORT" value="Формат ссылки не поддерживается" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_ADDTASK_FAILED" value="Ошибка добавления задачи автономной загрузки" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_EMPTY" value="Пожалуйста, введите ссылку для скачивания" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_DOWNLOAD_DIR" value="Мой диск" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SAFEBOX_DIR" value="Сейф" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SAVETO" value="Сохранить в:" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHANGE_DIR" value="Изменить путь" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SPACE_AVAILABLE" value="Свободного места:" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_BUY_SPACE" value="Купить пространство" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_START_DOWNLOAD" value="Начать загрузку" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CANCEL_DOWNLOAD" value="Отменить загрузку" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_DOWNLOADTO" value="Скачано в" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_SELCECT_DEVICE" value="Выбор устройства" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_CHANGE_DEVICE" value="Изменить устройство" />
+
+  <!--Диалог Torrent-->
+  <String id="IDS_SELECT_TORRENT_TITLE" value="Открыть Torrent" />
+  <String id="IDS_SELECT_TORRENT_OK" value="Загрузить" />
+
+  <!--Новый диалог задач загрузки-->
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_TITLE_FORQA" value="Загрузка с торрентов" />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_TITLE" value="Загрузка с торрентов" />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_BUYDOWNLOADPACKAGE" value="Вы можете наслаждаться постоянными бесплатными неограниченными загрузками" />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_FILETOTALSIZE" value="Размер:" />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_FILESIZEUNKNOWN" value="Размер: неизвестен" />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_FILESIZEQUERY" value="Размер: получение" />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_ANALYSYSING" value="Анализ, пожалуйста, подождите ..." />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_CREATETASK" value="Добавление в автономную очередь загрузки ..." />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_QUERYMAGNETINFO" value="Получение информации о ссылке на магнит ..." />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_TRANSFERSEED" value="Файлы загружаются, пожалуйста, подождите ..." />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_RESELECTSEED" value="Перевыбор" />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_SELECTEDCOUNT" value="Проверено %d файлов" />
+  <String id="IDS_BT_OFFLINEDOWNLOADTASK_SELECTFILETOOMUCH" value="Можно выбрать только максимум %d файлов, переданных на устройство" />
+
+  <!--Просмотр автономного списка загрузки-->
+<String id="IDS_OFFLINEDOWNLOADLIST_TITLE_FORQA" value="Список задач для загрузки в автономном режиме" />
+<String id="IDS_OFFLINEDOWNLOADLIST_TITLE" value="Список задач для загрузки в автономном режиме" />
+<String id="IDS_OFFLINEDOWNLOADLIST_RUNBACK_BTNTEXT" value="Назад" />
+<String id="IDS_OFFLINEDOWNLOADLIST_TEXT_LOADING" value="Загрузка, пожалуйста подождите..." />
+<String id="IDS_OFFLINEDOWNLOADLIST_TEXT_LOADINGERROR" value="Ошибка загрузки задачи в автономном режиме, попробуйте еще раз" />
+<String id="IDS_OFFLINEDOWNLOADLIST_TEXT_EMPTY_TIP" value="Добро пожаловать в автономную загрузку, вы можете создать новую задачу следующими двумя способами" />
+<String id="IDS_OFFLINEDOWNLOADLIST_CREATE_NORMAL_TASK" value="Новая загрузка" />
+<String id="IDS_OFFLINEDOWNLOADLIST_CREATE_BT_TASK" value="Загрузка с торрента" />
+<String id="IDS_OFFLINEDOWNLOADLIST_OPEN_TASK_SAVEPATH" value="Открыть папку" />
+<String id="IDS_OFFLINEDOWNLOADLIST_CLEAR_TASK" value="Очистить задание" />
+<String id="IDS_OFFLINEDOWNLOADLIST_UPDATE_TASK" value="Обновить задачу" />
+<String id="IDS_OFFLINEDOWNLOADLIST_STOP_TASK" value="Остановить задачу" />
+<String id="IDS_OFFLINEDOWNLOADLIST_SUCCESS" value="Загруженные" />
+<String id="IDS_OFFLINEDOWNLOADLIST_FAIL" value="Не удалось" />
+<String id="IDS_OFFLINEDOWNLOADLIST_SYSBUSY" value="Система занята" />
+<String id="IDS_OFFLINEDOWNLOADLIST_NOTEXIST" value="Файл не существует" />
+<String id="IDS_OFFLINEDOWNLOADLIST_TIMEOUT" value="Тайм-аут" />
+<String id="IDS_OFFLINEDOWNLOADLIST_NOSPACE" value="Нехватка места" />
+<String id="IDS_OFFLINEDOWNLOADLIST_CANCELED" value="Задача отменена" />
+<String id="IDS_OFFLINEDOWNLOADLIST_ALREADEXIST" value="Файл уже существует" />
+<String id="IDS_OFFLINEDOWNLOADLIST_DELETED" value="Задача удалена" />
+<String id="IDS_OFFLINEDOWNLOADLIST_PARTSUCCESS" value="Скачано" />
+
+  <!--Новое сообщение об ошибке задачи автономной загрузки-->
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_PARAM_ERROR" value="Ошибка загрузки в автономном режиме" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_RELOGIN" value="Пожалуйста, войдите и попробуйте снова" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_LOGIN" value="Пожалуйста, войдите и попробуйте снова" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_ACTIVE" value="Попробуйте еще раз после активации аккаунта" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_EXIST" value="Пользователь не существует, пожалуйста, повторите" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_STORAGE_EXCEED_LIMIT" value="Нехватка облачного пространства" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_OBJ_NOT_EXIST" value="Файл не существует" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_REQ_EXPIRE_TIMOUT" value="Время операции истекло, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TOO_MANY_TASKS" value="Слишком много задач одновременно" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_SAVEPATH_EXIST" value="Повторите другой путь" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_NOT_FOUND" value="Задача была удалена" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_COMPLETED" value="Отмена не выполнена, задача выполнена" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INAVLID_TORRENT" value="Не удалось разрешить, исходный файл поврежден" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_PROCESSING" value="Отмена не удалась, задача обрабатывается" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INAVLID_SOURCEURL" value="Неверная ссылка на источник" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_NONVIP_EXCEED_CONCURRNENCY" value="Превышено максимальное количество одновременных загрузок (Non VIP). Немедленно отключите загрузку пакета!" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_VIP_EXCEED_CONCURRNENCY" value="Превышено максимальное количество одновременных задач" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_NONVIP_EXCEED_QUOTA" value="Превышена максимальная квота загрузки для не VIP-пользователя!" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_VIP_EXCEED_QUOTA" value="Превышена максимальная квота загрузки!" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INVALID_SHARELINK" value="Поделиться ссылкой истек" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INVALID_MAGNETLINK" value="Магнитная ссылка недействительна, пожалуйста, введите заново" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_CANNT_PARSE_MAGNETLINK" value="Невозможно найти ссылку на магнит" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_FREQ_EXCEED" value="Максимальный лимит скачиваний достигнут сегодня, повторите попытку завтра" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_WAITFOR_NEXTMONTH" value="Пришлось ждать следующего месяца" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_WAITFOR_TASKCOMPLETE" value="Ожидание завершения текущей задачи" />
+
+  <!--Диалог автономной загрузки-->
+  <String id="IDS_OFFLINEDOWNLOADACTIVITY_KNOWN" value="Я знаю" />
+
+  <!--Диалог разблокировки-->
+  <String id="IDS_UNLOCKDLG_LOCKED" value="Baidu NetDisk заблокирован" />
+  <String id="IDS_UNLOCKDLG_UNLOCK" value="Разблокировка" />
+  <String id="IDS_UNLOCKDLG_INPUT_PASSWORD" value="Пожалуйста, введите ваш логин пароль" />
+  <String id="IDS_UNLOCKDLG_HOTKEY_TIP" value="Нажмите %s Блокировка/Разблокировка" />
+  <String id="IDS_UNLOCKDLG_PASSWD_ERROR_TIP" value="Неверный пароль, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_UNLOCKDLG_UNLOCK_FAIL_TIP" value="Не удалось разблокировать, попробуйте позже" />
+  <String id="IDS_UNLOCKDLG_QRCODE_LOAD_FAIL_TIP" value="Ошибка загрузки" />
+  <String id="IDS_UNLOCKDLG_QRCODE_EXPIRED_TIP" value="Срок действия QR-кода истек" />
+  <String id="IDS_UNLOCKDLG_QRCODE_REFRESH" value="Нажмите обновить" />
+  <String id="IDS_UNLOCKDLG_CHANGE_ACCOUNT" value="Изменить аккаунт" />
+  <String id="IDS_UNLOCKDLG_QRCODE_SCAN_TIP" value="Пожалуйста, используйте Baidu Netdisk APP (версия 10) для сканирования и разблокировки" />
+  <String id="IDS_UNLOCKDLG_PWD_TIP" value="Введите пароль для разблокировки>" />
+  <String id="IDS_UNLOCKDLG_QRCODE_TIP" value="Сканирование кода для разблокировки>" />
+  <String id="IDS_UNLOCKDLG_QRCODE_UNLOCKING_TIP" value="Разблокировка" />
+  <String id="IDS_UNLOCKDLG_QRCODE_SCAN_SUCCESS_TIP" value="Отсканировано успешно, подтвердите разблокировку на мобильном телефоне" />
+  <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TIP" value="Для обеспечения конфиденциальности и безопасности файлов сетевой диск заблокирован. Не влияет на текущие задачи передачи" />
+  <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TOOLTIP" value="Вы заблокировали сетевой диск с помощью ручной блокировки / автоматической блокировки на долгое время без операции / автоматической блокировки сетевого диска, когда компьютер заблокирован. Функция блокировки сетевого диска предназначена для защиты вашей конфиденциальности, и вы можете управлять им в настройках безопасности." />
+
+  <!--Горячая клавиша, блокировка клиента-->
+  <String id="IDS_KEY_ALT" value="Alt" />
+  <String id="IDS_KEY_SHIFT" value="SHIFT" />
+  <String id="IDS_KEY_CONTROL" value="Ctrl" />
+  <String id="IDS_KEY_NONE" value="Нет" />
+  <String id="IDS_HOTKEY_LOCKTITLE" value="Блокировка клиента" />
+  <String id="IDS_HOTKEY_LOCKTIP" value="(Горячая клавиша может быть изменена)" />
+  <String id="IDS_HOTKEY_LOCKHOTKEYTIP" value="Блокировка Hotkey" />
+  <String id="IDS_HOTKEY_AUTOLOCKTIP" value="Автоблокировка: мышь и клавиатура не активны" />
+  <String id="IDS_HOTKEY_AUTOLOCKTIMETIP" value="Автоблокировка" />
+  <String id="IDS_HOTKEY_SYSTEMLOCKTIP" value="Настройка автоматической блокировки: когда компьютер заблокирован, сетевой диск будет заблокирован автоматически" />
+  <String id="IDS_HOTKEYCONFLICT_TITLENAME" value="Конфликт горячих клавиш" />
+  <String id="IDS_HOTKEYCONFLICT_NOTIPAGAIN" value="Не напоминать" />
+  <String id="IDS_HOTKEYCONFLICT_MODIFYHOTKEYLINK" value="Модифицируйте горячую клавишу Baidu NetDisk" />
+  <String id="IDS_HOTKEYCONFLICT_TIP_SUGGEST" value="Мы рекомендуем вам изменить конфликтые  горячие клавиши, или" />
+  <String id="IDS_HOTKEYCONFLICT_TIP" value="%s, горячие клавиши Baidu уже используются." />
+
+  <!--Сейф-->
+  <String id="IDS_SETTINGDLG_SAFEBOX_TITLE" value="Сейф:" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_ACTIVATED_TIP" value="Сейф активирован" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_NOTACTIVATED_TIP" value="Сейф не активирован" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_MODIFY_PASSWORD" value="Изменить пароль" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_FIND_PASSWORD" value="Забыли свой пароль" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_ACTIVATE" value="Активировать Сейф" />>
+
+  <!--Воспроизвести звук-->
+  <String id="IDS_STATIC_SWITH_PLAYSOUND_TIP" value="После завершения передачи" />
+  <String id="IDS_STATIC_SOUND_TYPE1" value="Звук-1" />
+  <String id="IDS_STATIC_SOUND_TYPE2" value="Звук-2" />
+  <String id="IDS_STATIC_SOUND_TYPE3" value="Звук-3" />
+  <String id="IDS_STATIC_SOUND_TYPE4" value="Звук-4" />
+
+  <!--Окно воспроизведения видео -->
+  <String id="IDS_VIDEOPLAYDLG_TITLENAME_FORQA" value="Видео-плеер" />
+  <String id="IDS_VIDEOPLAYDLG_TITLENAME" value="Видео-плеер" />
+  <String id="IDS_VIDEOPLAYDLG_TIP_PLAYVIDEO_ERROR" value="Предварительный просмотр видео не удалось, вы можете скачать после трансляции" />
+  <String id="IDS_VIDEOPLAYDLG_NET_ERR_TIP" value="Не удалось подключиться к сети, повторите попытку позже" />
+  <String id="IDS_VIDEOPLAYDLG_DOWNLOADING_TRAY_TIP" value="Загрузка" />
+
+  <!--Окно справки -->
+  <String id="IDS_USERHELPDLG_TITLENAME_FORQA" value="Центр помощи" />
+  <String id="IDS_USERHELPDLG_TITLENAME" value="Центр помощи" />
+  <String id="IDS_USERHELPDLG_NET_ERR_TIP" value="Не удалось подключиться к сети, повторите попытку позже" />
+  <String id="IDS_USERHELPDLG_VIEW_MORE" value="Узнать больше" />
+
+  <!--Создать окно пароля сейф -->
+  <String id="IDS_SAFEBOXPWDDLG_TITLENAME" value="Создать безопасный пароль" />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_PRIVATE" value="Установите безопасный пароль для Сейфа" />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_INPUTPWD" value="Введите пароль:" />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_INPUTPWD_AGAIN" value="Подтвердите Пароль:" />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_PWDLENGTH" value="Длина 6-16 символов" />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_PWDAGAIN" value="Введите пароль еще раз:" />
+  <String id="IDS_SAFEBOXPWDDLG_BTN_CREATE" value="Создайте" />
+  <String id="IDS_SAFEBOXPWDDLG_BTN_CREATEING" value="Создание ..." />
+  <String id="IDS_SAFEBOXPWDDLG_BTN_CANCEL" value="Отмена" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_INCONSISTENTPWD" value="Два пароля не совпадают" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_PWDLENGTH" value="Пароль должен быть 6-16 символов" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_INTPUTPWD" value="Пожалуйста, введите пароль" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_PWDFORMAT" value="Пароль должен состоять из цифр, букв и символов" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_INVALIDPWDCHAR" value="Пароль содержит недопустимые символы" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_NETWORK" value="Сетевая ошибка" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_CERT_EXPIRED" value="Пожалуйста, установите правильное время и попробуйте снова" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_RETRY" value="Не удалось создать пароль, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_ACCOUNTUNBIND" value="Аккаунт должен привязать номер телефона или адрес электронной почты" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_BINDLINK" value="привязывать" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_ALREADYACTIVATE" value="Вы должны разблокировать Сейф" />
+  <!--Окно привязки аккаунта -->
+  <String id="IDS_ACCOUNTBINFDLG_TITLE" value="Привязка аккаунта" />
+  <String id="IDS_ACCOUNTBINFDLG_BTN_BIND" value="Привязывать" />
+  <String id="IDS_ACCOUNTBINFDLG_BTN_CANCEL" value="Отмена" />
+  <String id="IDS_ACCOUNTBINFDLG_BTN_BINDSUCCESS" value="Обязательный успех" />
+  <String id="IDS_ACCOUNTBINFDLG_BTN_UNBIND" value="Unbind" />
+  <String id="IDS_ACCOUNTBINFDLG_TIP_PRIVATE" value="Сначала убедитесь, что ваш номер телефона / адрес электронной почты привязан" />
+  <String id="IDS_ACCOUNTBINFDLG_TIP_BINDSUCCESS" value="Личные файлы могут быть сохранены после успешной привязки" />
+  <!--Тест скорости -->
+  <String id="IDS_STATIC_SPEEDTEST_NAME" value="Тест скорости" />
+  <String id="IDS_STATIC_SPEEDTEST_UPLOADSPEED" value="Скорость загрузки" />
+  <String id="IDS_STATIC_SPEEDTEST_DOWNLOADSPEED" value="Скорость скачивания" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEED" value="скорость" />
+  <String id="IDS_STATIC_SPEEDTEST_TESTING_HEADER" value="Заголовок тестирования" />
+  <String id="IDS_STATIC_SPEEDTEST_TESTING_TAIL" value="Скорость ..." />
+  <String id="IDS_STATIC_SPEEDTEST_MAXUPLOADSPEED" value="Максимальная скорость загрузки:" />
+  <String id="IDS_STATIC_SPEEDTEST_MAXDOWNLOADSPEED" value="Максимальная скорость загрузки:" />
+  <String id="IDS_STATIC_SPEEDTEST_RUN" value="Бежим" />
+  <String id="IDS_STATIC_SPEEDTEST_RUNING" value="Бежим..." />
+  <String id="IDS_STATIC_SPEEDTEST_RERUN" value="Повторно запустить" />
+  <String id="IDS_STATIC_SPEEDTEST_BOTTOMBAR_TIP" value="Во время теста скорости, мы рекомендуем вам приостановить работу других программ, используя скорость" />
+  <String id="IDS_STATIC_SPEEDTEST_ACTION_DOWNLOAD" value="Скачать" />
+  <String id="IDS_STATIC_SPEEDTEST_ACTION_UPLOAD" value="Загрузить" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOW" value="Скорость медленная!" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_HIGHT" value="Быстро, как молния!" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP" value="Загрузка медленнее, чем загрузка?" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP_TOOLTIP" value="Большинство сетевых операторов выделяют более высокую загрузку и меньшую пропускную способность, поэтому скорость загрузки будет выше, чем скорость загрузки." />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL" value="Медленный?" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP1" value="1. Скорость загрузки и скачивания ограничена пропускной способностью вашего оператора сети." />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP2" value="2. В то же время запуск нескольких сетевых программ замедляет скорость загрузки и выгрузки" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP3" value="3. Специальные операторы (например, компании, кампус и т. Д.) Иногда ограничивают скорость" />
+  <String id="IDS_STATIC_SPEEDTEST_NETERROR_RUNNING" value="Ошибка теста скорости, нет сетевого подключения" />
+  <String id="IDS_STATIC_SPEEDTEST_NETERROR_WAIT" value="Нет сетевого подключения" />
+
+  <!--Speed ​​Reporter-->
+  <String id="IDS_STATIC_SPEEDTESTREPORT_TITLE" value="Отчет об испытаниях скорости" />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_REPORT" value="Обратная связь" />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_COMPLETE" value="Готова" />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_RUNNING" value="Начать..." />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_BEGIN" value="Проблемы со скоростью? Пожалуйста, дайте нам отзыв." />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_ING" value="Проблемы с вашей сетью обнаружены ..." />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_END" value="Отзыв получен. Мы решим ваш вопрос как можно скорее, спасибо за ваш отзыв!" />
+
+  <!--Сообщение напоминание-->
+  <String id="IDS_STATIC_MESSAGENOTIFY_TITLE" value="Baidu Облачные уведомления" />
+  <String id="IDS_STATIC_MESSAGENOTIFY_VIEWDETAIL" value="Вид" />
+  <String id="IDS_STATIC_MESSAGENOTIFY_FILESHARE" value="Получать уведомления о совместном использовании файлов" />
+  <String id="IDS_STATIC_MESSAGENOTIFY_FILEPURCHASE" value="Получать уведомления о покупке" />
+  <String id="IDS_STATIC_MESSAGENOTIFY_SYSTEM" value="Получать системные уведомления" />
+
+  <!--Сообщение напоминание-->
+  <String id="IDS_STATIC_MBOX_MESSAGE_TITLE" value="Baidu Cloud News" />
+  <String id="IDS_STATIC_MBOX_MESSAGE_VIEWDETAIL" value="Посмотреть" />
+
+  <!--Советы по тосту-->
+  <String id="IDS_STATIC_MBOX_TOAST_SHARESUCCESS" value="Поделись успехом" />
+  <String id="IDS_STATIC_MBOX_TOAST_SHARESESSION" value="Поделиться Диалог" />
+  <String id="IDS_STATIC_MBOX_TOAST_VIEW_SHARESESSION" value="Посмотреть сессию" />
+
+  <!--Мобильный телефон не забудьте принести напоминание-->
+  <String id="IDS_STATIC_PHONE_NEW_MESSAGE" value="У вас есть непрочитанные сообщения от друзей" />
+  <String id="IDS_STATIC_PHONE_NEW_CALL" value="Вы пропустили звонки друзей" />
+
+  <!--速度反馈对话框-->
+  <String id="IDS_SPEEDFEECBACKDLG_TITLE" value="Скорость Обратная связь" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_TIP" value="Пожалуйста, заполните пропускную способность, для более точного решения проблемы" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH" value="Пропускная способность" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_UNIT" value="M"/>
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_EXAMPLE" value="（例：若您使用的是联通10M光纤，请填写10）" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SUBMIT_TIP" value="请告诉我们你的问题，我们会尽快解决~" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SPEED_TIP" value="关闭占用网速的软件（视频、下载等）可以大大提升传输速度~" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_THANK_TIP" value="感谢您的反馈！百度网盘会尽快解决。" />
+  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_SUBMIT" value="提交" />
+  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_FINISH" value="完成" />
+  
+  <!--Медленная скорость-->
+  <String id="IDS_SPEEDFEECBACKTIP_SPEEDSLOW" value="Скорость передачи медленная?" />
+  <String id="IDS_SPEEDFEECBACKTIP_FEEDBACK" value="Пожалуйста, оставьте отзыв" />
+
+  <!--Ускорение связанных журналов-->
+  <String id="IDS_GET_SPEEDUP_SERVICE_FAILED" value="Не удалось получить пакет ускорения сети, код ошибки [%d]" />
+  <String id="IDS_QUERY_SPEEDUP_STATUS_FAILED" value="Не удалось запросить состояние ускорения сети:%d" />
+  <String id="IDS_SEND_SPEEDUP_HEARTBEAT_FAILED" value="Скорость отправки пульса:%d" />
+  <String id="IDS_QUERY_MEMBER_SPEEDUP_STATUS_FAILED" value="Ошибка обнаружения состояния ускорения загрузки участников:%d" />
+  <String id="IDS_QUERY_MEMBER_SPEEDUP_STATUS_SUCCEED" value="Состояние ускорения загрузки участников обнаружения успешно выполнено:%d" />
+  <String id="IDS_START_MEMBER_SPEEDUP_FAILED" value="Вызов для ускорения интерфейса возвращает код ошибки%d, испытывать ли ускорение%d" />
+  <String id="IDS_QUERY_SPEEDUP_AD_FAILED" value="Ошибка рекламных сообщений Query Speed:% d" />
+  <String id="IDS_PACKAGE_SPEEDUP_GUIDE_AVAILABLE" value="Соответствовать условиям загрузки пакета ускорения сети, может помочь ускорить пробный пакет ускорения сети" />
+  <String id="IDS_DOWNLOAD_SPEEDUP_RESULT" value="Максимальная скорость загрузки - это скорость перед%I64d." />
+  <String id="IDS_UPLOAD_SPEEDUP_RESULT" value="Максимальная скорость загрузки - это скорость до%I64d. Максимальная скорость загрузки для скорости после%I64d." />
+  <String id="IDS_PACKAGE_SPEEDUP_RESULT" value="Коэффициент ускорения сети Опыт пакета%I64d%%" />
+  <String id="IDS_MEMBER_SPEEDUP_RESULT" value="Коэффициент ускорения сети Опыт пакета%I64d%%" />
+  <String id="IDS_SPEEDUPTICKET_SPEEDUP_RESULT" value="Скорость загрузки купона опыт ускорения коэффициент ускорения% I64d%%" />
+  <String id="IDS_CONSUME_SPEEDUP_PRIVILEDGE_FAILED" value="Не удалось использовать службу ускорения [%d]" />
+  <!--Код ошибки при ошибке загрузки-->
+  <String id="IDS_UPLOAD_ERROR_NEED_RETRY" value="Загрузка не удалась, пожалуйста, загрузите снова" />
+  <String id="IDS_UPLOAD_SERVER_BUSY" value="Сервер занят, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_UPLOAD_ERROR_NEED_RELOGIN" value="Загрузка не удалась, пожалуйста, войдите снова и попробуйте снова" />
+  <String id="IDS_UPLOAD_ERROR_ALREADY_EXIST" value="Загрузка не удалась, в каталоге существует файл с таким же именем" />
+
+  <!--Ошибка загрузки кода ошибки-->
+  <String id="IDS_DOWNLOAD_NEED_RELOGIN" value="Загрузка не удалась, пожалуйста, войдите снова и попробуйте снова" />
+  <String id="IDS_DOWNLOAD_FILE_NOAUTHORITY" value="Загрузка не удалась, доля не существует или была отменена" />
+  <String id="IDS_DOWNLOAD_FILE_MODIFIED" value="Файл был изменен, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_DOWNLOAD_NEED_RETRY" value="Загрузка не удалась, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_DOWNLOAD_NEED_P2P_RETRY" value="Ошибка загрузки пожалуйста повторите" />
+  <String id="IDS_DOWNLOAD_SERVER_BUSY" value="Сервер занят, пожалуйста, попробуйте еще раз" />
+
+  <!--Ошибка загрузки кода ошибки-->
+  <String id="IDS_TRANSFER_FILECOPY_FAILED" value="Ошибка копирования файла, повторите попытку" />
+  <String id="IDS_TRANSFER_REQUEST_ERROR" value="Ошибка переноса, попробуйте еще раз" />
+
+  <!--Поделитесь кодом ошибки-->
+  <String id="IDS_SHARE_INVALID_SHARE" value="Обмен был отменен или не существует" />
+  <String id="IDS_SHARE_SERVER_BUSY" value="Сервер занят" />
+  <String id="IDS_SHARE_NOT_ALL_SUCCESS" value="Не удалось выполнить некоторые файловые операции, пожалуйста, попробуйте еще раз" />
+  <String id="IDS_SHARE_HIT_BLACKLIST" value="Ошибка обмена, файл содержит конфиденциальную информацию" />
+
+  <!--Код ошибки входа-->
+  <String id="IDS_LOGIN_ERR_PASSSDK" value="Проблема входа！" />
+  <String id="IDS_LOGIN_FEEDBACK" value="Обратная связь" />
+  <String id="IDS_LOGIN_FAILED" value="Ошибка входа" />
+
+  <!--Панель настроек - История документа Версия-->
+  <String id="IDS_STATIC_FILE_VERSION" value="Версия файла" />
+  <String id="IDS_STATIC_ENABLE_FILE_VERSION" value="Открыть версию истории документа" />
+
+  <!--Закройте всплывающее окно версии истории документа-->
+  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_TITLE" value="Версия файла Отключить" />
+  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_CONTENT" value="Вы хотите отключить функцию версии истории документа? \r\nПри закрытии автоматическое резервное копирование и редактирование обновленных документов сохранит только последнюю версию." />
+  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CONFIRM" value="Закрыть историческую версию" />
+  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CANCEL" value="Закрыть" />
+
+  <!--Советы по онлайн редактированию-->
+  <String id="IDS_ONLINEDIT_FILESIZE_TOOLARGE" value="Документ слишком большой" />
+  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_TITLE" value="Сохранить документ на диск" />
+  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_TEXT" value="Документ был изменен, следует ли сохранить его на сетевом диске? \r\nСейф внутри документа после того, как обновление будет непосредственно покрыто." />
+  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_BTN_OVERWRITE" value="Переписать" />
+  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_BTN_CANCEL" value="Отмена" />
+  <String id="IDS_ONLINEDIT_SAVEERROR_TITLE" value="Компьютеру не хватает места" />
+  <String id="IDS_ONLINEDIT_SAVEERROR_DISKNOSPACE" value="На вашем компьютере не хватает места. Для открытия документа требуется локальное пространство. \r\nПроверьте очистку и попробуйте снова." />
+  <String id="IDS_ONLINEDIT_SAVEERROR_BTN_OPEN" value="открыто" />
+  <String id="IDS_ONLINEDIT_SAVEERROR_BTN_CLOSE" value="Закырть" />
+  <String id="IDS_ONLINEDIT_APPLOCKED_TEXT" value="Ваш сетевой диск заблокирован. Вы не можете обновить загруженные файлы в течение периода блокировки. \r\nПожалуйста, сначала разблокируйте сетевой диск" />
+  <String id="IDS_ONLINEDIT_APPLOCKED_OK" value="Ok" />
+  <String id="IDS_ONLINEDIT_DOWNLOADED_AUTOOPEN" value="Уже в загрузке, открывается автоматически после завершения" />
+
+  <!--Всплывающее руководство по уборке мусора-->
+  <String id="IDS_GARBAGE_FILE_CLEAN_TEXT_LINE1" value="На вашем сетевом диске много повторяющихся файлов." />
+  <String id="IDS_GARBAGE_FILE_CLEAN_TEXT_LINE2" value="Освободите%s пространство после очистки" />
+  <String id="IDS_GARBAGE_VIDEO_CLEAN_TEXT_LINE1" value="На вашем веб-диске много ненужных видео" />
+  <String id="IDS_GARBAGE_VIDEO_CLEAN_TEXT_LINE2" value="Освободите много места после очистки" />
+  <String id="IDS_GARBAGE_CLEAN_SCAN_VIDEO" value="Сканирование для видео" />
+  <String id="IDS_GARBAGE_CLEAN_SCAN_FILE" value="Сканирование на наличие дубликатов файлов" />
+  <String id="IDS_GARBAGE_CLEAN_TITLE" value="Baidu Cloud" />
+
+  <!--奖励计划弹窗-->
+  <String id="IDS_REWARD_PLAN_DLG_TITLE" value="Программа вознаграждений пользователей" />
+  <String id="IDS_REWARD_PLAN_DLG_NET_ERROR" value="Не удалось подключиться к сети, повторите попытку позже" />
+  <String id="IDS_REWARD_PLAN_DLG_RETRY" value="Повтор" />
+
+  <!--自动备份气泡-->
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_TITLE" value="正在备份中..." />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_START_TIP" value="正在为您备份“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_END_TIP" value="”等多个文件" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_START_TIP" value="正在为您备份“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_END_TIP" value="”" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_VIEW_DETAIL" value="查看进度>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_TITLE" value="备份成功" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_START_TIP" value="已为您成功备份“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_END_TIP" value="”等%d个文件" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_START_TIP" value="已为您成功备份文件“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_END_TIP" value="”" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_VIEW_DETAIL" value="立即查看>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_TITLE" value="文件备份未完成" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_START_TIP" value="“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_END_TIP" value="”等%d个文件备份失败" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_START_TIP" value="文件“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_END_TIP" value="”备份失败" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_VIEW_DETAIL" value="立即查看>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_TITLE" value="文件占用中，关闭后将自动备份" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_START_TIP" value="“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_END_TIP" value="”等%d个文件尚未完成备份" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_START_TIP" value="文件“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”尚未完成备份" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="立即查看>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="流量超限，备份失败" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="本月2G备份流量已用完，开通会员，备份文件" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="无限制" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="立即开通>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="本月自动备份流量即将用完" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="本月2G备份流量即将用完，将无法为您正常备份" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="文件，开通会员，备份文件无限制" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="立即开通>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="流量超限，自动备份已暂停" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="本月2G备份流量已超限，无法进行文件备份，" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="开通会员，备份文件无限制" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="立即开通>" />
+
+  <!--PDF转Word气泡-->
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="转换成功" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="已成功转换为Word文档“" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_END_TIP" value="”" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_VIEW_DETAIL" value="立即打开>" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_TITLE" value="转换失败" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="您有一个PDF文件“" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”转换失败" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="立即查看>" />
+</StringTable>
