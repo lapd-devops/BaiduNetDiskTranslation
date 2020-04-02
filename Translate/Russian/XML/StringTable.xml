@@ -1175,50 +1175,50 @@
   <String id="IDS_REWARD_PLAN_DLG_RETRY" value="Повтор" />
 
   <!--自动备份气泡-->
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_TITLE" value="正在备份中..." />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_START_TIP" value="正在为您备份“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_END_TIP" value="”等多个文件" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_START_TIP" value="正在为您备份“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_TITLE" value="Резервное копирование..." />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_START_TIP" value="Резервное копирование для вас“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_END_TIP" value="”Ждите нескольких файлов" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_START_TIP" value="Резервное копирование для вас“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_END_TIP" value="”" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_VIEW_DETAIL" value="查看进度>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_TITLE" value="备份成功" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_START_TIP" value="已为您成功备份“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_END_TIP" value="”等%d个文件" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_START_TIP" value="已为您成功备份文件“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_VIEW_DETAIL" value="Посмотреть прогресс>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_TITLE" value="Успешное резервное копирование" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_START_TIP" value="Успешно зарезервировано для вас“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_END_TIP" value="”%d больше файлов" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_START_TIP" value="Файл был успешно зарезервирован для вас“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_END_TIP" value="”" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_VIEW_DETAIL" value="立即查看>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_TITLE" value="文件备份未完成" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_VIEW_DETAIL" value="Посмотреть сейчас>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_TITLE" value="Резервное копирование файла не завершено" />
   <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_START_TIP" value="“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_END_TIP" value="”等%d个文件备份失败" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_START_TIP" value="文件“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_END_TIP" value="”备份失败" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_VIEW_DETAIL" value="立即查看>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_TITLE" value="文件占用中，关闭后将自动备份" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_END_TIP" value="”Подождите, пока файлы %d не смогут выполнить резервное копирование" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_START_TIP" value="Файл“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_END_TIP" value="”Ошибка резервного копирования" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_VIEW_DETAIL" value="Посмотреть сейчас>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_TITLE" value="Файл занят, он будет автоматически сохранен после закрытия" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_START_TIP" value="“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_END_TIP" value="”等%d个文件尚未完成备份" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_START_TIP" value="文件“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”尚未完成备份" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="立即查看>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="流量超限，备份失败" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="本月2G备份流量已用完，开通会员，备份文件" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="无限制" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="立即开通>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="本月自动备份流量即将用完" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="本月2G备份流量即将用完，将无法为您正常备份" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="文件，开通会员，备份文件无限制" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="立即开通>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="流量超限，自动备份已暂停" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="本月2G备份流量已超限，无法进行文件备份，" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="开通会员，备份文件无限制" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="立即开通>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_END_TIP" value="”Подождите, пока будут сохранены файлы %d" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_START_TIP" value="Файл“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”Резервное копирование еще не завершено" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="Посмотреть сейчас>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="Трафик превышает лимит, сбой резервного копирования" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="В этом месяце израсходован резервный трафик 2G, активовать VIP доступ для рез.копир" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="Неограниченное " />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="Открыть сейчас>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="В этом месяце заканчивается трафик автоматического резервного копирования" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="В этом месяце, резервного копирования 2Г трафик вот-вот закончится, и не будет возможности для нормального резервного копирования " />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="Файл, открытие VIP доступа, файлы резервного копирования неограниченны" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="Открыть сейчас>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="Трафик превышает лимит, автоматическое резервное копирование приостановлено" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="В этом месяце превышен лимит трафика резервного копирования 2G, и резервное копирование файлов не может быть выполнено，" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="Открытие VIP, неограниченное количество файлов резервных копий" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="Открыть сейчас>" />
 
   <!--PDF转Word气泡-->
-  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="转换成功" />
-  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="已成功转换为Word文档“" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="Преобразование выполнено успешно" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="Успешно преобразован в документ Word" />
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_END_TIP" value="”" />
-  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_VIEW_DETAIL" value="立即打开>" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_TITLE" value="转换失败" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="您有一个PDF文件“" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”转换失败" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="立即查看>" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_VIEW_DETAIL" value="Открыть сейчас>" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_TITLE" value="Конвертация не удалась" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="У вас есть файл PDF“" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”Конвертация не удалась" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="Посмотреть сейчас>" />
 </StringTable>
