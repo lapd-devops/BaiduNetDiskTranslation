@@ -667,10 +667,10 @@
   <String id="IDS_FUNCMANAGEDLG_ADD_APP" value="Добавлять" />
 
   <!--Меню и текст подсказки-->
-  <String id="IDS_COMMON_EXIT" value="Выход" />
+  <String id="IDS_COMMON_EXIT" value="Выход из программы" />
   <String id="IDS_COMMON_SETTING" value="Параметры" />
   <String id="IDS_COMMON_HELP" value="Помощь" />
-  <String id="IDS_COMMON_HELPCONTENT" value="Помогите" />
+  <String id="IDS_COMMON_HELPCONTENT" value="Помощь онлайн" />
   <String id="IDS_COMMON_ABOUT" value="О программе" />
   <String id="IDS_COMMON_UPGRADE" value="Обновить версию" />
   <String id="IDS_COMMON_USERGUIDE" value="Руководство" />
@@ -679,7 +679,7 @@
   <String id="IDS_TRAYICON_OPENNETDISK" value="Открыть программу" />
   <String id="IDS_TRAYICON_OPENWEBNETDISK" value="Посетите Baidu Cloud" />
   <String id="IDS_TRAYICON_OPENRECYCLEBIN" value="Открыть корзину" />
-  <String id="IDS_TRAYICON_LOGOUT" value="Выйти" />
+  <String id="IDS_TRAYICON_LOGOUT" value="Выйти из аккаунта" />
   <String id="IDS_TRAYICON_USEAGE" value="Использовано%s Всего:%s" />
   <String id="IDS_TRAYICON_BEGINALLTASK" value="Продолжить все" />
   <String id="IDS_TRAYICON_PAUSEALLTASK" value="Приостановить все" />
