@@ -1,0 +1,45 @@
+<dlg  name="PanContainerPanel" pos="0,0,-0,-0" show="1">
+  <dlg name="pan_container_toolbar" pos="0,0,-0,40">
+    <include src="IDR_DUI_PAN_CONTAINER_TOOLBAR"/>
+  </dlg>
+  <dlg name="pan_container_address_panel" pos="0,40,-0,@40">
+    <include src="IDR_DUI_FILE_CONTAINER_ADDRESS_PANEL"/>
+  </dlg>
+  <dlg name="pan_container_view_panel" pos="0,80,-0,-34">
+	  <include src="IDR_DUI_FILE_VIEWCONTAINER_PANEL"/>
+  </dlg>
+  <!-- 加速相关引导提示-->
+  <dlg name="pan_speedup_tip_panel" pos="-560,-88,-20,-34" skin="speeduptippanel_bg" show="0">
+    <img pos="14,19,@15,@15" skin="speeduptippanel_smile"></img>
+    <link name="guide_speedup_tip" pos="37,19" class="cls_speedup_tip_txt"></link>
+    <imgbtn name="speedup_try_btn" pos="[20,14,@100,@25" class="cls_speedup_btn_txt"></imgbtn>
+    <imgbtn name="speedup_extend_btn" pos="[20,14,@100,@25" class="cls_speedupextend_btn_txt" show="0"></imgbtn>
+    <imgbtn name="speedup_extend_corner_btn" pos="200,3" class="cls_speedupcorner_btn_txt" show="0"></imgbtn>
+    <imgbtn name="speedup_try_corner_btn" pos="300,3" class="cls_speedupcorner_btn_txt" show="0"></imgbtn>
+    <link name="corner_btn_width_calc" pos="0,0" class="cls_speedupcorner_btn_txt" show="0"></link>
+    <link name="extend_btn_width_calc" pos="0,0" class="cls_speedupextend_btn_txt" show="0"></link>
+    <imgbtn name="speedup_close_btn" pos="-30,22,@10,@10" skin="speeduptippanel_close_btn" cursor="arrow"></imgbtn>
+  </dlg>
+  <!-- 加速券相关引导提示-->
+  <dlg name="pan_speedup_ticket_tip_panel" pos="-560,-88,-20,-34" skin="speeduptickettippanel_bg" show="0">
+    <dlg name="ticket_guide_panel" pos="0,0,-0,-0">
+      <img pos="14,17,@20,@20" skin="speeduptickettippanel_ticket"></img>
+      <link name="ticket_guide_speedup_tip" pos="42,19" class="cls_speedup_tip_txt"></link>
+      <imgbtn name="ticket_speedup_use_btn" pos="[20,14,@100,@25" class="cls_speedupuse_btn_txt"></imgbtn>
+    </dlg>
+    <dlg name="ticket_end_panel" pos="0,0,-0,-0" show="0">
+      <img pos="14,19,@15,@15" skin="speeduptickettippanel_smile"></img>
+      <link name="ticket_end_speedup_tip" pos="37,19" class="cls_speedup_tip_txt"></link>
+      <imgbtn name="ticket_speedup_extend_btn" pos="[20,14,@100,@25" class="cls_speedupextend_btn_txt" show="0"></imgbtn>
+      <imgbtn name="ticket_speedup_buysvip_btn" pos="[20,6,@100,@24" class="cls_speedup_btn_txt"></imgbtn>
+      <imgbtn name="ticket_speedup_extend_corner_btn" pos="200,3" class="cls_speedupcorner_btn_txt" show="0"></imgbtn>
+      <imgbtn name="ticket_speedup_try_corner_btn" pos="300,3" class="cls_speedupcorner_btn_txt" show="0"></imgbtn>
+      <link name="ticket_corner_btn_width_calc" pos="0,0" class="cls_speedupcorner_btn_txt" show="0"></link>
+      <link name="ticket_extend_btn_width_calc" pos="0,0" class="cls_speedupextend_btn_txt" show="0"></link>
+      <imgbtn name="ticket_speedup_close_btn" pos="-30,22,@10,@10" skin="speeduptippanel_close_btn" cursor="arrow"></imgbtn>
+    </dlg>
+  </dlg>
+  <dlg name="pan_container_status_panel" pos="0,-34,-0,-0">
+    <include src="IDR_DUI_FILE_CONTAINER_STATUS_PANEL"/>
+  </dlg>
+</dlg>

@@ -1,0 +1,162 @@
+<UI version="1.0">
+	<IBGCommonWin name="netSpeedDetectDialog" rect="0,0,552,412" sysBtnConfig="mainPanel_CapButton" ncHitTest="1" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题-->
+					<IBGRegionPanel size="552,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false" config="AboutTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,3" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0xffffff" text="$2932" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!--表盘部分-->
+					<IBGRegionPanel size="552,230" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false" ncHitTest="1">
+						<Children>
+							<IBGRegionPanel size="552,20" margin="0,28,0,8" dock="DOCK_TOP" sizeAsParent="false">
+								<Children>
+									<IBGStaticEx textClr="0xc89443" text="$2933" autoCalcHeight="true" autoCalcWidth="true" margin="130, 0, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="20" weight="1000"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx textClr="0xc89443" text="$2934" autoCalcHeight="true" autoCalcWidth="true" margin="176, 0, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="20" weight="1000"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="552,177" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+								<Children>
+									<IBGRegionPanel size="177,177" margin="72,0,0,0" dock="DOCK_LEFT" sizeAsParent="false" config="NetSpeedBkgPanel">
+										<Children>
+											<IBGGIFControl name="gifuploadpointer" dock="DOCK_TOP" margin="26, 25, 26, 0" image="Resource:MainFrame\\NetSpeedDlg\\arrow.png" size="126, 126"></IBGGIFControl>
+											<IBGStaticEx name="uploadspeed" textClr="0xfdb43e" autoCalcHeight="true" autoCalcWidth="true" margin="60, 0, 0, 23" dock="DOCK_BOTTOM">
+												<Properties>
+													<textFont><IBGFont height="18" weight="1000"/></textFont>
+												</Properties>
+											</IBGStaticEx>
+										</Children>
+									</IBGRegionPanel>
+									<IBGRegionPanel size="177,177" margin="0,0,72,0" dock="DOCK_RIGHT" sizeAsParent="false" config="NetSpeedBkgPanel">
+										<Children>
+											<IBGGIFControl name="gifdownloadpointer" dock="DOCK_TOP" margin="26, 25, 26, 0" image="Resource:MainFrame\\NetSpeedDlg\\arrow.png" size="126, 126"></IBGGIFControl>
+											<IBGStaticEx name="downloadspeed" textClr="0xfdb43e" autoCalcHeight="true" autoCalcWidth="true" margin="60, 0, 0, 23" dock="DOCK_BOTTOM">
+												<Properties>
+													<textFont><IBGFont height="18" weight="1000"/></textFont>
+												</Properties>
+											</IBGStaticEx>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!--断网提示部分-->
+					<IBGRegionPanel name="errortestTipPannel" unseen="true" size="552,75" margin="0,0,0,0" dock="DOCK_TOP" ncHitTest="1" sizeAsParent="false">
+						<Children>
+							<IBGStaticEx margin="140, 20, 0, 0" name="textErrorTip" textClr="0x000000" text="" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT">
+								<Properties>
+									<textFont><IBGFont height="20"/></textFont>
+								</Properties>
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!--测试中文字提示部分-->
+					<IBGRegionPanel name="testTipPannel" unseen="true" size="552,75" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+						<Children>
+							<IBGGIFControl margin="140, 22, 0, 0" image="Resource:MainFrame\\NetSpeedDlg\\loading.gif" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT"/>
+							<IBGStaticEx textClr="0x333333" text="$2936" autoCalcHeight="true" autoCalcWidth="true" margin="0, 20, 0, 0" dock="DOCK_LEFT">
+								<Properties>
+									<textFont><IBGFont height="20"/></textFont>
+								</Properties>
+							</IBGStaticEx>
+							<IBGStaticEx name="texttrantype" textClr="0xfdb43e" autoCalcHeight="true" autoCalcWidth="true" margin="0, 20, 0, 0" dock="DOCK_LEFT">
+								<Properties>
+									<textFont><IBGFont height="20"/></textFont>
+								</Properties>
+							</IBGStaticEx>
+							<IBGStaticEx textClr="0x333333" text="$2937" autoCalcHeight="true" autoCalcWidth="true" margin="0, 20, 0, 0" dock="DOCK_LEFT">
+								<Properties>
+									<textFont><IBGFont height="20"/></textFont>
+								</Properties>
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!--测试后文字提示部分-->
+					<IBGRegionPanel name="testResultTipPannel" unseen="true" size="552,75" margin="0,0,0,0" dock="DOCK_TOP" ncHitTest="1" sizeAsParent="false">
+						<Children>
+							<IBGRegionPanel size="552,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+								<Children>
+									<IBGStaticEx textClr="0x333333" text="$2938" autoCalcHeight="true" autoCalcWidth="true" margin="140, 10, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="20"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="textUploadSpeed" textClr="0xfdb43e" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="22"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="textuploadSpeedTip" textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="20"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="textuploadSpeedTipTail" textClr="0xfdb43e" autoCalcHeight="true" autoCalcWidth="true" margin="0, 14, 0, 0" handCursor="true" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="16"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="552,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+								<Children>
+									<IBGStaticEx textClr="0x333333" text="$2939" autoCalcHeight="true" autoCalcWidth="true" margin="140, 6, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="20"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="textDownloadSpeed" textClr="0xfdb43e" autoCalcHeight="true" autoCalcWidth="true" margin="0, 6, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="22"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="textdownloadSpeedTip" textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" margin="0, 6, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="20"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+									<IBGStaticEx name="textdownloadSpeedTipTail" textClr="0xfdb43e" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 0, 0" dock="DOCK_LEFT">
+										<Properties>
+											<textFont><IBGFont height="16"/></textFont>
+										</Properties>
+									</IBGStaticEx>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="552, 36" margin="1,0,1,1" dock="DOCK_BOTTOM" config="NetSpeedBarPanel">
+						<Children>
+							<IBGStaticEx textClr="0x908c84" text="$2943" autoCalcHeight="true" autoCalcWidth="true" margin="12, 9, 0, 5" dock="DOCK_LEFT"/>
+						</Children>
+					</IBGRegionPanel>
+					<!--按钮区域 -->
+					<IBGRegionPanel size="552, 40" margin="0,0,0,5" dock="DOCK_BOTTOM">
+						<Children>
+							<IBGButton name="FixBtn" text="$2940" size="151,36" margin="200, 0, 200, 4" config="SpeedTestBtn" dock="DOCK_TOP"/>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

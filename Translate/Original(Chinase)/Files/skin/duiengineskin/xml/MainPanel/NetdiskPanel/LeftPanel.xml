@@ -1,0 +1,55 @@
+<dlg name="LeftPanel" pos="0,0,-0,-0" crbg="f9fafb">
+	<!--分类面板-->
+	<dlg name="dlg_category" pos="0,0,-0,@360">
+		<listboxex name="category_list" pos="0,6,-1,-1" itemheight="32" virtual="1">
+			<template>
+				<dlg name="dlg_bkg" pos="0,0,-0,-0" crbg="eef0f6" show="0"/>
+				<hr name="hr_line" pos="0,0,@3,-0" crbg="06a8ff" show="0"/>
+				<dlg name="dlg_item" pos="0,0,-0,-0">
+					<img name="img_category" pos="32,|-8,@14,@16" skin="leftpanel_all_normal" cursor="arrow" show="0"/>
+					<text name="txt_category" pos="[13,|-8,-0,@16" class="cls_leftpanel_txt_normal"/>
+          <img name="img_newfunc" pos="-50,|-8,@38,@16" skin="leftpanel_newfunc_bg" cursor="arrow" show="0"/>
+				</dlg>
+			</template>
+		</listboxex>
+	</dlg>
+		
+	<!--广告面板-->
+	<dlg name="dlg_ad" pos="|-72,-230,@145,@160" show="0">
+    <!--与AdPanel.xml内容一致-->
+    <dlg name="AdPanel" pos="0,0,-0,-0">
+      <gifplayer name="ad_img_bkg" pos="0,0,-0,-0" bulltimer="1"></gifplayer>
+      <imgbtn name="ad_img_btn" pos="0,0,-0,-0"></imgbtn>
+      <imgbtn name="ad_close_btn" pos="-16,0,-0,16" cursor="arrow" tip="关闭" show="0"></imgbtn>
+      <text name="ad_calc_size" pos="0,0" crtext="ffffff" font2="facename:宋体;bold:0;italic:0;underline:0;adding:-1" textmode="40825" show="0"></text>
+      <dlg name="AdTipPanel" pos="-31,-17,-0,-0" msgtransparent="1">
+        <img name="ad_tip_bkg" pos="0,0,-0,-0"></img>
+        <text name="ad_tip" pos="0,0,-0,-0" crtext="ffffff" font2="facename:宋体;bold:0;italic:0;underline:0;adding:-1" textmode="40825"></text>
+      </dlg>
+    </dlg>
+	</dlg>
+	
+	<!--容量超限引导-->
+	<dlg name="dlg_quota_guide" pos="0,-165,-0,@120" skin="leftpanel_quotaguide_bg" show="0">
+		<dlg pos="5,5,-5,-12">
+			<imgbtn name="btn_guide_close" pos="-12,6,@7,@7" skin="titlepanel_tipclose_btn" cursor="arrow"></imgbtn>
+			<text name="txt_guide_detail" pos="10,18,-10,@38" crtext="c58c55" multilines="1"></text>
+			<imgbtn name="btn_guide_buy" pos="|-50,-36,@100,@25" class="cls_leftpanel_vip_btn"></imgbtn>
+		</dlg>
+	</dlg>
+	
+	<!--会员引导-->
+	<imgbtn name="btn_openvip" pos="0,-85,-0,@40" skin="leftpanel_openvip_btn" crtext="c58c55" cursor="hand" show="0">%str1704%</imgbtn>
+	
+	<!--容量展示面板-->
+	<dlg name="dlg_quota" pos="10,-45,-10,-0">
+		<dlg name="progress_bkg" pos="0,0,-0,@10" class="cls_leftpanel_progress_bkg">
+			<dlg name="progress_frg" pos="0,0,0,-0" class="cls_leftpanel_progress_frg_green"/>
+		</dlg>
+		<dlg pos="0,[6,-0,@18">
+			<text name="txt_quota" pos="0,0,@85,-0" crtext="333333" align="left"></text>
+			<link name="link_expand" pos="-60,0,-0,-0" class="cls_btn_weblink" align="right"></link>
+		</dlg>
+	</dlg>
+	<hr pos="-1,0,-0,-0" size="1" crbg="d6d8dd"/>
+</dlg>

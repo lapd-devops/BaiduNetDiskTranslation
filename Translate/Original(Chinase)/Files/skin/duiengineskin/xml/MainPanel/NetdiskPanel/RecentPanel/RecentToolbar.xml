@@ -1,0 +1,13 @@
+<dlg name="Toolbar" skin="mainpanel_toolbar_bkg" pos="0,0,-0,-0">
+  <dlg pos="0,0,-0,-1" crbg="f9fafb"></dlg>
+  <imgbtn name="btn_download" class="toolbarbtn" icoskin="mainpanel_toolbar_download" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="5,4,@75,@32" cursor="arrow">%str2151%</imgbtn>
+  <imgbtn name="btn_createshare" class="toolbarbtn" icoskin="mainpanel_toolbar_createshare" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@75,@32" cursor="arrow">%str2152%</imgbtn>
+  <imgbtn name="btn_del_record" class="toolbarbtn" icoskin="mainpanel_toolbar_clear" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@95,@32" cursor="arrow">%str2365%</imgbtn>
+  <imgbtn name="btn_open_folder" class="toolbarbtn" icoskin="mainpanel_toolbar_openfolder" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@120,@32" cursor="arrow">%str2336%</imgbtn>
+  <imgbtn name="btn_del_file" class="toolbarbtn" icoskin="mainpanel_toolbar_delete" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@95,@32" cursor="arrow">%str2366%</imgbtn>
+  <dropbutton name="btn_more" class="toolbarbtn" icoskin="mainpanel_toolbar_more" drop-skin="mainpanel_toolbar_drop_arrow" icoxoffset="10" icoyoffset="5" txtxoffset="8" pos="[5,4,@87,@32" cursor="arrow">%str2159%</dropbutton>
+
+  <imgbtn name="btn_sort" skin="mainpanel_toolbar_sort" pos="-54,12" show="0" cursor="arrow" tip="%str2176%"></imgbtn>
+  <imgbtn name="btn_thumb" skin="mainpanel_toolbar_thumb" pos="-28,12" show="1" cursor="arrow" tip="%str2175%"></imgbtn>
+  <imgbtn name="btn_list" skin="mainpanel_toolbar_list" pos="-28,12" show="0" cursor="arrow" tip="%str2174%"></imgbtn>
+</dlg>

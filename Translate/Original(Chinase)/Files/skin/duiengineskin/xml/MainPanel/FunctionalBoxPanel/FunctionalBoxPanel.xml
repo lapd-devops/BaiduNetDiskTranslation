@@ -1,0 +1,40 @@
+<dlg name="FunctionalBoxContainerPanel" pos="0,0,-0,-0">
+  <dlg pos="|-115,%15,@230,@58">
+    <text pos="0,0,-0,27" class="functional_panel_head_tip">%str290%</text>
+    <text pos="0,37,-0,-0" class="functional_panel_head_tip1">%str291%</text>
+  </dlg>
+  <dlg name="FunctionalBoxPanel" pos="|-425,|-80,@850,@160">
+    <!--垃圾文件清理-->
+    <dlg name="GarbageClean" pos="0,0,@140,@160">
+      <imgbtn name="garbageclean_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_garbageclean_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str297%</imgbtn>
+      <img name="garbageclean_svip_icon" pos="-48,8,@46,@20" skin="function_svip_only_img"/>
+      <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str298%</text>
+    </dlg>
+    <!--自动备份-->
+    <dlg name="AutoBackup" pos="[35,0,@140,@160">
+      <imgbtn name="autobackup_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_backup_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str287%</imgbtn>
+      <img name="autobackup_vip_icon" pos="-48,8,@40,@20" skin="function_vip_only_img"/>
+      <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str295%</text>
+    </dlg>
+    <!--回收站-->
+    <dlg name="Recycle" pos="[35,0,@140,@160">
+      <imgbtn name="recycle_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_recycle_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str289%</imgbtn>
+      <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str296%</text>
+    </dlg>
+    <!--锁定云管家-->
+    <dlg name="LockBtnPanel" pos="[35,0,@140,@160">
+      <imgbtn name="lock_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_lock_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str288%</imgbtn>
+      <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str294%</text>
+    </dlg>
+    <!--数据线-->
+    <dlg name="DataCable" pos="[35,0,@140,@160" show="0">
+      <imgbtn name="datacable_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_datacable_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str286%</imgbtn>
+      <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str293%</text>
+    </dlg>
+    <!--手机忘带-->
+    <dlg name="Phone" pos="[35,0,@140,@160" show="0">
+      <imgbtn name="phone_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_phone_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str285%</imgbtn>
+      <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str292%</text>
+    </dlg>
+  </dlg>
+</dlg>

@@ -1,22 +1,22 @@
 <dlg name="dlg_opbtn_list" pos="0,0,-0,-0" crbg="f9fafb">
   <dlg pos="0,8,-0,@38">
-    <imgbtn name="btn_op_download" pos="0,0,-0,-0" skin="transpanel_left_download_btn" 
+    <imgbtn name="btn_op_download" pos="0,0,-0,-0" skin="transpanel_left_download_btn"
             class="cls_transleftpanel_op_btn" txtxoffset="55">%str1800%</imgbtn>
-    <hr name="hr_line_download" pos="0,0,@3,-0" crbg="06a8ff" show="0"/>
+    <hr name="hr_line_download" pos="0,0,@9,-0" crbg="06a8ff" show="0"/>
   </dlg>
   <dlg pos="0,46,-0,@38">
-    <imgbtn name="btn_op_upload" pos="0,0,-0,-0" skin="transpanel_left_upload_btn" 
+    <imgbtn name="btn_op_upload" pos="0,0,-0,-0" skin="transpanel_left_upload_btn"
             class="cls_transleftpanel_op_btn"  txtxoffset="55">%str1801%</imgbtn>
-    <hr name="hr_line_upload" pos="0,0,@3,-0" crbg="06a8ff" show="0"/>
+    <hr name="hr_line_upload" pos="0,0,@9,-0" crbg="06a8ff" show="0"/>
   </dlg>
   <dlg pos="0,84,-0,@38">
-    <imgbtn name="btn_op_history" pos="0,0,-0,-0" skin="transpanel_left_history_btn" 
+    <imgbtn name="btn_op_history" pos="0,0,-0,-0" skin="transpanel_left_history_btn"
             class="cls_transleftpanel_op_btn"  txtxoffset="55">%str1802%</imgbtn>
-    <hr name="hr_line_history" pos="0,0,@3,-0" crbg="06a8ff" show="0"/>
+    <hr name="hr_line_history" pos="0,0,@9,-0" crbg="06a8ff" show="0"/>
   </dlg>
   <hr name="text_line" pos="30,128,-1,129" crbg="ededed"/>
   <dlg pos="0,133,-0,@38">
-    <imgbtn name="btn_op_cloud" pos="0,0,-0,-0" skin="transpanel_left_cloud_btn" 
+    <imgbtn name="btn_op_cloud" pos="0,0,-0,-0" skin="transpanel_left_cloud_btn"
             class="cls_transleftpanel_op_btn"  txtxoffset="55" show="0">%str1803%</imgbtn>
     <hr name="hr_line_cloud" pos="0,0,@3,-0" crbg="06a8ff" show="0"/>
   </dlg>

@@ -21,18 +21,18 @@
       <imgbtn name="recycle_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_recycle_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str289%</imgbtn>
       <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str296%</text>
     </dlg>
+    <!--数据线-->
+    <dlg name="DataCable" pos="[35,0,@220,@160">
+      <imgbtn name="datacable_btn" pos="5,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_datacable_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str286%</imgbtn>
+      <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str293%</text>
+    </dlg>
     <!--锁定云管家-->
-    <dlg name="LockBtnPanel" pos="[35,0,@140,@160">
+    <dlg name="LockBtnPanel" pos="[35,0,@200,@160">
       <imgbtn name="lock_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_lock_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str288%</imgbtn>
       <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str294%</text>
     </dlg>
-    <!--数据线-->
-    <dlg name="DataCable" pos="[35,0,@140,@160" show="0">
-      <imgbtn name="datacable_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_datacable_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str286%</imgbtn>
-      <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str293%</text>
-    </dlg>
     <!--手机忘带-->
-    <dlg name="Phone" pos="[35,0,@140,@160" show="0">
+    <dlg name="Phone" pos="[35,0,@190,@160" show="0">
       <imgbtn name="phone_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_phone_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str285%</imgbtn>
       <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str292%</text>
     </dlg>

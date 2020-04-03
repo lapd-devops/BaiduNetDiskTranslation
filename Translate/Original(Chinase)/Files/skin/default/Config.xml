@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigSet version="1.0">
+	<Config name="linkFont" interface="IBGFont">
+		<Property name="height" value="14"/>
+		<Property name="width" value="0"/>
+		<Property name="orientation" value="0"/>
+		<Property name="weight" value="400"/>
+		<Property name="italic" value="false"/>
+		<Property name="underline" value="true"/>
+		<Property name="strikeout" value="false"/>
+		<Property name="charSet" value="1"/>
+		<Property name="facename" value="Tahoma"/>
+	</Config>
+	<Config name="linkFontBold" interface="IBGFont">
+		<Property name="height" value="14"/>
+		<Property name="width" value="0"/>
+		<Property name="orientation" value="0"/>
+		<Property name="weight" value="700"/>
+		<Property name="italic" value="false"/>
+		<Property name="underline" value="true"/>
+		<Property name="strikeout" value="false"/>
+		<Property name="charSet" value="1"/>
+		<Property name="facename" value="Tahoma"/>
+	</Config>
+  
+  	<Config name="normalFont" interface="IBGFont">
+		<Property name="height" value="18"/>
+		<Property name="width" value="0"/>
+		<Property name="orientation" value="0"/>
+		<Property name="weight" value="700"/>
+		<Property name="italic" value="false"/>
+		<Property name="underline" value="true"/>
+		<Property name="strikeout" value="false"/>
+		<Property name="charSet" value="1"/>
+		<Property name="facename" value="微软雅黑"/>
+	</Config>
+  
+	<Config name="splitterH" interface="IBGSplitter">
+		<Property name="orientation" value="SPLITTER_HORIZONTAL"></Property>
+		<Property name="autoCalcHeight" value="true"></Property>
+	</Config>
+	<Config name="splitterV" interface="IBGSplitter">
+		<Property name="cursorType" value="Resource:Texture\Splitter\splitter_v.cur"></Property>
+		<Property name="orientation" value="SPLITTER_VERTICAL"></Property>
+		<Property name="autoCalcWidth" value="true"></Property>
+	</Config>
+	
+	<Config name="staticEx" interface="IBGStaticEx">
+    <Property name="textFont">
+      <IBGFont height="18" facename="微软雅黑" weight="400" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1"/>
+    </Property>
+  </Config>
+
+  <Config name="messageBoxText" interface="IBGStaticEx">
+    <Property name="textFont">
+      <IBGFont height="18" facename="微软雅黑" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1"/>
+    </Property>
+    <Property name="textClr" value="0x636363"/>
+  </Config>
+
+  <Config name="messageBoxTextTip" interface="IBGStaticEx">
+    <Property name="textFont">
+      <IBGFont height="18" facename="微软雅黑" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1"/>
+    </Property>
+    <Property name="textClr" value="0x999999"/>
+  </Config>
+
+  <Config name="messagebox" interface="IBGMessageBox">
+    <Property name="sysBtnConfig" value="mainPanel_CapButton"/>
+    <Property name="txtAlign" value="left"/>
+	<Property name="btnAlign" value="right"/>
+	<Property name="iconAlign" value="left"/>
+	<Property name="btnGap" value="7"/>
+	<Property name="iconTxtGap" value="10"/>
+	<Property name="txtBtnGap" value="18"/>
+	<Property name="margin" value="10,10,10,2"/>
+	<Property name="btnLeftDistance" value="7"/>
+	<Property name="btnRightDistance" value="12"/>
+    <Property name="btnBottomOffset" value="-15"/>
+	<Property name="iconLeftDistance" value="34"/>
+	<Property name="flag" value="MB_OK|MB_ICONINFORMATION|MB_BTNRIGHT"/>
+    <Property name="taskbarIconPath" value="Resource:\MainFrame\login_logo.png"/>
+	<Property name="iconPath" value="Resource:\MainFrame\login_logo.png"/>
+	<Property name="iconQuestion" value="Resource:\Texture\MsgBox\ico_question.png"/>
+	<Property name="iconHand" value="Resource:\Texture\MsgBox\ico_hand.png"/>
+	<Property name="iconWarning" value="Resource:\Texture\MsgBox\ico_warning.png"/>
+	<Property name="iconInformation" value="Resource:\Texture\MsgBox\ico_information.png"/>
+	<Property name="iconSuccess" value="Resource:\Texture\MsgBox\ico_success.png"/>
+		
+	<Property name="windowBkg">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\MsgBox\MsgBxBk_New.png" transparent="true">
+      </IBGVeins>
+	</Property>
+
+	<Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+	<Property name="captionGap" value="6"/>
+	<Property name="captionOffset" value="9, 7"/>
+	<Property name="sysBtnOffset" value="-1, -2"/>
+	<Property name="sizeGripOffset" value="-5, -5"/>
+	<Property name="captionTxtActivateClr" value="0x333333"/>
+	<Property name="captionTxtInactivateClr" value="0x333333"/>
+	<Property name="border" value="0, 0, 0, 0"/>
+	<Property name="ncRegion" value="0, 50, 0, 2"/>
+	<Property name="captionTxtFont">
+			<IBGFont height="18" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="微软雅黑"/>
+	</Property>
+	<Property name="alphaWin" value="false"/>
+	<Property name="showMaxButton" value="false"/>
+	<Property name="showMinButton" value="false"/>
+	<Property name="selfDrawCaption" value="false"/>
+  </Config>
+  
+	<Config name="progress" interface="IBGProgress">
+		<Property name="frdDraw">
+			<IBGVeins file="Resource:\Texture\Progress\progress_frg.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="1,1,8,6" colorize="false" >
+			</IBGVeins>
+		</Property>
+		<Property name="bkground">
+			<IBGVeins file="Resource:\Texture\Progress\progress_bkg.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="3,3,6,8" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="paintMargin" value="1,1,1,1"/>
+	</Config>
+	<Config name="sound_progress" interface="IBGProgress">
+		<Property name="frdDraw">
+			<IBGVeins file="Resource:\Texture\Progress\sound_progress_frg.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="1,1,16,2" colorize="false" >
+			</IBGVeins>
+		</Property>
+		<Property name="bkground">
+			<IBGVeins file="Resource:\Texture\Progress\sound_progress_bkg.bmp" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="2,2,8,5" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="paintMargin" value="1,1,1,1"/>
+	</Config>
+
+  <Config name="backup_blue_progress" interface="IBGProgress">
+    <Property name="frdDraw">
+      <IBGVeins file="Resource:\Texture\Progress\backup_progress_blue_frg.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="2,0,22,4" colorize="false" >
+      </IBGVeins>
+    </Property>
+    <Property name="bkground">
+      <IBGVeins file="Resource:\Texture\Progress\backup_progress_bkg.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="2,0,22,4" colorize="false">
+      </IBGVeins>
+    </Property>
+    <Property name="paintMargin" value="1,1,1,1"/>
+  </Config>
+
+  <Config name="backup_red_progress" interface="IBGProgress">
+    <Property name="frdDraw">
+      <IBGVeins file="Resource:\Texture\Progress\backup_progress_red_frg.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="2,0,22,4" colorize="false" >
+      </IBGVeins>
+    </Property>
+    <Property name="bkground">
+      <IBGVeins file="Resource:\Texture\Progress\backup_progress_bkg.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="2,0,22,4" colorize="false">
+      </IBGVeins>
+    </Property>
+    <Property name="paintMargin" value="1,1,1,1"/>
+  </Config>
+  
+	<Config name="tabButton" interface="IBGTabButton">
+		<!--Property name="unpushedNormalTextColor" value="0xFFFFFF"/>
+		<Property name="unpushedHighlightTextColor" value="0xFFFFFF"/>
+		<Property name="unpushedPushedTextColor" value="0xFFFFFF"/>
+		<Property name="pushedNormalTextColor" value="0x000000"/>
+		<Property name="pushedHighlightTextColor" value="0x000000"/>
+		<Property name="pushedPushedTextColor" value="0x000000"/-->
+		<Property name="pushedNormalBkg">
+			<IBGVeins file="Resource:\Texture\TabCtrl\tabSelected.png" transparent="TRUE" changeLight="false" /><!-- drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="3,3,85,14"/-->
+		</Property>
+		<Property name="pushedHighlightBkg">
+			<IBGVeins file="Resource:\Texture\TabCtrl\tabSelected.png" transparent="TRUE" changeLight="false" /><!-- drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="3,3,85,14"/-->
+		</Property>
+		<Property name="pushedPushedBkg">
+			<IBGVeins file="Resource:\Texture\TabCtrl\tabSelected.png" transparent="TRUE" changeLight="false" /><!-- drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="3,3,85,14"/-->
+		</Property>
+		<Property name="size" value="32,22"/>
+		<!--Property name="autoCalcWidth" value="true"/-->
+		<Property name="border" value="8,2,8,0"/>
+		<!--Property name="septDraw">
+			<IBGBrush clrBegin="0x000000"/>
+		</Property-->
+		<Property name="imgtxtDistance" value="4"/>
+	</Config>
+	<Config name="toolbarH" interface="IBGToolbar">
+		<!--Property name="frdBtnFile" value="Resource:\Texture\Toolbar\left.bmp"/>
+		<Property name="bkdBtnFile" value="Resource:\Texture\Toolbar\\right.bmp"/>
+		<Property name="addBtnFile" value="Resource:\Texture\Toolbar\addButton.bmp"/-->
+		<Property name="rollable" value="true"/>
+		<Property name="addButton" value="false"/>
+		<!--Property name="addBtnConfig" value="addButton"/-->
+		<Property name="frdBtnConfig" value="forwardButton"/>
+		<Property name="bkdBtnConfig" value="backwardButton"/>
+	</Config>
+	<Config name="toolbarV" interface="IBGToolbar">
+		<Property name="frdBtnFile" value="Resource:\Texture\Toolbar\up.bmp"/>
+		<Property name="bkdBtnFile" value="Resource:\Texture\Toolbar\down.bmp"/>
+		<Property name="addBtnFile" value="Resource:\Texture\Toolbar\addButton.bmp"/>
+		<Property name="rollable" value="true"/>
+	</Config>
+	<Config name="tabctrlH" interface="IBGTabCtrl" combo="toolbarH">
+		<Property name="autoCalcHeight" value="true"/>
+		<Property name="rollable" value="true"/>
+	</Config>
+	<Config name="tabctrlV" interface="IBGTabCtrl" combo="toolbarV">
+		<Property name="autoCalcWidth" value="true"/>
+		<Property name="rollable" value="true"/>
+	</Config>
+	<Config name="hyperLink" interface="IBGLinkItem">
+		<Property name="font">
+			<IBGFont height="18" width="0" orientation="0" weight="400" italic="false" underline="false" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+		<Property name="onFont">
+			<IBGFont height="18" width="0" orientation="0" weight="400" italic="false" underline="true" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+		<Property name="downFont">
+			<IBGFont height="18" width="0" orientation="0" weight="400" italic="false" underline="true" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+	</Config>
+	
+	<Config name="link" interface="IBGLinkItem">
+		<Property name="font">
+			<IBGFont height="18" width="0" orientation="0" weight="400" italic="false" underline="true" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+		<Property name="onFont">
+			<IBGFont height="18" width="0" orientation="0" weight="400" italic="false" underline="true" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+		<Property name="downFont">
+			<IBGFont height="18" width="0" orientation="0" weight="400" italic="false" underline="true" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+	</Config>
+	<Config name="underlineLink" interface="IBGLinkItem">
+		<Property name="font">
+			<IBGFont  underline="true"/>
+		</Property>
+		<Property name="onFont">
+			<IBGFont underline="true"/>
+		</Property>
+		<Property name="downFont">
+			<IBGFont underline="true" />
+		</Property>
+	</Config>
+	<Config name="static" interface="IBGStatic">
+		<Property name="textFont">
+			<IBGFont height="18" width="0" orientation="0" weight="400" italic="false" underline="false" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+		<Property name="color" value="0x946847"/>
+		<Property name="colorHilight" value="0x946847"/>
+		<Property name="colorPushed" value="0x946847"/>
+	</Config>
+	<Config name="static_default_font" interface="IBGStatic">
+		<Property name="textFont">
+			<IBGFont height="18" width="0" orientation="0" weight="400" italic="false" underline="false" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+		<Property name="color" value="0x946847"/>
+		<Property name="colorHilight" value="0x946847"/>
+		<Property name="colorPushed" value="0x946847"/>
+	</Config>	
+	<Config name="dynamicLink" interface="IBGStatic">
+		<Property name="textFont">
+			<IBGFont height="18" width="0" orientation="0" italic="false" underline="true" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+		<Property name="color" value="0xFFFFFF"/>
+		<Property name="colorHilight" value="0xFFFFFF"/>
+		<Property name="colorPushed" value="0xFFFFFF"/>
+		<Property name="underline" value="false"/>
+		<Property name="underlineHilight" value="true"/>
+		<Property name="underlinePushed" value="true"/>
+		<Property name="handCursor" value="true"/>
+	</Config>
+	<Config name="staticLink" interface="IBGStatic">
+		<Property name="textFont">
+			<IBGFont height="18" width="0" orientation="0" italic="false" underline="true" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+		<Property name="color" value="0xFF0000"/>
+		<Property name="colorHilight" value="0xFFA0A0"/>
+		<Property name="colorPushed" value="0xFF0000"/>
+		<Property name="underline" value="true"/>
+		<Property name="underlineHilight" value="true"/>
+		<Property name="underlinePushed" value="true"/>
+		<Property name="handCursor" value="true"/>
+		<Property name="textColorize" value="false"/>
+	</Config>
+	<Config name="comboButton" interface="IBGArrowButton">
+		<Property name="onBkg">
+			<IBGForm clrBorder="0xE4AD07" shape="SP_RECTANGLE" borderWidth="1">
+				<Properties>
+					<fill>
+						<IBGForm clrBorder="0xFFFFFF" shape="SP_RECTANGLE" borderWidth="1">
+							<Properties>
+								<fill>
+									<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xFCF9E5" clrEnd="0xF7EA99"/>
+								</fill>
+							</Properties>
+						</IBGForm>
+					</fill>
+				</Properties>
+			</IBGForm>
+		</Property>
+		<Property name="downBkg">
+			<IBGForm clrBorder="0xE4AD07" shape="SP_RECTANGLE" borderWidth="1">
+				<Properties>
+					<fill>
+						<IBGForm clrBorder="0xFFFFFF" shape="SP_RECTANGLE" borderWidth="1">
+							<Properties>
+								<fill>
+									<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xF7EA99" clrEnd="0xFCF9E5"/>
+								</fill>
+							</Properties>
+						</IBGForm>
+					</fill>
+				</Properties>
+			</IBGForm>
+		</Property>
+		<Property name="arrowOnBkg">
+			<IBGForm clrBorder="0xE4AD07" shape="SP_RECTANGLE" borderWidth="1">
+				<Properties>
+					<fill>
+						<IBGForm clrBorder="0xFFFFFF" shape="SP_RECTANGLE" borderWidth="1">
+							<Properties>
+								<fill>
+									<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xFCF9E5" clrEnd="0xF7EA99"/>
+								</fill>
+							</Properties>
+						</IBGForm>
+					</fill>
+				</Properties>
+			</IBGForm>
+		</Property>
+		<Property name="arrowDownBkg">
+			<IBGForm clrBorder="0xE4AD07" shape="SP_RECTANGLE" borderWidth="1">
+				<Properties>
+					<fill>
+						<IBGForm clrBorder="0xFFFFFF" shape="SP_RECTANGLE" borderWidth="1">
+							<Properties>
+								<fill>
+									<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xF7EA99" clrEnd="0xFCF9E5"/>
+								</fill>
+							</Properties>
+						</IBGForm>
+					</fill>
+				</Properties>
+			</IBGForm>
+		</Property>
+		<Property name="arrow" value="Resource:\Texture\ComboButton\arrowDown.png">
+		</Property>
+	</Config>
+	<Config name="button" interface="IBGButton">
+		<Property name="autoCalcWidth" value="false"/>
+		<Property name="autoCalcHeight" value="false"/>
+		<Property name="anchorPoints" value="300"/>
+		<Property name="normalClr" value="0x3d3d3d"/>
+		<Property name="onColor" value="0x3d3d3d"/>
+		<Property name="downColor" value="0x3d3d3d"/>
+		<Property name="normalBkg">
+			<IBGVeins file="Resource:\Texture\Button\button_normal.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" veinsRect="0,0,15,27" stretchArea="2,2,13,25" changeLight="false" />
+		</Property>
+		<Property name="onBkg">
+			<IBGVeins file="Resource:\Texture\Button\button_highlight.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" veinsRect="0,0,15,27" stretchArea="2,2,13,25" changeLight="false" />
+		</Property>
+		<Property name="downBkg">
+			<IBGVeins file="Resource:\Texture\Button\button_down.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" veinsRect="0,0,15,27" stretchArea="2,2,13,25" changeLight="false" />
+		</Property>
+		<Property name="font">
+			<IBGFont height="18" facename="微软雅黑" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1"/>
+		</Property>
+	</Config>
+	<Config name="defaultBtn" interface="IBGButton">
+	  <Property name="autoCalcWidth" value="false"/>
+	  <Property name="autoCalcHeight" value="false"/>
+	  <Property name="anchorPoints" value="256"/>
+	  <Property name="downColor" value="0xffffff"/>
+	  <Property name="onColor" value="0xffffff"/>
+	  <Property name="normalClr" value="0xffffff"/>
+	  <Property name="normalBkg">
+		<IBGVeins file="Resource:\Texture\Button\default_btn.png" veinsRect="0, 0, 72, 25" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="7,6,53,18" changeLight="false">
+        </IBGVeins>
+	  </Property>
+	  <Property name="onBkg">
+		<IBGVeins file="Resource:\Texture\Button\default_btn.png" veinsRect="72, 0, 144, 25" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="79,6,125,18" changeLight="false">
+        </IBGVeins>
+	  </Property>
+	  <Property name="downBkg">
+		<IBGVeins file="Resource:\Texture\Button\default_btn.png" veinsRect="144, 0, 216, 25" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" stretchArea="151,6,197,18" changeLight="false">
+        </IBGVeins>
+	  </Property>
+	  	<Property name="font">
+			<IBGFont height="18" facename="微软雅黑" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1"/>
+		</Property>
+	</Config>
+	<Config name="redColorBtn" interface="IBGButton">
+	  <Property name="autoCalcWidth" value="false"/>
+	  <Property name="autoCalcHeight" value="false"/>
+	  <Property name="anchorPoints" value="256"/>
+	  <Property name="downColor" value="0xffffff"/>
+	  <Property name="onColor" value="0xffffff"/>
+	  <Property name="normalClr" value="0xffffff"/>
+	  <Property name="normalBkg">
+		<IBGVeins file="Resource:\Texture\Button\btnred_normal.png" transparent="TRUE" drawStyle="DRAWMODE_NORMAL" changeLight="false">
+        </IBGVeins>
+	  </Property>
+	  <Property name="onBkg">
+		<IBGVeins file="Resource:\Texture\Button\btnred_hover.png" transparent="TRUE" drawStyle="DRAWMODE_NORMAL" changeLight="false">
+        </IBGVeins>
+	  </Property>
+	  <Property name="downBkg">
+		<IBGVeins file="Resource:\Texture\Button\btnred_down.png" transparent="TRUE" drawStyle="DRAWMODE_NORMAL" changeLight="false">
+        </IBGVeins>
+	  </Property>
+	  	<Property name="font">
+			<IBGFont height="18" facename="微软雅黑" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1"/>
+		</Property>
+	</Config>
+  <Config name="msgbox_button" interface="IBGButton">
+		<Property name="autoCalcWidth" value="false"/>
+		<Property name="autoCalcHeight" value="false"/>
+		<Property name="anchorPoints" value="300"/>
+		<Property name="normalClr" value="0x3d3d3d"/>
+		<Property name="onColor" value="0x3d3d3d"/>
+		<Property name="downColor" value="0x3d3d3d"/>
+    <Property name="normalBkg">
+      <IBGVeins file="Resource:\Texture\Button\msgbox_btn.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" veinsRect="0,0,72,25" stretchArea="4,4,68,21" changeLight="false" />
+    </Property>
+    <Property name="onBkg">
+      <IBGVeins file="Resource:\Texture\Button\msgbox_btn.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" veinsRect="72,0,144,25" stretchArea="76,4,140,21" changeLight="false" />
+    </Property>
+    <Property name="downBkg">
+      <IBGVeins file="Resource:\Texture\Button\msgbox_btn.png" transparent="TRUE" drawStyle="DRAWMODE_33Mesh_TILE" veinsRect="144,0,216,25" stretchArea="148,4,212,21" changeLight="false" />
+    </Property>
+	<Property name="font">
+		<IBGFont height="18" facename="微软雅黑" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1"/>
+	</Property>
+  </Config>
+  
+	<Config name="iconButton" interface="IBGButton">
+		<Property name="font">
+			<IBGFont height="18" facename="微软雅黑" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1"/>
+		</Property>
+		<Property name="textColorize" value="false"/>
+		<Property name="normalClr" value="0xffffff"/>
+		<Property name="onColor" value="0xffffff"/>
+		<Property name="downColor" value="0xffffff"/>
+		<Property name="onBkg">
+			<IBGForm clrBorder="0xE4AD07" shape="SP_RECTANGLE" borderWidth="1">
+				<Properties>
+					<fill>
+						<IBGForm clrBorder="0xFFFFFF" shape="SP_RECTANGLE" borderWidth="1">
+							<Properties>
+								<fill>
+									<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xFCF9E5" clrEnd="0xF7EA99"/>
+								</fill>
+							</Properties>
+						</IBGForm>
+					</fill>
+				</Properties>
+			</IBGForm>
+		</Property>
+		<Property name="downBkg">
+			<IBGForm clrBorder="0xE4AD07" shape="SP_RECTANGLE" borderWidth="1">
+				<Properties>
+					<fill>
+						<IBGForm clrBorder="0xFFFFFF" shape="SP_RECTANGLE" borderWidth="1">
+							<Properties>
+								<fill>
+									<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xF7EA99" clrEnd="0xFCF9E5"/>
+								</fill>
+							</Properties>
+						</IBGForm>
+					</fill>
+				</Properties>
+			</IBGForm>
+		</Property>
+	</Config>
+	<Config name="blackIconButton" interface="IBGButton">
+		<Property name="onBkg">
+			<IBGForm clrBorder="0xE4AD07" shape="SP_RECTANGLE" borderWidth="1">
+				<Properties>
+					<fill>
+						<IBGForm clrBorder="0xFFFFFF" shape="SP_RECTANGLE" borderWidth="1">
+							<Properties>
+								<fill>
+									<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xFCF9E5" clrEnd="0xF7EA99"/>
+								</fill>
+							</Properties>
+						</IBGForm>
+					</fill>
+				</Properties>
+			</IBGForm>
+		</Property>
+		<Property name="downBkg">
+			<IBGForm clrBorder="0xE4AD07" shape="SP_RECTANGLE" borderWidth="1">
+				<Properties>
+					<fill>
+						<IBGForm clrBorder="0xFFFFFF" shape="SP_RECTANGLE" borderWidth="1">
+							<Properties>
+								<fill>
+									<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xF7EA99" clrEnd="0xFCF9E5"/>
+								</fill>
+							</Properties>
+						</IBGForm>
+					</fill>
+				</Properties>
+			</IBGForm>
+		</Property>
+		
+	</Config>
+	
+	<Config name="loginCapButton" interface="IBGCapButton" >
+		<Property name="closeConfig" value="msgbox_closeButton"/>
+		<Property name="minimizeConfig" value="minimizeButton"/>
+		<Property name="maximizeConfig" value="maximizeButton"/>
+	</Config>
+	
+	<Config name="mainPanel_CapButton" interface="IBGCapButton" >
+		<Property name="closeConfig" value="mainPanel_closeButton"/>
+		<Property name="minimizeConfig" value="mainPanel_minimizeButton"/>
+		<Property name="maximizeConfig" value="mainPanel_maximizeButton"/>
+	</Config>
+  
+	<Config name="webPanel_CapButton" interface="IBGCapButton" >
+		<Property name="closeConfig" value="web_closeButton"/>
+		<Property name="minimizeConfig" value="minimizeButton"/>
+		<Property name="maximizeConfig" value="maximizeButton"/>
+	</Config>	
+	<Config name="web_closeButton" interface="IBGButton" >
+		<Property name="size" value="39, 24"/>
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_close_normal.png" transparent="TRUE" veinsRect="0,0,33,18" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_close_over.png" transparent="TRUE" veinsRect="0,0,33,18" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_close_down.png" transparent="TRUE" veinsRect="0,0,33,18" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="border" value="0,0,0,0"/>
+	</Config>
+	<Config name="msgbox_closeButton" interface="IBGButton" >
+		<Property name="size" value="39, 24"/>
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_msg_close.png" transparent="TRUE" veinsRect="0,0,39,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_msg_close.png" transparent="TRUE" veinsRect="39,0,78,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_msg_close.png" transparent="TRUE" veinsRect="78,0,117,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="border" value="0,0,0,0"/>
+	</Config>
+	<Config name="mainPanel_maximizeButton" interface="IBGButton" >
+		<Property name="size" value="32, 20"/>
+		<Property name="style" value="ButtonStyle_DoubleFace"/>
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="32,0,63,19" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="32,20,63,39" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="32,40,63,59" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="normalDraw2">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="64,0,95,19" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw2">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="64,20,95,39" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw2">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="64,40,95,59" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="border" value="0,0,0,0"/>
+	</Config>
+	<Config name="mainPanel_closeButton" interface="IBGButton" >
+		<Property name="size" value="32, 20"/>
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="96,0,127,19" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="96,20,127,39" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="96,40,127,59" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="border" value="0,0,0,0"/>
+		<Property name="enable" value="true"/>
+	</Config>
+	
+	<Config name="mainPanel_minimizeButton" interface="IBGButton" >
+		<Property name="size" value="32, 20"/>
+		<Property name="border" value="0,0,0,0"/>
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="0,0,31,19" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="0,20,31,39" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\system_btn.png" transparent="TRUE" veinsRect="0,40,31,59" colorize="false">
+			</IBGVeins>
+		</Property>
+	</Config>
+  
+	<Config name="standardWebWin" interface="IBGCommonWin">
+       <Property name="selfDrawCaption" value="true"/>
+	   <Property name="windowBkg">
+	     <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\windowBkg.png" transparent="true" stretchArea="8,45,58,60"/>
+	   </Property>
+	   <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+	   <Property name="captionGap" value="7"/>
+	   <Property name="sysBtnOffset" value="-1, 0"/>
+	   <Property name="sizeGripOffset" value="-5, -5"/>
+	   <Property name="captionTxtActivateClr" value="0xA9670B"/>
+	   <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+	   <Property name="border" value="0, 0, 0, 0"/>
+	   <Property name="ncRegion" value="0, 0, 0, 0"/>
+	   <Property name="withClientBkg" value="true"/>
+	   <Property name="alphaWin" value="false"/>
+	   <Property name="minSize" value="432,307"></Property>
+	   <Property name="fastRgn" value="true"></Property>
+	</Config>
+	
+	<!--主窗口的背景-->
+	<Config name="mainWindow" interface="IBGCommonWin">
+       <Property name="selfDrawCaption" value="true"/>
+	   <Property name="unvariedSize" value="false"/>
+	   <Property name="showCloseButton" value="true"/>
+	   <Property name="showMinButton" value="true"/>
+	   <Property name="showMaxButton" value="true"/>
+	   <Property name="windowBkg">
+	     <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\windowBkg_mainPanel.png" transparent="true" stretchArea="290,100,320,191"/>
+	   </Property>
+	   
+	   <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+	   <Property name="captionGap" value="7"/>
+	   <Property name="sysBtnOffset" value="-1, 0"/>
+	   <Property name="sizeGripOffset" value="-5, -5"/>
+	   <Property name="captionTxtActivateClr" value="0xA9670B"/>
+	   <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+	   <Property name="border" value="1, 1, 1, 1"/>
+	   <Property name="ncRegion" value="0, 0, 0, 0"/>
+	   <Property name="withClientBkg" value="true"/>
+	   <Property name="alphaWin" value="false"/>
+	   <Property name="minSize" value="900,650"></Property>
+	   <Property name="fastRgn" value="true"></Property>
+	</Config>
+	
+	<Config name="mainPanel" interface="IBGCommonWin">
+       <Property name="selfDrawCaption" value="true"/>
+	   <Property name="unvariedSize" value="false"/>
+	   <Property name="showCloseButton" value="true"/>
+	   <Property name="showMinButton" value="true"/>
+	   <Property name="showMaxButton" value="true"/>
+	   <Property name="windowBkg">
+	     <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\windowBkg.png" transparent="true" stretchArea="5,40,87,68"/>
+	   </Property>
+	   
+	   <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+	   <Property name="captionGap" value="7"/>
+	   <Property name="sysBtnOffset" value="-1, 0"/>
+	   <Property name="sizeGripOffset" value="-5, -5"/>
+	   <Property name="captionTxtActivateClr" value="0xA9670B"/>
+	   <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+	   <Property name="border" value="2, 2, 2, 2"/>
+	   <Property name="ncRegion" value="0, 0, 0, 0"/>
+	   <Property name="withClientBkg" value="true"/>
+	   <Property name="alphaWin" value="false"/>
+	   <Property name="minSize" value="900,650"></Property>
+	   <Property name="fastRgn" value="true"></Property>
+	</Config>
+
+  <Config name="btDownloadCommonWin" interface="IBGCommonWin">
+    <Property name="selfDrawCaption" value="true"/>
+    <Property name="unvariedSize" value="true"/>
+    <Property name="showCloseButton" value="true"/>
+    <Property name="showMinButton" value="false"/>
+    <Property name="showMaxButton" value="false"/>
+    <Property name="windowBkg">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\windowBkg.png" transparent="true" stretchArea="5,40,87,68"/>
+    </Property>
+
+    <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+    <Property name="captionGap" value="7"/>
+    <Property name="sysBtnOffset" value="-1, 0"/>
+    <Property name="sizeGripOffset" value="-5, -5"/>
+    <Property name="captionTxtActivateClr" value="0xA9670B"/>
+    <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+    <Property name="border" value="1, 2, 1, 2"/>
+    <Property name="ncRegion" value="0, 0, 0, 0"/>
+    <Property name="withClientBkg" value="true"/>
+    <Property name="alphaWin" value="false"/>
+    <Property name="fastRgn" value="true"></Property>
+  </Config>
+  <Config name="safeboxPwdWin" interface="IBGCommonWin">
+    <Property name="selfDrawCaption" value="true"/>
+    <Property name="unvariedSize" value="true"/>
+    <Property name="showCloseButton" value="true"/>
+    <Property name="showMinButton" value="false"/>
+    <Property name="showMaxButton" value="false"/>
+    <Property name="windowBkg">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\pwd_winbkg.png" transparent="true" stretchArea="5,40,87,68"/>
+    </Property>
+
+    <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+    <Property name="captionGap" value="7"/>
+    <Property name="sysBtnOffset" value="-1, 0"/>
+    <Property name="sizeGripOffset" value="-5, -5"/>
+    <Property name="captionTxtActivateClr" value="0xA9670B"/>
+    <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+    <Property name="border" value="1, 2, 1, 2"/>
+    <Property name="ncRegion" value="0, 0, 0, 0"/>
+    <Property name="withClientBkg" value="true"/>
+    <Property name="alphaWin" value="false"/>
+    <Property name="fastRgn" value="true"></Property>
+  </Config>
+
+  <Config name="btDownloadVipWin" interface="IBGCommonWin">
+    <Property name="selfDrawCaption" value="true"/>
+    <Property name="unvariedSize" value="true"/>
+    <Property name="showCloseButton" value="true"/>
+    <Property name="showMinButton" value="false"/>
+    <Property name="showMaxButton" value="false"/>
+    <Property name="windowBkg">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\vip_window_bkg.png" transparent="true" stretchArea="5,40,87,68"/>
+    </Property>
+
+    <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+    <Property name="captionGap" value="7"/>
+    <Property name="sysBtnOffset" value="-1, 0"/>
+    <Property name="sizeGripOffset" value="-5, -5"/>
+    <Property name="captionTxtActivateClr" value="0xA9670B"/>
+    <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+    <Property name="border" value="1, 2, 1, 2"/>
+    <Property name="ncRegion" value="0, 0, 0, 0"/>
+    <Property name="withClientBkg" value="true"/>
+    <Property name="alphaWin" value="false"/>
+    <Property name="fastRgn" value="true"></Property>
+  </Config>
+
+  <Config name="transPanel" interface="IBGCommonWin">
+    <Property name="selfDrawCaption" value="true"/>
+    <Property name="unvariedSize" value="false"/>
+    <Property name="showCloseButton" value="true"/>
+    <Property name="showMinButton" value="true"/>
+    <Property name="showMaxButton" value="true"/>
+    <Property name="windowBkg">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\windowBkg.png" transparent="true" stretchArea="5,40,87,68"/>
+    </Property>
+
+    <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+    <Property name="captionGap" value="7"/>
+    <Property name="sysBtnOffset" value="-1, 0"/>
+    <Property name="sizeGripOffset" value="-5, -5"/>
+    <Property name="captionTxtActivateClr" value="0xA9670B"/>
+    <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+    <Property name="border" value="2, 2, 2, 2"/>
+    <Property name="ncRegion" value="0, 0, 0, 0"/>
+    <Property name="withClientBkg" value="true"/>
+    <Property name="alphaWin" value="false"/>
+    <Property name="minSize" value="600,400"></Property>
+    <Property name="fastRgn" value="true"></Property>
+  </Config>
+  
+  	<Config name="newDownloadTaskWin" interface="IBGCommonWin">
+       <Property name="selfDrawCaption" value="true"/>
+	   <Property name="unvariedSize" value="true"/>
+	   <Property name="windowBkg">
+	     <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\downloadBkg.png" transparent="true" stretchArea="5,40,87,68"/>
+	   </Property>
+	   <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+	   <Property name="captionGap" value="7"/>
+	   <Property name="sysBtnOffset" value="-1, 0"/>
+	   <Property name="sizeGripOffset" value="-5, -5"/>
+	   <Property name="captionTxtActivateClr" value="0xA9670B"/>
+	   <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+	   <Property name="border" value="0, 0, 0, 0"/>
+	   <Property name="ncRegion" value="0, 0, 0, 0"/>
+	   <Property name="withClientBkg" value="true"/>
+	   <Property name="alphaWin" value="false"/>
+	   <Property name="minSize" value="432,307"></Property>
+	   <Property name="fastRgn" value="true"></Property>
+	</Config>
+	
+	<Config name="standardWin" interface="IBGCommonWin">
+       <Property name="selfDrawCaption" value="true"/>
+	   <Property name="windowBkg">
+	     <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\windowBkg1.png" transparent="true" stretchArea="5,5,195,95"/>
+	   </Property>
+	   <Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+	   <Property name="captionGap" value="7"/>
+	   <Property name="sysBtnOffset" value="-1, 0"/>
+	   <Property name="sizeGripOffset" value="-5, -5"/>
+	   <Property name="captionTxtActivateClr" value="0xA9670B"/>
+	   <Property name="captionTxtInactivateClr" value="0xA8A8A8"/>
+	   <Property name="border" value="0, 0, 0, 0"/>
+	   <Property name="ncRegion" value="0, 0, 0, 0"/>
+	   <Property name="withClientBkg" value="true"/>
+	   <Property name="alphaWin" value="false"/>
+	   <Property name="toolWin" value="true"/>
+	   <Property name="minSize" value="432,307"></Property>
+	   <Property name="fastRgn" value="true"></Property>
+	</Config>
+    <Config name="snddockWnd" interface="IBGCommonWin">
+		<Property name="windowBkg">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\WindowBk_New.png" transparent="true" stretchArea="190,144,218,189">
+			</IBGVeins>
+		</Property>
+		<Property name="clientBkg">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\StandardWin\clientBkg.bmp" transparent="true" stretchArea="12,9,64,43" changeLight="false">
+			</IBGVeins>
+		</Property>
+		<Property name="sizeGrip" value="Resource:\Texture\SizeGrip\bottomRight.png"/>
+		<Property name="captionGap" value="3"/>
+		<Property name="sysBtnOffset" value="-4, 5"/>
+		<Property name="sizeGripOffset" value="-5, -5"/>
+		<Property name="captionTxtActivateClr" value="0xFFFFFF"/>
+		<Property name="captionTxtInactivateClr" value="0xFFFFFF"/>
+		<Property name="border" value="5, 5, 5, 5"/>
+		<Property name="ncRegion" value="-3, 22, -3, -3"/>
+		<Property name="captionTxtFont">
+			<IBGFont height="18" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="微软雅黑"/>
+		</Property>
+	</Config>
+	<Config name="verticalScrollBar" interface="IBGScrollBar">
+		<Property name="towardType" value="ScrollBarType_Vertical"/>
+		
+		<Property name="northAwNormal">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" transparent="true" veinsRect="16,0,32,16" changeLight="false"/>
+		</Property>
+		<Property name="northAwOn">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" transparent="true" veinsRect="32,0,48,16" changeLight="false"/>
+		</Property>
+		<Property name="northAwPush">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" transparent="true" veinsRect="48,0,64,16" changeLight="false"/>
+		</Property>
+		
+		<Property name="southAwNormal">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" transparent="true" veinsRect="16,16,32,32" changeLight="false"/>
+		</Property>
+		<Property name="southAwOn">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" transparent="true" veinsRect="32,16,48,32" changeLight="false"/>
+		</Property>
+		<Property name="southAwPush">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" transparent="true" veinsRect="48,16,64,32" changeLight="false"/>
+		</Property>
+		
+		
+		<Property name="vSliderNormal">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" veinsRect="16,34,32,112" stretchArea="16, 44, 32, 104" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="vSliderOn">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" veinsRect="32,34,48,112" stretchArea="32, 44, 48, 104" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="vSliderPush">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\vscrollbar_web.PNG" veinsRect="48,34,64,112" stretchArea="48, 44, 64, 104" transparent="true" changeLight="false"/>
+		</Property>
+		
+		<Property name="vBkg">
+		    <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\vscrollbar_web_bkg.PNG" veinsRect="0,0,16,18" stretchArea="0, 5, 16, 13" transparent="true" changeLight="false"/>
+		</Property>
+	</Config>
+	<Config name="horizontalScrollBar" interface="IBGScrollBar">
+		<Property name="towardType" value="ScrollBarType_Horizontal"/>
+		<Property name="westAwNormal">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" transparent="true" veinsRect="0,16,16,32" changeLight="false"/>
+		</Property>
+		<Property name="westAwOn">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" transparent="true" veinsRect="0,32,16,48" changeLight="false"/>
+		</Property>
+		<Property name="westAwPush">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" transparent="true" veinsRect="0,48,16,64" changeLight="false"/>
+		</Property>
+		<Property name="eastAwNormal">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" transparent="true" veinsRect="16,16,32,32" changeLight="false"/>
+		</Property>
+		<Property name="eastAwOn">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" transparent="true" veinsRect="16,32,32,48" changeLight="false"/>
+		</Property>
+		<Property name="eastAwPush">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" transparent="true" veinsRect="16,48,32,64" changeLight="false"/>
+		</Property>
+		
+		<Property name="hSliderNormal">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" veinsRect="34,16,112,32" stretchArea="44,16,104,32" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="hSliderOn">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" veinsRect="34,32,112,48" stretchArea="44,32,104,48" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="hSliderPush">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\hscrollbar_web.PNG" veinsRect="34,48,112,64" stretchArea="44,48,104,64" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="hBkg">
+		    <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\hscrollbar_web_bkg.PNG" veinsRect="0,0,18,16" stretchArea="5, 0, 13, 16" transparent="true" changeLight="false"/>
+		</Property> 
+	</Config>
+	<Config name="verticalScrollBarApp" interface="IBGScrollBar">
+		<Property name="towardType" value="ScrollBarType_Vertical"/>
+		
+		<Property name="northAwNormal">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="18,0,36,18" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="northAwOn">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="36,0,54,18" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="northAwPush">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="54,0,72,18" transparent="true" changeLight="false"/>
+		</Property>
+		
+		<Property name="southAwNormal">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="18,17,36,35" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="southAwOn">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="36,17,54,35" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="southAwPush">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="54,17,72,35" transparent="true" changeLight="false"/>
+		</Property>
+		
+		
+		<Property name="vSliderNormal">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="18,34,36,112" stretchArea="18, 44, 36, 104" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="vSliderOn">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="36,34,54,112" stretchArea="36, 44, 54, 104" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="vSliderPush">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\vscrollbar.PNG" veinsRect="54,34,72,112" stretchArea="54, 44, 72, 104" transparent="true" changeLight="false"/>
+		</Property>
+		
+		<Property name="vBkg">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\vscrollbar_bkg.PNG" veinsRect="0,0,18,25" stretchArea="0, 8, 18, 18" transparent="true" changeLight="false"/>
+		</Property> 
+	</Config>
+	<Config name="horizontalScrollBarApp" interface="IBGScrollBar">
+		<Property name="towardType" value="ScrollBarType_Horizontal"/>
+		<Property name="westAwNormal">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" transparent="true" veinsRect="0,18,18,36" changeLight="false"/>
+		</Property>
+		<Property name="westAwOn">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" transparent="true" veinsRect="0,36,18,54" changeLight="false"/>
+		</Property>
+		<Property name="westAwPush">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" transparent="true" veinsRect="0,54,18,72" changeLight="false"/>
+		</Property>
+		<Property name="eastAwNormal">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" transparent="true" veinsRect="18,18,36,36" changeLight="false"/>
+		</Property>
+		<Property name="eastAwOn">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" transparent="true" veinsRect="18,36,36,54" changeLight="false"/>
+		</Property>
+		<Property name="eastAwPush">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" transparent="true" veinsRect="18,54,36,72" changeLight="false"/>
+		</Property>
+		
+		<Property name="hSliderNormal">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" veinsRect="34,18,114,36" stretchArea="46,18,106,36" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="hSliderOn">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" veinsRect="34,36,114,54" stretchArea="46,36,106,54" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="hSliderPush">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\hscrollbar.PNG" veinsRect="34,54,114,72" stretchArea="46,54,106,72" transparent="true" changeLight="false"/>
+		</Property>
+		<Property name="hBkg">
+		    <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ScrollBar\hscrollbar_bkg.PNG" veinsRect="0,0,25,18" stretchArea="8, 0, 18, 25" transparent="true" changeLight="false"/>
+		</Property> 
+	</Config>
+	<Config name="scrollView" interface="IBGScrollView">
+		<Property name="hConfig" value="horizontalScrollBar"/>
+		<Property name="vConfig" value="verticalScrollBar"/>
+		<Property name="centerBkg">
+			<IBGBrush drawStyle="BRUSH_TYPE_SOLID" clrBegin="0xFFFFFF"/>
+		</Property>
+	</Config>
+	<Config name="comboBox" interface="IBGComboBox">
+		<Property name="txtFont">
+			<IBGFont height="12" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="宋体"/>
+		</Property>
+		<Property name="scrollviewConfig" value="scrollView"/>		
+		<Property name="btnNormalDraw" comment="按钮普通状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Normal.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="btnOnDraw" comment="按钮高亮状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Highlight.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="btnDownDraw" comment="按钮按下状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Pushed.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="normalBkg">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_normal.png" transparent="true" stretchArea="2,2,78,19" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="onBkg" comment="ComboBox高亮背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_down.png" transparent="true" stretchArea="4,4,76,17" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="downBkg" comment="ComboBox按下背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_down.png" transparent="true" stretchArea="4,4,76,17" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="borderSize" value="5,6,0,3" comment="ComboBox边框宽度"/>
+		<Property name="listBkg" comment="下拉框的背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\ListBkg.png" transparent="true" stretchArea="4,4,34,12" changeLight="false">
+			</IBGVeins>
+		</Property>
+		<Property name="itemOnBkg" comment="Item的高亮状态背景">
+			<IBGBrush clrBegin="0xEEA658" drawStyle="BRUSH_TYPE_SOLID"/>
+		</Property>
+		<Property name="itemNormalBkg" comment="Item的普通状态背景">
+			<IBGBrush clrBegin="0xFFFFFF" drawStyle="BRUSH_TYPE_SOLID"/>
+		</Property>
+		<Property name="droplistHeight" value="100"/>
+		<Property name="listBorderSize" value="2,2,2,2"/>
+		<Property name="itemHeight" value="23"/>
+	</Config>
+	<Config name="loginComboBox" interface="IBGComboBox">
+		<Property name="txtFont">
+			<IBGFont height="12" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="宋体"/>
+		</Property>
+		<Property name="scrollviewConfig" value="scrollView"/>		
+		<Property name="btnNormalDraw" comment="按钮普通状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Normal.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="btnOnDraw" comment="按钮高亮状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Highlight.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="btnDownDraw" comment="按钮按下状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Pushed.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="normalBkg">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_normal.png" transparent="true" stretchArea="2,2,78,19" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="onBkg" comment="ComboBox高亮背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_down.png" transparent="true" stretchArea="4,4,76,17" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="downBkg" comment="ComboBox按下背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_down.png" transparent="true" stretchArea="4,4,76,17" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="borderSize" value="5,6,0,3" comment="ComboBox边框宽度"/>
+		<Property name="listBkg" comment="下拉框的背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\ListBkg.png" transparent="true" stretchArea="4,4,34,12" changeLight="false">
+			</IBGVeins>
+		</Property>
+		<Property name="itemOnBkg" comment="Item的高亮状态背景">
+			<IBGBrush clrBegin="0xEEA658" drawStyle="BRUSH_TYPE_SOLID"/>
+		</Property>
+		<Property name="itemNormalBkg" comment="Item的普通状态背景">
+			<IBGBrush clrBegin="0xFFFFFF" drawStyle="BRUSH_TYPE_SOLID"/>
+		</Property>
+		<Property name="droplistHeight" value="100"/>
+		<Property name="listBorderSize" value="2,2,2,2"/>
+		<Property name="itemHeight" value="23"/>
+		<Property name="image" comment="编辑框左边图片">
+			<IBGVeins file="Resource:MainFrame\LoginDlg\person.png" drawStyle="DRAWMODE_NORMAL" transparent="true" colorize="false"/>
+		</Property>
+	</Config>
+	<Config name="loginComboBoxNoBtn" interface="IBGComboBox">
+		<Property name="txtFont">
+			<IBGFont height="12" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="宋体"/>
+		</Property>
+		<Property name="scrollviewConfig" value="scrollView"/>
+		<Property name="btnNormalDraw" comment="按钮普通状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Transparent.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="btnOnDraw" comment="按钮高亮状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Transparent.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="btnDownDraw" comment="按钮按下状态的作图">
+			<IBGVeins file="Resource:\Texture\ComboBox\ComboBoxButton_Transparent.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,20,17" changeLight="false"/>
+		</Property>
+		<Property name="normalBkg">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_normal.png" transparent="true" stretchArea="2,2,78,19" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="onBkg" comment="ComboBox高亮背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_down.png" transparent="true" stretchArea="4,4,76,17" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="downBkg" comment="ComboBox按下背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\Combo_down.png" transparent="true" stretchArea="4,4,76,17" changeLight="true">
+			</IBGVeins>
+		</Property>
+		<Property name="borderSize" value="5,6,0,3" comment="ComboBox边框宽度"/>
+		<Property name="listBkg" comment="下拉框的背景">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\ListBkg.png" transparent="true" stretchArea="4,4,34,12" changeLight="false">
+			</IBGVeins>
+		</Property>
+		<Property name="itemOnBkg" comment="Item的高亮状态背景">
+			<IBGBrush clrBegin="0xEEA658" drawStyle="BRUSH_TYPE_SOLID"/>
+		</Property>
+		<Property name="itemNormalBkg" comment="Item的普通状态背景">
+			<IBGBrush clrBegin="0xFFFFFF" drawStyle="BRUSH_TYPE_SOLID"/>
+		</Property>
+		<Property name="listBorderSize" value="2,2,2,2"/>
+		<Property name="droplistHeight" value="0"/>
+		<Property name="image" comment="编辑框左边图片">
+			<IBGVeins file="Resource:MainFrame\LoginDlg\person.png" drawStyle="DRAWMODE_NORMAL" transparent="true" colorize="false"/>
+		</Property>
+	</Config>
+  <Config name="shareComboBox" interface="IBGComboBox">
+    <Property name="txtFont">
+      <IBGFont height="12" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="宋体"/>
+    </Property>
+    <Property name="scrollviewConfig" value="scrollView"/>
+    <Property name="btnNormalDraw" comment="按钮普通状态的作图">
+      <IBGVeins file="Resource:MainFrame\ShareDlg\ComboBoxButton_Normal.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,29,26" changeLight="false"/>
+    </Property>
+    <Property name="btnOnDraw" comment="按钮高亮状态的作图">
+      <IBGVeins file="Resource:MainFrame\ShareDlg\ComboBoxButton_Highlight.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,29,26" changeLight="false"/>
+    </Property>
+    <Property name="btnDownDraw" comment="按钮按下状态的作图">
+      <IBGVeins file="Resource:MainFrame\ShareDlg\ComboBoxButton_Pushed.png" drawStyle="DRAWMODE_33Mesh_TILE" transparent="true" stretchArea="1,4,29,26" changeLight="false"/>
+    </Property>
+    <Property name="normalBkg">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:MainFrame\ShareDlg\Combo_normal.png" transparent="true" stretchArea="4,4,126,26" changeLight="true">
+      </IBGVeins>
+    </Property>
+    <Property name="onBkg" comment="ComboBox高亮背景">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:MainFrame\ShareDlg\Combo_down.png" transparent="true" stretchArea="4,4,126,26" changeLight="true">
+      </IBGVeins>
+    </Property>
+    <Property name="downBkg" comment="ComboBox按下背景">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:MainFrame\ShareDlg\Combo_down.png" transparent="true" stretchArea="4,4,126,26" changeLight="true">
+      </IBGVeins>
+    </Property>
+    <Property name="borderSize" value="5,6,0,3" comment="ComboBox边框宽度"/>
+    <Property name="listBkg" comment="下拉框的背景">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\ComboBox\ListBkg.png" transparent="true" stretchArea="4,4,34,12" changeLight="false">
+      </IBGVeins>
+    </Property>
+    <Property name="itemOnBkg" comment="Item的高亮状态背景">
+      <IBGBrush clrBegin="0xEEA658" drawStyle="BRUSH_TYPE_SOLID"/>
+    </Property>
+    <Property name="itemNormalBkg" comment="Item的普通状态背景">
+      <IBGBrush clrBegin="0xFFFFFF" drawStyle="BRUSH_TYPE_SOLID"/>
+    </Property>
+    <Property name="droplistHeight" value="100"/>
+    <Property name="listBorderSize" value="2,2,2,2"/>
+    <Property name="itemHeight" value="23"/>
+  </Config>
+	<Config name="checkButton" interface="IBGCheckButton">
+		<Property name="checkedNormalTexture" value="Resource:\Texture\CheckButton\CB_CheckedNormal.png"/>
+		<Property name="checkedHighlightTexture" value="Resource:\Texture\CheckButton\CB_CheckedHighlight.png"/>
+		<Property name="checkedPushedTexture" value="Resource:\Texture\CheckButton\CB_CheckedPushed.png"/>
+		<Property name="uncheckedNormalTexture" value="Resource:\Texture\CheckButton\CB_UncheckedNormal.png"/>
+		<Property name="uncheckedHighlightTexture" value="Resource:\Texture\CheckButton\CB_UncheckedHighlight.png"/>
+		<Property name="uncheckedPushedTexture" value="Resource:\Texture\CheckButton\CB_UncheckedPushed.png"/>
+		<Property name="clrText" value="0x636363"/>
+	</Config>
+	<Config name="disableCheckButton" interface="IBGCheckButton">
+		<Property name="checkedNormalTexture" value="Resource:\Texture\CheckButton\CB_CheckedDisable.png"/>
+		<Property name="checkedHighlightTexture" value="Resource:\Texture\CheckButton\CB_CheckedDisable.png"/>
+		<Property name="checkedPushedTexture" value="Resource:\Texture\CheckButton\CB_CheckedDisable.png"/>
+		<Property name="uncheckedNormalTexture" value="Resource:\Texture\CheckButton\CB_UncheckedNormal.png"/>
+		<Property name="uncheckedHighlightTexture" value="Resource:\Texture\CheckButton\CB_UncheckedHighlight.png"/>
+		<Property name="uncheckedPushedTexture" value="Resource:\Texture\CheckButton\CB_UncheckedPushed.png"/>
+		<Property name="clrText" value="0x636363"/>
+	</Config>
+	<Config name="checkButtonBlack" interface="IBGCheckButton">
+		<Property name="checkedNormalTexture" value="Resource:\Texture\CheckButton\CB_CheckedNormal.png"/>
+		<Property name="checkedHighlightTexture" value="Resource:\Texture\CheckButton\CB_CheckedHighlight.png"/>
+		<Property name="checkedPushedTexture" value="Resource:\Texture\CheckButton\CB_CheckedPushed.png"/>
+		<Property name="uncheckedNormalTexture" value="Resource:\Texture\CheckButton\CB_UncheckedNormal.png"/>
+		<Property name="uncheckedHighlightTexture" value="Resource:\Texture\CheckButton\CB_UncheckedHighlight.png"/>
+		<Property name="uncheckedPushedTexture" value="Resource:\Texture\CheckButton\CB_UncheckedPushed.png"/>
+		<Property name="clrText" value="0x000000"/>
+	</Config>
+	<Config name="radioButton" interface="IBGCheckButton">
+		<Property name="checkedNormalTexture" value="Resource:\Texture\RadioButton\RB_SelectedNormal.png"/>
+		<Property name="checkedHighlightTexture" value="Resource:\Texture\RadioButton\RB_SelectedHighlight.png"/>
+		<Property name="checkedPushedTexture" value="Resource:\Texture\RadioButton\RB_SelectedPushed.png"/>
+		<Property name="uncheckedNormalTexture" value="Resource:\Texture\RadioButton\RB_UnselectedNormal.png"/>
+		<Property name="uncheckedHighlightTexture" value="Resource:\Texture\RadioButton\RB_UnselectedHighlight.png"/>
+		<Property name="uncheckedPushedTexture" value="Resource:\Texture\RadioButton\RB_UnselectedPushed.png"/>
+		<Property name="clrText" value="0x636363"/>
+	</Config>
+	
+	<Config name="edit" interface="IBGEdit">
+		<Property name="editPadding" value="5,6,5,4"/>
+		<Property name="staticBkColor" value="0xffffff"/>
+		<Property name="staticTextColor" value="0x666666"/>
+		<Property name="editBkColor" value="0xffffff"/>
+		<Property name="editTextColor" value="0x666666"/>
+		<Property name="bkground">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\Edit\editBkg.png" transparent="true" veinsRect="0, 2, 44, 27" stretchArea="7,7,29,24" changeLight="false"/>
+		</Property>
+		<Property name="font">
+			<IBGFont height="12" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="宋体"/>
+		</Property>
+	</Config>
+
+  <Config name="editNoBorder" interface="IBGEdit">
+    <Property name="editPadding" value="5,6,5,4"/>
+    <Property name="staticBkColor" value="0xf8f8f8"/>
+    <Property name="staticTextColor" value="0x666666"/>
+    <Property name="editBkColor" value="0xffffff"/>
+    <Property name="editTextColor" value="0x666666"/>
+    <Property name="bkground">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\Edit\editBkg.png" transparent="true" veinsRect="4, 4, 40, 25" stretchArea="7,7,29,24" changeLight="false"/>
+    </Property>
+    <Property name="font">
+      <IBGFont height="12" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="宋体"/>
+    </Property>
+  </Config>
+	<Config name="menu" interface="IBGMenu">
+		<Property name="imgSize" value="24, 16"/>
+		<Property name="txtBkgColor" value="0xFFFFFF"/>
+		<Property name="imgBkgColor" value="0xFFFFFF"/>
+		<Property name="onColor" value="0xE6E6E6"/>
+		<Property name="seperatorHeight" value="4"/>
+		<Property name="beyondImgHeight" value="6"/>
+		<Property name="beyongTxtWidth" value="20"/>
+		<Property name="miniWidth" value="100"/>
+		<Property name="widthTxtImg" value="12"/>
+		<Property name="septDraw">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\Menu\MenuSpliter.png" transparent="true" stretchArea="33,0,40,5">
+			</IBGVeins>
+		</Property>
+		<Property name="selBkg">
+			
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\Menu\Menu_selected.png" transparent="true" stretchArea="3,3,15,19">
+			</IBGVeins>
+		</Property>
+
+		<Property name="normalBkg">
+		<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\Menu\Menu_Normal.png" transparent="true" stretchArea="33,4,48,8">
+		</IBGVeins>
+		</Property>
+		<Property name="checkimg" value="Resource:\Texture\Menu\Menu_Check.bmp" />
+		<Property name="arrowDisableTexture" value="Resource:\Texture\Menu\Menu_Check1_Disable.png"/>
+	</Config>
+	<Config name="menuitem" interface="IBGMenuUnit">
+		<Property name="txtClr" value="0x231400"/>
+		<Property name="selTxtClr" value="0x231400"/>
+		<Property name="mask" value="0xC0C0C0"/>
+		<!--Property name="disableTxtClr" value="0xDCC29D"/-->
+	</Config>
+	<Config name="slider" interface="IBGSlider">
+		<Property name="frg">
+			<IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:\Texture\Slider\Slider_Forground.png" transparent="true" colorize="false" stretchArea="1,0,17,18">
+			</IBGVeins>
+		</Property>
+		<Property name="dragBkg">
+			<IBGVeins drawStyle="DRAWMODE_NORMAL" file="Resource:\Texture\Slider\Slider_Sliderbar.png" transparent="true" changeLight="false">
+			</IBGVeins>
+		</Property>
+		<Property name="bkground">
+			<IBGVeins drawStyle="DRAWMODE_TILE" file="Resource:\Texture\Slider\Slider_Background.png" transparent="true" changeLight="false">
+			</IBGVeins>
+		</Property>
+		<Property name="showBar" value="true"/>
+		<Property name="textColorize" value="false"/>
+	</Config>
+		<Config name="noColorizeTexture" interface="IBGVeins">
+		<Property name="colorize" value="false"/>
+	</Config>	
+	<Config name="noChangeLightTexture" interface="IBGVeins">
+		<Property name="changeLight" value="false"/>
+	</Config>		
+	<Config name="verticalSplitter" interface="IBGButton">
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\ChatFrame\slite_open_normal.png" transparent="TRUE" changeLight="false"/>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\ChatFrame\slite_open_over.png" transparent="TRUE" changeLight="false"/>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\ChatFrame\slite_open_down.png" transparent="TRUE" changeLight="false"/>
+		</Property>
+		<Property name="normalDraw2">
+			<IBGVeins file="Resource:\ChatFrame\slite_close_normal.png" transparent="TRUE" changeLight="false"/>
+		</Property>
+		<Property name="onDraw2">
+			<IBGVeins file="Resource:\ChatFrame\slite_close_over.png" transparent="TRUE" changeLight="false"/>
+		</Property>
+		<Property name="downDraw2">
+			<IBGVeins file="Resource:\ChatFrame\slite_close_down.png" transparent="TRUE" changeLight="false"/>
+		</Property>
+	</Config>
+</ConfigSet>

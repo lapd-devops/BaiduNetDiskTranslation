@@ -1,5 +1,5 @@
 <UI version="1.0">
-	<IBGCommonWin name="unlockDialog" rect="0,0,500,400" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="true" showMaxButton="false" config="gradualWin">
+	<IBGCommonWin name="unlockDialog" rect="0,0,750,450" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="true" showMaxButton="false" config="gradualWin">
 		<Children>
 			<IBGRegionPanel sizeAsParent="true">
 				<Children>
@@ -33,7 +33,7 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="498,18" margin="0,10,0,0" dock="DOCK_TOP">
 								<Children>
-									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2868" margin="60, 0, 0, 0" dock="DOCK_LEFT">
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2868" margin="0, 0, 100, 90" dock="DOCK_LEFT">
 										<Properties>
 											<textFont>
 												<IBGFont height="18"/>

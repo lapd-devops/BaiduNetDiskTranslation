@@ -2,13 +2,13 @@
   <hr pos="0,0,-0,1" size="1" crbg="d6d8dd"/>
   <gifplayer name="gif_status" pos="18,|-10" width="20" height="20" skin="gif_statuspanel_loading" show="0"/>
   <img name="img_status" pos="18,|-8,@16,@16" skin="mainpanel_statuspanel_error" show="0"></img>
-  <text name="txt_status_tip" pos="[6,|-9" height="16" crtext="999999" font="0000:微软雅黑" align="left" show="1"/>
-  
+  <text name="txt_status_tip" pos="[6,|-9" height="16" crtext="999999" font="0000:Arial" align="left" show="1"/>
+
   <dlg name="sharelist_status" pos="[0,1,-174,-0">
     <pagectrl pos="42,|-9,-40,@18" name="file_list_page" prebtn-skin="pagectrl_prebtn_bkg" nextbtn-skin="pagectrl_nextbtn_bkg"
     selClr="478de4" class="pagectrl_num"/>
   </dlg>
-  
+
   <dlg name="func_shortcut_panel" pos="-172,1,-20,-0">
     <gifplayer name="gif_self_define_func_1" pos="]-31,5" width="26" height="26" hovergif="1" skin="gif_statuspanel_net" show="0"/>
     <gifplayer name="gif_self_define_func_2" pos="]-31,5" width="26" height="26" hovergif="1" skin="gif_statuspanel_backup" show="0"/>

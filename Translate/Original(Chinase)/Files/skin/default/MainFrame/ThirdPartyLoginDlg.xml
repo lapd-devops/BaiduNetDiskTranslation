@@ -1,0 +1,83 @@
+<UI version="1.0">
+	<IBGCommonWin name="ThirdPartyLoginDialog" rect="0,0,580,409" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWebWin" toolWin="true">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel name="thirdLoginTitlePanel" margin="0,1,0,0" size="578,33" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,6" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx textClr="0x333333" text="$2415" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							</IBGStaticEx>
+							<IBGButton name="RefreshBtn" toolText="$2422" size="32,20" margin="0, 1, 32, 12" dock="DOCK_RIGHT" unseen="true">
+								<Properties>
+									<normalDraw>
+										<IBGVeins file="Resource:MainFrame\\LoginDlg\\refreshbtn.png" veinsRect="0,0,31,19" transparent="true" colorize="false"/>
+									</normalDraw>
+									<onDraw>
+										<IBGVeins file="Resource:MainFrame\\LoginDlg\\refreshbtn.png" veinsRect="0,40,31,59" transparent="true" colorize="false"/>
+									</onDraw>
+									<downDraw>
+										<IBGVeins file="Resource:MainFrame\\LoginDlg\\refreshbtn.png" veinsRect="0,20,31,39" transparent="true" colorize="false"/>
+									</downDraw>
+								</Properties>
+							</IBGButton>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="578,375" margin="1,0,1,1" sizeAsParent="false" dock="DOCK_FILL" config="webframePanel">
+						<Children>
+							<!-- 第三方登录页面 -->
+							<IBGWebFrame name="thirdWebFramePanel" size="570,365" margin="4,4,4,6" dock="DOCK_FILL"/>
+							<!-- 绑定帐号提示页面 -->
+							<IBGRegionPanel name="bindedPanel" size="580,375" margin="0,0,0,0" dock="DOCK_FILL" unseen="true">
+								<Children>
+									<IBGRegionPanel name="bindedContentPanel" size="170,110" margin="240,110,240,155">
+										<Children>
+											<IBGStaticEx name="bindedTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" margin="0, 0, 0, 10" dock="DOCK_TOP"/>
+											<IBGStaticEx name="accountTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" margin="30, 0, 0, 10" dock="DOCK_TOP"/>
+											<IBGStaticEx textClr="0x636363" text="$2420" autoCalcHeight="true" autoCalcWidth="true" margin="10, 0, 0, 15" dock="DOCK_TOP"/>
+											<IBGButton name="KnownBtn" text="$2421" drawFocus="true" enableFocus="true" size="80,24" margin="30, 0, 60, 0" config="button" dock="DOCK_TOP"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 登录中页面 -->
+							<IBGRegionPanel name="loginingPanel" size="580,375" margin="0,0,0,0" dock="DOCK_FILL" unseen="true">
+								<Children>
+									<IBGRegionPanel name="loginingContentPanel" size="50,45" margin="265,134,265,193">
+										<Children>
+											<IBGGIFControl name="loadingGif" dock="DOCK_TOP" margin="16,0,16,1" image="Resource:MainFrame\\loading.gif" size="18, 18"></IBGGIFControl>
+											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2406" margin="0, 2, 0, 1" dock="DOCK_TOP"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 登录出错页面 -->
+							<IBGRegionPanel name="loginErrPanel" size="580,375" margin="0,0,0,0" dock="DOCK_FILL" unseen="true">
+								<Children>
+									<IBGRegionPanel name="loginErrContentPanel" size="164,70" margin="208,134,208,159">
+										<Children>
+											<IBGStaticEx name="errorTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2412" margin="15, 3, 0, 0" dock="DOCK_TOP"/>
+											<IBGRegionPanel size="164,25" margin="0,22,0,2" dock="DOCK_TOP">
+												<Children>
+													<IBGButton name="ConnectBtn" text="$2413" drawFocus="true" enableFocus="true" size="74,24" margin="0, 0, 0, 1" tabOrder="11" config="defaultBtn" dock="DOCK_LEFT"/>
+													<IBGButton name="CancelBtn" text="$2414" drawFocus="true" enableFocus="true" size="74,24" margin="14, 0, 2, 1" tabOrder="12" config="button" dock="DOCK_LEFT"/>
+												</Children>
+											</IBGRegionPanel>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

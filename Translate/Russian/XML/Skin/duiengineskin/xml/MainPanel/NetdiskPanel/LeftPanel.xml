@@ -13,7 +13,7 @@
 			</template>
 		</listboxex>
 	</dlg>
-		
+
 	<!--广告面板-->
 	<dlg name="dlg_ad" pos="|-72,-230,@145,@160" show="0">
     <!--与AdPanel.xml内容一致-->
@@ -28,7 +28,7 @@
       </dlg>
     </dlg>
 	</dlg>
-	
+
 	<!--容量超限引导-->
 	<dlg name="dlg_quota_guide" pos="0,-165,-0,@120" skin="leftpanel_quotaguide_bg" show="0">
 		<dlg pos="5,5,-5,-12">
@@ -37,18 +37,18 @@
 			<imgbtn name="btn_guide_buy" pos="|-50,-36,@100,@25" class="cls_leftpanel_vip_btn"></imgbtn>
 		</dlg>
 	</dlg>
-	
+
 	<!--会员引导-->
 	<imgbtn name="btn_openvip" pos="0,-85,-0,@40" skin="leftpanel_openvip_btn" crtext="c58c55" cursor="hand" show="0">%str1704%</imgbtn>
-	
+
 	<!--容量展示面板-->
-	<dlg name="dlg_quota" pos="10,-45,-10,-0">
+	<dlg name="dlg_quota" pos="10,-65,-10,-0">
 		<dlg name="progress_bkg" pos="0,0,-0,@10" class="cls_leftpanel_progress_bkg">
 			<dlg name="progress_frg" pos="0,0,0,-0" class="cls_leftpanel_progress_frg_green"/>
 		</dlg>
 		<dlg pos="0,[6,-0,@18">
 			<text name="txt_quota" pos="0,0,@85,-0" crtext="333333" align="left"></text>
-			<link name="link_expand" pos="-60,0,-0,-0" class="cls_btn_weblink" align="right"></link>
+			<link name="link_expand" pos="0,42,@150,0" class="cls_btn_weblink" align="left"></link>
 		</dlg>
 	</dlg>
 	<hr pos="-1,0,-0,-0" size="1" crbg="d6d8dd"/>

@@ -1,0 +1,54 @@
+<UI version="1.0">
+	<IBGCommonWin name="netSettingDialog" rect="0,0,432,209" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWin" toolWin="true">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="430,33" margin="0,1,0,0" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,6" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2563" autoCalcHeight="true" autoCalcWidth="true" margin="4, 9, 0, 5" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="430,183" margin="1,0,1,0" sizeAsParent="false" dock="DOCK_FILL">
+						<Children>
+							<!--中间区域-->
+							<IBGRegionPanel size="430,131" margin="0,0,0,0" dock="DOCK_TOP" config="ProxySettingPanel">
+								<Children>
+									<IBGRegionPanel size="416,20" margin="18,35,18,0" dock="DOCK_TOP">
+										<Children>
+											<IBGStaticEx size="32,16" textClr="0x636363" text="$2564" margin="0,3,2,1" dock="DOCK_LEFT"/>
+											<IBGComboBox name="proxyType" tabOrder="13" enableFocus="true" size="136, 20" config="comboBox" defaultText="$2570" style="ComboBoxStyle_DropList" dock="DOCK_LEFT" margin="0,0,0,0"/>
+										</Children>
+									</IBGRegionPanel>
+									<IBGRegionPanel size="416,20" margin="18,18,18,0" dock="DOCK_TOP">
+										<Children>
+											<IBGStaticEx size="32,16" textClr="0x636363" text="$2565" margin="0,3,0,1" dock="DOCK_LEFT"/>
+											<IBGEdit size="140, 20" margin="0, 0, 0, 0" name="proxyAddr" tabOrder="14" dock="DOCK_LEFT" config="seting_edit"/>
+											<IBGStaticEx size="32,16" textClr="0x636363" text="$2566" margin="47,3,0,1" dock="DOCK_LEFT"/>
+											<IBGEdit size="90, 20" margin="0, 0, 0, 0" name="proxyPort" number="true" limitLength="8" tabOrder="15" dock="DOCK_LEFT" config="seting_edit"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 按钮区域 -->
+							<IBGRegionPanel size="430,41" margin="0,0,0,12" dock="DOCK_TOP">
+								<Children>
+									<IBGButton name="CancelBtn" tabOrder="12" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2060" margin="0, 8, 10, 9"/>
+									<IBGButton name="FixedBtn" tabOrder="11" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2054" margin="0, 8, 10, 9"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

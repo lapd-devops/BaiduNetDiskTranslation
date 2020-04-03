@@ -1,5 +1,5 @@
 ﻿<DuiEngine>
-  <font face="微软雅黑" size="12"/>
+  <font face="Arial" size="12"/>
 
   <skins>
     <imgframe name="dlg_frame" src="IDP_MAIN_DLG_FRAME" left="5" right="5" top="40" bottom="60"/>

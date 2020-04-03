@@ -1,0 +1,73 @@
+<UI version="1.0">
+	<IBGCommonWin name="UserGuideDialog" rect="0,0,552,400" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="true" showMaxButton="false" config="standardWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="552,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false" config="GuideTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,6,0,4" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0xffffff" text="$2557" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 页面1 -->
+					<IBGRegionPanel name="GuidePage1" size="552,370" margin="0,0,0,0" dock="DOCK_FILL" sizeAsParent="false" unseen="false">
+						<Children>
+							<IBGRegionPanel size="552,334" margin="0,0,0,0" dock="DOCK_TOP">
+								<Children>
+									<IBGGIFControl dock="DOCK_TOP" margin="0,0,0,0" size="552, 334" image="Resource:MainFrame\UserGuideDlg\guide_01.png"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="552,36" margin="0,0,0,0" dock="DOCK_TOP" config="GuideBottomPanel">
+								<Children>
+									<IBGButton size="72,24" name="NextStepBtn" text="$2560" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="12"/>
+									<IBGButton size="72,24" name="SkipGuideBtn" text="$2558" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="11"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 页面2 -->
+					<IBGRegionPanel name="GuidePage2" size="552,370" margin="0,0,0,0" dock="DOCK_FILL" sizeAsParent="false" unseen="true">
+						<Children>
+							<IBGRegionPanel size="552,334" margin="0,0,0,0" dock="DOCK_TOP">
+								<Children>
+									<IBGGIFControl dock="DOCK_TOP" margin="0,0,0,19" size="552, 334" image="Resource:MainFrame\UserGuideDlg\guide_02.png"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="552,36" margin="0,0,0,0" dock="DOCK_TOP" config="GuideBottomPanel">
+								<Children>
+									<IBGButton size="72,24" name="Page2NextStepBtn" text="$2560" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="22"/>
+									<IBGButton size="72,24" name="Page2PrevStepBtn" text="$2559" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="21"/>
+									<IBGButton size="72,24" name="Page2SkipGuideBtn" text="$2558" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="20"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 页面3 -->
+					<IBGRegionPanel name="GuidePage3" size="552,370" margin="0,0,0,0" dock="DOCK_FILL" sizeAsParent="false" unseen="true">
+						<Children>
+							<IBGRegionPanel size="552,334" margin="0,0,0,0" dock="DOCK_TOP">
+								<Children>
+									<IBGGIFControl dock="DOCK_TOP" margin="0,0,0,48" size="552, 334" image="Resource:MainFrame\UserGuideDlg\guide_03.png"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="552,36" margin="0,0,0,0" dock="DOCK_TOP" config="GuideBottomPanel">
+								<Children>
+									<IBGButton size="72,24" name="Page3FinishBtn" text="$2561" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="41"/>
+									<IBGButton size="72,24" name="Page3PrevStepBtn" text="$2559" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="42"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

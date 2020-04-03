@@ -1,0 +1,206 @@
+<UI version="1.0">
+	<IBGCommonWin name="shareDialog" rect="0,0,630,499" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题-->
+					<IBGRegionPanel size="550,35" margin="0,1,0,0" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,8" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStatic name="title_name" size="500,0" endEllipsis="true" ncHitTest="0" color="0x333333" colorHilight="0x333333" colorPushed="0x333333" autoCalcHeight="true" autoCalcWidth="false" margin="7, 9, 1, 10" dock="DOCK_LEFT">
+							</IBGStatic>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 顶部按钮区域 -->
+					<IBGRegionPanel size="300, 39" margin="1,10,1,0" dock="DOCK_TOP">
+						<Properties>
+							<bkground>
+								<IBGVeins file="Resource:MainFrame\ShareDlg\tab_line.png" transparent="true" colorize="false"/>
+							</bkground>
+						</Properties>
+						<Children>
+							<IBGButton name="linkShareBtn" dock="DOCK_LEFT" size="118,39" text="$2206" config="ShareTabButton" margin="20, 0, 3, 0"/>
+							<IBGButton name="messageShareBtn" dock="DOCK_LEFT" size="118,39" text="$2207" config="ShareTabButtonUnselect" margin="3, 0, 0, 0"/>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="628,414" margin="1,0,1,0" sizeAsParent="false" dock="DOCK_FILL">
+						<Children>
+							<IBGRegionPanel name="linkSharePanel" size="590,414" margin="19,0,19,0" dock="DOCK_FILL">
+								<Children>
+									<IBGRegionPanel name="preCreatePanel" size="590,378" margin="0,0,0,0" dock="DOCK_TOP">
+										<Children>
+											<IBGRegionPanel name="shareTypePanel" size="590,100" margin="0,20,0,0" dock="DOCK_TOP">
+												<Children>
+													<IBGStaticEx size="65,16" textClr="0x333333" text="$2210" margin="18,40,0,0" dock="DOCK_LEFT"/>
+													<IBGRegionPanel name="shareTypeSelectPanel" size="400,60" margin="14,40,0,0" dock="DOCK_LEFT">
+														<Children>
+															<IBGRadioLogic name="linkShareType"/>
+															<IBGRegionPanel name="privateLinkPanel" size="400,16" margin="0,0,0,0" dock="DOCK_TOP">
+																<Children>
+																	<IBGCheckButton name="privateLinkType" size="75,16" clrText="0x333333" text="$2208" config="radioButton" check="true" radio="true" margin="0, 0, 0, 0" dock="DOCK_LEFT"/>
+																	<IBGStaticEx size="300,16" textClr="0x666666" text="$2205" margin="10,0,0,0" dock="DOCK_LEFT"/>
+																</Children>
+															</IBGRegionPanel>
+															<IBGRegionPanel name="publicLinkPanel" size="400,17" margin="0,24,0,3" dock="DOCK_TOP">
+																<Children>
+																	<IBGCheckButton name="publicLinkType" size="75,16" clrText="0x333333" text="$2209" config="radioButton" radio="true" margin="0, 0, 0, 1" dock="DOCK_LEFT"/>
+																	<IBGStaticEx name="publicLinkTypeText" size="220,16" textClr="0x666666" text="$2204" margin="10,0,0,1" dock="DOCK_LEFT"/>
+																</Children>
+															</IBGRegionPanel>
+														</Children>
+													</IBGRegionPanel>
+												</Children>
+											</IBGRegionPanel>
+											<IBGRegionPanel name="expireTypePanel" size="590,66" margin="0,60,0,0" dock="DOCK_TOP">
+												<Children>
+													<IBGStaticEx size="65,16" textClr="0x333333" text="$2216" margin="18,0,0,50" dock="DOCK_LEFT"/>
+													<IBGRegionPanel name="expireDaysSelectPanel" size="490,16" margin="14,0,0,50" dock="DOCK_LEFT">
+														<Children>
+															<IBGRadioLogic name="linkDayType"/>
+															<IBGCheckButton name="noExpireDayType" size="70,16" clrText="0x333333" text="$2217" config="radioButton" check="true" radio="true" margin="0, 0, 0, 0" dock="DOCK_LEFT"/>
+															<IBGCheckButton name="Expire7DayType" size="40,16" clrText="0x333333" text="$2218" config="radioButton" check="false" radio="true" margin="40, 0, 0, 0" dock="DOCK_LEFT"/>
+															<IBGCheckButton name="Expire1DayType" size="40,16" clrText="0x333333" text="$2219" config="radioButton" check="false" radio="true" margin="40, 0, 0, 0" dock="DOCK_LEFT"/>
+														</Children>
+													</IBGRegionPanel>
+												</Children>
+											</IBGRegionPanel>
+											<IBGRegionPanel size="590,40" margin="0,24,0,0" dock="DOCK_TOP">
+												<Children>
+													<IBGGIFControl name="creatingGif" dock="DOCK_LEFT" margin="313,4,0,0" unseen="true" image="Resource:\\MainFrame\\FileVersionDlg\\loading.gif" size="18, 18"></IBGGIFControl>
+													<IBGStaticEx size="200,14" textClr="0xFFA806" text="$2201" name="creatingTip" unseen="true" margin="8,11,0,0" dock="DOCK_LEFT"/>
+													<IBGStaticEx size="200,16" textClr="0x0000FF" name="createErrorTip" unseen="true" margin="313,9,0,0" dock="DOCK_LEFT"/>
+												</Children>
+											</IBGRegionPanel>
+											<IBGRegionPanel name="createSharePanel" size="590,40" margin="0,0,0,0" dock="DOCK_TOP">
+												<Children>
+													<IBGButton name="createLinkBtn" enable="true" dock="DOCK_LEFT" enableFocus="false" size="120,36" config="createShareLinkBtn" text="$2200" margin="313, 2, 0, 2"/>
+													<IBGButton name="cancelBtn" tabOrder="12" dock="DOCK_LEFT" enableFocus="true" size="120,36" config="button" text="$2215" margin="14, 2, 23, 2"/>
+												</Children>
+											</IBGRegionPanel>
+										</Children>
+									</IBGRegionPanel>
+									<IBGRegionPanel name="postCreatePanel" unseen="TRUE" size="590,378" margin="0,0,0,0" dock="DOCK_TOP">
+										<Children>
+											<IBGRegionPanel name="linkDescPanel" size="590,70" margin="0,10,0,0" dock="DOCK_TOP">
+												<Children>
+													<IBGGIFControl name="linkTypeImage" dock="DOCK_LEFT" margin="22,27,2,5" size="38, 38"></IBGGIFControl>
+													<IBGRegionPanel size="550,50" margin="12,24,0,0" dock="DOCK_LEFT">
+														<Children>
+															<IBGStaticEx size="65,25" name="linkCopySucceedTip" textClr="0xFFA806" text="$2212" margin="0,0,0,0" dock="DOCK_TOP">
+																<Properties>
+																	<textFont>
+																		<IBGFont height="20" facename="微软雅黑"/>
+																	</textFont>
+																</Properties>
+															</IBGStaticEx>
+															<IBGStaticEx size="65,16" textClr="0x999999" text="$2203" margin="0,0,0,0" dock="DOCK_TOP"/>
+														</Children>
+													</IBGRegionPanel>
+												</Children>
+											</IBGRegionPanel>
+											<IBGRegionPanel name="linkPasswordPanel" size="590,236" margin="0,32,0,0" dock="DOCK_TOP">
+												<Children>
+													<IBGRegionPanel name="linkPanel" size="590,40" margin="0,0,0,0" dock="DOCK_TOP">
+														<Children>
+															<IBGStaticEx size="30,16" textClr="0x333333" text="$2155" margin="22,10,0,0" dock="DOCK_LEFT"/>
+															<IBGRegionPanel size="500,32" margin="14,5,0,5" dock="DOCK_LEFT" config="ShareLinkPanel">
+																<Children>
+																	<IBGEdit size="400, 28" margin="7, 1, 93, 4" name="linkAddr" dock="DOCK_LEFT" readOnly="true" config="editShareLinkNoBorder"/>
+																	<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" name="expireDaysTip" textClr="0x666666" text="$2217" margin="0,6,10,4" dock="DOCK_RIGHT"/>
+																</Children>
+															</IBGRegionPanel>
+														</Children>
+													</IBGRegionPanel>
+													<IBGRegionPanel size="590,16" margin="0,0,0,0" dock="DOCK_TOP">
+														<Children>
+															<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" name="copySuccessTip" textClr="0xFFA806" unseen="true" text="$2202" margin="0,0,100,0" dock="DOCK_RIGHT"/>
+														</Children>
+													</IBGRegionPanel>
+													<IBGRegionPanel size="590,40" margin="0,0,0,0" dock="DOCK_TOP">
+														<Children>
+															<IBGStaticEx size="44,16" name="passwordDesc" textClr="0x333333" text="$2157" margin="22,8,0,0" dock="DOCK_LEFT"/>
+															<IBGRegionPanel size="50,32" name="passwordPanel" margin="0,5,0,5" dock="DOCK_LEFT" config="ShareLinkPanel">
+																<Children>
+																	<IBGEdit size="42, 28" margin="7, 1, 1, 4" name="linkPassword" dock="DOCK_LEFT" readOnly="true" config="editShareLinkNoBorder"/>
+																</Children>
+															</IBGRegionPanel>
+															<IBGButton name="copyLinkBtn" enable="true" dock="DOCK_RIGHT" enableFocus="false" size="128,36" config="createShareLinkBtn" text="$2145" margin="0, 2, 22, 2"/>
+														</Children>
+													</IBGRegionPanel>
+													<!-- 二维码区域 -->
+													<IBGRegionPanel size="590,124" margin="0,16,0,0" dock="DOCK_TOP">
+														<Children>
+															<IBGStaticEx size="44,16" name="qrcodeDesc" textClr="0x333333" text="$2158" margin="22,8,0,0" dock="DOCK_LEFT"/>
+															<IBGRegionPanel name="noQrcodePanel" size="114, 114" margin="14,10,0,0" dock="DOCK_LEFT">
+																<Properties>
+																	<bkground>
+																		<IBGVeins file="Resource:MainFrame\ShareDlg\DefQrcode.png" transparent="true" colorize="false"/>
+																	</bkground>
+																</Properties>
+																<Children>
+																	<IBGStaticEx size="82,16" name="qrcodeCreatingTip" textClr="0x333333" text="$2165" margin="16,50,16,48" dock="DOCK_TOP"/>
+																	<IBGRegionPanel name="qrcodeErrorTipPanel" size="90,44" margin="12,35,12,35" dock="DOCK_TOP" unseen="true">
+																		<Children>
+																			<IBGStaticEx size="50,16" textClr="0x333333" text="$2166" margin="20,8,20,4" dock="DOCK_TOP"/>
+																			<IBGButton name="retryQrcodeBtn" dock="DOCK_TOP" size="50,16" config="iconButtonRetry" text="$2167" margin="18, 0, 22, 0"/>
+																		</Children>
+																	</IBGRegionPanel>
+																</Children>
+															</IBGRegionPanel>
+															<IBGRegionPanel name="qrcodePanel" size="440, 114" margin="14,10,0,0" dock="DOCK_LEFT" unseen="true">
+																<Children>
+																	<IBGGIFControl name="qrcodeImage" dock="DOCK_LEFT" margin="0,0,0,0" size="114,114"></IBGGIFControl>
+																	<IBGRegionPanel size="326,110" margin="24,4,0,0" dock="DOCK_LEFT">
+																		<Children>
+																			<IBGStaticEx size="126,16" textClr="0x333333" text="$2159" margin="0,0,200,2" dock="DOCK_TOP"/>
+																			<IBGStaticEx name="qrcodeScanTip" size="326,16" textClr="0x333333" text="$2161" margin="0,0,0,0" dock="DOCK_TOP"/>
+																			<IBGRegionPanel size="326,36" margin="0,12,0,0" dock="DOCK_TOP">
+																				<Children>
+																					<IBGButton name="copyQrcodeBtn" dock="DOCK_LEFT" size="86,36" config="createShareLinkBtn" text="$2162" margin="0, 0, 0, 0"/>
+																					<IBGStaticEx name="qrcodeContainPwdTip" size="230,16" textClr="0x999999" text="$2163" margin="10,12,0,0" unseen="true" dock="DOCK_TOP"/>
+																				</Children>
+																			</IBGRegionPanel>
+																			<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" name="copyQrcodeSuccessTip" textClr="0xFFA806" unseen="true" text="$2164" margin="6,8,0,0" dock="DOCK_TOP"/>
+																		</Children>
+																	</IBGRegionPanel>
+																</Children>
+															</IBGRegionPanel>
+														</Children>
+													</IBGRegionPanel>
+												</Children>
+											</IBGRegionPanel>
+											<IBGRegionPanel size="590,40" margin="0,0,0,10" dock="DOCK_BOTTOM">
+												<Children>
+													<IBGButton name="closeBtn" tabOrder="12" dock="DOCK_RIGHT" enableFocus="true" size="128,36" config="button" text="$2214" margin="0, 2, 23, 2"/>
+												</Children>
+											</IBGRegionPanel>
+										</Children>
+									</IBGRegionPanel>
+									<IBGStaticEx size="572,16" textClr="0x999999" text="$2211" name="policyWarnning" margin="18,0,0,20" dock="DOCK_TOP"/>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel name="messageSharePanel" size="628,435" unseen="true" margin="0,0,0,0" dock="DOCK_FILL">
+								<Children>
+									<!-- 好友、群组选择页面 -->
+									<IBGWebFrame name="webFramePanel" size="542,415" margin="1,1,1,1" dock="DOCK_FILL"/>
+									<!-- 网络异常页面 -->
+									<IBGRegionPanel name="netErrPanel" size="628,435" margin="0,0,0,0" dock="DOCK_FILL" unseen="true">
+										<Children>
+											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2120" margin="265,160,265,185" dock="DOCK_TOP"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

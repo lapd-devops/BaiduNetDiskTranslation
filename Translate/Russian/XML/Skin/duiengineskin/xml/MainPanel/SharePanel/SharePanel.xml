@@ -303,20 +303,20 @@
     <!--好友空面板-->
     <dlg name="FriendEmptyPanel" pos="|-125,|-135" width="250" height="270" show="0">
       <img pos="|-90,0" width="181" height="127" skin="share_empty_img" />
-      <text pos="0,170,-0,190" class="share_empty_text">%str327%</text>
-      <imgbtn name="add_friend_btn" pos="|-63,210" width="126" height="34" animate="true" class="share_file_btn" >%str319%</imgbtn>
+      <text pos="0,170,-0,250" class="share_empty_text">%str327%</text>
+      <imgbtn name="add_friend_btn" pos="|-63,210" width="135" height="34" animate="true" class="share_file_btn" >%str319%</imgbtn>
     </dlg>
     <!--群组空面板-->
     <dlg name="GroupEmptyPanel" pos="|-125,|-135" width="250" height="270" show="0">
       <img pos="|-90,0" width="181" height="127" skin="share_empty_img" />
       <text pos="0,170,-0,190" class="share_empty_text">%str328%</text>
-      <imgbtn name="create_group_btn" pos="|-63,210" width="126" height="34" animate="true" class="share_file_btn" >%str318%</imgbtn>
+      <imgbtn name="create_group_btn" pos="|-63,210" width="135" height="34" animate="true" class="share_file_btn" >%str318%</imgbtn>
     </dlg>
     <!--会话空面板-->
     <dlg name="SessionEmptyPanel" pos="|-182,|-128" width="364" height="256" show="1">
       <img pos="0,0" width="364" height="158" skin="share_emptysession_bkg" />
       <text pos="0,178,-0,198" class="share_empty_text">%str360%</text>
-      <imgbtn name="share_file2friend_btn" pos="|-63,220" width="126" height="34" animate="true" class="share_file_btn" >%str361%</imgbtn>
+      <imgbtn name="share_file2friend_btn" pos="|-63,220" width="135" height="34" animate="true" class="share_file_btn" >%str361%</imgbtn>
     </dlg>
   </dlg>
 </dlg>

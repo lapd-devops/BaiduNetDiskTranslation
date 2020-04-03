@@ -394,7 +394,7 @@
   <String id="IDS_STATIC_VCODE" value="Проверочный код:" />
   <String id="IDS_STATIC_INPUT_VCODE_TIP" value="Пожалуйста, введите проверочный код" />
   <String id="IDS_STATIC_QUIT_APP_TIP" value="Выйти немедленно?" />
-  <String id="IDS_STATIC_APP_TITLE_NAME" value="Baidu NetDisk (русскификация от ZloiSupport)" />
+  <String id="IDS_STATIC_APP_TITLE_NAME" value="Baidu NetDisk" />
   <String id="IDS_STATIC_USERNAME_FORMAT_ERROR_TIP" value="Неверный формат" />
   <String id="IDS_STATIC_USERNAME_NOT_EXIST_TIP" value="Пользователь не существует" />
   <String id="IDS_STATIC_USERNAME_INPUT_TIP" value="Пожалуйста, введите учетную запись Baidu" />
@@ -667,7 +667,7 @@
   <String id="IDS_FUNCMANAGEDLG_ADD_APP" value="Добавлять" />
 
   <!--Меню и текст подсказки-->
-  <String id="IDS_COMMON_EXIT" value="Выход из программы" />
+  <String id="IDS_COMMON_EXIT" value="Выйти из программы" />
   <String id="IDS_COMMON_SETTING" value="Параметры" />
   <String id="IDS_COMMON_HELP" value="Помощь" />
   <String id="IDS_COMMON_HELPCONTENT" value="Помощь онлайн" />
@@ -944,7 +944,7 @@
   <String id="IDS_UNLOCKDLG_QRCODE_TIP" value="Сканирование кода для разблокировки>" />
   <String id="IDS_UNLOCKDLG_QRCODE_UNLOCKING_TIP" value="Разблокировка" />
   <String id="IDS_UNLOCKDLG_QRCODE_SCAN_SUCCESS_TIP" value="Отсканировано успешно, подтвердите разблокировку на мобильном телефоне" />
-  <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TIP" value="Для обеспечения конфиденциальности и безопасности файлов сетевой диск заблокирован. Не влияет на текущие задачи передачи" />
+  <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TIP" value="Для обеспечения конфиденциальности и безопасности файлов сетевой диск заблокирован. \n Не влияет на текущие задачи передачи" />
   <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TOOLTIP" value="Вы заблокировали сетевой диск с помощью ручной блокировки / автоматической блокировки на долгое время без операции / автоматической блокировки сетевого диска, когда компьютер заблокирован. Функция блокировки сетевого диска предназначена для защиты вашей конфиденциальности, и вы можете управлять им в настройках безопасности." />
 
   <!--Горячая клавиша, блокировка клиента-->

@@ -1,0 +1,55 @@
+<UI version="1.0">
+	<IBGCommonWin name="PowerOffDlg" rect="0,0,362,180" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="false" showMinButton="false" showMaxButton="false" config="mainPanel">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="360,28" dock="DOCK_TOP" margin="3, 3, 0, 0" sizeAsParent="false" ncHitTest="0">
+						<Children>
+							<IBDGuiCell size="24,20" margin="0,3,0,5" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2696" autoCalcHeight="true" autoCalcWidth="true" margin="6, 6, 0, 6" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="360,150" margin="0,30,0,0" sizeAsParent="false" dock="DOCK_FILL">
+						<Children>
+							<IBGRegionPanel size="360,85" margin="0,0,0,0" sizeAsParent="false" dock="DOCK_TOP">
+								<Children>
+									<IBGRegionPanel name="synctippanel" size="360,56" sizeAsParent="false" dock="DOCK_TOP">
+										<Children>
+											<IBDGuiCell size="34,34" margin="60,3,0,19" dock="DOCK_LEFT">
+												<Properties>
+													<bkground>
+														<IBGVeins file="Resource:\Texture\MsgBox\ico_warning.png" transparent="true" colorize="false"/>
+													</bkground>
+												</Properties>
+											</IBDGuiCell>
+											<IBGStaticEx text="$2697" autoCalcHeight="true" margin="3, 14, 0, 3" autoCalcWidth="true" dock="DOCK_LEFT">
+											</IBGStaticEx>
+											<IBGStaticEx name="shutdowntip" autoCalcHeight="true" textClr="0x0000ff" autoCalcWidth="true" margin="3, 14, 0, 3" dock="DOCK_LEFT">
+											</IBGStaticEx>
+											<IBGStaticEx text="$2698" autoCalcHeight="true" margin="3, 14, 0, 3" autoCalcWidth="true" dock="DOCK_LEFT">
+											</IBGStaticEx>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<IBGRegionPanel size="360,25" margin="0,18,0,1" sizeAsParent="false" dock="DOCK_BOTTOM">
+								<Children>
+									<IBGButton name="shutdownButton" text="$2699" size="80,24" margin="170, 1, 15, 0" tabOrder="14" config="button" dock="DOCK_LEFT"/>
+									<IBGButton name="cancelButton" text="$2700" size="80,24" margin="30, 1, 15, 0" tabOrder="15" config="button" dock="DOCK_RIGHT"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

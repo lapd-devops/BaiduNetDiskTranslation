@@ -1,0 +1,83 @@
+<UI version="1.0">
+	<IBGCommonWin name="deviceListDialog" rect="0,0,414,308" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" toolWin="true" showMinButton="false" showMaxButton="false" config="standardWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="414,35" margin="0,1,0,0" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,8" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStatic name="title_name" text="$2121" ncHitTest="0" endEllipsis="true" color="0x333333" colorHilight="0x333333" colorPushed="0x333333" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 1, 9" dock="DOCK_LEFT">
+							</IBGStatic>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel name="StatusPanel" size="412,25" margin="20,3,2,3" dock="DOCK_TOP">
+						<Children>
+							<IBGGIFControl name="loadingGif" image="Resource:MainFrame\\loading.gif" dock="DOCK_LEFT" unseen="true" margin="0,3,6,4" size="18, 18"></IBGGIFControl>
+							<IBGStatic name="opTip" size="325,0" singleLine="true" endEllipsis="true" autoCalcHeight="true" unseen="true" autoCalcWidth="false" margin="2, 3, 30, 4" dock="DOCK_LEFT"/>
+							<IBGRegionPanel size="30,25" dock="DOCK_RIGHT" margin="4,0,12,0">
+								<Children>
+									<IBGButton name="refreshBtn" unseen="false" config="DeviceListRefreshBtn" toolText="$2088" margin="4,2,4,3" dock="DOCK_FILL" autoCalcHeight="true" autoCalcWidth="true"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="290,37" margin="0,0,0,0" dock="DOCK_BOTTOM">
+						<Children>
+							<IBGButton name="CancelBtn" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2060" margin="0, 4, 22, 8"/>
+							<IBGButton name="OkBtn" drawFocus="true" enable="false" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2054" margin="0, 4, 10, 9"/>
+						</Children>
+					</IBGRegionPanel>
+					<!--设备列表面板-->
+					<IBGRegionPanel name="devicelist_pannel" unseen="false" size="351,202" dock="DOCK_FILL" margin="22,2,22,2">
+						<Children>
+							<IBGRegionPanel sizeAsParent="true" dock="DOCK_FILL" margin="0,0,0,0" config="BackupListPanel">
+								<Children>
+									<IBGRegionPanel name="list_pannel" sizeAsParent="true" dock="DOCK_FILL" margin="1,1,1,1">
+										<Children>
+											<IBGScrollBar size="0, 18" name="listctrlex_hscrollbar" dock="DOCK_BOTTOM" config="horizontalScrollBarApp" unseen="true"/>
+											<IBGRegionPanel name="ListCtrlExPanel" dock="DOCK_FILL">
+												<Children>
+													<IBGScrollBar size="18, 0" name="listctrlex_scrollbar" dock="DOCK_RIGHT" config="verticalScrollBarApp" unseen="true"/>
+													<IBGRegionPanel size="0, 0" name="listctrlex_panel" dock="DOCK_FILL" unseen="true"/>
+												</Children>
+											</IBGRegionPanel>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!--加载成功，但无设备面板-->
+							<IBGRegionPanel name="empty_pannel" unseen="true" size="349,200" margin="1,1,1,1">
+								<Children>
+									<IBGRegionPanel name="device_empty_pannel" unseen="true" size="349,200">
+										<Children>
+											<IBGStaticEx size="45,15" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2126" margin="12, 18, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+											<IBGStaticEx size="45,15" name="nodevice_step1" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2127" margin="12, 4, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+											<IBGStaticEx size="45,15" name="nodevice_step2" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2128" margin="12, 4, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+											<IBGStaticEx size="45,15" name="nodevice_step3" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2129" margin="12, 4, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+										</Children>
+									</IBGRegionPanel>
+									<IBGRegionPanel name="phone_empty_pannel" size="349,200">
+										<Children>
+											<IBGStaticEx autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2133" margin="12, 18, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+											<IBGStaticEx autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2134" margin="12, 4, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+											<IBGStaticEx autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2135" margin="12, 4, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+											<IBGStaticEx autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2136" margin="12, 4, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+											<IBGStaticEx autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2137" margin="27, 4, 2, 4" dock="DOCK_TOP" config="NoDeviceTipStatic"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

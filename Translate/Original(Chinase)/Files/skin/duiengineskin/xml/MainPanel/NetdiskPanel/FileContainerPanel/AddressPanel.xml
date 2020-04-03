@@ -1,0 +1,27 @@
+<dlg  name="AddressPanel" skin="mainpanel_addresspanel_bkg" pos="0,0,-0,-0">
+  <imgbtn name="btn_back" skin="mainpanel_addresspanel_back" pos="13,12" cursor="arrow"></imgbtn>
+  <imgbtn name="btn_forward" skin="mainpanel_addresspanel_forward" pos="[15,12" cursor="arrow"></imgbtn>
+  <imgbtn name="btn_drop" skin="mainpanel_addresspanel_drop" pos="[7,12" cursor="arrow"></imgbtn>
+  <dlg pos="[0,0,@30,@40">
+    <imgbtn name="btn_refresh" skin="mainpanel_addresspanel_refresh" pos="4,10" cursor="arrow" tip="%str2213%"></imgbtn>
+    <gifplayer name="gif_refreshing" pos="4,|-9" width="18" height="18" skin="gif_addresspanel_refreshing" show="0"/>
+  </dlg>
+  
+  <dlg name ="PathNavigator" skin="mainpanel_addresspanel_pathnavigator_bkg" pos="[2,5,-224,-5">
+    <listboxex name="path_nav_item_view" pos="4,0,-0,-0" itemheight="30" itemwidth="60" horizontal="1" virtual="1">
+      <template>
+        <dlg pos="0,0,-0,-0">
+          <link name="txt_item_name" pos="8,|-9" height="16" maxwidth="400" dotted="1" show="1" class="cls_addresspanel_dirname_link"/>
+          <imgbtn name="btn_item_drop" pos="-16,7" skin="mainpanel_addresspanel_pathnavigator_dropright"/>
+        </dlg>
+      </template>
+    </listboxex>
+    <link name="txt_width_calculator" pos="2,8" maxwidth="400" dotted="1" show="0" class="cls_addresspanel_dirname_link"></link>
+    <imgbtn name="btn_width_calculator" pos="4,7" skin="mainpanel_addresspanel_pathnavigator_dropright" show="0"/>
+  </dlg>
+  
+  <dlg name ="SearchBox" pos="-212,5,-12,-5">
+    <edit name="search_word_edit" pos="5,1,@166,@28" x-margin="0" y-margin="0" align="left" font="0000:宋体" deffont="0000:微软雅黑" crdeftext="999999" password="0" show="1" deftext="%str2203%" defleftmargin="1"></edit>
+    <imgbtn name="btn_search" skin="mainpanel_addresspanel_searchbox_search" pos="[3,7,@16,@16" cursor="arrow"></imgbtn>
+  </dlg>
+</dlg>

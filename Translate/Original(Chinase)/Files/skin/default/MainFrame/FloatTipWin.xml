@@ -1,0 +1,36 @@
+<UI version="1.0">
+	<IBGCommonWin unvariedSize="true" name="floatTip" rect="0, 0, 230, 195" config="floatTip">
+		<Children>
+			<IBGRegionPanel name="Main" sizeAsParent="true">
+				<Children>
+					<IBGRegionPanel size="218,30" margin="6,1,6,0" dock="DOCK_TOP" config="TopFloattingPanel">
+						<Children>
+							<IBGButton name="UploadProgressBtn" dock="DOCK_LEFT" size="105,25" text="$2582" margin="0, 5, 0, 0" config="FloatTabButtonSelect"/>
+							<IBGButton name="DownloadProgressBtn" dock="DOCK_LEFT" size="105,25" text="$2583" margin="8, 5, 0, 0" config="FloatTabButtonUnselect"/>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel name="ButtonRegionPanel" size="230,24" dock="DOCK_BOTTOM" margin="0, 0, 0, 0">
+						<Children>
+							<IBGStaticEx name="viewDetail" autoCalcHeight="true" autoCalcWidth="true" text="$2584" margin="3, 6, 7, 3" handCursor="true" dock="DOCK_RIGHT">
+								<Children>
+									<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+								</Children>
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel name="TransProgressListView" dock="DOCK_FILL" margin="6, 0, 6, 0" config="BottomFloattingPanel">
+						<Children>
+							<IBGScrollBar size="0, 12" name="listctrlex_hscrollbar" dock="DOCK_BOTTOM" config="horizontalScrollBarApp" unseen="true"/>
+							<IBGRegionPanel name="ListCtrlExPanel" dock="DOCK_FILL">
+								<Children>
+									<IBGScrollBar size="12, 0" name="listctrlex_scrollbar" dock="DOCK_RIGHT" config="verticalScrollBarApp" unseen="true"/>
+									<IBGRegionPanel size="0, 0" name="listctrlex_panel" dock="DOCK_FILL" unseen="true"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

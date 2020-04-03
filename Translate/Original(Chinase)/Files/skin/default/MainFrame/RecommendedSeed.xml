@@ -1,0 +1,23 @@
+<UI version="1.0">
+	<IBGRegionPanel size="250,230" name="RecommendedSeed" dock="DOCK_LEFT">
+		<Children>
+			<IBGStaticEx size="100,16" name="seedFileName" textClr="0x89683c" text="文件名：" autoCalcWidth="false" endEllipsis="true" margin="12,10,22,6" dock="DOCK_TOP"/>
+			<IBGStaticEx size="0,16" name="seedContentSize" textClr="0x89683c" text="大小：" autoCalcWidth="true" margin="12,5,10,10" dock="DOCK_TOP"/>
+			<IBGRegionPanel size="250, 172" margin="12,0,0,0" dock="DOCK_TOP">
+				<Children>
+					<IBGRegionPanel size="124, 172" margin="0,0,0,0" dock="DOCK_LEFT" config="SeedInfoInsidePanel">
+						<Children>
+							<IBGGIFControl name="seedImage" dock="DOCK_LEFT" size="120, 168" margin="2,2,2,2"/>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="120,168" margin="0,0,0,0" dock="DOCK_FILL">
+						<Children>
+							<IBGButton name="OfflineDownloadBtn" drawFocus="true" dock="DOCK_TOP" enableFocus="true" size="72,24" config="button" text="离线下载" margin="6, 10, 26, 6"/>
+							<IBGButton name="SeedDetailBtn" tabOrder="12" drawFocus="true" dock="DOCK_TOP" enableFocus="true" size="72,24" config="button" text="种子详情" margin="6, 10, 26, 6"/>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+</UI>

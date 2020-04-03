@@ -42,10 +42,10 @@
       </dlg>
       <link name="disconnect_link" pos="84,-16" class="datacable_disconnect_link">%str8%</link>
     </dlg>
-    <dlg pos="|-153,59,|378,-59">
+    <dlg pos="|-153,59,|450,-65">
       <dlg name="RightPanel" pos="88,0,531,-0" skin="framebkg_image">
         <dlg name="AcceptFile" pos="25,32,415,-90" animate="true" skin="addfile_image">
-          <text pos="121,|-13,275,|13" class="datacable_accept_file_text">%str14%</text>
+          <text pos="121,|-13,350,|13" class="datacable_accept_file_text">%str14%</text>
         </dlg>
         <dlg name="TransPanel" pos="25,5,-2,-85" show="0">
           <listboxex name="trans_list" pos="0,0,-0,-0" itemheight="85" virtual="1">

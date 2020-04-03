@@ -1,0 +1,18 @@
+<layer name="OverspeedGuideDlg" width="420" height="280" appwin="0" ncRect="0,0,0,0" resize="0" translucent="1" nomaxsize="1">
+  <body>
+    <dlg pos="0,0,-0,-0" class="cls_dlg_frame">
+      <!--标题栏-->
+      <caption pos="0,0,-0,38">
+        <img pos="10,8" skin="common_logo_main"/>
+        <text name="txt_title" pos="39,9" class="cls_dlg_title_text">%str1476%</text>
+        <imgbtn name="btn_close" skin="btn_sys_close" pos="-34,1,-2,21" cursor="arrow" tip="%str250%" animate="1"/>
+      </caption>
+      <dlg pos="0,37,-0,-0">
+        <img pos="1,0,-1,140" name="img_guide" skin="video_overspeed_guidedlg_img"/>
+        <text name="guide_text" pos="0,152,@420,@20" align="center" crtext="333333" font="0200:微软雅黑">%str1474%</text>
+        <imgbtn name="btn_svip" pos="77,-53,@118,@32" cursor="arrow" crtext="ffffff" font="0000:微软雅黑" skin="video_overspeed_guidedlg_red_btn">%str1476%</imgbtn>
+        <imgbtn name="btn_try" pos="225,-53,@118,@32" cursor="arrow" crtext="000000" font="0000:微软雅黑" skin="video_overspeed_guidedlg_gray_btn">%str1478%</imgbtn>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

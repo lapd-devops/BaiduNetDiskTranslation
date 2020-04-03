@@ -1,0 +1,30 @@
+<UI version="1.0">
+	<IBGCommonWin name="SpeedupAdDialog" rect="0,0,552,390" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWebWin" toolWin="true">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel margin="0,1,0,0" size="550,33" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,6" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="speedupAdTitle" textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="550,355" margin="1,-1,1,1" sizeAsParent="false" dock="DOCK_FILL">
+						<Children>
+							<!-- 提速活动页面 -->
+							<IBGWebFrame name="speedupWebFramePanel" size="550,355" margin="0,0,0,0" dock="DOCK_FILL"/>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>
