@@ -9,7 +9,7 @@
           <template>
             <!--背景-->
             <img name="item_bkg" pos="1,0,-1,-1" skin="listitem_hover_bkg" show="0"></img>
-
+            
             <!--文件名列-->
             <dlg name="col_1">
               <check name="chk_select" pos="12,|-7,@15,@15" skin="btncheckbox"></check>
@@ -26,14 +26,14 @@
             <dlg name="col_2">
               <text name="txt_mtime" pos="8,|-8,-0,@16" crtext="666666" align="left" dotted="1"></text>
             </dlg>
-
+            
             <!--文件大小列-->
             <dlg name="col_3">
               <text name="txt_filesize" pos="8,|-8,-0,@16" crtext="666666" align="left" dotted="1"></text>
             </dlg>
           </template>
         </listboxex>
-
+        
         <!--功能引导面板-->
         <dlg name="dlg_file_list_guide" pos="0,0" show="0">
             <buttonex name="btn_guide_tip" pos="0,0,-0,@72" normal-skin="mainpanel_guidepanel_zip" cursor="arrow"></buttonex>
@@ -61,12 +61,12 @@
           </dlg>
           <dlg name="dlg_upload_item" pos="0,0,-0,-0" show="0">
             <img name="img_upload" pos="|-32,20,@64,@64" skin="mainpanel_thumbview_upload_normal"></img>
-            <text name="txt_upload" pos="12,-26,-10,@19" crtext="333333" dotted="1" align="center" valign="middle">%str2310%</text>
+            <text name="txt_upload" pos="12,-26,-12,@16" crtext="333333" dotted="1" align="center" valign="middle">%str2310%</text>
           </dlg>
         </dlg>
       </template>
     </filethumbview>
-
+    
     <!--功能引导面板-->
     <dlg name="dlg_file_thumb_guide" pos="0,0" show="0">
         <buttonex name="btn_guide_tip" pos="0,0,-0,@72" normal-skin="mainpanel_guidepanel_zip" cursor="arrow"></buttonex>
@@ -77,20 +77,20 @@
   <!--空文件列表视图-->
   <dlg name="dlg_empty_view" pos="0,0,-0,-0" show="0">
     <img name="empty_view_bg" pos="|-90,|-100,@181,@127" skin="mainpanel_emptyview_empty"></img>
-    <text name="txt_empty_tip" pos="|-150,[8,@300,@18" crtext="333333" font="0200:Arial" align="center">%str2307%</text>
-    <imgbtn name="btn_upload" pos="|-36,[16,@120,@25" class="defultbtn" crtext="ffffff" cursor="arrow">%str2310%</imgbtn>
+    <text name="txt_empty_tip" pos="|-150,[8,@300,@18" crtext="333333" font="0200:微软雅黑" align="center">%str2307%</text>
+    <imgbtn name="btn_upload" pos="|-36,[16,@72,@25" class="defultbtn" crtext="ffffff" cursor="arrow">%str2310%</imgbtn>
   </dlg>
 
   <!--正在加载视图-->
   <dlg name="dlg_loading_view" pos="0,0,-0,-0" show="1">
 	<gifplayer name="loading_view_gif" pos="|-16,|-16,@32,@32" skin="gif_statuspanel_loading"/>
-    <text name="txt_loading_tip" pos="|-150,[12,@300,@18" crtext="333333" font="0200:Arial" align="center">%str2311%</text>
+    <text name="txt_loading_tip" pos="|-150,[12,@300,@18" crtext="333333" font="0200:微软雅黑" align="center">%str2311%</text>
   </dlg>
 
   <!--加载失败视图-->
   <dlg name="dlg_error_view" pos="0,0,-0,-0" show="0">
     <img name="error_view_bg" pos="|-90,|-100,@181,@127" skin="mainpanel_emptyview_error"></img>
-    <text name="txt_error_tip" pos="|-150,[8,@300,@18" crtext="333333" font="0200:Arial" align="center">%str2312%</text>
+    <text name="txt_error_tip" pos="|-150,[8,@300,@18" crtext="333333" font="0200:微软雅黑" align="center">%str2312%</text>
     <imgbtn name="btn_refresh" pos="|-36,[16,@72,@25" class="defultbtn" crtext="ffffff" cursor="arrow">%str2313%</imgbtn>
   </dlg>
 </dlg>

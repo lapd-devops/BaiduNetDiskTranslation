@@ -238,13 +238,13 @@
 
   <String id="IDS_TRANPANEL_OPENBTN" value="Открыть" />
   <String id="IDS_TRANPANEL_CLEARHISBTN" value="Очистить все" />
-  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP1" value="Всего переводов завершено" />
-  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP2" value="Файлы!" />
+  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP1" value="Всего завершено" />
+  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP2" value=" задач" />
   <String id="IDS_TRANPANEL_OPENFOLDERBTN" value="Открыть папку" />
-  <String id="IDS_TRANPANEL_CLOUDUPLOAD" value="Загружается" />
-  <String id="IDS_TRANPANEL_UPLOADED" value="Выгруженное" />
+  <String id="IDS_TRANPANEL_CLOUDUPLOAD" value="Загруженно" />
+  <String id="IDS_TRANPANEL_UPLOADED" value="Выгруженно" />
   <String id="IDS_TRANPANEL_CLOUDDOWNLOAD" value="Загружается" />
-  <String id="IDS_TRANPANEL_DOWNLOADING" value="загрузка" />
+  <String id="IDS_TRANPANEL_DOWNLOADING" value="Загрузка" />
   <String id="IDS_TRANPANEL_DOWNLOADED" value="Загруженные" />
   <String id="IDS_TRANPANEL_PAUSED_TIP" value="Приостановлено ..." />
   <String id="IDS_TRANPANEL_UPWAITING_TIP" value="В ожидании загрузки ..." />
@@ -252,8 +252,8 @@
   <String id="IDS_TRANPANEL_READINGFILE_TIP" value="Чтение файла" />
   <String id="IDS_TRANPANEL_SELECTALL" value="Выбрать все" />
   <String id="IDS_TRANPANEL_TOP" value="Верх" />
-  <String id="IDS_TRANPANEL_TASKTYPE_UPLOAD" value="Готова" />
-  <String id="IDS_TRANPANEL_TASKTYPE_DOWNLOAD" value="Загружается" />
+  <String id="IDS_TRANPANEL_TASKTYPE_UPLOAD" value="Выгруженно" />
+  <String id="IDS_TRANPANEL_TASKTYPE_DOWNLOAD" value="Загруженно" />
   <String id="IDS_TRANPANEL_TIP_RAPIDUPLOAD" value="Быстрая загрузка" />
   <String id="IDS_TRANPANEL_TIP_DELETEALLUPTASK" value="Удалить все задачи загрузки?" />
   <String id="IDS_TRANPANEL_TIP_DELETEALLDOWNTASK" value="Удалить все задачи загрузки?" />
@@ -305,7 +305,7 @@
   
   <!--Ссылка на решение об ошибке передачи-->
   <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_TOO_BIG" value="Файл слишком большой" />
-  <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_SUPER_BIG" value="Файл  супер большой" />
+  <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_SUPER_BIG" value="Файл супер большой" />
   <String id="IDS_RESOLUTION_SPACE_NOT_ENOUGH" value="Недостаточно пространства" />
   <String id="IDS_RESOLUTION_BACKUP_QUOTA_NOT_ENOUGH" value="Файл превышает лимит, у VIP пользователей нет ограничений на размер рез.копии" />
 

@@ -85,8 +85,6 @@
 <resid type="XML" name="IDR_DUI_REWARDPLANTIP_DIALOG" layer="1" file="xml\dlg_reward_plan_tip.xml"/>
 <resid type="XML" name="IDR_DUI_REWARDPLAN_PATHSETTING_DIALOG" layer="1" file="xml\dlg_reward_plan_path_setting.xml"/>
 <resid type="XML" name="IDR_DUI_FUNC_GUIDE_WND" layer="1" file="xml\MainPanel\FuncGuideWnd.xml"/>
-<resid type="XML" name="IDR_DUI_PDF_TO_WORD_GUIDE_DIALOG" layer="1" file="xml\dlg_pdf_to_word_vip_guide.xml"/>
-<resid type="XML" name="IDR_DUI_AUTOBACKUPTIP_DIALOG" layer="1" file="xml\dlg_autobackup_tip.xml"/>
 
 <!--窗口背景资源-->
 <resid type="IMGX" name="IDP_MAIN_DLG_FRAME" file="image\common\window\windowBkg.png"  />
@@ -321,7 +319,6 @@
 <resid type="IMGX" name="IDP_IMG_FUNTION_GARBAGECLEAN" file="image\MainPanel\FunctionalBoxPanel\GarbageClean.png" />
 <resid type="IMGX" name="IDP_IMG_FUNTION_SVIPONLY" file="image\MainPanel\FunctionalBoxPanel\SvipOnly.png" />
 <resid type="IMGX" name="IDP_IMG_FUNTION_BTN_BKG" file="image\MainPanel\FunctionalBoxPanel\BtnBkg.png" />
-<resid type="IMGX" name="IDP_IMG_FUNTION_FREE" file="image\MainPanel\FunctionalBoxPanel\Free.png" />
 
 <!--文件类型相关资源-->
 <resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_VIDEO" file="image\FileType\Middle\VideoType.png" />
@@ -471,8 +468,6 @@
 <!--隐藏空间容量vip引导对话框相关资源-->
 <resid type="IMGX" name="IDP_DLG_SAFEBOX_QUOTA_VIP_IMG"   file="image\SafeboxQuotaVipGuideDlg\vip_img.png" />
 <resid type="IMGX" name="IDP_DLG_SAFEBOX_QUOTA_SVIP_IMG"   file="image\SafeboxQuotaVipGuideDlg\svip_img.png" />
-
-<resid type="IMGX" name="IDP_DLG_PDF_TO_WORD_VIP_GUIDE_IMG"   file="image\PdfToWordVipGuideDlg\pdf_to_word.png" />
 
 <!--垃圾清理对话框相关资源-->
 <resid type="IMGX" name="IDP_GARBAGECLEAN_BKG" file="image\GarbageCleanDlg\garbageclean_dlg_bg.png"/>
@@ -692,7 +687,6 @@
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_CREATESHARE" file="image\MainPanel\NetdiskPanel\Toolbar\createshare.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_DELETE" file="image\MainPanel\NetdiskPanel\Toolbar\delete.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_CREATEDIR" file="image\MainPanel\NetdiskPanel\Toolbar\createdir.png"/>
-<resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_PDFTOWORD" file="image\MainPanel\NetdiskPanel\Toolbar\pdftoword.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_DROPDOWN" file="image\MainPanel\NetdiskPanel\Toolbar\arrow.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_OFFLINEDOWNLOAD" file="image\MainPanel\NetdiskPanel\Toolbar\offlinedownload.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_MORE" file="image\MainPanel\NetdiskPanel\Toolbar\more.png"/>
@@ -747,7 +741,6 @@
 <resid type="IMGX" name="IDP_GIF_STATUSPANEL_REWARDPLAN_BG" file="image\MainPanel\NetdiskPanel\StatusPanel\rewardplan_bg.png"/>
 
 <!--主面板视图面板-->
-<resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_PDFTOWORD" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\pdf_to_word.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_SHARE" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\share.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_DOWN" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\down.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_DELETE" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\delete.png"/>
@@ -775,7 +768,6 @@
 <resid type="IMGX" name="IDP_MAINPANEL_FRAMESELECT_BKG" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ThumbView\frame_select_bg.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_GUIDEPANEL_ZIP" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\GuideTipPanel\zip_tip.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_GUIDEPANEL_DOC" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\GuideTipPanel\doc_tip.png"/>
-<resid type="IMGX" name="IDP_MAINPANEL_GUIDEPANEL_PDFTOWORD" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\GuideTipPanel\pdftoword_tip.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_GUIDEPANEL_ARROW_DOWN" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\GuideTipPanel\down_arrow.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_GUIDEPANEL_ARROW_UP" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\GuideTipPanel\up_arrow.png"/>
 
@@ -858,8 +850,5 @@
 <resid type="IMGX" name="IDP_REWARDPLANTIP_DLG_BG" file="image\RewardPlanTipDlg\background.png"/>
 <resid type="IMGX" name="IDP_REWARDPLANTIP_DLG_CLOSE" file="image\RewardPlanTipDlg\close.png"/>
 <resid type="IMGX" name="IDP_REWARDPLANPATHSETTING_DLG_INPUTBKG" file="image\RewardPlanPathSettingDlg\input_bkg.png"/>
-<resid type="IMGX" name="IDP_FUNCGUIDEWND_BG" file="image\MainPanel\FuncGuideWnd\bg.png"/>
 
-<!--自动备份引导tip资源-->
-<resid type="IMGX" name="IDP_AUTOBACKUPTIP_DLG_BG" file="image\AutoBackupTipDlg\background.png"/>
-<resid type="IMGX" name="IDP_AUTOBACKUPTIP_DLG_CLOSE" file="image\AutoBackupTipDlg\close.png"/>
+<resid type="IMGX" name="IDP_FUNCGUIDEWND_BG" file="image\MainPanel\FuncGuideWnd\bg.png"/>

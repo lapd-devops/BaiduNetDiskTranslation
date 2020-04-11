@@ -1,5 +1,5 @@
 ﻿<DuiEngine>
-  <font face="Arial" size="12"/>
+  <font face="微软雅黑" size="12"/>
 
   <skins>
     <imgframe name="dlg_frame" src="IDP_MAIN_DLG_FRAME" left="5" right="5" top="40" bottom="60"/>
@@ -213,7 +213,6 @@
     <imgframe name="function_recycle_img" src="IDP_IMG_FUNTION_RECYCLE" subwidth="74"/>
     <imgframe name="function_garbageclean_img" src="IDP_IMG_FUNTION_GARBAGECLEAN" subwidth="74"/>
     <imgframe name="function_svip_only_img" src="IDP_IMG_FUNTION_SVIPONLY"/>
-    <imgframe name="function_free_img" src="IDP_IMG_FUNTION_FREE"/>
     <imgframe name="function_btn_img" src="IDP_IMG_FUNTION_BTN_BKG" subwidth="16" left="2" right="2" top="2" bottom="2"/>
     <!--文件类型相关皮肤定义-->
     <imgframe name="video_middle_image" src="IDP_IMG_FILETYPE_MIDDLE_VIDEO"/>
@@ -356,7 +355,6 @@
     <imgframe name="fileversion_svip_enable_guide_bkskin" src="IDP_DLG_FILEVERSION_VIP_BGSKIN" left="2" top="2" right="2" bottom="2"/>
     <imgframe name="safebox_quota_vip_guide_bkskin" src="IDP_DLG_SAFEBOX_QUOTA_VIP_IMG" />
     <imgframe name="safebox_quota_svip_guide_bkskin" src="IDP_DLG_SAFEBOX_QUOTA_SVIP_IMG" />
-    <imgframe name="pdf_to_word_vip_guide_bkskin" src="IDP_DLG_PDF_TO_WORD_VIP_GUIDE_IMG" />
 
     <!--垃圾清理对话框相关皮肤定义-->
     <imgframe name="garbageclean_bg" src="IDP_GARBAGECLEAN_BKG" left="3" top="3" right="3" bottom="3"/>
@@ -579,7 +577,6 @@
     <imgframe name="mainpanel_toolbar_createshare" src="IDP_MAINPANEL_TOOLBAR_CREATESHARE" subwidth="20"/>
     <imgframe name="mainpanel_toolbar_delete" src="IDP_MAINPANEL_TOOLBAR_DELETE" subwidth="20"/>
     <imgframe name="mainpanel_toolbar_createdir" src="IDP_MAINPANEL_TOOLBAR_CREATEDIR" subwidth="20"/>
-    <imgframe name="mainpanel_toolbar_pdftoword" src="IDP_MAINPANEL_TOOLBAR_PDFTOWORD" subwidth="20"/>
     <imgframe name="mainpanel_toolbar_drop_arrow" src="IDP_MAINPANEL_TOOLBAR_DROPDOWN" subwidth="20"/>
     <imgframe name="mainpanel_toolbar_offlinedownload" src="IDP_MAINPANEL_TOOLBAR_OFFLINEDOWNLOAD" subwidth="20"/>
     <imgframe name="mainpanel_toolbar_more" src="IDP_MAINPANEL_TOOLBAR_MORE" subwidth="20"/>
@@ -634,7 +631,6 @@
     <imgframe name="mainpanel_statuspanel_rewardplan_bg" src="IDP_GIF_STATUSPANEL_REWARDPLAN_BG" subwidth="33" left="4" top="4" right="4" bottom="4"/>
 
     <!--主面板视图面板-->
-  <imgframe name="mainpanel_listview_pdf_to_word" src="IDP_MAINPANEL_LISTVIEW_PDFTOWORD" subwidth="16"/>  
 	<imgframe name="mainpanel_listview_share" src="IDP_MAINPANEL_LISTVIEW_SHARE" subwidth="16"/>
 	<imgframe name="mainpanel_listview_down" src="IDP_MAINPANEL_LISTVIEW_DOWN" subwidth="16"/>
 	<imgframe name="mainpanel_listview_del" src="IDP_MAINPANEL_LISTVIEW_DELETE" subwidth="16"/>
@@ -662,7 +658,6 @@
 	<imgframe name="mainpanel_frame_select_bg" src="IDP_MAINPANEL_FRAMESELECT_BKG" left="3" top="3" right="3" bottom="3"/>
     <imglst name="mainpanel_guidepanel_zip" src="IDP_MAINPANEL_GUIDEPANEL_ZIP"/>
     <imglst name="mainpanel_guidepanel_doc" src="IDP_MAINPANEL_GUIDEPANEL_DOC"/>
-    <imglst name="mainpanel_guidepanel_pdftoword" src="IDP_MAINPANEL_GUIDEPANEL_PDFTOWORD"/>
     <imglst name="mainpanel_guidepanel_arrow_down" src="IDP_MAINPANEL_GUIDEPANEL_ARROW_DOWN"/>
     <imglst name="mainpanel_guidepanel_arrow_up" src="IDP_MAINPANEL_GUIDEPANEL_ARROW_UP"/>
     
@@ -745,10 +740,6 @@
   <imglst name="rewardplantipdlg_close_btn" src="IDP_REWARDPLANTIP_DLG_CLOSE" subwidth="8"/>
   <imgframe name="rewardplanpathsettingdlg_inputbg" src="IDP_REWARDPLANPATHSETTING_DLG_INPUTBKG" left="2" right="2" top="2" bottom="2"/>
   <imgframe name="funcguidewnd_bg" src="IDP_FUNCGUIDEWND_BG"/>
-
-   <!--自动备份-->
-  <imgframe name="autobackuptipdlg_bg" src="IDP_AUTOBACKUPTIP_DLG_BG"/>
-  <imglst name="autobackuptipdlg_close_btn" src="IDP_AUTOBACKUPTIP_DLG_CLOSE" subwidth="8"/>
   </skins>
 
   <style>
