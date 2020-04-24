@@ -1,4 +1,8 @@
-﻿Baidu network disk PC version V6.9.1 update: 18 March 2020
+﻿Baidu network disk PC version V6.9.5 update: 23 April 2020
+    update content:
+    1. Fixed some experience problems and improved stability
+    
+Baidu network disk PC version V6.9.1 update: 18 March 2020
     update content:
     1. Fixed some experience problems and improved stability
 

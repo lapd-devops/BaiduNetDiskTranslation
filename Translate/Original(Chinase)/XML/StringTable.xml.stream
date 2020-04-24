@@ -457,10 +457,10 @@
   <String id="IDS_STATIC_ADVANCE_SETTING_TIP"   value="高级设置" />
   <String id="IDS_ADVANCESETTINGDLG_P2P_TITLE" value="激励计划：" />
   <String id="IDS_ADVANCESETTINGDLG_CHECK_P2P_OPEN" value="加入用户激励计划" />
-  <String id="IDS_ADVANCESETTINGDLG_INTRODUCE_P2P_TIP" value="“用户激励计划”是百度网盘为提升PC客户端用户体验而推出的一项活动。开启后根据用户的活跃度和使用情况，奖励相应的积分。通过本计划获得的积分相当于您在百度网盘中的财富，可以到手机端app中兑换百度网盘超级会员、特权，或者其他丰厚奖品。取消后不再有积分奖励，请慎重选择。" />
-  <String id="IDS_STATIC_CLOSE_P2P_TIP" value="“用户激励计划”是百度网盘为提升PC客户端用户体验而推出的一项活动，\r\n 取消后不再有积分奖励，是否确认取消？" />
-  <String id="IDS_STATIC_FIX_CLOSE_P2P" value="确认关闭" />
-  <String id="IDS_STATIC_QUIT_CLOSE_P2P" value="继续开启" />
+  <String id="IDS_ADVANCESETTINGDLG_INTRODUCE_P2P_TIP" value="“用户激励计划”是百度网盘为改善用户体验而推出的一项志愿活动计划。通过P2P技术为加入计划的用户提升产品体验，此过程仅需用户贡献电脑端的部分空闲上传带宽，绝不涉及任何用户隐私，同时根据用户的活跃度和使用情况，百度网盘会奖励相应的积分，用户可以在手机端app中兑换百度网盘超级会员、特权券以及其他奖品。用户自愿选择是否加入该计划，并随时可以通过取消勾选退出计划，重启客户端后生效。退出计划将不再产生P2P上传和对应的积分奖励，重新选择开启可加入计划。" />
+  <String id="IDS_STATIC_CLOSE_P2P_TIP" value="“用户激励计划”是百度网盘为改善用户体验而推出的一项志愿活动计划。退出计划将不再产生P2P上传和对应的积分奖励，重启客户端后生效。是否确认退出该计划？" />
+  <String id="IDS_STATIC_FIX_CLOSE_P2P" value="确认退出" />
+  <String id="IDS_STATIC_QUIT_CLOSE_P2P" value="继续加入" />
   <String id="IDS_STATIC_CLOSE_P2P_REMIND_REBOOT" value="重启百度网盘客户端后，将退出“用户激励计划”" />
   <String id="IDS_STATIC_KNOWN_TIP" value="知道了" />
   <!--第三方安全提示-->
