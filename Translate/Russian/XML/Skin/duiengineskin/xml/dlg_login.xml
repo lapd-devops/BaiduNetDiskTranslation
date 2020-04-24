@@ -24,7 +24,7 @@
           </dlg>
 		  <!--扫码引导-->
           <img name="img_qrcode_guide" pos="182,129,@112,@138" skin="img_login_qrcode_guide" show="0"/>
-          <!--错误提示-->
+          <!--Error message-->
 		  <dlg name="dlg_qrcode_tip" pos="|-77,275,@160,@16" show="0">
 		    <img pos="2,0,@16,@16" skin="img_login_errortip_icon"/>
 			<text name="txt_qrcode_error" pos="[2,|-8" crtext="ff4040" dotted="1"/>
