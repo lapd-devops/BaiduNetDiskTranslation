@@ -919,21 +919,21 @@
   <String id="IDS_OFFLINEDOWNLOADACTIVITY_KNOWN" value="我知道了" />
 
   <!--解锁对话框-->
-  <String id="IDS_UNLOCKDLG_LOCKED" value="百度网盘已锁定" />
-  <String id="IDS_UNLOCKDLG_UNLOCK" value="解  锁" />
-  <String id="IDS_UNLOCKDLG_INPUT_PASSWORD" value="请输入登录密码：" />
-  <String id="IDS_UNLOCKDLG_HOTKEY_TIP" value="按%s锁定/唤起密码锁" />
-  <String id="IDS_UNLOCKDLG_PASSWD_ERROR_TIP" value="密码错误,请重新输入" />
-  <String id="IDS_UNLOCKDLG_UNLOCK_FAIL_TIP" value="解锁失败,请稍候重试" />
-  <String id="IDS_UNLOCKDLG_QRCODE_LOAD_FAIL_TIP" value="加载失败" />
-  <String id="IDS_UNLOCKDLG_QRCODE_EXPIRED_TIP" value="二维码已过期" />
-  <String id="IDS_UNLOCKDLG_QRCODE_REFRESH" value="点击刷新" />
-  <String id="IDS_UNLOCKDLG_CHANGE_ACCOUNT" value="切换账号" />
-  <String id="IDS_UNLOCKDLG_QRCODE_SCAN_TIP" value="请使用百度网盘APP(10.0.100以上版本)扫码解锁" />
-  <String id="IDS_UNLOCKDLG_PWD_TIP" value="输入密码解锁 >" />
-  <String id="IDS_UNLOCKDLG_QRCODE_TIP" value="扫码解锁 >" />
-  <String id="IDS_UNLOCKDLG_QRCODE_UNLOCKING_TIP" value="解锁中" />
-  <String id="IDS_UNLOCKDLG_QRCODE_SCAN_SUCCESS_TIP" value="扫描成功，请在手机端确认解锁" />
+  <String id="IDS_UNLOCKDLG_LOCKED" value="Baidu NetDisk locked" />
+  <String id="IDS_UNLOCKDLG_UNLOCK" value="Unlock" />
+  <String id="IDS_UNLOCKDLG_INPUT_PASSWORD" value="Please enter your login password" />
+  <String id="IDS_UNLOCKDLG_HOTKEY_TIP" value="Press %s Lock/Unlock" />
+  <String id="IDS_UNLOCKDLG_PASSWD_ERROR_TIP" value="Invalid password, please try again" />
+  <String id="IDS_UNLOCKDLG_UNLOCK_FAIL_TIP" value="Unlock failed, please try again later" />
+  <String id="IDS_UNLOCKDLG_QRCODE_LOAD_FAIL_TIP" value="Failed to load" />
+  <String id="IDS_UNLOCKDLG_QRCODE_EXPIRED_TIP" value="QR code has expired" />
+  <String id="IDS_UNLOCKDLG_QRCODE_REFRESH" value="Click refresh" />
+  <String id="IDS_UNLOCKDLG_CHANGE_ACCOUNT" value="Change account" />
+  <String id="IDS_UNLOCKDLG_QRCODE_SCAN_TIP" value="Please use Baidu Netdisk APP(version 10) to scan and unlock" />
+  <String id="IDS_UNLOCKDLG_PWD_TIP" value="Enter password to unlock >" />
+  <String id="IDS_UNLOCKDLG_QRCODE_TIP" value="Scan code to unlock >" />
+  <String id="IDS_UNLOCKDLG_QRCODE_UNLOCKING_TIP" value="Unlocking" />
+  <String id="IDS_UNLOCKDLG_QRCODE_SCAN_SUCCESS_TIP" value="Scanned successfully,please confirm unlocking on mobile phone" />
   <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TIP" value="为了您的文件隐私安全，网盘已锁定。期间不影响进行中的传输任务" />
   <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TOOLTIP" value="您已通过手动锁定/长时间无操作自动锁定/电脑锁定时网盘自动锁定的功能锁定网盘，锁定网盘功能是为了保护您的隐私安全，您可在设置-安全中进行管理。" />
 
