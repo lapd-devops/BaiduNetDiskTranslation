@@ -1066,17 +1066,17 @@
   <String id="IDS_STATIC_PHONE_NEW_MESSAGE"  value="You have unread friends messages ~" />
   <String id="IDS_STATIC_PHONE_NEW_CALL"  value="You have missed friends calls ~" />
 
-  <!--速度反馈对话框-->
-  <String id="IDS_SPEEDFEECBACKDLG_TITLE" value="速度反馈" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_TIP" value="请填写宽带数，便于我们更精准的定位问题" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH" value="宽带" />
+  <!--Speed ​​feedback dialog-->
+  <String id="IDS_SPEEDFEECBACKDLG_TITLE" value="Speed ​​feedback" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_TIP" value="Please fill in the broadband number, so that we can more accurately locate the problem" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH" value="Broadband" />
   <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_UNIT" value="M"/>
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_EXAMPLE" value="（例：若您使用的是联通10M光纤，请填写10）" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SUBMIT_TIP" value="请告诉我们你的问题，我们会尽快解决~" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SPEED_TIP" value="关闭占用网速的软件（视频、下载等）可以大大提升传输速度~" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_THANK_TIP" value="感谢您的反馈！百度网盘会尽快解决。" />
-  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_SUBMIT" value="提交" />
-  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_FINISH" value="完成" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_EXAMPLE" value="（Example: If you are using Unicom 10M fiber, please fill in 10）" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SUBMIT_TIP" value="Please tell us your problem, we will solve it as soon as possible ~" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SPEED_TIP" value="Close the software that occupies the network speed (video, download, etc.) can greatly improve the transmission speed~" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_THANK_TIP" value="Thanks for your feedback! Baidu network disk will be resolved as soon as possible。" />
+  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_SUBMIT" value="submit" />
+  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_FINISH" value="carry out" />
   
   <!--Slow speed-->
   <String id="IDS_SPEEDFEECBACKTIP_SPEEDSLOW" value="Transfer speed is slow?" />
