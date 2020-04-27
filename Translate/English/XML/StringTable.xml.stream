@@ -1011,7 +1011,7 @@
   <String id="IDS_ACCOUNTBINFDLG_BTN_UNBIND"  value="Unbind" />
   <String id="IDS_ACCOUNTBINFDLG_TIP_PRIVATE"  value="First check if your phone number/email binding is done" />
   <String id="IDS_ACCOUNTBINFDLG_TIP_BINDSUCCESS"  value="Private files can be stored after the binding is successful" />
-  <!--测速器 -->
+  <!--Speedometer-->
   <String id="IDS_STATIC_SPEEDTEST_NAME"  value="Speedometer" />
   <String id="IDS_STATIC_SPEEDTEST_UPLOADSPEED"  value="Upload speed" />
   <String id="IDS_STATIC_SPEEDTEST_DOWNLOADSPEED"  value="download speed" />
