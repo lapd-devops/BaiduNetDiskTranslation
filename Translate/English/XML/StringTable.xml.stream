@@ -1161,9 +1161,9 @@
   <String id="IDS_GARBAGE_CLEAN_TITLE" value="Baidu Cloud" />
 
   <!--奖励计划弹窗-->
-  <String id="IDS_REWARD_PLAN_DLG_TITLE" value="用户奖励计划" />
-  <String id="IDS_REWARD_PLAN_DLG_NET_ERROR" value="网络连接失败，请稍后重试" />
-  <String id="IDS_REWARD_PLAN_DLG_RETRY" value="重试" />
+  <String id="IDS_REWARD_PLAN_DLG_TITLE" value="User Reward Program" />
+  <String id="IDS_REWARD_PLAN_DLG_NET_ERROR" value="Network connection failed, please try again later" />
+  <String id="IDS_REWARD_PLAN_DLG_RETRY" value="Retry" />
 
   <!--自动备份气泡-->
   <String id="IDS_AUTOBACKUP_NOTIFY_START_TITLE" value="正在备份中..." />
