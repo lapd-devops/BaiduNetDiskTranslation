@@ -1165,7 +1165,7 @@
   <String id="IDS_REWARD_PLAN_DLG_NET_ERROR" value="Network connection failed, please try again later" />
   <String id="IDS_REWARD_PLAN_DLG_RETRY" value="Retry" />
 
-  <!--自动备份气泡-->
+  <!--Automatic backup bubble-->
   <String id="IDS_AUTOBACKUP_NOTIFY_START_TITLE" value="Backing up..." />
   <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_START_TIP" value="Backing up for you" />
   <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_END_TIP" value="”Wait for multiple files" />
@@ -1178,30 +1178,30 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_START_TIP" value="File has been successfully backed up for you“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_END_TIP" value="”" />
   <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_VIEW_DETAIL" value="View now>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_TITLE" value="文件备份未完成" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_TITLE" value="File backup is not complete" />
   <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_START_TIP" value="“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_END_TIP" value="”等%d个文件备份失败" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_START_TIP" value="文件“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_END_TIP" value="”备份失败" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_VIEW_DETAIL" value="立即查看>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_TITLE" value="文件占用中，关闭后将自动备份" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_END_TIP" value="”Wait%dFile backup failed" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_START_TIP" value="file“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_SINGLE_END_TIP" value="”Backup failed" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_VIEW_DETAIL" value="View now>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_TITLE" value="File is occupied, it will be backed up automatically after closing" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_START_TIP" value="“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_END_TIP" value="”等%d个文件尚未完成备份" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_START_TIP" value="文件“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”尚未完成备份" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="立即查看>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="流量超限，备份失败" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="本月2G备份流量已用完，开通会员，备份文件" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="无限制" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="立即开通>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="本月自动备份流量即将用完" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="本月2G备份流量即将用完，将无法为您正常备份" /> 
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="文件，开通会员，备份文件无限制" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="立即开通>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="流量超限，自动备份已暂停" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="本月2G备份流量已超限，无法进行文件备份，" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="开通会员，备份文件无限制" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="立即开通>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_END_TIP" value="”Wait%dFiles have not been backed up" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_START_TIP" value="file“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”Backup not yet completed" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="View now>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="Traffic exceeds limit, backup fails" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="This month, 2G backup traffic has been used up, membership activation, and backup files" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="Unlimited" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="Open now>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="This month's automatic backup traffic is about to run out" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="This month's 2G backup traffic is about to run out and will not be able to back you up normally" /> 
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="Files, open membership, unlimited backup files" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="Open now>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="Traffic exceeds limit, automatic backup has been suspended" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="This month, 2G backup traffic has exceeded the limit and file backup cannot be performed，" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="Open member, unlimited backup files" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="Open now>" />
 
   <!--PDF转Word气泡-->
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="Conversion Successful" />
