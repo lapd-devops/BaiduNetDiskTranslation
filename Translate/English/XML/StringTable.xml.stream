@@ -1012,30 +1012,30 @@
   <String id="IDS_ACCOUNTBINFDLG_TIP_PRIVATE"  value="First check if your phone number/email binding is done" />
   <String id="IDS_ACCOUNTBINFDLG_TIP_BINDSUCCESS"  value="Private files can be stored after the binding is successful" />
   <!--测速器 -->
-  <String id="IDS_STATIC_SPEEDTEST_NAME"  value="测速器" />
-  <String id="IDS_STATIC_SPEEDTEST_UPLOADSPEED"  value="上传速度" />
-  <String id="IDS_STATIC_SPEEDTEST_DOWNLOADSPEED"  value="下载速度" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEED"  value="速度" />
-  <String id="IDS_STATIC_SPEEDTEST_TESTING_HEADER"  value="正在测试当前网络中最大" />
-  <String id="IDS_STATIC_SPEEDTEST_TESTING_TAIL"  value="速度..." />
-  <String id="IDS_STATIC_SPEEDTEST_MAXUPLOADSPEED"  value="最大上传速度：" />
-  <String id="IDS_STATIC_SPEEDTEST_MAXDOWNLOADSPEED"  value="最大下载速度：" />
-  <String id="IDS_STATIC_SPEEDTEST_RUN"  value="开始测速" />
-  <String id="IDS_STATIC_SPEEDTEST_RUNING"  value="测速中..." />
-  <String id="IDS_STATIC_SPEEDTEST_RERUN"  value="重新测速" />
-  <String id="IDS_STATIC_SPEEDTEST_BOTTOMBAR_TIP"  value="测速时，建议您暂停其他占用网速的软件" />
-  <String id="IDS_STATIC_SPEEDTEST_ACTION_DOWNLOAD"  value="下载" />
-  <String id="IDS_STATIC_SPEEDTEST_ACTION_UPLOAD"  value="上传" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOW"  value="，速度不给力呀！" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_HIGHT"  value="，快如闪电！" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP"  value="上传比下载慢？" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP_TOOLTIP"  value="运营商分配给上传服务和下载服务的带宽不同，通常情况下，下载的带宽大于上传，因此下载速度会比上传速度快" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL"  value="速度慢？" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP1"  value="1.上传下载速度受限于您的网络运营商带宽。理论上带宽越大速度越快" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP2"  value="2.同时使用的占用网络的程序越多，上传下载速度慢" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP3"  value="3.特殊运营商（如公司、校园等）存在被运营商限速的可能" />
-  <String id="IDS_STATIC_SPEEDTEST_NETERROR_RUNNING"  value="测速失败，网络无连接" />
-  <String id="IDS_STATIC_SPEEDTEST_NETERROR_WAIT"  value="网络无连接" />
+  <String id="IDS_STATIC_SPEEDTEST_NAME"  value="Speedometer" />
+  <String id="IDS_STATIC_SPEEDTEST_UPLOADSPEED"  value="Upload speed" />
+  <String id="IDS_STATIC_SPEEDTEST_DOWNLOADSPEED"  value="download speed" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEED"  value="speed" />
+  <String id="IDS_STATIC_SPEEDTEST_TESTING_HEADER"  value="Testing the largest in the current network" />
+  <String id="IDS_STATIC_SPEEDTEST_TESTING_TAIL"  value="speed..." />
+  <String id="IDS_STATIC_SPEEDTEST_MAXUPLOADSPEED"  value="Maximum upload speed：" />
+  <String id="IDS_STATIC_SPEEDTEST_MAXDOWNLOADSPEED"  value="Maximum download speed：" />
+  <String id="IDS_STATIC_SPEEDTEST_RUN"  value="Start speed measurement" />
+  <String id="IDS_STATIC_SPEEDTEST_RUNING"  value="Speed ​​measurement..." />
+  <String id="IDS_STATIC_SPEEDTEST_RERUN"  value="Re-test speed" />
+  <String id="IDS_STATIC_SPEEDTEST_BOTTOMBAR_TIP"  value="When measuring speed, it is recommended that you suspend other software that occupies network speed" />
+  <String id="IDS_STATIC_SPEEDTEST_ACTION_DOWNLOAD"  value="download" />
+  <String id="IDS_STATIC_SPEEDTEST_ACTION_UPLOAD"  value="Upload" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOW"  value="，The speed is not awesome！" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_HIGHT"  value="，Lightning fast！" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP"  value="Upload is slower than download？" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP_TOOLTIP"  value="The bandwidth allocated by the operator to the upload service and the download service is different. Generally, the bandwidth of the download is greater than the upload, so the download speed will be faster than the upload speed." />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL"  value="Slow？" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP1"  value="1.The upload and download speed is limited by the bandwidth of your network operator. Theoretically, the larger the bandwidth, the faster the speed" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP2"  value="2.The more programs that occupy the network at the same time, the slower the upload and download speed" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP3"  value="3.Special operators (such as companies, campuses, etc.) may be limited by the operator" />
+  <String id="IDS_STATIC_SPEEDTEST_NETERROR_RUNNING"  value="Speed ​​test failed, no network connection" />
+  <String id="IDS_STATIC_SPEEDTEST_NETERROR_WAIT"  value="No network connection" />
 
   <!--Speed Test-->
   <String id="IDS_STATIC_SPEEDTESTREPORT_TITLE"  value="Speed Test Report" />
