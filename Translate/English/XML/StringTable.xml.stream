@@ -937,22 +937,22 @@
   <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TIP" value="为了您的文件隐私安全，网盘已锁定。期间不影响进行中的传输任务" />
   <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TOOLTIP" value="您已通过手动锁定/长时间无操作自动锁定/电脑锁定时网盘自动锁定的功能锁定网盘，锁定网盘功能是为了保护您的隐私安全，您可在设置-安全中进行管理。" />
 
-  <!--热键，客户端锁定-->
+  <!--Hotkey, client lock-->
   <String id="IDS_KEY_ALT" value="Alt" />
   <String id="IDS_KEY_SHIFT" value="Shift" />
   <String id="IDS_KEY_CONTROL" value="Ctrl" />
-  <String id="IDS_KEY_NONE" value="无" />
-  <String id="IDS_HOTKEY_LOCKTITLE" value="客户端锁定：" />
-  <String id="IDS_HOTKEY_LOCKTIP" value="（直接按键可更改）" />
-  <String id="IDS_HOTKEY_LOCKHOTKEYTIP" value="锁定网盘热键：" />
-  <String id="IDS_HOTKEY_AUTOLOCKTIP" value="自动锁定设置：鼠标键盘无动作" />
-  <String id="IDS_HOTKEY_AUTOLOCKTIMETIP" value="分钟后自动锁定网盘" />
-  <String id="IDS_HOTKEY_SYSTEMLOCKTIP" value="自动锁定设置：当电脑锁定时，网盘会自动锁定" />
-  <String id="IDS_HOTKEYCONFLICT_TITLENAME" value="热键冲突" />
-  <String id="IDS_HOTKEYCONFLICT_NOTIPAGAIN" value="不再提示" />
-  <String id="IDS_HOTKEYCONFLICT_MODIFYHOTKEYLINK" value="修改网盘热键" />
-  <String id="IDS_HOTKEYCONFLICT_TIP_SUGGEST" value="建议您修改冲突软件的热键，或" />
-  <String id="IDS_HOTKEYCONFLICT_TIP" value="%s，您的锁定百度网盘热键被占用。" />
+  <String id="IDS_KEY_NONE" value="None" />
+  <String id="IDS_HOTKEY_LOCKTITLE" value="Client lock" />
+  <String id="IDS_HOTKEY_LOCKTIP" value="(Hotkey can be changed)" />
+  <String id="IDS_HOTKEY_LOCKHOTKEYTIP" value="Lock Hotkey " />
+  <String id="IDS_HOTKEY_AUTOLOCKTIP" value="Auto lock: mouse and keyboard inactive" />
+  <String id="IDS_HOTKEY_AUTOLOCKTIMETIP" value="Minutes to autolock" />
+  <String id="IDS_HOTKEY_SYSTEMLOCKTIP" value="Automatic lock setting: When the computer is locked, the network disk will be locked automatically" />
+  <String id="IDS_HOTKEYCONFLICT_TITLENAME" value="Hotkeys conflict" />
+  <String id="IDS_HOTKEYCONFLICT_NOTIPAGAIN" value="Do not prompt" />
+  <String id="IDS_HOTKEYCONFLICT_MODIFYHOTKEYLINK" value="Modify network disk hotkey" />
+  <String id="IDS_HOTKEYCONFLICT_TIP_SUGGEST" value="It is recommended that you modify the hotkey of the conflicting software, or" />
+  <String id="IDS_HOTKEYCONFLICT_TIP" value="%s，Your hot key for locking Baidu network disk is occupied." />
 
   <!--隐藏空间-->
   <String id="IDS_SETTINGDLG_SAFEBOX_TITLE" value="Safe Box: " />
