@@ -1204,12 +1204,12 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="立即开通>" />
 
   <!--PDF转Word气泡-->
-  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="转换成功" />
-  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="已成功转换为Word文档“" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="Conversion Successful" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="Successfully converted to Word document" />
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_END_TIP" value="”" />
-  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_VIEW_DETAIL" value="立即打开>" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_TITLE" value="转换失败" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="您有一个PDF文件“" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”转换失败" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="立即查看>" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_VIEW_DETAIL" value="Open now>" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_TITLE" value="Conversion failed" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="You have a pdf file“" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”Conversion failed" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="View now>" />
 </StringTable>
