@@ -888,37 +888,37 @@
   <String id="IDS_OFFLINEDOWNLOADLIST_DELETED" value="任务已删除" />
   <String id="IDS_OFFLINEDOWNLOADLIST_PARTSUCCESS" value="下载部分成功" />
   
-  <!--新建离线下载任务错误提示-->
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_PARAM_ERROR" value="离线下载错误" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_RELOGIN" value="请重新登录再试" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_LOGIN" value="请登录后再试" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_ACTIVE" value="请激活帐号后再试" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_EXIST" value="此帐号不存在，请重新登录" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_STORAGE_EXCEED_LIMIT" value="网盘空间不足" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_OBJ_NOT_EXIST" value="文件不存在" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_REQ_EXPIRE_TIMOUT" value="操作超时，请重试" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TOO_MANY_TASKS" value="同时下载的任务过多，不能下载" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_SAVEPATH_EXIST" value="换个路径重试" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_NOT_FOUND" value="任务已删除" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_COMPLETED" value="取消失败，任务已完成" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INAVLID_TORRENT" value="解析失败，种子文件损坏" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_PROCESSING" value="取消失败，任务正在处理中" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INAVLID_SOURCEURL" value="链接失效" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_NONVIP_EXCEED_CONCURRNENCY" value="普通用户最多同时下载1个任务哦！马上开通离线下载套餐，立即下载更多！" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_VIP_EXCEED_CONCURRNENCY" value="同时下载的任务过多，不能下载" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_NONVIP_EXCEED_QUOTA" value="普通用户每月只能离线下载5个任务哦！马上开通\r\n离线下载套餐，立即下载更多！" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_VIP_EXCEED_QUOTA" value="本月下载数已超限制" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INVALID_SHARELINK" value="分享链接已失效" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INVALID_MAGNETLINK" value="此链接无效，请重新输入" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_CANNT_PARSE_MAGNETLINK" value="暂时无法找到相关种子信息" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_FREQ_EXCEED" value="下载次数已达今日上限，请明天再试" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_WAITFOR_NEXTMONTH" value="只好等下个月了" />
-  <String id="IDS_OFFLINEDOWNLOADTASK_WAITFOR_TASKCOMPLETE" value="等待当前任务完成" />
+  <!--New offline download task error prompt-->
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_PARAM_ERROR" value="Offline download error" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_RELOGIN" value="Please login and try again" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_LOGIN" value="Please login and try again" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_ACTIVE" value="Try again after account activated" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_EXIST" value="User does not exist, please retry" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_STORAGE_EXCEED_LIMIT" value="Cloud space shortage" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_OBJ_NOT_EXIST" value="File does not exist" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_REQ_EXPIRE_TIMOUT" value="Operation timed out, please try again" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TOO_MANY_TASKS" value="Too many tasks at same time" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_SAVEPATH_EXIST" value="Retry another path" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_NOT_FOUND" value="Task been deleted" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_COMPLETED" value="Cancel fail, task completed" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INAVLID_TORRENT" value="Failed to resolve, seed file is corrupt" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_PROCESSING" value="Cancel fail, task being processed" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INAVLID_SOURCEURL" value="Invalid source link" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_NONVIP_EXCEED_CONCURRNENCY" value="Max number of concurrent download limit exceeded (Non VIP). Immediately turn off download package!" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_VIP_EXCEED_CONCURRNENCY" value="Max number of concurrent tasks limit exceeded" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_NONVIP_EXCEED_QUOTA" value="Max download quota for Non VIP user exceeded!" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_VIP_EXCEED_QUOTA" value="Max download quota exceeded!" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INVALID_SHARELINK" value="Share link has expired" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_INVALID_MAGNETLINK" value="Magnet link invalid, please re-enter" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_CANNT_PARSE_MAGNETLINK" value="Unable to find magnet link" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_TIP_TASK_FREQ_EXCEED" value="Maximum downloads limit reached for today, please try again tomorrow" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_WAITFOR_NEXTMONTH" value="Had to wait for next month" />
+  <String id="IDS_OFFLINEDOWNLOADTASK_WAITFOR_TASKCOMPLETE" value="Waiting for the current task to complete" />
 
   <!--离线下载活动对话框-->
-  <String id="IDS_OFFLINEDOWNLOADACTIVITY_KNOWN" value="我知道了" />
+  <String id="IDS_OFFLINEDOWNLOADACTIVITY_KNOWN" value="I Know" />
 
-  <!--解锁对话框-->
+  <!--Unlock dialog-->
   <String id="IDS_UNLOCKDLG_LOCKED" value="Baidu NetDisk locked" />
   <String id="IDS_UNLOCKDLG_UNLOCK" value="Unlock" />
   <String id="IDS_UNLOCKDLG_INPUT_PASSWORD" value="Please enter your login password" />
@@ -934,8 +934,9 @@
   <String id="IDS_UNLOCKDLG_QRCODE_TIP" value="Scan code to unlock >" />
   <String id="IDS_UNLOCKDLG_QRCODE_UNLOCKING_TIP" value="Unlocking" />
   <String id="IDS_UNLOCKDLG_QRCODE_SCAN_SUCCESS_TIP" value="Scanned successfully,please confirm unlocking on mobile phone" />
-  <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TIP" value="为了您的文件隐私安全，网盘已锁定。期间不影响进行中的传输任务" />
-  <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TOOLTIP" value="您已通过手动锁定/长时间无操作自动锁定/电脑锁定时网盘自动锁定的功能锁定网盘，锁定网盘功能是为了保护您的隐私安全，您可在设置-安全中进行管理。" />
+  <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TIP" value="For your file privacy and security, the network disk is locked. Does not affect ongoing transfer tasks" />
+  <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TOOLTIP" value="You have locked the network disk by manual lock/ automatic lock for a long time without operation / automatic lock of the network disk when the computer is locked. The lock network disk function is to protect your privacy and you can manage it in Settings-Security." />
+
 
   <!--Hotkey, client lock-->
   <String id="IDS_KEY_ALT" value="Alt" />
