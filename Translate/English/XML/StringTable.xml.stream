@@ -1,160 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- baseid = 1024-->
 <StringTable language="2052">
-  <String id="IDS_STANDARDWIN_CLOSE" value="关闭" />
-  <String id="IDS_STANDARDWIN_MAX" value="最大化" />
-  <String id="IDS_STANDARDWIN_MIN" value="最小化" />
-  <String id="IDS_STANDARDWIN_RECOV" value="还原" />
-  <String id="IDS_ID_NO" value="否" />
-  <String id="IDS_ID_YES" value="是" />
-  <String id="IDS_ID_OK" value="确定" />
-  <String id="IDS_ID_APPLY" value="应用" />
-  <String id="IDS_ID_CONTINUE" value="继续" />
-  <String id="IDS_ID_RETRY" value="重试" />
-  <String id="IDS_ID_TERMINATE" value="终止" />
-  <String id="IDS_ID_IGNORE" value="忽略" />
-  <String id="IDS_ID_CANCEL" value="取消" />
-  <String id="IDS_ID_EXIT" value="退出" />
-  <String id="IDS_ID_WARNING" value="警告" />
-  <String id="IDS_WEB_LOADING" value="载入中..." />
-  <String id="IDS_WEB_FAILED" value="由于网络原因无法载入页面，\n请刷新后重试。" />
-  <String id="IDS_WEB_REFRESH" value="刷新" />	
-  <String id="IDS_GET_TEXT_HEIGHT" value="1１" />
-  <String id="IDS_MSGBOX_OPEN_MAINFRAME" value="打开网盘(&amp;O)" />
-  <String id="IDS_MSGBOX_VIEW_ALL" value="查看全部" />
-  <String id="IDS_MSGBOX_IGNORE_ALL" value="忽略" />
-  <String id="IDS_CRT_GRP_NO_RT_DETAIL" value="查看详情" />
-  <String id="IDS_SYSMSG_TITLE" value="系统提示" />
-  <String id="IDS_SONG_TYPEFACE" value="宋体" />
+  <String id="IDS_STANDARDWIN_CLOSE" value="Close" />
+  <String id="IDS_STANDARDWIN_MAX" value="Maximise" />
+  <String id="IDS_STANDARDWIN_MIN" value="Minimise" />
+  <String id="IDS_STANDARDWIN_RECOV" value="Recover" />
+  <String id="IDS_ID_NO" value="No" />
+  <String id="IDS_ID_YES" value="YES" />
+  <String id="IDS_ID_OK" value="OK" />
+  <String id="IDS_ID_APPLY" value="Apply" />
+  <String id="IDS_ID_CONTINUE" value="Continue" />
+  <String id="IDS_ID_RETRY" value="Retry" />
+  <String id="IDS_ID_TERMINATE" value="Terminate" />
+  <String id="IDS_ID_IGNORE" value="Ignore" />
+  <String id="IDS_ID_CANCEL" value="Cancel" />
+  <String id="IDS_ID_EXIT" value="Exit" />
+  <String id="IDS_ID_WARNING" value="Warning" />
+  <String id="IDS_WEB_LOADING" value="Loading..." />
+  <String id="IDS_WEB_FAILED" value="Page could not be loaded, network error" />
+  <String id="IDS_WEB_REFRESH" value="Refresh" />
+  <String id="IDS_GET_TEXT_HEIGHT" value="Text Height" />
+  <String id="IDS_MSGBOX_OPEN_MAINFRAME" value="Open Cloud(&amp;O)" />
+  <String id="IDS_MSGBOX_VIEW_ALL" value="View All" />
+  <String id="IDS_MSGBOX_IGNORE_ALL" value="Ignore All" />
+  <String id="IDS_CRT_GRP_NO_RT_DETAIL" value="View Details" />
+  <String id="IDS_SYSMSG_TITLE" value="Prompted" />
+  <String id="IDS_SONG_TYPEFACE" value="Times New Roman" />
   
   <!--主面板 -->
-  <String id="IDS_TITLEBAR_MENUBTN_SETTING" value="设置" />
-  <String id="IDS_TITLEBAR_BTN_USERHELP" value="帮助大全" />
-  <String id="IDS_PAGENAVI_TOTALPAGESTATIC" value="共%u页" />
-  <String id="IDS_VIEWDETAILSBTN" value="查看详情" />
-  <String id="IDS_COMMONERROR_NETWORKFAIL_TIP"  value="网络连接失败，请稍后重试" />
-  <String id="IDS_PUSH_TOOMANY_PUSHFILES_TIP"  value="推送的文件太多了，请少选点吧" />
-  <String id="IDS_PUSH_TOOFREQ_PUSHFILES_TIP"  value="推送太频繁，请稍后再试~" />
-  <String id="IDS_PUSH_TARGETDEVICE_DISKISFULL_TIP"  value="推送设备磁盘空间已满，请清理后再试" />
-  <String id="IDS_PUSH_UNKNOWERROR_TIP"  value="推送文件到设备失败，错误码：%d" />
-  <String id="IDS_FOLDERNAVIGATOR_TEXT_ALLFILE" value="我的网盘" />
-  <String id="IDS_FOLDERNAVIGATOR_TEXT_SAFEBOX" value="隐藏空间" />
-  <String id="IDS_SELECTED_FILECOUNT_TIP" value="已选中%d个文件/文件夹" />
-  <String id="IDS_TOTAL_FILECOUNT_TIP" value="%d项" />
-  <String id="IDS_SELECT_FILE_TITLE" value="请选择文件/文件夹" />
-  <String id="IDS_SELECT_FILE_OK" value="存入百度网盘" />
-  <String id="IDS_TIP_REFRESH" value="刷新" />
-  <String id="IDS_HOTRESVIEW_LOAD_FAILED" value="资源网站遇到问题，打不开了，过会儿再重试一下吧～" />
-  <String id="IDS_HOTRESVIEW_TIP_NETWORK_ERROR" value="网络异常，请检查网络连接后" />
-  <String id="IDS_HOTRESVIEW_TIP_RETRY" value="重试" />
+  <String id="IDS_TITLEBAR_MENUBTN_SETTING" value="Settings" />
+  <String id="IDS_TITLEBAR_BTN_USERHELP" value="Help" />
+  <String id="IDS_PAGENAVI_TOTALPAGESTATIC" value="Total%upages" />
+  <String id="IDS_VIEWDETAILSBTN" value="Details" />
+  <String id="IDS_COMMONERROR_NETWORKFAIL_TIP"  value="Network connection fail, try again later" />
+  <String id="IDS_PUSH_TOOMANY_PUSHFILES_TIP"  value="Push too many files, please choose less" />
+  <String id="IDS_PUSH_TOOFREQ_PUSHFILES_TIP"  value="Push too often, please try again later" />
+  <String id="IDS_PUSH_TARGETDEVICE_DISKISFULL_TIP"  value="Push device disk space is full, clean up then retry" />
+ 
+  <String id="IDS_PUSH_UNKNOWERROR_TIP"  value="Push files to the device failed with error code %d" />
+  <String id="IDS_FOLDERNAVIGATOR_TEXT_ALLFILE" value="My Cloud" />
+  <String id="IDS_FOLDERNAVIGATOR_TEXT_SAFEBOX" value="Hide within safebox" />
+  <String id="IDS_SELECTED_FILECOUNT_TIP" value="Selected %d Files/Folders" />
+  <String id="IDS_TOTAL_FILECOUNT_TIP" value="%d Item" />
+  <String id="IDS_SELECT_FILE_TITLE" value="Please Select File/Folder" />
+  <String id="IDS_SELECT_FILE_OK" value="Upload" />
+  <String id="IDS_TIP_REFRESH" value="Refresh" />
+  <String id="IDS_HOTRESVIEW_LOAD_FAILED" value="There was a problem loading resource. Please wait a moment and then try again~" />
+  <String id="IDS_HOTRESVIEW_TIP_NETWORK_ERROR" value="Please check network connection" />
+  <String id="IDS_HOTRESVIEW_TIP_RETRY" value="retry" />
+
   
   <!--主面板标题栏--> 
-  <String id="IDS_TIPTEXT_INVALID_UPLOADINGFILES" value="不支持此类型文件的上传：" />
-  <String id="IDS_TIPTEXT_EXIT_WITHTASKRUNNING" value="退出后，正在传输的任务无法进行，确定退出？" />
-  <String id="IDS_TIPTEXT_EXIT_WITHTASKRUNNING_GENERATING" value="退出后，正在传输的任务无法进行，排队中的任务可能会丢失，确定退出？" />
-  <String id="IDS_TIPTEXT_EXIT_WITH_DATACABLE_TASKRUNNING" value="退出后，数据线正在传输的任务无法进行，确定退出？" />
-  <String id="IDS_TIPTEXT_EXIT_WITHTASKSPEEDING" value="退出后，极速下载无法继续，确定退出？" />
-  <String id="IDS_TIP_TEXT_DOTPREFIXFOLDERNAME" value="不支持“.”作为文件名" />
-  <String id="IDS_TIPTEXT_OPERATING" value="操作中请稍候..." />
+  <String id="IDS_TIPTEXT_INVALID_UPLOADINGFILES" value="Does not support this type of file uploads" />
+  <String id="IDS_TIPTEXT_EXIT_WITHTASKRUNNING" value="Task is still running. Exit anyway?" />
+  <String id="IDS_TIPTEXT_EXIT_WITHTASKRUNNING_GENERATING" value="After exiting, the task being transferred cannot be performed, and the queued tasks may be lost. Are you sure you want to exit?" />
+  <String id="IDS_TIPTEXT_EXIT_WITH_DATACABLE_TASKRUNNING" value="Task is still running. Exit anyway?" />
+  <String id="IDS_TIPTEXT_EXIT_WITHTASKSPEEDING" value="After exiting, the speed download cannot continue. Are you sure you want to exit?" />
+  <String id="IDS_TIP_TEXT_DOTPREFIXFOLDERNAME" value="Does not support as filename" />
+  <String id="IDS_TIPTEXT_OPERATING" value="Please wait ..." />
+
 
   <!--新建下载任务对话框-->
-  <String id="IDS_DOWNLOADTASK_TITLE_TEXT_FORQA" value="设置下载存储路径" />
-  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_BROWSE" value="浏览" />
-  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_DOWNLOAD" value="下载" />
-  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_CANCEL" value="取消" />
-  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADSOURCE_YUN" value="下载来源：我的网盘" />
-  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADPATHTIP" value="如需变更下载路径，请在设置-传输中修改" />
-  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADDIR" value="下载到" />
-  <String id="IDS_DOWNLOADTASK_TITLE" value="设置下载存储路径" />
-  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_LEFTSPACE" value="盘剩余空间：" />
-  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE" value="文件大小：" />
-  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE_LOADING" value="文件大小：正在计算..." />
-  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE_ERROR" value="文件大小：未知" />
-  <String id="IDS_DOWNLOADTASK_INVALID_PATH_TIP" value="路径无效，请重新选择" />
-  <String id="IDS_DOWNLOADTASK_SET_DEFAULT_DOWNLOADDIR" value="默认此路径为下载路径" />
+  <String id="IDS_DOWNLOADTASK_TITLE_TEXT_FORQA" value="Set Download Directory" />
+  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_BROWSE" value="Browse" />
+  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_DOWNLOAD" value="Download" />
+  <String id="IDS_DOWNLOADTASK_BUTTON_TEXT_CANCEL" value="Cancel" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADSOURCE_YUN" value="Download Source: My Cloud" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADPATHTIP" value="To change the download location, modify it in the Settings - Transfer tab" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_DOWNLOADDIR" value="Download Directory" />
+  <String id="IDS_DOWNLOADTASK_TITLE" value="Set download storage path" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_LEFTSPACE" value=" Disk free space: " />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE" value="File size:" />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE_LOADING" value="File Size: Computing..." />
+  <String id="IDS_DOWNLOADTASK_STATIC_TEXT_FILESIZE_ERROR" value="File Size: Unknown" />
+  <String id="IDS_DOWNLOADTASK_INVALID_PATH_TIP" value="The path is invalid, please reselect" />
+  <String id="IDS_DOWNLOADTASK_SET_DEFAULT_DOWNLOADDIR" value="Default Download Dir." />
 
   <!--选择云端文件进行设备推送对话框-->
-  <String id="IDS_DEVICECLOUDFILETRANSDLG_TITLE_FORQA" value="选择网盘保存路径" />
-  <String id="IDS_DEVICECLOUDFILETRANSDLG_TITLE" value="选择文件" />
-  <String id="IDS_DEVICECLOUDFILETRANSDLG_NET_ERROR_TIP" value="网络连接失败，请稍后重试" />
+  <String id="IDS_DEVICECLOUDFILETRANSDLG_TITLE_FORQA" value="Choose Cloud Save Path" />
+  <String id="IDS_DEVICECLOUDFILETRANSDLG_TITLE" value="Select the file" />
+  <String id="IDS_DEVICECLOUDFILETRANSDLG_NET_ERROR_TIP" value="Network connection failed, please try again later" />
 
   <!--选择云端文件对话框-->
-  <String id="IDS_CLOUDFILESELECTDLG_TITLE" value="选择要移入的文件" />
-  <String id="IDS_CLOUDFILESELECTDLG_TITLE1" value="选择文件" />
-  <String id="IDS_CLOUDFILESELECTDLG_NET_ERROR_TIP" value="网络连接失败，请稍后重试" />
+  <String id="IDS_CLOUDFILESELECTDLG_TITLE" value="Select the files you want to move" />
+  <String id="IDS_CLOUDFILESELECTDLG_TITLE1" value="Select the file" />
+  <String id="IDS_CLOUDFILESELECTDLG_NET_ERROR_TIP" value="Network connection failed, please try again later" />
 
   <!--选择好友对话框-->
-  <String id="IDS_FRIENDSELECTDLG_TITLE" value="选择好友" />
-  <String id="IDS_FRIENDSELECTDLG_NET_ERROR_TIP" value="网络连接失败，请稍后重试" />
-  
+  <String id="IDS_FRIENDSELECTDLG_TITLE" value="Select friends" />
+  <String id="IDS_FRIENDSELECTDLG_NET_ERROR_TIP" value="Network connection failed, please try again later" />
+
   <!--我的设备列表对话框-->
-  <String id="IDS_TITLE_TEXT_MYDEVICE" value="我的在线设备" />
-  <String id="IDS_DEVICELISTDLG_TEXT_EMPTY" value="没有设备" />
-  <String id="IDS_DEVICELISTDLG_USEAGE_TIP" value="还可用“%s”登录其他设备进行推送" />
-  <String id="IDS_DEVICELISTDLG_ERROR_TIP" value="刷新设备列表失败！" />
-  <String id="IDS_DEVICELISTDLG_LOADING_DEVICE_TIP" value="拉取设备中..." />
+  <String id="IDS_TITLE_TEXT_MYDEVICE" value="My Device" />
+  <String id="IDS_DEVICELISTDLG_TEXT_EMPTY" value="No Device" />
+  <String id="IDS_DEVICELISTDLG_USEAGE_TIP" value="With %s login push to other devices also" />
+  <String id="IDS_DEVICELISTDLG_ERROR_TIP" value="Refresh device list failed!" />
+  <String id="IDS_DEVICELISTDLG_LOADING_DEVICE_TIP" value="Load Device..." />
 
-  <String id="IDS_STATIC_NODEVICE_TITLE"   value="如何在这看到我的其他电脑：" />
-  <String id="IDS_STATIC_NODEVICE_STEP1"   value="①  打开要接收文件的电脑" />
-  <String id="IDS_STATIC_NODEVICE_STEP2"   value="②  用“%s”登录百度网盘4.6及以上版本" />
-  <String id="IDS_STATIC_NODEVICE_STEP3"   value="③  刷新此列表，即可看到新登录的电脑" />
+  <String id="IDS_STATIC_NODEVICE_TITLE"   value="How to see my other devices" />
+  <String id="IDS_STATIC_NODEVICE_STEP1"   value="1. Turn on the device to receive the file" />
+  <String id="IDS_STATIC_NODEVICE_STEP2"   value="2. With %s login use Baidu NetDisk 4.6 or later" />
+  <String id="IDS_STATIC_NODEVICE_STEP3"   value="3. Refresh this list, you can see the new device login" />
 
-  <String id="IDS_TITLE_TEXT_MYPHONE" value="选择忘带的手机" />
-  <String id="IDS_STATIC_NOPHONE_CONNECT" value="未检测到有手机连接" />
-  <String id="IDS_STATIC_NOOTHERPHONE_CONNECT" value="未检测到有其他手机连接" />
-  <String id="IDS_STATIC_NOPHONE_TITLE" value="如何在这看到我的手机？" />
-  <String id="IDS_STATIC_NOPHONE_STEP1" value="①  手机有3G/Wifi网络连接" />
-  <String id="IDS_STATIC_NOPHONE_STEP2" value="②  电脑与手机登录同一帐号" />
-  <String id="IDS_STATIC_NOPHONE_STEP3" value="③  在手机端“发现-手机忘带”中开启该功能" />
-  <String id="IDS_STATIC_NOPHONE_STEP4" value="（仅支持百度网盘Android端7.4及以上版本）" />
-  <String id="IDS_DEVICELISTDLG_PHONEERROR_TIP" value="刷新手机列表失败！" />
-  <String id="IDS_DEVICELISTDLG_LOADING_PHONE_TIP" value="拉取手机中..." />
+  <String id="IDS_TITLE_TEXT_MYPHONE" value="Select forgot phone" />
+  <String id="IDS_STATIC_NOPHONE_CONNECT" value="Phone connection not detected" />
+  <String id="IDS_STATIC_NOOTHERPHONE_CONNECT" value="No other phone connected" />
+  <String id="IDS_STATIC_NOPHONE_TITLE" value="How to see my phone?" />
+  <String id="IDS_STATIC_NOPHONE_STEP1" value="1. Check if Phone has 3G/Wifi network connection" />
+  <String id="IDS_STATIC_NOPHONE_STEP2" value="2. Computer and phone should log into the same account" />
+  <String id="IDS_STATIC_NOPHONE_STEP3" value="3. Click Discovery - Mobile forgot: it will scan connected phones and then click the phone's name" />
+  <String id="IDS_STATIC_NOPHONE_STEP4" value="(Baidu cloud: Only Android 7.4 and above)" />
+  <String id="IDS_DEVICELISTDLG_PHONEERROR_TIP" value="Refresh phone list failed!" />
+  <String id="IDS_DEVICELISTDLG_LOADING_PHONE_TIP" value="Load phone..." />
   <!-- 分享 -->
-  <String id="IDS_TIP_SHARE_CREATING" value="正在加密生成分享链接及提取码..." />
-  <String id="IDS_TIP_SHARE_CREATING_PUBLIC" value="正在生成链接..." />
-  <String id="IDS_TIP_SHARE_CREATING_SUCCESS" value="链接提取码已生成，只有你分享的好友能看到哦~" />
-  <String id="IDS_TIP_SHARE_CREATING_FAILE" value="创建链接失败" />
-  <String id="IDS_TIP_SHARE_TMP_FORBIDDEN" value="(已屏蔽)" />
-  <String id="IDS_SHARE_BUTTON_COPYLINK" value="复制链接" />
-  <String id="IDS_SHARE_BUTTON_COPYLINKANDPASSWORD" value="复制链接及提取码" />
-  <String id="IDS_TIP_SHARE_COPYLINK_SUCCESS" value="复制成功" />
-  <String id="IDS_TITLE_TEXT_CREATESHARE" value="分享文件" />
-  <String id="IDS_SHARELISTDLG_COPYLINK_FORMAT" value="链接：%s %s提取码：%s" />
-  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_DAY" value="%d天后" />
-  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_HOUER" value="%d小时后" />
-  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_MINUTE" value="%d分钟后" />
-  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_INVAILID" value="已失效" />
-  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_FOREVER" value="永久有效" />
-  <String id="IDS_SHAREMGRDLG_STATICTEXT_SHARE" value="链接:" />
-  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_END" value="等" />
-  <String id="IDS_SHAREMGRDLG_STATICTEXT_PASSWORD" value="提取码:" />
-  <String id="IDS_SHAREMGRDLG_STATICTEXT_QRCODE" value="二维码:" />
-  <String id="IDS_SHAREMGRDLG_TEXT_QRCODE_2_FRIEND" value="将二维码分享给好友，" />
-  <String id="IDS_SHAREMGRDLG_TEXT_SCAN_TO_GET_FILE" value="对方扫一扫即可获取文件" />
-  <String id="IDS_SHAREMGRDLG_TEXT_WECHATSCAN_TO_GET_FILE" value="对方微信扫一扫即可获取文件" />
-  <String id="IDS_SHAREMGRDLG_TEXT_COPY_QRCODE" value="复制二维码" />
-  <String id="IDS_SHAREMGRDLG_TEXT_CONTAIN_PWD" value="已含提取码，扫码后无需再次输入" />
-  <String id="IDS_SHAREMGRDLG_TEXT_QRCODE_COPYED" value="二维码已复制" />
-  <String id="IDS_SHAREMGRDLG_TEXT_CREATING_QRCODE" value="二维码生成中..." />
-  <String id="IDS_SHAREMGRDLG_TEXT_CREATE_QRCODE_FAIL" value="生成失败" />
-  <String id="IDS_SHAREMGRDLG_TEXT_RETRY_QRCODE" value="重试" />
-  <String id="IDS_SHARE_TIP_TOOMANYSHARE" value="单次操作不能超过%d个，请少选点再操作" />
-  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_DELETED" value="分享的文件已被删除" />
-  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_VERIFING" value="正在审核" />
-  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_VERIFYFAIL" value="审核失败" />
-  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_EXPIRE" value="分享已过期" />
-  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_MOVETOSAFEBOX" value="分享的文件已被移入隐藏空间" />
+  <String id="IDS_TIP_SHARE_CREATING" value="Share links are encrypted and password is being generated..." />
+  <String id="IDS_TIP_SHARE_CREATING_PUBLIC" value="Generating links..." />
+  <String id="IDS_TIP_SHARE_CREATING_SUCCESS" value="Link password generated, only your friends can see the share~" />
+  <String id="IDS_TIP_SHARE_CREATING_FAILE" value="Create link failed" />
+  <String id="IDS_TIP_SHARE_TMP_FORBIDDEN" value="(Forbidden)" />
+  <String id="IDS_SHARE_BUTTON_COPYLINK" value="Copy Link" />
+  <String id="IDS_SHARE_BUTTON_COPYLINKANDPASSWORD" value="Copy Link and PW" />
+  <String id="IDS_TIP_SHARE_COPYLINK_SUCCESS" value="Copy success" />
+  <String id="IDS_TITLE_TEXT_CREATESHARE" value="Create Share" />
+  <String id="IDS_SHARELISTDLG_COPYLINK_FORMAT" value="Link %s Password %s" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_DAY" value="%dd" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_HOUER" value="%dh" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_MINUTE" value="%dm" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_INVAILID" value="expired" />
+  <String id="IDS_SHAREMGRDLG_TEXT_DEADLINE_FOREVER" value="never" />
+  <String id="IDS_SHAREMGRDLG_STATICTEXT_SHARE" value="Link" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_END" value="Wait" />
+  <String id="IDS_SHAREMGRDLG_STATICTEXT_PASSWORD" value="Password" />
+  <String id="IDS_SHAREMGRDLG_STATICTEXT_QRCODE" value="QR code:" />
+  <String id="IDS_SHAREMGRDLG_TEXT_QRCODE_2_FRIEND" value="Share QR code with friends," />
+  <String id="IDS_SHAREMGRDLG_TEXT_SCAN_TO_GET_FILE" value="Scan the other party to get the file" />
+  <String id="IDS_SHAREMGRDLG_TEXT_WECHATSCAN_TO_GET_FILE" value="Scan the other party's WeChat to get the file" />
+  <String id="IDS_SHAREMGRDLG_TEXT_COPY_QRCODE" value="Copy QR code" />
+  <String id="IDS_SHAREMGRDLG_TEXT_CONTAIN_PWD" value="Extraction code is included, no need to enter again after scanning" />
+  <String id="IDS_SHAREMGRDLG_TEXT_QRCODE_COPYED" value="QR code copied" />
+  <String id="IDS_SHAREMGRDLG_TEXT_CREATING_QRCODE" value="Generation of QR code ..." />
+  <String id="IDS_SHAREMGRDLG_TEXT_CREATE_QRCODE_FAIL" value="Build failed" />
+  <String id="IDS_SHAREMGRDLG_TEXT_RETRY_QRCODE" value="Retry" />
+  <String id="IDS_SHARE_TIP_TOOMANYSHARE" value="Single operation cannot exceed %d files. Please select fewer files" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_DELETED" value="Share files have been deleted" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_VERIFING" value="Verifying..." />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_VERIFYFAIL" value="Verify fail" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_EXPIRE" value="Share expired" />
+  <String id="IDS_SHAREMGRDLG_SHAREFILENAME_MOVETOSAFEBOX" value="Share file has been moved to Safe Box" />
 
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_UID_FORBIDDEN" value="此用户名已被封禁" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_UID" value="用户未登录或分享错误" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_NO_PERMISSIOM" value="该分享文件未得到批准" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_LINK_NUM" value="分享数已达上限，请取消一些" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_SMS_NUM" value="每日短信分享数已达上线，用外链或邮件分享吧" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_EMAIL_NUM" value="每日邮件分享数已达上线，用外链或短信分享吧" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_LINK_BANNED" value="此外链已被封禁" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_FILE_NUM" value="单次操作不能超过100个，请少选点再操作" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_INPUT_WRONG" value="验证码输入错误，请重试" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_REQUEST_WRONG" value="验证码拉取失败，请刷新重试" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_UID_FORBIDDEN" value="This username has been banned" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_UID" value="Sharing error, user not logged" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_NO_PERMISSIOM" value="Document not allowed for sharing" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_LINK_NUM" value="Too many shared links, please cancel some" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_SMS_NUM" value="Daily share text messages limit reached. Please share via links or e-mail" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_EMAIL_NUM" value="Daily share e-mail limit reached. Please share via links or SMS" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_LINK_BANNED" value="Link has been banned" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXCEED_FILE_NUM" value="Links share cannot exceed 100, please choose fewer" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_INPUT_WRONG" value="Verification code input error, please try again" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_REQUEST_WRONG" value="Verification code pull failed, please refresh and retry" />
 
   <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_1" value="网盘中已存在此文件，就没帮你拷过来" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_2" value="拷贝遇到问题，麻烦你重试一下" />
@@ -193,29 +196,29 @@
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_NONE" value="永久有效" />
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_7DAYS" value="7天" />
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1天" />
-  <String id="IDS_SHARE_PUBLIC_LINK_DAYS_EXPIRE" value="链接%d天后失效" />
-  
+  <String id="IDS_SHARE_PUBLIC_LINK_DAYS_EXPIRE" value="Link%dDays expired" />
+
   <!-- 转存-->
-  <String id="IDS_TRANSFER_ERR_DEFAULT" value="保存失败，错误码：%d" />
-  <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="文件不存在" />
-  <String id="IDS_TRANSFER_ERR_INVALID_LINK_PWD" value="提取码错误，请重新输入" />
-  <String id="IDS_TRANSFER_ERR_FILE_ALREADY_EXIST" value="此文件已保存在所选目录" />
-  <String id="IDS_TRANSFER_ERR_SPACE_IS_FULL" value="保存失败，网盘空间不足" />
-  <String id="IDS_TRANSFER_ERR_FILE_TOO_MUCH" value="保存失败，一次下载不能超过1000个" />
-  
+  <String id="IDS_TRANSFER_ERR_DEFAULT" value="Dump error code %d" />
+  <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="File does not exist" />
+  <String id="IDS_TRANSFER_ERR_INVALID_LINK_PWD" value="Invalid, please try again" />
+  <String id="IDS_TRANSFER_ERR_FILE_ALREADY_EXIST" value="Error: File already exists" />
+  <String id="IDS_TRANSFER_ERR_SPACE_IS_FULL" value="Failed, out of network disk space" />
+  <String id="IDS_TRANSFER_ERR_FILE_TOO_MUCH" value="Dump failed, a dump can not be more than 1000" />
+
   <!-- 服务器端目录选择框-->
-  <String id="IDS_SERVERFOLDER_TITLE" value="选择网盘保存路径" />
-  <String id="IDS_SERVERFOLDER_LOADING" value="正在获取子目录" />
-  <String id="IDS_SERVERFOLDER_BUTTON_NEWFOLDER" value="新建文件夹" />
-  <String id="IDS_SERVERFOLDER_NEWFOLDER_DEFAULTNAME" value="新建文件夹" />
+  <String id="IDS_SERVERFOLDER_TITLE" value="Choose Save Path Cloud" />
+  <String id="IDS_SERVERFOLDER_LOADING" value="Getting subdirectories" />
+  <String id="IDS_SERVERFOLDER_BUTTON_NEWFOLDER" value="New Folder" />
+  <String id="IDS_SERVERFOLDER_NEWFOLDER_DEFAULTNAME" value="New Folder" />
 
   <!-- 虚拟盘符-->
-  <String id="IDS_VIRTUALFOLDER_NAME" value="百度网盘" />
-  <String id="IDS_VIRTUALFOLDER_INFOTIP" value="双击运行百度网盘" />
+  <String id="IDS_VIRTUALFOLDER_NAME" value="Baidu NetDisk" />
+  <String id="IDS_VIRTUALFOLDER_INFOTIP" value="Double-click to run Baidu Network Disk" />
 
   <!--文件类型面板-->
-  <String id="IDS_FILETYPEPANEL_ALL" value="全部文件" />
-  
+  <String id="IDS_FILETYPEPANEL_ALL" value="All files" />
+
   <!--传输面板 -->
   <String id="IDS_TRANPANEL_AUTOBACKUP_FOLDER_TEXT" value="自动备份文件夹" />
   <String id="IDS_TRANPANEL_PORTABLEDEVBACKUP_FOLDER_TEXT" value="便携式设备备份文件夹" />
@@ -303,9 +306,9 @@
   <!--传输面板错误提示 -->
   
   <!--传输错误解决方案链接-->
-  <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_TOO_BIG" value="开通会员上传大文件" />
-  <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_SUPER_BIG" value="开通超级会员上传大文件" />
-  <String id="IDS_RESOLUTION_SPACE_NOT_ENOUGH" value="扩容" />
+  <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_TOO_BIG" value="File too big" />
+  <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_SUPER_BIG" value="File to Super big" />
+  <String id="IDS_RESOLUTION_SPACE_NOT_ENOUGH" value="Not enough space" />
   <String id="IDS_RESOLUTION_BACKUP_QUOTA_NOT_ENOUGH" value="流量超限，开通会员备份流量无限制" />
 
   <!--上传提示 -->
@@ -379,139 +382,139 @@
   <String id="IDS_PORTABLE_DEVICE_IMPORT_TRAYTIP_POSTFIX_TEXT" value="等待备份" />
 
   <!--登录窗口 -->
-  <String id="IDS_LOGINDLG_TASKITEM_NAME" value="欢迎使用百度网盘" />
-  <String id="IDS_STATIC_NO_ACCOUNT" value="没有百度帐号？" />
-  <String id="IDS_STATIC_SELECT_LOGIN_WAY" value="请选择以何种方式登录？" />
-  <String id="IDS_STATIC_ACCOUNT_LOGIN" value="帐号登录" />
-  <String id="IDS_STATIC_PHONE_LOGIN" value="手机号登录" />
-  <String id="IDS_STATIC_DEFAULT_USERNAME_TIP" value="手机号/邮箱/用户名" />
-  <String id="IDS_STATIC_LOGIN" value="登录" />
-  <String id="IDS_STATIC_REGISTER" value="立即注册百度帐号" />
-  <String id="IDS_STATIC_FORGET_PASSWD" value="忘记密码?" />
-  <String id="IDS_STATIC_REMEMBER_PASSWD" value="记住密码" />
-  <String id="IDS_STATIC_AUTO_LOGIN" value="自动登录" />
-  <String id="IDS_STATIC_VCODE_ISNOT_CLEAR" value="换一张" />
-  <String id="IDS_STATIC_VCODE" value="验证码" />
-  <String id="IDS_STATIC_INPUT_VCODE_TIP" value="请输入验证码" />
-  <String id="IDS_STATIC_QUIT_APP_TIP" value="是否立即退出百度网盘?" />
-  <String id="IDS_STATIC_APP_TITLE_NAME" value="百度网盘" />
-  <String id="IDS_STATIC_USERNAME_FORMAT_ERROR_TIP" value="帐号格式错误" />
-  <String id="IDS_STATIC_USERNAME_NOT_EXIST_TIP" value="帐号不存在" />
-  <String id="IDS_STATIC_USERNAME_INPUT_TIP" value="请输入百度帐号" />
-  <String id="IDS_STATIC_USERNAME_NOT_ACTIVATE_TIP" value="用户帐户未激活" />
-  <String id="IDS_STATIC_PASSWD_ERROR_TIP" value="密码输入错误" />
-  <String id="IDS_STATIC_PASSWD_INPUT_TIP" value="请输入密码" />
-  <String id="IDS_STATIC_VCODE_NOT_MATCH_TIP" value="验证码输入错误" />
-  <String id="IDS_STATIC_LOGIN_NETWORK_ERROR_TIP" value="网络异常" />
-  <String id="IDS_STATIC_LOGIN_TOOMUCH_ERROR_TIP" value="登录过于频繁，请24小时之后再试" />
-  <String id="IDS_STATIC_LOGIN_ACTIVE_NOW" value="立即申请开通" />
-  <String id="IDS_STATIC_LOGIN_PROTECT_ERROR_TIP" value="已开启短信验证，请在手机上完成验证再登录" />
-  <String id="IDS_STATIC_LOGIN_USER_DISABLE_TIP" value="帐号异常" />
-  <String id="IDS_LOGINDLG_BTN_LOGINING" value="登录中..." />
-  <String id="IDS_LOGINDLG_SERVER_ERROR_FAIL" value="登录出问题啦！请稍候重试..." />
-  <String id="IDS_STATIC_APP_IS_RUNNING" value="百度网盘在这里运行" />
-  <String id="IDS_STATIC_APP_ALREADY_RUN" value="百度网盘正在运行" />
-  <String id="IDS_STATIC_LOGIN_OTHERACCOUNT" value="使用其他帐号登录" />
-  <String id="IDS_STATIC_OTHER_LOGIN_WAY" value="使用合作帐号登录" />
-  <String id="IDS_THIRDLOGINDLG_LOGIN_FAIL" value="网络繁忙，请稍后再试" />
-  <String id="IDS_THIRDLOGINDLG_BTN_RETRY" value="重试" />
-  <String id="IDS_THIRDLOGINDLG_BTN_CANCEL" value="取消" />
-  <String id="IDS_THIRDLOGINDLG_TITLE" value="第三方登录" />
-  <String id="IDS_THIRDLOGINDLG_SINAWEIBO_LOGIN" value="微博登录" />
-  <String id="IDS_THIRDLOGINDLG_RENREN_LOGIN" value="人人登录" />
-  <String id="IDS_THIRDLOGINDLG_QQ_LOGIN" value="QQ登录" />
-  <String id="IDS_THIRDLOGINDLG_BINDED_ACCOUNT_TIP" value="你的%s帐号已绑定百度帐号" />
-  <String id="IDS_THIRDLOGINDLG_VISIT_BAIDU_TIP" value="你将以该帐号访问百度网盘" />
-  <String id="IDS_THIRDLOGINDLG_BTN_KNOWN" value="我知道了" />
-  <String id="IDS_THIRDLOGINDLG_BTN_REFRESH_TIP" value="刷新" />
-  <String id="IDS_LOGINDLG_DEL_ACCOUNT_LOGIN_INFO" value="确认删除该帐号的登录信息吗？" />
-  <String id="IDS_LOGINDLG_DEL_ACCOUNT_ALL_INFO" value="确认删除该帐号的所有信息吗？" />
-  <String id="IDS_LOGINDLG_DEL_ACCOUNT_INFO" value="删除帐号信息" />
-  <String id="IDS_LOGINDLG_TIP_MORNING" value="，每天都是新的开始~" />
-  <String id="IDS_LOGINDLG_TIP_MIDDAY" value="，忙碌也是件幸福的事~" />
-  <String id="IDS_LOGINDLG_TIP_AFTERNOON" value="，遇见你真好~" />
-  <String id="IDS_LOGINDLG_TIP_EVENING" value="，时间不早啦，注意休息~" />
-  <String id="IDS_LOGINDLG_TIP_DEVICE_FORBIDDEN" value="当前电脑已被限制登录" />
-  <String id="IDS_LOGINDLG_TIP_LOCAL_TIME_ERROR" value="网络证书无效，可能设备时间有误，请重新设置" />
-  <String id="IDS_LOGINDLG_TIP_HTTPS_ERROR" value="网络证书验证失败" />
+  <String id="IDS_LOGINDLG_TASKITEM_NAME" value="Welcome to Baidu NetDisk (English)" />
+  <String id="IDS_STATIC_NO_ACCOUNT" value="No Baidu account?" />
+  <String id="IDS_STATIC_SELECT_LOGIN_WAY" value="How would you like to login?" />
+  <String id="IDS_STATIC_ACCOUNT_LOGIN" value="Account Login" />
+  <String id="IDS_STATIC_PHONE_LOGIN" value="Phone Login" />
+  <String id="IDS_STATIC_DEFAULT_USERNAME_TIP" value="Phone number/E-mail/Username" />
+  <String id="IDS_STATIC_LOGIN" value="Login" />
+  <String id="IDS_STATIC_REGISTER" value="Register new..." />
+  <String id="IDS_STATIC_FORGET_PASSWD" value="Forgot?" />
+  <String id="IDS_STATIC_REMEMBER_PASSWD" value="Remember" />
+  <String id="IDS_STATIC_AUTO_LOGIN" value="Auto login" />
+  <String id="IDS_STATIC_VCODE_ISNOT_CLEAR" value="Unclear" />
+  <String id="IDS_STATIC_VCODE" value="Captcha:" />
+  <String id="IDS_STATIC_INPUT_VCODE_TIP" value="Please enter the verification code" />
+  <String id="IDS_STATIC_QUIT_APP_TIP" value="Exit immediately?" />
+  <String id="IDS_STATIC_APP_TITLE_NAME" value="Baidu NetDisk (English for 6.8.* by John_Wayne , ZloiSupport)" />
+  <String id="IDS_STATIC_USERNAME_FORMAT_ERROR_TIP" value="Incorrect Format" />
+  <String id="IDS_STATIC_USERNAME_NOT_EXIST_TIP" value="Account does not exist" />
+  <String id="IDS_STATIC_USERNAME_INPUT_TIP" value="Please enter Baidu account" />
+  <String id="IDS_STATIC_USERNAME_NOT_ACTIVATE_TIP" value="Account is not activated" />
+  <String id="IDS_STATIC_PASSWD_ERROR_TIP" value="Incorrect Password" />
+  <String id="IDS_STATIC_PASSWD_INPUT_TIP" value="Please enter password" />
+  <String id="IDS_STATIC_VCODE_NOT_MATCH_TIP" value="Incorrect Verification Code" />
+  <String id="IDS_STATIC_LOGIN_NETWORK_ERROR_TIP" value="Network Error" />
+  <String id="IDS_STATIC_LOGIN_TOOMUCH_ERROR_TIP" value="Too many failed login attempts. Please try again after 24 hours" />
+  <String id="IDS_STATIC_LOGIN_ACTIVE_NOW" value="Activate now" />
+  <String id="IDS_STATIC_LOGIN_PROTECT_ERROR_TIP" value="SMS verification on, please complete the phone verification and then log in" />
+  <String id="IDS_STATIC_LOGIN_USER_DISABLE_TIP" value="Account-number is abnormal" />
+  <String id="IDS_LOGINDLG_BTN_LOGINING" value="logging in..." />
+  <String id="IDS_LOGINDLG_SERVER_ERROR_FAIL" value="Oops! Server error! Please try again later..." />
+  <String id="IDS_STATIC_APP_IS_RUNNING" value="Baidu NetDisk is running" />
+  <String id="IDS_STATIC_APP_ALREADY_RUN" value="Baidu NetDisk is already running" />
+  <String id="IDS_STATIC_LOGIN_OTHERACCOUNT" value="Login using another account" />
+  <String id="IDS_STATIC_OTHER_LOGIN_WAY" value="Other way" />
+  <String id="IDS_THIRDLOGINDLG_LOGIN_FAIL" value="Network busy, try again later" />
+  <String id="IDS_THIRDLOGINDLG_BTN_RETRY" value="Retry" />
+  <String id="IDS_THIRDLOGINDLG_BTN_CANCEL" value="Cancel" />
+  <String id="IDS_THIRDLOGINDLG_TITLE" value="Sign in with" />
+  <String id="IDS_THIRDLOGINDLG_SINAWEIBO_LOGIN" value="Weibo login" />
+  <String id="IDS_THIRDLOGINDLG_RENREN_LOGIN" value="Renren login" />
+  <String id="IDS_THIRDLOGINDLG_QQ_LOGIN" value="QQ login" />
+  <String id="IDS_THIRDLOGINDLG_BINDED_ACCOUNT_TIP" value="Your account has been bound Baidu %s account" />
+  <String id="IDS_THIRDLOGINDLG_VISIT_BAIDU_TIP" value="Use this account to access Baidu Cloud" />
+  <String id="IDS_THIRDLOGINDLG_BTN_KNOWN" value="I know" />
+  <String id="IDS_THIRDLOGINDLG_BTN_REFRESH_TIP" value="Refresh" />
+  <String id="IDS_LOGINDLG_DEL_ACCOUNT_LOGIN_INFO" value="Delete the account login info?" />
+  <String id="IDS_LOGINDLG_DEL_ACCOUNT_ALL_INFO" value="Delete all account info?" />
+  <String id="IDS_LOGINDLG_DEL_ACCOUNT_INFO" value="Delete account info" />
+  <String id="IDS_LOGINDLG_TIP_MORNING" value="，Good Morning~" />
+  <String id="IDS_LOGINDLG_TIP_MIDDAY" value="，Good Afternoon~" />
+  <String id="IDS_LOGINDLG_TIP_AFTERNOON" value="，Remember to have 8 glasses of water a day~" />
+  <String id="IDS_LOGINDLG_TIP_EVENING" value="It's getting late. Remember to rest~" />
+  <String id="IDS_LOGINDLG_TIP_DEVICE_FORBIDDEN" value="Current device is forbidden" />
+  <String id="IDS_LOGINDLG_TIP_LOCAL_TIME_ERROR" value="Network certificate invalid, device time is incorrect, reset" />
+  <String id="IDS_LOGINDLG_TIP_HTTPS_ERROR" value="Network certificate validation failure" />
   <!--系统设置窗口 -->
-  <String id="IDS_SETTINGDLG_TASKITEM_NAME" value="百度网盘设置" />
-  <String id="IDS_SETTINGDLG_TAB_GENERAL_SETTING" value="基本" />
-  <String id="IDS_SETTINGDLG_TAB_NET_SETTING" value="传输" />
-  <String id="IDS_SETTINGDLG_TAB_PRIVATE_SETTING" value="隐私" />
-  <String id="IDS_SETTINGDLG_TAB_ADVANCE_SETTING" value="安全" />
-  <String id="IDS_SETTINGDLG_TAB_OTHER_SETTING" value="提醒" />
-  <String id="IDS_STATIC_DISPALY_FLOATTING_DLG" value="桌面显示悬浮窗" />
-  <String id="IDS_STATIC_DISPALY_TRAY_TIP" value="传输完成气泡提示" />
-  <String id="IDS_STATIC_DEVICE_ONLINE_TIP" value="设备上线提醒" />
-  <String id="IDS_STATIC_AUTO_STARTUP" value="开机时启动百度网盘(推荐)" />
-  <String id="IDS_STATIC_DISPLAY_VIRTUALDRIVE" value="在我的电脑中显示百度网盘" />
-  <String id="IDS_STATIC_AUTO_UPDATE"   value="自动升级：" />
-  <String id="IDS_STATIC_AUTO_SHUT_DOWN"   value="传输完成后自动关机" />
-  <String id="IDS_STATIC_UPLOAD_TASK_COUNT"   value="上传并行任务数" />
-  <String id="IDS_STATIC_DOWNLOAD_TASK_COUNT"   value="下载并行任务数" />
-  <String id="IDS_STATIC_TASK_COUNT_AUTO"   value="智能" />
-  <String id="IDS_STATIC_TASK_COUNT_TIP"   value="（推荐智能）" />
-  <String id="IDS_STATIC_ASSOCIATE_BT_TYPE"   value="启动后关联BT种子文件(.torrent文件)" />
-  <String id="IDS_STATIC_CANCEL_ASSOCIATION_TIP"   value="取消关联，可能导致双击本地种子无法运行" />
-  <String id="IDS_STATIC_ADVANCE_SETTING_TIP"   value="高级设置" />
-  <String id="IDS_ADVANCESETTINGDLG_P2P_TITLE" value="激励计划：" />
-  <String id="IDS_ADVANCESETTINGDLG_CHECK_P2P_OPEN" value="加入用户激励计划" />
-  <String id="IDS_ADVANCESETTINGDLG_INTRODUCE_P2P_TIP" value="“用户激励计划”是百度网盘为提升PC客户端用户体验而推出的一项活动。开启后根据用户的活跃度和使用情况，奖励相应的积分。通过本计划获得的积分相当于您在百度网盘中的财富，可以到手机端app中兑换百度网盘超级会员、特权，或者其他丰厚奖品。取消后不再有积分奖励，请慎重选择。" />
-  <String id="IDS_STATIC_CLOSE_P2P_TIP" value="“用户激励计划”是百度网盘为提升PC客户端用户体验而推出的一项活动，\r\n 取消后不再有积分奖励，是否确认取消？" />
-  <String id="IDS_STATIC_FIX_CLOSE_P2P" value="确认关闭" />
-  <String id="IDS_STATIC_QUIT_CLOSE_P2P" value="继续开启" />
-  <String id="IDS_STATIC_CLOSE_P2P_REMIND_REBOOT" value="重启百度网盘客户端后，将退出“用户激励计划”" />
-  <String id="IDS_STATIC_KNOWN_TIP" value="知道了" />
+  <String id="IDS_SETTINGDLG_TASKITEM_NAME" value="Baidu NetDisk settings" />
+  <String id="IDS_SETTINGDLG_TAB_GENERAL_SETTING" value="General" />
+  <String id="IDS_SETTINGDLG_TAB_NET_SETTING" value="Network" />
+  <String id="IDS_SETTINGDLG_TAB_PRIVATE_SETTING" value="Private" />
+  <String id="IDS_SETTINGDLG_TAB_ADVANCE_SETTING" value="Advanced" />
+  <String id="IDS_SETTINGDLG_TAB_OTHER_SETTING" value="Other" />
+  <String id="IDS_STATIC_DISPALY_FLOATTING_DLG" value="Display floating window on desktop" />
+  <String id="IDS_STATIC_DISPALY_TRAY_TIP" value="Display tooltips systray" />
+  <String id="IDS_STATIC_DEVICE_ONLINE_TIP" value="Device is online" />
+  <String id="IDS_STATIC_AUTO_STARTUP" value="Start Baidu NetDisk at boot (recommend)" />
+  <String id="IDS_STATIC_DISPLAY_VIRTUALDRIVE" value="Display Baidu virtual drive at my computer" />
+  <String id="IDS_STATIC_AUTO_UPDATE"   value="Enable automatic software updates" />
+  <String id="IDS_STATIC_AUTO_SHUT_DOWN"   value="Automatic shutdown when transfers complete" />
+  <String id="IDS_STATIC_UPLOAD_TASK_COUNT"   value="Uploads" />
+  <String id="IDS_STATIC_DOWNLOAD_TASK_COUNT"   value="Downloads" />
+  <String id="IDS_STATIC_TASK_COUNT_AUTO"   value="Auto" />
+  <String id="IDS_STATIC_TASK_COUNT_TIP"   value="Recommend auto" />
+  <String id="IDS_STATIC_ASSOCIATE_BT_TYPE"   value="Associate BT seed files (torrent file)" />
+  <String id="IDS_STATIC_CANCEL_ASSOCIATION_TIP"   value="Disassociate BT seed files will cause double-click not to work" />
+  <String id="IDS_STATIC_ADVANCE_SETTING_TIP"   value="Advanced settings" />
+  <String id="IDS_ADVANCESETTINGDLG_P2P_TITLE" value="Incentive plan：" />
+  <String id="IDS_ADVANCESETTINGDLG_CHECK_P2P_OPEN" value="Join User Incentive Program" />
+  <String id="IDS_ADVANCESETTINGDLG_INTRODUCE_P2P_TIP" value="The 'User Incentive Program' is an activity launched by Baidu Netdisk to improve the user experience of pc clients.  After opening, reward the corresponding points according to the user's activity and usage.  The points obtained through this program are equivalent to your wealth in Baidu's online disk. You can redeem Baidu's online disk super members, privileges, or other generous prizes in the mobile app.  No points will be awarded after cancellation, please choose carefully." />
+  <String id="IDS_STATIC_CLOSE_P2P_TIP" value="'User Incentive Program' is an activity launched by Baidu Netdisk to improve the user experience of PC clients. \r\n There will be no point rewards after cancellation. Are you sure to cancel?" />
+  <String id="IDS_STATIC_FIX_CLOSE_P2P" value="Confirm close" />
+  <String id="IDS_STATIC_QUIT_CLOSE_P2P" value="Continue to open " />
+  <String id="IDS_STATIC_CLOSE_P2P_REMIND_REBOOT" value="After restarting the Baidu Netdisk client, it will exit the 'User Incentive Program" />
+  <String id="IDS_STATIC_KNOWN_TIP" value="I Know" />
   <!--第三方安全提示-->
-  <String id="IDS_STATIC_THIRDPARTY_SECURITY_TITLE"   value="让你的资料更安全，仅需2步，即可拥有“锁定网盘”高级功能！" />
-  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_TITLE"   value="启用隐藏空间仅需2步：" />
-  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_STEP1"   value="①	使用合作帐号在网页端绑定邮箱/手机号" />
-  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_STEP2"   value="②	用绑定的邮箱/手机号登录网盘" />
-  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP1"   value="①	使用合作帐号在网页端绑定邮箱/手机号" />
-  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP2"   value="②	用绑定的邮箱/手机号登录网盘" />
-  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP3"   value="立即拥有锁定功能！" />
-  
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_TITLE"   value="Make your information more secure, only 2 steps, you can have 'lock network disk' advanced features！" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_TITLE"   value="Just 2 steps to enable hidden Safe Box：" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_STEP1"   value="①  Use a partner account to bind email/mobile phone number on the web page" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_SAFEBOX_STEP2"   value="②  Log in to the network disk with the bound email / mobile phone number" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP1"   value="①  Bind email / mobile phone number on the webpage using a partner account" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP2"   value="②  Log in to the network disk with the bound email/mobile phone number" />
+  <String id="IDS_STATIC_THIRDPARTY_SECURITY_STEP3"   value="Lock function now enabled!" />
+
 
   <!--气泡提示设置-->
-  <String id="IDS_STATIC_SOUNDTIP_TITLE"    value="声音提醒：" />
-  <String id="IDS_STATIC_POPTIP_TITLE"    value="气泡提示：" />
-  <String id="IDS_STATIC_SYSTEMMSG"    value="系统消息" />
-  <String id="IDS_STATIC_FRIENDMSG"    value="好友分享消息" />
-  <String id="IDS_STATIC_C2CMSG"    value="求购消息" />
-  <String id="IDS_STATIC_PORTABLE_DEV_BACK_MSG"    value="插入设备后，提示备份照片" />
+  <String id="IDS_STATIC_SOUNDTIP_TITLE"    value="Alert" />
+  <String id="IDS_STATIC_POPTIP_TITLE"    value="Bubble tip" />
+  <String id="IDS_STATIC_SYSTEMMSG"    value="System messages" />
+  <String id="IDS_STATIC_FRIENDMSG"    value="Friends messages" />
+  <String id="IDS_STATIC_C2CMSG"    value="Custom messages" />
+  <String id="IDS_STATIC_PORTABLE_DEV_BACK_MSG"    value="After inserting device, we suggest you to backup photographs" />
 
-  <String id="IDS_STATIC_UPDATE_NOW"   value="立即升级" />
-  <String id="IDS_STATIC_SETTING_COCURRENTTASK"   value="并行任务：" />
-  <String id="IDS_STATIC_SETTING_AUTOBACKUP_TITLE"   value="自动备份：" />
-  <String id="IDS_STATIC_SETTING_FRIENDSHARE_TITLE"   value="好友分享：" />
-  <String id="IDS_STATIC_FRIEND_MESSAGE_ONLY"   value="只接收好友分享的消息" />
-  <String id="IDS_SETTINGDLG_GENERAL_SETTING_TITLE" value="基本：" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_TITLE"   value="好友验证：" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWANYONE"   value="允许任何人" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NEEDVERIFYMESSAGE"   value="需要验证信息" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NEEDANSWERQUESTION"   value="需要正确回答问题" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE"   value="不允许任何人" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_QUESTION"   value="问题" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ANSWER"   value="答案" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE_TIP1"   value="更改后，其他人将无法主动添加你为好友。但不影响个人盘口令" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE_TIP2"   value="与二维码的使用" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NETWORK_FAIL"   value="网络出错，好友验证设置失败" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_QUESTION_EMPTY"   value="问题不得为空" />
-  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ANSWER_TOO_SHORT"   value="答案不得少于2个字" />
-  <String id="IDS_STATIC_SETTING_TRANS_SPEED"   value=" 传输速度：" />
-  <String id="IDS_STATIC_DOWNLOAD_SPEED"   value="下载" />
-  <String id="IDS_STATIC_UPLOAD_SPEED"   value="上传" />
-  <String id="IDS_STATIC_NO_LIMIT_SPEED"   value=" 不限速" />
-  <String id="IDS_STATIC_LIMIT_TO"   value=" 限速为" />
+  <String id="IDS_STATIC_UPDATE_NOW"   value="Update" />
+  <String id="IDS_STATIC_SETTING_COCURRENTTASK"   value="Parallel" />
+  <String id="IDS_STATIC_SETTING_AUTOBACKUP_TITLE"   value="AutoBackup" />
+  <String id="IDS_STATIC_SETTING_FRIENDSHARE_TITLE"   value="Share" />
+  <String id="IDS_STATIC_FRIEND_MESSAGE_ONLY"   value="Share with friends only" />
+  <String id="IDS_SETTINGDLG_GENERAL_SETTING_TITLE" value="Basic" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_TITLE"   value="Friend verification：" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWANYONE"   value="Allow anyone" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NEEDVERIFYMESSAGE"   value="Need verification information" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NEEDANSWERQUESTION"   value="Need to answer questions correctly" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE"   value="No one allowed" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_QUESTION"   value="Problem" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ANSWER"   value="Answer" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE_TIP1"   value="After the change, others will not be able to actively add you as a friend. But does not affect personal disk passwords" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWNOONE_TIP2"   value="Use with QR code" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NETWORK_FAIL"   value="Network error,verification settings failed" />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_QUESTION_EMPTY"   value="The problem must not be null " />
+  <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ANSWER_TOO_SHORT"   value="Answer should be no less than 2 words" />
+  <String id="IDS_STATIC_SETTING_TRANS_SPEED"   value="Transfer speed" />
+  <String id="IDS_STATIC_DOWNLOAD_SPEED"   value="Do" />
+  <String id="IDS_STATIC_UPLOAD_SPEED"   value="Up" />
+  <String id="IDS_STATIC_NO_LIMIT_SPEED"   value=" Max" />
+  <String id="IDS_STATIC_LIMIT_TO"   value=" Limit" />
   <String id="IDS_STATIC_STANDARD_SPEED"   value="128" />
   <String id="IDS_STATIC_SPEED_UNIT"   value="KB/s" />
-  <String id="IDS_STATIC_DOWNLOAD_LOCATION_SEL"   value=" 文件位置选择" />
-  <String id="IDS_STATIC_SET_DEFAULT_DOWNLOAD_DIR" value="默认此路径为下载路径" />
-  <String id="IDS_STATIC_AUTO_UPDATE_INFO"   value=" 自动升级" />
-  <String id="IDS_STATIC_AUTO_BACKUP_MANAGE"   value=" 自动备份文件夹" />
-  <String id="IDS_STATIC_BACKUP_MANAGE"   value=" 管理自动备份的文件夹" />
-  <String id="IDS_SETTING_BUTTON_TEXT_MANAGE"   value="管理" />
+  <String id="IDS_STATIC_DOWNLOAD_LOCATION_SEL"   value=" Downloads" />
+  <String id="IDS_STATIC_SET_DEFAULT_DOWNLOAD_DIR" value="Default Download Dir." />
+  <String id="IDS_STATIC_AUTO_UPDATE_INFO"   value=" Automatic" />
+  <String id="IDS_STATIC_AUTO_BACKUP_MANAGE"   value=" Automatic backup folder" />
+  <String id="IDS_STATIC_BACKUP_MANAGE"   value=" Automatic backup folder manage" />
+  <String id="IDS_SETTING_BUTTON_TEXT_MANAGE"   value="Manage" />
 
   <String id="IDS_STATIC_PASSWORD_PROTECT"   value=" 密码保护" />
   <String id="IDS_STATIC_TRANSFER_COMPLETE_TIP"   value=" 传输完成提示" />
@@ -599,136 +602,136 @@
 
 
   <!-- 弹出气泡提示-->
-  <String id="IDS_TIP_TRAYSHOW_VIEWDETAIL"    value="查看详情" />
+  <String id="IDS_TIP_TRAYSHOW_VIEWDETAIL"    value="View details" />
 
   <!--悬浮窗口 -->
-  <String id="IDS_FlOATINDLG_DRAG_FILE_TIP"    value="  拖拽文件到此%s  上传到百度网盘  " />
-  <String id="IDS_FlOATINDLG_NETWORKFAIL"    value="网络连接失败，无法上传文件" />
-  <String id="IDS_FlOATINDLG_DRAG_TITLE_TIP"    value="拖拽上传" />
-  <String id="IDS_FlOATINDLG_DRAG_DROP_TIP"    value="请松开鼠标上传" />
-  <String id="IDS_FlOATINDLG_UPLOAD_PROGRESS"    value="上传进度" />
-  <String id="IDS_FlOATINDLG_DOWNLOAD_PROGRESS"    value="下载进度" />
-  <String id="IDS_FlOATINDLG_VIEWDETAIL"    value="查看详情" />
-  <String id="IDS_FlOATINDLG_READINGFILE_TIP" value="读取文件" />
+  <String id="IDS_FlOATINDLG_DRAG_FILE_TIP"    value="Drag and drop files to be uploaded to Baidu Cloud" />
+  <String id="IDS_FlOATINDLG_NETWORKFAIL"    value="Network connection fails, you can not upload files" />
+  <String id="IDS_FlOATINDLG_DRAG_TITLE_TIP"    value="Drag and drop to upload" />
+  <String id="IDS_FlOATINDLG_DRAG_DROP_TIP"    value="Release mouse to upload" />
+  <String id="IDS_FlOATINDLG_UPLOAD_PROGRESS"    value="Upload status" />
+  <String id="IDS_FlOATINDLG_DOWNLOAD_PROGRESS"    value="Download status" />
+  <String id="IDS_FlOATINDLG_VIEWDETAIL"    value="View details" />
+  <String id="IDS_FlOATINDLG_READINGFILE_TIP" value="Reading file" />
 
   <!--关于窗口 -->
-  <String id="IDS_ABOUTDLG_TITLENAME_FORQA"        value="关于" />
-  <String id="IDS_ABOUTDLG_TITLENAME"        value="关于百度网盘" />
-  <String id="IDS_ABOUTDLG_VERSION"        value="版本号" />
+  <String id="IDS_ABOUTDLG_TITLENAME_FORQA"        value="About Baidu NetDisk" />
+  <String id="IDS_ABOUTDLG_TITLENAME"        value="About Baidu NetDisk" />
+  <String id="IDS_ABOUTDLG_VERSION"        value="Version number" />
   <String id="IDS_ABOUTDLG_COPYRIGHT_TIP" value="Copyright" />
   <String id="IDS_ABOUTDLG_COPYRIGHT_COMPANY" value="%dBaidu,Inc.All rights reserved" />
-  <String id="IDS_ABOUTDLG_VIEW_USER_PROTOCOL" value="查看用户协议" />
+  <String id="IDS_ABOUTDLG_VIEW_USER_PROTOCOL" value="View user agreement" />
 
   <!--历史版本窗口 -->
-  <String id="IDS_FILEVERSIONDLG_TITLENAME_FORQA"  value="文档历史版本" />
-  <String id="IDS_FILEVERSIONDLG_TITLENAME"  value="文档历史版本" />
-  <String id="IDS_FILEVERSIONDLG_HISVERSION"  value="文档历史版本" />
-  <String id="IDS_FILEVERSIONDLG_HISVERSION_VIP"  value="文档历史版本" />
-  <String id="IDS_FILEVERSIONDLG_FILESIZE"  value="大小" />
-  <String id="IDS_FILEVERSIONDLG_FILEMTIME"  value="修改时间" />
-  <String id="IDS_FILEVERSIONDLG_OP"  value="操作" />
-  <String id="IDS_FILEVERSIONDLG_RESUME"  value="恢复" />
-  <String id="IDS_FILEVERSIONDLG_CLOSE"  value="关闭" />
-  <String id="IDS_FILEVERSIONDLG_CURVERSION"  value="(当前)" />
-  <String id="IDS_FILEVERSIONDLG_REVERTING_HISVER"  value="正在恢复历史版本..." />
-  <String id="IDS_FILEVERSIONDLG_REVERT_SUCCESS"  value="版本恢复成功，为你生成了新的副本" />
-  <String id="IDS_FILEVERSIONDLG_REVERT_FAIL"  value="历史版本恢复失败，稍候重试一下吧" />
-  <String id="IDS_FILEVERSIONDLG_ERR_NETWORK"  value="网络异常，恢复失败" />
-  <String id="IDS_FILEVERSIONDLG_ERR_NO_ENOUGH_SPACE"  value="网盘空间不足，清理空间后再试吧" />
-  <String id="IDS_FILEVERSIONDLG_ERR_FILE_NOT_EXIST"  value="源文件被删除，恢复失败" />
-  <String id="IDS_FILEVERSIONDLG_VIP_TIP"  value="尊贵的会员，您享受每个文件保留%d个历史版本的特权" />
-  <String id="IDS_FILEVERSIONDLG_SVIP_TIP"  value="尊贵的超级会员，您享受每个文件保留%d个历史版本的特权" />
-  <String id="IDS_FILEVERSIONDLG_PAID_TIP"  value="尊贵的付费用户，您享受每个文件保留100个历史版本的特权" />
-  <String id="IDS_FILEVERSIONDLG_MORE_VER"  value="开通会员查看更多历史版本" />
+  <String id="IDS_FILEVERSIONDLG_TITLENAME_FORQA"  value="Version History" />
+  <String id="IDS_FILEVERSIONDLG_TITLENAME"  value="Version History" />
+  <String id="IDS_FILEVERSIONDLG_HISVERSION"  value="Version (Last 10 Versions)" />
+  <String id="IDS_FILEVERSIONDLG_HISVERSION_VIP"  value="Version" />
+  <String id="IDS_FILEVERSIONDLG_FILESIZE"  value="Size" />
+  <String id="IDS_FILEVERSIONDLG_FILEMTIME"  value="Last Change" />
+  <String id="IDS_FILEVERSIONDLG_OP"  value="Operating" />
+  <String id="IDS_FILEVERSIONDLG_RESUME"  value="Restore" />
+  <String id="IDS_FILEVERSIONDLG_CLOSE"  value="Close" />
+  <String id="IDS_FILEVERSIONDLG_CURVERSION"  value="(Current) " />
+  <String id="IDS_FILEVERSIONDLG_REVERTING_HISVER"  value="Restoring historical version ..." />
+  <String id="IDS_FILEVERSIONDLG_REVERT_SUCCESS"  value="Version restored successfully, new copy made for you" />
+  <String id="IDS_FILEVERSIONDLG_REVERT_FAIL"  value="History version recovery failed, try again" />
+  <String id="IDS_FILEVERSIONDLG_ERR_NETWORK"  value="Error Network" />
+  <String id="IDS_FILEVERSIONDLG_ERR_NO_ENOUGH_SPACE"  value="Disk space, clean up space and then try. " />
+  <String id="IDS_FILEVERSIONDLG_ERR_FILE_NOT_EXIST"  value="Error file not exist" />
+  <String id="IDS_FILEVERSIONDLG_VIP_TIP"  value="Dear member, you enjoy the privilege of retaining %d historical versions of each file" />
+  <String id="IDS_FILEVERSIONDLG_SVIP_TIP"  value="Dear Super Member, you enjoy the privilege of retaining%d historical versions of each file" />
+  <String id="IDS_FILEVERSIONDLG_PAID_TIP"  value="Dear paying user, you enjoy the privilege of retaining 100 historical versions of each file" />
+  <String id="IDS_FILEVERSIONDLG_MORE_VER"  value="Open membership to view more historical versions" />
 
   <!--文档查看窗口 -->
-  <String id="IDS_DOCVIEWDLG_TITLENAME_FORQA"  value="查看文档" />
-  <String id="IDS_DOCVIEWDLG_TITLENAME"  value="查看文档" />
-  <String id="IDS_DOCVIEWDLG_UNSUPPORTED_TYPE"  value="阿哦，不支持此文件类型，可下载后查看" />
-  <String id="IDS_DOCVIEWDLG_TIP_DOCVIEW_ERROR"  value="阿哦，文档预览失败，可下载后查看" />
-  <String id="IDS_DOCVIEWDLG_BTN_DOWNLOAD"  value="下载" />
-  <String id="IDS_DOCVIEWDLG_NET_ERR_TIP"  value="网络连接失败，请稍后重试" />
+  <String id="IDS_DOCVIEWDLG_TITLENAME_FORQA"  value="View Document" />
+  <String id="IDS_DOCVIEWDLG_TITLENAME"  value="View Document" />
+  <String id="IDS_DOCVIEWDLG_UNSUPPORTED_TYPE"  value="Oh no! Cannot view this file format" />
+  <String id="IDS_DOCVIEWDLG_TIP_DOCVIEW_ERROR"  value="Oh no! Document preview failed" />
+  <String id="IDS_DOCVIEWDLG_BTN_DOWNLOAD"  value="Download" />
+  <String id="IDS_DOCVIEWDLG_NET_ERR_TIP"  value="Network connection failed, please try again later" />
   <!--注册窗口 -->
-  <String id="IDS_REGISTERDLG_TITLENAME"  value="注册百度帐号" />
+  <String id="IDS_REGISTERDLG_TITLENAME"  value="Register Baidu Account" />
   <!--验证手机窗口 -->
-  <String id="IDS_ACCOUNTREANLNAMEDLG_TITLENAME"  value="验证手机" />
+  <String id="IDS_ACCOUNTREANLNAMEDLG_TITLENAME"  value="Verify Phone" />
   <!--快捷功能管理窗口 -->
-  <String id="IDS_FUNCMANAGEDLG_TITLENAME_FORQA"  value="快捷功能管理" />
-  <String id="IDS_FUNCMANAGEDLG_TITLENAME"  value="快捷功能管理" />
-  <String id="IDS_FUNCMANAGEDLG_AUTOBACKUP"  value="自动备份" />
-  <String id="IDS_FUNCMANAGEDLG_LOCKAPP"  value="密码锁" />
-  <String id="IDS_FUNCMANAGEDLG_NETTESTING"  value="测速器" />
-  <String id="IDS_FUNCMANAGEDLG_MAINPANEL_APP"  value="主面板上的应用" />
-  <String id="IDS_FUNCMANAGEDLG_TIP_AUTOBACKUP"  value="自动备份文件夹：设置电脑中的文件夹\n为自动备份状态，每当本地文件夹有更\n新时即可自动备份到网盘，免除手动\n上传烦恼" />
-  <String id="IDS_FUNCMANAGEDLG_TIP_LOCKAPP"  value="密码锁：启动密码锁，快捷锁定\n客户端，保护您的隐私安全，输入\n登录密码即可解锁" />
-  <String id="IDS_FUNCMANAGEDLG_TIP_NETTESTING"  value="测速器：随时检测当前网络环境的\n上传/下载速度" />
-  <String id="IDS_FUNCMANAGEDLG_TIP_REMOVE_APP"  value="从主面板删除" />
-  <String id="IDS_FUNCMANAGEDLG_ADD_APP"  value="添加" />
+  <String id="IDS_FUNCMANAGEDLG_TITLENAME_FORQA"  value="Shortcuts management" />
+  <String id="IDS_FUNCMANAGEDLG_TITLENAME"  value="Shortcuts management" />
+  <String id="IDS_FUNCMANAGEDLG_AUTOBACKUP"  value="Auto backup" />
+  <String id="IDS_FUNCMANAGEDLG_LOCKAPP"  value="Lock" />
+  <String id="IDS_FUNCMANAGEDLG_NETTESTING"  value="Speedtest" />
+  <String id="IDS_FUNCMANAGEDLG_MAINPANEL_APP"  value="Main panel" />
+  <String id="IDS_FUNCMANAGEDLG_TIP_AUTOBACKUP"  value="Automatic backup folder: Set up a backup folder\nto upload the new backup to Baidu cloud automatically,\neliminating manual uploading." />
+  <String id="IDS_FUNCMANAGEDLG_TIP_LOCKAPP"  value="Lock: Fast lock app,\nprotecting your privacy,\nenter logon password to unlock" />
+  <String id="IDS_FUNCMANAGEDLG_TIP_NETTESTING"  value="Always detect the current network \nupload/download speeds" />
+  <String id="IDS_FUNCMANAGEDLG_TIP_REMOVE_APP"  value="Remove" />
+  <String id="IDS_FUNCMANAGEDLG_ADD_APP"  value="Add" />
 
   <!--菜单及提示文本-->
-  <String id="IDS_COMMON_EXIT" value="退出" />
-  <String id="IDS_COMMON_SETTING" value="设置" />
-  <String id="IDS_COMMON_HELP" value="帮助" />
-  <String id="IDS_COMMON_HELPCONTENT" value="使用帮助" />
-  <String id="IDS_COMMON_ABOUT" value="关于" />
-  <String id="IDS_COMMON_UPGRADE" value="版本升级" />
-  <String id="IDS_COMMON_USERGUIDE" value="新手引导" />
-  <String id="IDS_COMMON_FEEDBACK" value="问题反馈" />
-  <String id="IDS_COMMON_CHANGEACCOUNT" value="更换账户" />
-  <String id="IDS_TRAYICON_OPENNETDISK" value="打开主面板" />
-  <String id="IDS_TRAYICON_OPENWEBNETDISK" value="访问百度网盘网站" />
-  <String id="IDS_TRAYICON_OPENRECYCLEBIN" value="进入回收站" />
-  <String id="IDS_TRAYICON_LOGOUT" value="切换帐号" />
-  <String id="IDS_TRAYICON_USEAGE" value="已用：%s   共%s" />
-  <String id="IDS_TRAYICON_BEGINALLTASK" value="开始全部任务" />
-  <String id="IDS_TRAYICON_PAUSEALLTASK" value="暂停全部任务" />
-  <String id="IDS_TRAYICON_TRANSCOMPLETESHUTDOWN" value="本次传输完自动关机" />
-  <String id="IDS_TRAYICON_VIEWTRANSFERSTATUS" value="查看传输列表" />
-  <String id="IDS_TRAYICON_SHOWFLOATWINDOW" value="显示悬浮窗" />
-  <String id="IDS_TRAYICON_HIDEFLOATWINDOW" value="隐藏悬浮窗" />
-  <String id="IDS_TRAYICON_LOGIN" value="登录" />
-  <String id="IDS_TRAYICON_NETSPEED" value="测速器" />
-  <String id="IDS_TRAYICON_BUYSPEEDUPSERVICE" value="购买提速服务" />
-  <String id="IDS_MENUID_COMMON_LOCK" value="锁定网盘" />
-  <String id="IDS_MENUID_COMMON_UNLOCK" value="解除锁定" />
+  <String id="IDS_COMMON_EXIT" value="Exit" />
+  <String id="IDS_COMMON_SETTING" value="Options" />
+  <String id="IDS_COMMON_HELP" value="Help" />
+  <String id="IDS_COMMON_HELPCONTENT" value="Help" />
+  <String id="IDS_COMMON_ABOUT" value="About" />
+  <String id="IDS_COMMON_UPGRADE" value="Upgrade version" />
+  <String id="IDS_COMMON_USERGUIDE" value="Beginners guide" />
+  <String id="IDS_COMMON_FEEDBACK" value="Feedback" />
+  <String id="IDS_COMMON_CHANGEACCOUNT" value="Change account" />
+  <String id="IDS_TRAYICON_OPENNETDISK" value="Open main panel" />
+  <String id="IDS_TRAYICON_OPENWEBNETDISK" value="Visit Baidu Cloud" />
+  <String id="IDS_TRAYICON_OPENRECYCLEBIN" value="Open recycle bin" />
+  <String id="IDS_TRAYICON_LOGOUT" value="Logout" />
+  <String id="IDS_TRAYICON_USEAGE" value="Used %s  Capacity: %s" />
+  <String id="IDS_TRAYICON_BEGINALLTASK" value="Start all" />
+  <String id="IDS_TRAYICON_PAUSEALLTASK" value="Pause all" />
+  <String id="IDS_TRAYICON_TRANSCOMPLETESHUTDOWN" value="Auto shutdown after complete tasks" />
+  <String id="IDS_TRAYICON_VIEWTRANSFERSTATUS" value="Check transfer list" />
+  <String id="IDS_TRAYICON_SHOWFLOATWINDOW" value="Show float box" />
+  <String id="IDS_TRAYICON_HIDEFLOATWINDOW" value="Hide float box" />
+  <String id="IDS_TRAYICON_LOGIN" value="Login" />
+  <String id="IDS_TRAYICON_NETSPEED" value="Speedtest" />
+  <String id="IDS_TRAYICON_BUYSPEEDUPSERVICE" value="Buy Speed Service" />
+  <String id="IDS_MENUID_COMMON_LOCK" value="Lock" />
+  <String id="IDS_MENUID_COMMON_UNLOCK" value="Unlock" />
 
   <!--托盘提示-->
-  <String id="IDS_COMMON_INSTALL" value="安装" />
-  <String id="IDS_COMMON_CANCEL" value="取消" />
-  <String id="IDS_COMMON_AUTOUPDATE" value="自动更新" />
-  <String id="IDS_COMMON_DETAIL" value="查看" />
+  <String id="IDS_COMMON_INSTALL" value="Install" />
+  <String id="IDS_COMMON_CANCEL" value="Cancel" />
+  <String id="IDS_COMMON_AUTOUPDATE" value="Automatic updates" />
+  <String id="IDS_COMMON_DETAIL" value="View/detail" />
 
-  <String id="IDS_TRAYICON_TIP_LOGINING" value="登录中" />
-  <String id="IDS_TRAYICON_TIP_UNLOGIN" value="未登录" />
-  <String id="IDS_TRAYICON_TIP_ONLINE" value="百度网盘" />
-  <String id="IDS_TRAYICON_TIP_LOCKED" value="网盘已锁定" />
-  <String id="IDS_TRAYICON_TIP_OFFLINELOCKED" value="网盘已锁定" />
-  <String id="IDS_TRAYICON_TIP_OFFLINE" value="网络连接失败" />
-  <String id="IDS_TRAYICON_TIP_UPLOADING" value="%.1f%% 正在上传" />
-  <String id="IDS_TRAYICON_TIP_DOWNLOADING" value="%.1f%% 正在下载" />
-  <String id="IDS_TRAYICON_TIP_TRANSERROR" value="传输失败" />
-  
-  <String id="IDS_NO_PROMPT" value="不再提示" />
-  <String id="IDS_NO_SPACE" value="网盘空间不足！" />
-  <String id="IDS_FILE_PATH_INVALID" value="文件路径非法！" />
-  <String id="IDS_UPLOAD_SUCCESS" value="上传完成" />
-  <String id="IDS_UPLOAD_ERROR" value="上传失败" />
-  <String id="IDS_DOWNLOAD_SUCCESS" value="下载成功" />
-  <String id="IDS_DOWNLOAD_ERROR" value="下载失败" />
-  <String id="IDS_PT2PTTASK_FINISH" value="互传完成" />
-  <String id="IDS_PT2PT_DISCONNECT" value="与手机已断开连接" />
-  <String id="IDS_BACKUP_START_TIP" value="正在自动备份" />
-  <String id="IDS_BACKUP_SET_TIP" value="可在设置中打开自动备份" />
-  <String id="IDS_PUSH_TASK_SUCCESS_TIP" value="推送文件下载完成" />
-  <String id="IDS_PUSH_TASK_FAIL_TIP" value="推送文件下载失败" />
+  <String id="IDS_TRAYICON_TIP_LOGINING" value="Logging in" />
+  <String id="IDS_TRAYICON_TIP_UNLOGIN" value="Logged out" />
+  <String id="IDS_TRAYICON_TIP_ONLINE" value="Baidu NetDisk" />
+  <String id="IDS_TRAYICON_TIP_LOCKED" value="Baidu NetDisk locked" />
+  <String id="IDS_TRAYICON_TIP_OFFLINELOCKED" value="Baidu NetDisk locked" />
+  <String id="IDS_TRAYICON_TIP_OFFLINE" value="Network connection failure" />
+  <String id="IDS_TRAYICON_TIP_UPLOADING" value="%.1f%% Uploading" />
+  <String id="IDS_TRAYICON_TIP_DOWNLOADING" value="%.1f%% Downloading" />
+  <String id="IDS_TRAYICON_TIP_TRANSERROR" value="Transfer error" />
+
+  <String id="IDS_NO_PROMPT" value="Do not prompt" />
+  <String id="IDS_NO_SPACE" value="Insufficient Cloud space!" />
+  <String id="IDS_FILE_PATH_INVALID" value="File path invalid !" />
+  <String id="IDS_UPLOAD_SUCCESS" value="Upload complete" />
+  <String id="IDS_UPLOAD_ERROR" value="Upload failed" />
+  <String id="IDS_DOWNLOAD_SUCCESS" value="Download success" />
+  <String id="IDS_DOWNLOAD_ERROR" value="Download failed" />
+  <String id="IDS_PT2PTTASK_FINISH" value="PT2PT Task Finished" />
+  <String id="IDS_PT2PT_DISCONNECT" value="PT2PT Disconnected" />
+  <String id="IDS_BACKUP_START_TIP" value="Automatic backup started" />
+  <String id="IDS_BACKUP_SET_TIP" value="Automatic backup can be opened in the settings" />
+  <String id="IDS_PUSH_TASK_SUCCESS_TIP" value="Push task download complete" />
+  <String id="IDS_PUSH_TASK_FAIL_TIP" value="Push task download failed" />
   <!--点对点传输相关提示-->
-  <String id="IDS_ONE_DEVICE_ONLINE_TIP" value="设备%s上线了" />
-  <String id="IDS_MULTI_DEVICE_ONLINE_TIP" value="你的设备上线了" />
-  <String id="IDS_PUSH_FILE_REQUEST_TIP" value="收到文件请求推送" />
-  <String id="IDS_ACCEPTING_PUSH_FILE_TIP" value="准备接收文件..." />
-  <String id="IDS_WAITING_PHONE_CONNECTION_TIP" value="等待手机连接..." />
-  <String id="IDS_RECEIVE_FILE_SUCCESS_TIP" value="接收文件成功" />
-  <String id="IDS_SEND_FILE_SUCCESS_TIP" value="发送文件成功" />
+  <String id="IDS_ONE_DEVICE_ONLINE_TIP" value="Device %s online" />
+  <String id="IDS_MULTI_DEVICE_ONLINE_TIP" value="Device online" />
+  <String id="IDS_PUSH_FILE_REQUEST_TIP" value="Push file request" />
+  <String id="IDS_ACCEPTING_PUSH_FILE_TIP" value="Ready to receive the file..." />
+  <String id="IDS_WAITING_PHONE_CONNECTION_TIP" value="Waiting for the phone connection..." />
+  <String id="IDS_RECEIVE_FILE_SUCCESS_TIP" value="File received successfully" />
+  <String id="IDS_SEND_FILE_SUCCESS_TIP" value="File sent successfully" />
   <!--读写限制提示对话框-->
   <String id="IDS_TIP_WRITELIMITED_SECTION1" value="由于系统限制了文件目录的读/写权限，程序将会退出，你可以重新" />
   <String id="IDS_TIP_WRITELIMITED_SECTION2" value="安装百度网盘到有权限的目录或以管理员身份运行百度网盘。" />
@@ -737,75 +740,63 @@
   <String id="IDS_TIP_CAPTION" value="提示" />
  
   <!-- 列表视图相关字符串资源 -->
-  <String id="IDS_LISTVIEW_COLUMN_FILENAME" value="文件名" />
-  <String id="IDS_LISTVIEW_COLUMN_FILESIZE" value="大小" />
+  <String id="IDS_LISTVIEW_COLUMN_FILENAME" value="File Name" />
+  <String id="IDS_LISTVIEW_COLUMN_FILESIZE" value="File Size" />
 
-  <!--自动关机对话框-->
-  <String id="IDS_POWEROFF_STATIC_TITLENAME"        value="自动关机" />
-  <String id="IDS_POWEROFF_STATIC_TIPPRE"        value="已经传输完啦，" />
-  <String id="IDS_POWEROFF_STATIC_TIPAFTER"        value="秒后为您自动关机" />
-  <String id="IDS_POWEROFF_BUTTON_POWERNOW"        value="立即关机" />
-  <String id="IDS_POWEROFF_BUTTON_CANCEL"        value="取消" />
+  <!--Automatic Shutdown Dialogue-->
+  <String id="IDS_POWEROFF_STATIC_TITLENAME"        value="Automatic shutdown" />
+  <String id="IDS_POWEROFF_STATIC_TIPPRE"        value="After transfer complete " />
+  <String id="IDS_POWEROFF_STATIC_TIPAFTER"        value="After number of seconds after" />
+  <String id="IDS_POWEROFF_BUTTON_POWERNOW"        value="Now" />
+  <String id="IDS_POWEROFF_BUTTON_CANCEL"        value="cancel" />
 
-  <!--文件夹检测窗口 -->
-  <String id="IDS_FOLDERDETECTDLG_TITLENAME_FORQA" value="自动备份文件夹" />
-  <String id="IDS_FOLDERDETECTDLG_TITLENAME" value="扫描文件夹" />
-  <String id="IDS_STATIC_DETECT_TIP1" value="安全检测" />
-  <String id="IDS_STATIC_DETECT_TIP2" value="最近几天使用频率高的文件夹..." />
-  <String id="IDS_DETECTDLG_DISK_ACEESS_DENY" value="文件夹无法访问,请以管理员身份访问\r\n可在设置中再次开启自动备份" />
+  <!--Folder detection window -->
+  <String id="IDS_FOLDERDETECTDLG_TITLENAME_FORQA" value="Scan folder" />
+  <String id="IDS_FOLDERDETECTDLG_TITLENAME" value="Scan folder" />
+  <String id="IDS_STATIC_DETECT_TIP1" value="Safety testing" />
+  <String id="IDS_STATIC_DETECT_TIP2" value="A few days using most used folder..." />
+  <String id="IDS_DETECTDLG_DISK_ACEESS_DENY" value="Folders unable to access, Admin required" />
 
-  <!--文件夹检测列表窗口 -->
-  <String id="IDS_BACKUPLISTDLG_TITLENAME" value="自动备份文件夹" />
-  <String id="IDS_BTN_SELECT" value="手动选择" />
-  <String id="IDS_BTN_BACKUP" value="备份到网盘" />
-  <String id="IDS_BTN_CLOSE" value="关闭" />
-  <String id="IDS_BACKUPLISTDLG_TIP" value="最近一周您经常使用的文件夹" />
-  <String id="IDS_BACKUPLISTDLG_LIMIT_TIP" value="最多支持备份5个文件夹" />
-  <String id="IDS_BACKUPLISTDLG_EXCEED_MAX_BACKUP_COUNT" value="最多同时备份5个文件夹喔~\r\n少选点吧~" />
-  <String id="IDS_BACKUPLISTDLG_BACKUP_TIP" value="自动备份提示" />
-  <String id="IDS_BACKUPLISTDLG_CHANGE_TIP" value="更改" />
-  <String id="IDS_BACKUPLISTDLG_DELETE_TIP" value="取消" />
-  <String id="IDS_BACKUPLISTDLG_VIP_USER_TIP" value="尊敬的会员用户，您可尊享文件夹自动备份无限制~" />
-  <String id="IDS_BACKUPLISTDLG_SVIP_USER_TIP" value="尊敬的超级会员用户，您可享受文件夹自动备份流量无限制特权~" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="您可使用自动备份文件夹功能，每月最多可备份2G文件。" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_GUIDE_TIP" value="开通会员自动备份无限制" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_BUY_VIP" value="立即开通>" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_TIP" value="本月已使用流量：" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_GUIDE_TIP" value="开通会员备份流量无限制" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_EXCEED_TIP" value="流量超限" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_NOT_ENOUGH_TIP" value="流量不足" />
-  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TIP1" value="文件夹自动备份现在可以免费试用啦~" />
-  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TIP2" value="自动备份本地文件夹，不再担心文件丢失" />
-  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TRY" value="去试试" />
+  <!--Folder List Detection Window -->
+  <String id="IDS_BACKUPLISTDLG_TITLENAME" value="Scan folder" />
+  <String id="IDS_BTN_SELECT" value="Select" />
+  <String id="IDS_BTN_BACKUP" value="Upload" />
+  <String id="IDS_BTN_CLOSE" value="Close" />
+  <String id="IDS_BACKUPLISTDLG_TIP" value="Backup last weeks most often used folders" />
+  <String id="IDS_BACKUPLISTDLG_LIMIT_TIP" value="Supports upto 5 backup folders" />
+  <String id="IDS_BACKUPLISTDLG_EXCEED_MAX_BACKUP_COUNT" value="Upto 5 simultaneous folders. Choose less" />
+  <String id="IDS_BACKUPLISTDLG_BACKUP_TIP" value="Automatic backup tips" />
+  <String id="IDS_BACKUPLISTDLG_CHANGE_TIP" value="Change" />
+  <String id="IDS_BACKUPLISTDLG_DELETE_TIP" value="Delete" />
 
-  <!--推送文件到设备-->
-  <String id="IDS_DEVICE_NAME_PREFIX" value="（不可推送给本机）" />
+  <!--Push Files To The Device-->
+  <String id="IDS_DEVICE_NAME_PREFIX" value="(Can not push to device)" />
 
-  <!--新功能引导窗口 -->
-  <String id="IDS_GUIDEPANEL_START_AUTO_BACKUP" value="开始自动备份文件夹" />
-  <String id="IDS_GUIDEPANEL_SELECT_BACKUP_DIR" value="手动选择备份文件夹" />
-  <String id="IDS_GUIDEPANEL_ENABLESCAN" value="开启智能扫描" />
-  <String id="IDS_GUIDEPANEL_PHONE_START" value="立即体验" />
-  <!--多选文件夹窗口 -->
-  <String id="IDS_MUTLTIFOLDERDLG_CLONETOCLOUD" value="备份到网盘" />
-  <String id="IDS_MUTLTIFOLDERDLG_SELECT_DIR" value="没有检测到经常使用的文件夹，请手动选择吧~" />
-  <String id="IDS_MUTLTIFOLDERDLG_BAOHE_WARNNING" value="选择的目录中包含同步盘目录，继续备份网盘文件将重复，\r\n是否继续？" />
-    
+  <!--New Features Guide Window -->
+  <String id="IDS_GUIDEPANEL_START_AUTO_BACKUP" value="Automatically start backup folder" />
+  <String id="IDS_GUIDEPANEL_SELECT_BACKUP_DIR" value="Manually select backup folder" />
+  <String id="IDS_GUIDEPANEL_ENABLESCAN" value="Enable Scan" />
+  <String id="IDS_GUIDEPANEL_PHONE_START" value="Phone Start" />
+  <!--Multi-select Folder window -->
+  <String id="IDS_MUTLTIFOLDERDLG_CLONETOCLOUD" value="Clone to cloud" />
+  <String id="IDS_MUTLTIFOLDERDLG_SELECT_DIR" value="Frequently used files folder not detected, manually select it" />
+  <String id="IDS_MUTLTIFOLDERDLG_BAOHE_WARNNING" value="The selected directory contains the synchronization disk directory. It will be repeated to continue to back up the network disk files. \r\nContinue?" />
+
   <!--标题栏vip提示 -->
-  <String id="IDS_TITLE_VIP_CLOSE_TIP" value="升级会员" />
-  <String id="IDS_TITLE_VIP_OPEN_TIP" value="已开通会员" />
-  <String id="IDS_TITLE_SVIP_OPEN_TIP" value="已开通超级会员" />
-  <String id="IDS_TITLE_BUY_SPACE_TIP" value="点击扩容" />
-  
+  <String id="IDS_TITLE_VIP_CLOSE_TIP" value="Upgrade Member" />
+  <String id="IDS_TITLE_VIP_OPEN_TIP" value="Open Member" />
+  <String id="IDS_TITLE_SVIP_OPEN_TIP" value="Super member opened" />
+  <String id="IDS_TITLE_BUY_SPACE_TIP" value="Click to expand" />
+
   <!--网络加速提示 -->
-  <String id="IDS_SPEEDUP_BTN_TRY" value="立即试用" />
-  <String id="IDS_SPEEDUP_BTN_BUY" value="立即购买" />
-  <String id="IDS_SPEEDUP_BTN_ENABLE_PRIVILEGE" value="开通特权" />
-  <String id="IDS_SPEEDUP_BTN_RENEW" value="立即续费" />
-  <String id="IDS_SPEEDUP_BTN_CLOSE" value="关闭" />
-  <String id="IDS_SPEEDUP_END_DEFAULT_TIP" value="购买加速包即可享受持续加速" />
-  <String id="IDS_SPEEDUP_REMINDING_TIP" value="(剩余%d秒体验结束)" />
-  <String id="IDS_SPEEDUP_SPEEDING_TIP" value="提速中" />
+  <String id="IDS_SPEEDUP_BTN_TRY" value="Try it now" />
+  <String id="IDS_SPEEDUP_BTN_BUY" value="Buy now" />
+  <String id="IDS_SPEEDUP_BTN_ENABLE_PRIVILEGE" value="Privilege Enabled" />
+  <String id="IDS_SPEEDUP_BTN_RENEW" value="Renew now" />
+  <String id="IDS_SPEEDUP_BTN_CLOSE" value="Close" />
+  <String id="IDS_SPEEDUP_END_DEFAULT_TIP" value="Buy speed up package and can enjoy accelerated speed" />
+  <String id="IDS_SPEEDUP_REMINDING_TIP" value="(%d seconds of accelerated speed remaining)" />
+  <String id="IDS_SPEEDUP_SPEEDING_TIP" value="Speed Up" />
   <!--极速下载券提示 -->
   <String id="IDS_SPEEDUP_BTN_EXTEND" value="继续加速" />
   <String id="IDS_SPEEDUPTICKET_REMINDING_TIP" value="(剩余%d秒)" />
@@ -834,29 +825,29 @@
   <String id="IDS_STATIC_GET_SERVER_SUBDIR_FAIL"   value="服务器文件夹获取失败" />
 
   <!--新建url离线下载任务对话框-->
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_TITLE_FORQA" value="新建离线下载任务窗口" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_TITLE" value="新建下载任务" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_INPUTLINK" value="填写下载文件链接" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URLEDIT_DEFAULT" value="支持HTTP、FTP、磁力链、电驴链接下载" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_INVALIDE" value="链接格式有误 例：http://abc.com/xyz.rmvb" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_NOT_SUPPORT" value="暂时不支持该链接格式" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_ADDTASK_FAILED" value="创建离线下载任务失败" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_EMPTY" value="请输入下载链接" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_DOWNLOAD_DIR" value="我的网盘" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SAFEBOX_DIR" value="隐藏空间" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SAVETO" value="保存到:" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHANGE_DIR" value="更改" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SPACE_AVAILABLE" value="剩余：" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_BUY_SPACE" value="扩容" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_START_DOWNLOAD" value="开始下载" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CANCEL_DOWNLOAD" value="取消" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_DOWNLOADTO" value="同时下载到" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_SELCECT_DEVICE" value="选择设备" />
-  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_CHANGE_DEVICE" value="更改设备" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_TITLE_FORQA" value="New offline download task window" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_TITLE" value="New download task" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_INPUTLINK" value="Enter Download file link" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URLEDIT_DEFAULT" value="Supports HTTP, FTP, magnetic chain, eDonkey links" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_INVALIDE" value="Link Invalid. Correct example http://abc.com/xyz.rmvb" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_NOT_SUPPORT" value="The link format is not supported" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_ADDTASK_FAILED" value="Add offline download task failed" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_URL_EMPTY" value="Please enter the download link" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_DOWNLOAD_DIR" value="My Network Disk" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SAFEBOX_DIR" value="Safe Box" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SAVETO" value="Save to:" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHANGE_DIR" value="Change Dir." />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_SPACE_AVAILABLE" value="Space Available: " />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_BUY_SPACE" value="Buy Space" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_START_DOWNLOAD" value="Start Download" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CANCEL_DOWNLOAD" value="Cancel Download" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_DOWNLOADTO" value="Downloaded to" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_SELCECT_DEVICE" value="Device Select" />
+  <String id="IDS_URL_OFFLINEDOWNLOADTASK_CHECK_CHANGE_DEVICE" value="Change Device" />
 
   <!--选择种子对话框-->
-  <String id="IDS_SELECT_TORRENT_TITLE" value="打开种子文件" />
-  <String id="IDS_SELECT_TORRENT_OK" value="存入百度网盘" />
+  <String id="IDS_SELECT_TORRENT_TITLE" value="Open seed" />
+  <String id="IDS_SELECT_TORRENT_OK" value="Upload" />
 
   <!--新建bt离线下载任务对话框-->
   <String id="IDS_BT_OFFLINEDOWNLOADTASK_TITLE_FORQA" value="新建离线BT任务" />
@@ -964,62 +955,62 @@
   <String id="IDS_HOTKEYCONFLICT_TIP" value="%s，您的锁定百度网盘热键被占用。" />
 
   <!--隐藏空间-->
-  <String id="IDS_SETTINGDLG_SAFEBOX_TITLE" value="二级密码：" />
-  <String id="IDS_SETTINGDLG_SAFEBOX_ACTIVATED_TIP" value="（目前二级密码可用于隐藏空间）" />
-  <String id="IDS_SETTINGDLG_SAFEBOX_NOTACTIVATED_TIP" value="（目前二级密码可用于隐藏空间）" />
-  <String id="IDS_SETTINGDLG_SAFEBOX_MODIFY_PASSWORD" value="修改密码" />
-  <String id="IDS_SETTINGDLG_SAFEBOX_FIND_PASSWORD" value="找回密码" />
-  <String id="IDS_SETTINGDLG_SAFEBOX_ACTIVATE" value="开启二级密码" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_TITLE" value="Safe Box: " />
+  <String id="IDS_SETTINGDLG_SAFEBOX_ACTIVATED_TIP" value="Safe Box activated" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_NOTACTIVATED_TIP" value="Safe Box not activated" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_MODIFY_PASSWORD" value="Modify Password" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_FIND_PASSWORD" value="Forgot your password" />
+  <String id="IDS_SETTINGDLG_SAFEBOX_ACTIVATE" value="Activate Safe Box" />
 
-  <!--播放声音-->
-  <String id="IDS_STATIC_SWITH_PLAYSOUND_TIP" value="传输完成后声音提醒" />
-  <String id="IDS_STATIC_SOUND_TYPE1" value="音效1" />
-  <String id="IDS_STATIC_SOUND_TYPE2" value="音效2" />
-  <String id="IDS_STATIC_SOUND_TYPE3" value="音效3" />
-  <String id="IDS_STATIC_SOUND_TYPE4" value="音效4" />
+    <!--Play Sound-->
+  <String id="IDS_STATIC_SWITH_PLAYSOUND_TIP" value="After the transfer is complete" />
+  <String id="IDS_STATIC_SOUND_TYPE1" value="1" />
+  <String id="IDS_STATIC_SOUND_TYPE2" value="2" />
+  <String id="IDS_STATIC_SOUND_TYPE3" value="3" />
+  <String id="IDS_STATIC_SOUND_TYPE4" value="4" />
 
-  <!--视频播放窗口 -->
-  <String id="IDS_VIDEOPLAYDLG_TITLENAME_FORQA"  value="视频播放" />
-  <String id="IDS_VIDEOPLAYDLG_TITLENAME"  value="视频播放" />
-  <String id="IDS_VIDEOPLAYDLG_TIP_PLAYVIDEO_ERROR"  value="阿哦，视频预览失败，可下载后播放" />
-  <String id="IDS_VIDEOPLAYDLG_NET_ERR_TIP"  value="网络连接失败，请稍后重试" />
-  <String id="IDS_VIDEOPLAYDLG_DOWNLOADING_TRAY_TIP"  value="正在下载" />
+ <!--Video playback window -->
+  <String id="IDS_VIDEOPLAYDLG_TITLENAME_FORQA"  value="Video Player" />
+  <String id="IDS_VIDEOPLAYDLG_TITLENAME"  value="Video Player" />
+  <String id="IDS_VIDEOPLAYDLG_TIP_PLAYVIDEO_ERROR"  value="Oh, video preview failed, you can download after broadcast" />
+  <String id="IDS_VIDEOPLAYDLG_NET_ERR_TIP"  value="Network connection failed, please try again later" />
+  <String id="IDS_VIDEOPLAYDLG_DOWNLOADING_TRAY_TIP"  value="Downloading" />
 
-  <!--帮助窗口 -->
-  <String id="IDS_USERHELPDLG_TITLENAME_FORQA"  value="帮助大全" />
-  <String id="IDS_USERHELPDLG_TITLENAME"  value="帮助大全" />
-  <String id="IDS_USERHELPDLG_NET_ERR_TIP"  value="网络连接失败，请稍后重试" />
-  <String id="IDS_USERHELPDLG_VIEW_MORE"  value="查看更多" />
+  <!--Help Window -->
+  <String id="IDS_USERHELPDLG_TITLENAME_FORQA"  value="Help Center" />
+  <String id="IDS_USERHELPDLG_TITLENAME"  value="Help Center" />
+  <String id="IDS_USERHELPDLG_NET_ERR_TIP"  value="Network connection failed, please try again later" />
+  <String id="IDS_USERHELPDLG_VIEW_MORE"  value="See more" />
 
-  <!--创建隐藏空间密码窗口 -->
-  <String id="IDS_SAFEBOXPWDDLG_TITLENAME"  value="创建二级密码" />
-  <String id="IDS_SAFEBOXPWDDLG_TIP_PRIVATE"  value="为保护你的文件隐私，启用隐藏空间需要先设置二级密码" />
-  <String id="IDS_SAFEBOXPWDDLG_TIP_INPUTPWD"  value="输入二级密码：" />
-  <String id="IDS_SAFEBOXPWDDLG_TIP_INPUTPWD_AGAIN"  value="确认二级密码：" />
-  <String id="IDS_SAFEBOXPWDDLG_TIP_PWDLENGTH"  value="长度为6-16个字符" />
-  <String id="IDS_SAFEBOXPWDDLG_TIP_PWDAGAIN"  value="再次输入二级密码" />
-  <String id="IDS_SAFEBOXPWDDLG_BTN_CREATE"  value="创建" />
-  <String id="IDS_SAFEBOXPWDDLG_BTN_CREATEING"  value="创建中..." />
-  <String id="IDS_SAFEBOXPWDDLG_BTN_CANCEL"  value="取消" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_INCONSISTENTPWD"  value="两次输入的密码不一致" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_PWDLENGTH"  value="密码应为6-16个字符" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_INTPUTPWD"  value="请输入密码" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_PWDFORMAT"  value="密码至少应有数字、字母、符号中的两类" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_INVALIDPWDCHAR"  value="密码包含非法字符" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_NETWORK"  value="网络异常" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_CERT_EXPIRED" value="请设置正确的电脑时间后再试" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_RETRY"  value="创建密码失败,请稍候重试" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_ACCOUNTUNBIND"  value="帐号需要绑定手机号或邮箱" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_BINDLINK"  value="去绑定" />
-  <String id="IDS_SAFEBOXPWDDLG_ERROR_ALREADYACTIVATE"  value="你已开启隐藏空间" />
-  <!--帐号绑定窗口 -->
-  <String id="IDS_ACCOUNTBINFDLG_TITLE"  value="帐号绑定" />
-  <String id="IDS_ACCOUNTBINFDLG_BTN_BIND"  value="立即绑定" />
-  <String id="IDS_ACCOUNTBINFDLG_BTN_CANCEL"  value="取消" />
-  <String id="IDS_ACCOUNTBINFDLG_BTN_BINDSUCCESS"  value="绑定成功" />
-  <String id="IDS_ACCOUNTBINFDLG_BTN_UNBIND"  value="暂未绑定" />
-  <String id="IDS_ACCOUNTBINFDLG_TIP_PRIVATE"  value="为保护你的隐私,使用隐藏空间需先绑定你的手机号或\r\n邮箱,是否绑定?" />
-  <String id="IDS_ACCOUNTBINFDLG_TIP_BINDSUCCESS"  value="绑定成功后可将私密文件存入网盘,是否绑定成功?" />
+  <!--SafeBox Password Window -->
+  <String id="IDS_SAFEBOXPWDDLG_TITLENAME"  value="Create a secure password" />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_PRIVATE"  value="Set up a secure password for Safe Box" />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_INPUTPWD"  value="Enter password: " />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_INPUTPWD_AGAIN"  value="Confirm password: " />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_PWDLENGTH"  value="A length of 6-16 characters" />
+  <String id="IDS_SAFEBOXPWDDLG_TIP_PWDAGAIN"  value="Enter password again: " />
+  <String id="IDS_SAFEBOXPWDDLG_BTN_CREATE"  value="Create" />
+  <String id="IDS_SAFEBOXPWDDLG_BTN_CREATEING"  value="Creating..." />
+  <String id="IDS_SAFEBOXPWDDLG_BTN_CANCEL"  value="Cancel" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_INCONSISTENTPWD"  value="The two passwords do not match" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_PWDLENGTH"  value="Password should be 6-16 characters" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_INTPUTPWD"  value="Please enter your password" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_PWDFORMAT"  value="Password should consist of numbers, letters and symbols" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_INVALIDPWDCHAR"  value="Password contains invalid characters" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_NETWORK"  value="Network Error" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_CERT_EXPIRED" value="Please set the correct time and try again" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_RETRY"  value="Create password failed, please try again" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_ACCOUNTUNBIND"  value="Account needs to bind phone number or e-mail" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_BINDLINK"  value="Bind" />
+  <String id="IDS_SAFEBOXPWDDLG_ERROR_ALREADYACTIVATE"  value="You have to unlock Safe Box" />
+  <!--Account binding window -->
+  <String id="IDS_ACCOUNTBINFDLG_TITLE"  value="Account binding" />
+  <String id="IDS_ACCOUNTBINFDLG_BTN_BIND"  value="Bind" />
+  <String id="IDS_ACCOUNTBINFDLG_BTN_CANCEL"  value="Cancel" />
+  <String id="IDS_ACCOUNTBINFDLG_BTN_BINDSUCCESS"  value="Binding Success" />
+  <String id="IDS_ACCOUNTBINFDLG_BTN_UNBIND"  value="Unbind" />
+  <String id="IDS_ACCOUNTBINFDLG_TIP_PRIVATE"  value="First check if your phone number/email binding is done" />
+  <String id="IDS_ACCOUNTBINFDLG_TIP_BINDSUCCESS"  value="Private files can be stored after the binding is successful" />
   <!--测速器 -->
   <String id="IDS_STATIC_SPEEDTEST_NAME"  value="测速器" />
   <String id="IDS_STATIC_SPEEDTEST_UPLOADSPEED"  value="上传速度" />
@@ -1046,34 +1037,34 @@
   <String id="IDS_STATIC_SPEEDTEST_NETERROR_RUNNING"  value="测速失败，网络无连接" />
   <String id="IDS_STATIC_SPEEDTEST_NETERROR_WAIT"  value="网络无连接" />
 
-  <!--速度汇报器-->
-  <String id="IDS_STATIC_SPEEDTESTREPORT_TITLE"  value="速度问题反馈" />
-  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_REPORT"  value="一键反馈" />
-  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_COMPLETE"  value="完成" />
-  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_RUNNING"  value="检测中..." />
-  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_BEGIN"  value="传输速度异常，请反馈给我们进一步检查" />
-  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_ING"  value="正在检测你的网络问题..." />
-  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_END"  value="成功反馈问题，我们会尽快解决，感谢您的配合！" />
+  <!--Speed Test-->
+  <String id="IDS_STATIC_SPEEDTESTREPORT_TITLE"  value="Speed Test Report" />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_REPORT"  value="Feedback" />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_COMPLETE"  value="Complete" />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_BTNTEXT_RUNNING"  value="Running..." />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_BEGIN"  value="Speed problems? Please give us feedback." />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_ING"  value="Your network problems are detected..." />
+  <String id="IDS_STATIC_SPEEDTESTREPORT_TIP_END"  value="Feedback received. We will resolve as soon as possible, thank you for your feedback!" />
 
-  <!--消息提醒-->
-  <String id="IDS_STATIC_MESSAGENOTIFY_TITLE"  value="百度网盘消息" />
-  <String id="IDS_STATIC_MESSAGENOTIFY_VIEWDETAIL"  value="查看" />
-  <String id="IDS_STATIC_MESSAGENOTIFY_FILESHARE"  value="收到新文件" />
-  <String id="IDS_STATIC_MESSAGENOTIFY_FILEPURCHASE"  value="收到求购消息" />
-  <String id="IDS_STATIC_MESSAGENOTIFY_SYSTEM"  value="收到系统消息" />
+   <!--Notifications-->
+  <String id="IDS_STATIC_MESSAGENOTIFY_TITLE"  value="Baidu Cloud Notifications" />
+  <String id="IDS_STATIC_MESSAGENOTIFY_VIEWDETAIL"  value="View" />
+  <String id="IDS_STATIC_MESSAGENOTIFY_FILESHARE"  value="Receive file share notifications" />
+  <String id="IDS_STATIC_MESSAGENOTIFY_FILEPURCHASE"  value="Receive purchase notifications" />
+  <String id="IDS_STATIC_MESSAGENOTIFY_SYSTEM"  value="Receive system notifications" />
 
-  <!--消息提醒-->
-  <String id="IDS_STATIC_MBOX_MESSAGE_TITLE"  value="百度网盘新消息" />
-  <String id="IDS_STATIC_MBOX_MESSAGE_VIEWDETAIL"  value="查看" />
+   <!--Notifications-->
+  <String id="IDS_STATIC_MBOX_MESSAGE_TITLE"  value="Baidu Cloud News" />
+  <String id="IDS_STATIC_MBOX_MESSAGE_VIEWDETAIL"  value="View" />
 
-  <!--点对点分享toast提示-->
-  <String id="IDS_STATIC_MBOX_TOAST_SHARESUCCESS"  value="分享成功，你可以在" />
-  <String id="IDS_STATIC_MBOX_TOAST_SHARESESSION"  value="分享对话" />
-  <String id="IDS_STATIC_MBOX_TOAST_VIEW_SHARESESSION"  value="中查看" />
+   <!--Point Share tips-->
+  <String id="IDS_STATIC_MBOX_TOAST_SHARESUCCESS"  value="Share success" />
+  <String id="IDS_STATIC_MBOX_TOAST_SHARESESSION"  value="Share Dialog" />
+  <String id="IDS_STATIC_MBOX_TOAST_VIEW_SHARESESSION"  value="View Session" />
 
   <!--手机忘带消息提醒-->
-  <String id="IDS_STATIC_PHONE_NEW_MESSAGE"  value="你有未读短信啦~" />
-  <String id="IDS_STATIC_PHONE_NEW_CALL"  value="你有未接来电啦~" />
+  <String id="IDS_STATIC_PHONE_NEW_MESSAGE"  value="You have unread friends messages ~" />
+  <String id="IDS_STATIC_PHONE_NEW_CALL"  value="You have missed friends calls ~" />
 
   <!--速度反馈对话框-->
   <String id="IDS_SPEEDFEECBACKDLG_TITLE" value="速度反馈" />
@@ -1092,58 +1083,59 @@
   <String id="IDS_SPEEDFEECBACKTIP_FEEDBACK" value="我要反馈" />
 
   <!--提速相关日志-->
-  <String id="IDS_GET_SPEEDUP_SERVICE_FAILED" value="领取网络加速包失败，错误码【%d】" />
-  <String id="IDS_QUERY_SPEEDUP_STATUS_FAILED" value="查询网络加速状态失败:%d" />
-  <String id="IDS_SEND_SPEEDUP_HEARTBEAT_FAILED" value="发送提速心跳失败:%d" />
-  <String id="IDS_QUERY_MEMBER_SPEEDUP_STATUS_FAILED" value="查询会员下载加速状态失败:%d" />
-  <String id="IDS_QUERY_MEMBER_SPEEDUP_STATUS_SUCCEED" value="查询的会员加速状态为 能否提速：%d 能否体验：%d 体验时间:%d" />
-  <String id="IDS_START_MEMBER_SPEEDUP_FAILED" value="调用开始提速接口返回错误码%d, 是否体验加速%d" />
-  <String id="IDS_QUERY_SPEEDUP_AD_FAILED" value="查询提速广告信息失败:%d" />
-  <String id="IDS_PACKAGE_SPEEDUP_GUIDE_AVAILABLE" value="满足网络加速包引导条件，可以引导试用网络加速包提速" />
-  <String id="IDS_DOWNLOAD_SPEEDUP_RESULT" value="提速前的最大下载速度为%I64d 提速后的最大下载速度为%I64d" />
-  <String id="IDS_UPLOAD_SPEEDUP_RESULT" value="提速前的最大上传速度为%I64d 提速后的最大上传速度为%I64d" />
-  <String id="IDS_PACKAGE_SPEEDUP_RESULT" value="网络加速包体验加速加速比例%I64d%%" />
-  <String id="IDS_MEMBER_SPEEDUP_RESULT" value="会员加速体验加速加速比例%I64d%%" />
-  <String id="IDS_SPEEDUPTICKET_SPEEDUP_RESULT" value="极速下载券体验加速加速比例%I64d%%" />
-  <String id="IDS_CONSUME_SPEEDUP_PRIVILEDGE_FAILED" value="使用加速服务失败【%d】" />
+  <String id="IDS_GET_SPEEDUP_SERVICE_FAILED" value="Failed to get network acceleration package, error code [%d]" />
+  <String id="IDS_QUERY_SPEEDUP_STATUS_FAILED" value="Failed to query the network acceleration state:%d" />
+  <String id="IDS_SEND_SPEEDUP_HEARTBEAT_FAILED" value="Send heartbeat failure speed:%d" />
+  <String id="IDS_QUERY_MEMBER_SPEEDUP_STATUS_FAILED" value="Discover members download acceleration state failure:%d" />
+  <String id="IDS_QUERY_MEMBER_SPEEDUP_STATUS_SUCCEED" value="Discover members download acceleration state succeed:%d" />
+  <String id="IDS_START_MEMBER_SPEEDUP_FAILED" value="The call to speed up the interface returns error code %d, whether to experience acceleration %d" />
+  <String id="IDS_QUERY_SPEEDUP_AD_FAILED" value="Query Speed advertising messages fail:%d" />
+  <String id="IDS_PACKAGE_SPEEDUP_GUIDE_AVAILABLE" value="Meet the network acceleration package boot conditions, can guide trial network acceleration package to speed up" />
+  <String id="IDS_DOWNLOAD_SPEEDUP_RESULT" value="The maximum download speed is the speed before%I64d The maximum download speed for speed post%I64d" />
+  <String id="IDS_UPLOAD_SPEEDUP_RESULT" value="The maximum upload speed is the speed before%I64d Maximum upload speed for speed after%I64d" />
+  <String id="IDS_PACKAGE_SPEEDUP_RESULT" value="Network acceleration ratio Experience package%I64d%%" />
+  <String id="IDS_MEMBER_SPEEDUP_RESULT" value="Network acceleration ratio Experience package%I64d%%" />
+  <String id="IDS_SPEEDUPTICKET_SPEEDUP_RESULT" value="Speed ​​download coupon experience acceleration acceleration ratio %I64d%%" />
+  <String id="IDS_CONSUME_SPEEDUP_PRIVILEDGE_FAILED" value="Use of acceleration service failed [% d]" />
   <!--上传失败错误码-->
-  <String id="IDS_UPLOAD_ERROR_NEED_RETRY" value="上传失败，请重新上传" />
-  <String id="IDS_UPLOAD_SERVER_BUSY" value="服务器正忙，请重试" />
-  <String id="IDS_UPLOAD_ERROR_NEED_RELOGIN" value="上传失败，请重新登录后再试" />
-  <String id="IDS_UPLOAD_ERROR_ALREADY_EXIST" value="上传失败，目录存在同名文件" />
+  <String id="IDS_UPLOAD_ERROR_NEED_RETRY" value="Upload failed, please upload again" />
+  <String id="IDS_UPLOAD_SERVER_BUSY" value="The server is busy, please try again " />
+  <String id="IDS_UPLOAD_ERROR_NEED_RELOGIN" value="Upload failed, please log in again and try again" />
+  <String id="IDS_UPLOAD_ERROR_ALREADY_EXIST" value="Upload failed, a file with the same name exists in the directory" />
 
   <!--下载失败错误码-->
-  <String id="IDS_DOWNLOAD_NEED_RELOGIN" value="下载失败，请重新登录后再试" />
-  <String id="IDS_DOWNLOAD_FILE_NOAUTHORITY" value="下载失败，分享不存在或已取消" />
-  <String id="IDS_DOWNLOAD_FILE_MODIFIED" value="文件已修改，请重试" />
-  <String id="IDS_DOWNLOAD_NEED_RETRY" value="下载失败，请重试" />
-  <String id="IDS_DOWNLOAD_NEED_P2P_RETRY" value="下载失败，请重试~" />
-  <String id="IDS_DOWNLOAD_SERVER_BUSY" value="服务器正忙，请重试" />
+  <String id="IDS_DOWNLOAD_NEED_RELOGIN" value="Download failed, please log in again and try again" />
+  <String id="IDS_DOWNLOAD_FILE_NOAUTHORITY" value="Download failed, share does not exist or has been canceled" />
+  <String id="IDS_DOWNLOAD_FILE_MODIFIED" value="File has been modified, please try again" />
+  <String id="IDS_DOWNLOAD_NEED_RETRY" value="Download failed, please try again" />
+  <String id="IDS_DOWNLOAD_NEED_P2P_RETRY" value="Download failed, please retry" />
+  <String id="IDS_DOWNLOAD_SERVER_BUSY" value="The server is busy, please try again " />
 
   <!--转存错误码-->
-  <String id="IDS_TRANSFER_FILECOPY_FAILED" value="转存错误，请重试" />
-  <String id="IDS_TRANSFER_REQUEST_ERROR"   value="转存错误，服务器正忙，请重试" />
+  <String id="IDS_TRANSFER_FILECOPY_FAILED" value="File copy failed, please retry" />
+  <String id="IDS_TRANSFER_REQUEST_ERROR"   value="Transfer error,try again" />
 
   <!--分享错误码-->
-  <String id="IDS_SHARE_INVALID_SHARE"   value="分享已被取消或不存在" />
-  <String id="IDS_SHARE_SERVER_BUSY"   value="服务器正忙" />
-  <String id="IDS_SHARE_NOT_ALL_SUCCESS"   value="部分文件操作失败，请重试" />
-  <String id="IDS_SHARE_HIT_BLACKLIST"   value="分享失败，文件含有敏感信息" />
+  <String id="IDS_SHARE_INVALID_SHARE"   value="Share has been cancelled or does not exist " />
+  <String id="IDS_SHARE_SERVER_BUSY"   value="The server is busy" />
+  <String id="IDS_SHARE_NOT_ALL_SUCCESS"   value="Some file operations failed, please try again" />
+  <String id="IDS_SHARE_HIT_BLACKLIST"   value="Sharing failed, file contains sensitive information" />
 
   <!--登录错误码-->
-  <String id="IDS_LOGIN_ERR_PASSSDK"   value="登录出问题啦！" />
-  <String id="IDS_LOGIN_FEEDBACK"   value="反馈异常" />
-  <String id="IDS_LOGIN_FAILED"   value="登录失败" />
+  <String id="IDS_LOGIN_ERR_PASSSDK"   value="Login problem！" />
+  <String id="IDS_LOGIN_FEEDBACK"   value="Feedback" />
+  <String id="IDS_LOGIN_FAILED"   value="Login failed" />
 
   <!--设置面板-文档历史版本-->
-  <String id="IDS_STATIC_FILE_VERSION"   value="历史版本：" />
-  <String id="IDS_STATIC_ENABLE_FILE_VERSION"   value="开启文档历史版本" />
+  <String id="IDS_STATIC_FILE_VERSION"   value="File Version" />
+  <String id="IDS_STATIC_ENABLE_FILE_VERSION"   value="Open document history version" />
 
   <!--关闭文档历史版本弹窗-->
-  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_TITLE"   value="关闭文档历史版本" />
-  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_CONTENT"  value="是否关闭文档历史版本功能？\r\n关闭后，自动备份和编辑更新的文档将只保留最新版本。" />
-  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CONFIRM"   value="关闭历史版本" />
-  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CANCEL"   value="暂不关闭" />
+  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_TITLE"   value="File version Disable" />
+  
+  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_CONTENT"  value="Do you want to turn off the document history version feature? \r\nWhen closed, automatic backup and editing of updated documents will only keep the latest version." />
+  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CONFIRM"   value="Close historical version" />
+  <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CANCEL"   value="Close" />
 
   <!--在线编辑相关提示-->
   <String id="IDS_ONLINEDIT_FILESIZE_TOOLARGE" value="文档过大，请下载后打开" />
@@ -1160,13 +1152,13 @@
   <String id="IDS_ONLINEDIT_DOWNLOADED_AUTOOPEN" value="已经在下载中，完成后自动打开" />
           
   <!--垃圾清理引导弹窗-->
-  <String id="IDS_GARBAGE_FILE_CLEAN_TEXT_LINE1" value="您的网盘中存在大量重复文件" />
-  <String id="IDS_GARBAGE_FILE_CLEAN_TEXT_LINE2" value="清理后可释放%s空间" />
-  <String id="IDS_GARBAGE_VIDEO_CLEAN_TEXT_LINE1" value="您的网盘中存在大量垃圾视频" />
-  <String id="IDS_GARBAGE_VIDEO_CLEAN_TEXT_LINE2" value="清理后可释放大量空间" />
-  <String id="IDS_GARBAGE_CLEAN_SCAN_VIDEO" value="扫描垃圾视频" />
-  <String id="IDS_GARBAGE_CLEAN_SCAN_FILE" value="扫描重复文件" />
-  <String id="IDS_GARBAGE_CLEAN_TITLE" value="百度网盘" />
+  <String id="IDS_GARBAGE_FILE_CLEAN_TEXT_LINE1" value="There are a lot of duplicate files in your network drive" />
+  <String id="IDS_GARBAGE_FILE_CLEAN_TEXT_LINE2" value="Free up %s space after cleaning" />
+  <String id="IDS_GARBAGE_VIDEO_CLEAN_TEXT_LINE1" value="There are a lot of junk videos in your web drive" />
+  <String id="IDS_GARBAGE_VIDEO_CLEAN_TEXT_LINE2" value="Free up a lot of space after cleaning" />
+  <String id="IDS_GARBAGE_CLEAN_SCAN_VIDEO" value="Scan for videos" />
+  <String id="IDS_GARBAGE_CLEAN_SCAN_FILE" value="Scan for duplicate files" />
+  <String id="IDS_GARBAGE_CLEAN_TITLE" value="Baidu Cloud" />
 
   <!--奖励计划弹窗-->
   <String id="IDS_REWARD_PLAN_DLG_TITLE" value="用户奖励计划" />
