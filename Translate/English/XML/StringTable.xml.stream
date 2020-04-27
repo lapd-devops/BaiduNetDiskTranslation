@@ -1195,7 +1195,7 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="无限制" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="立即开通>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="本月自动备份流量即将用完" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="本月2G备份流量即将用完，将无法为您正常备份" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="本月2G备份流量即将用完，将无法为您正常备份" /> 
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="文件，开通会员，备份文件无限制" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="立即开通>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="流量超限，自动备份已暂停" />
