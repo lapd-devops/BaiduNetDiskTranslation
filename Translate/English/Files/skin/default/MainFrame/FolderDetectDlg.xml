@@ -1,0 +1,36 @@
+<UI version="1.0">
+	<IBGCommonWin name="folderDetectDlg" rect="0,0,414,178" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="mainPanel">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="414,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,3" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2702" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 图片区域 -->
+					<IBGRegionPanel name="DetectProgressPanel" size="414, 113" margin="0,0,0,0" dock="DOCK_TOP">
+						<Children>
+							<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2703" margin="40, 24, 0, 0" dock="DOCK_TOP" config="DetectDlgStatic"/>
+							<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2704" margin="40, 2, 0, 0" dock="DOCK_TOP"/>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 底部区域 -->
+					<IBGRegionPanel size="414, 35" margin="0,0,0,0" dock="DOCK_TOP">
+						<Children>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

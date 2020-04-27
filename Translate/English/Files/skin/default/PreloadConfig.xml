@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigSet version="1.0">
+	<Config name="minimizeButton" interface="IBGButton" >
+		<Property name="size" value="39, 24"/>
+		<Property name="border" value="0,0,0,0"/>
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_min.png" transparent="TRUE" veinsRect="0,0,31,18" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_min.png" transparent="TRUE" veinsRect="31,0,62,18" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_min.png" transparent="TRUE" veinsRect="62,0,93,18" colorize="false">
+			</IBGVeins>
+		</Property>
+	</Config>
+	
+	<Config name="maximizeButton" interface="IBGButton" >
+		<Property name="size" value="39, 24"/>
+		<Property name="style" value="ButtonStyle_DoubleFace"/>
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_max.png" transparent="TRUE" veinsRect="0,0,39,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_max.png" transparent="TRUE" veinsRect="39,0,78,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_max.png" transparent="TRUE" veinsRect="78,0,117,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="normalDraw2">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_restore.png" transparent="TRUE" veinsRect="0,0,39,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw2">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_restore.png" transparent="TRUE" veinsRect="39,0,78,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw2">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_restore.png" transparent="TRUE" veinsRect="78,0,117,24" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="border" value="0,0,0,0"/>
+	</Config>
+	
+	<Config name="closeButton" interface="IBGButton" >
+		<Property name="size" value="39, 24"/>
+		<Property name="normalDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_close.png" transparent="TRUE" veinsRect="0,0,32,18" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="onDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_close.png" transparent="TRUE" veinsRect="32,0,64,18" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="downDraw">
+			<IBGVeins file="Resource:\Texture\SysButton\sysButton_close.png" transparent="TRUE" veinsRect="64,0,96,18" colorize="false">
+			</IBGVeins>
+		</Property>
+		<Property name="border" value="0,0,0,0"/>
+	</Config>
+</ConfigSet>

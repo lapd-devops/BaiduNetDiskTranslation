@@ -1,0 +1,25 @@
+<UI version="1.0">
+	<IBGCommonWin name="opGuide" enableMsg="true" toolWin="false" rect="0,0,1100,680" config="guideWinFunctionBox">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<IBGButton name="closeBtn" size="18,18" margin="1062, 20, 20, 0" toolText="$2048" dock="DOCK_TOP" unseen="true">
+						<Properties>
+							<normalDraw>
+								<IBGVeins file="Resource:MainFrame\MainPanel\GuidePanel\closebtn_normal.png" transparent="true" colorize="false"/>
+							</normalDraw>
+							<onDraw>
+								<IBGVeins file="Resource:MainFrame\MainPanel\GuidePanel\closebtn_hover.png" transparent="true" colorize="false"/>
+							</onDraw>
+							<downDraw>
+								<IBGVeins file="Resource:MainFrame\MainPanel\GuidePanel\closebtn_down.png" transparent="true" colorize="false"/>
+							</downDraw>
+						</Properties>
+					</IBGButton>
+					<IBGButton name="guideBtn" size="120,62" margin="490, 0, 490, 220" dock="DOCK_BOTTOM" config="guideWndKnownBtn">
+					</IBGButton>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

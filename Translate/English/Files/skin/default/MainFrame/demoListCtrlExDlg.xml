@@ -1,0 +1,32 @@
+<UI version="1.0">
+	<IBGCommonWin name="demoListCtrlExDlg" rect="0,0,464,392" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="true" showMaxButton="true" config="standardWin">
+		<Children>
+			<IBGRegionPanel name="Main" sizeAsParent="true">
+				<Children>
+					<IBGRegionPanel name="ButtonToolBar" size="0, 20" dock="DOCK_TOP">
+						<Children>
+							<IBGButton name="Delete" text="delete" config="button" size="80, 20" dock="DOCK_LEFT"/>
+						</Children>
+						<Children>
+							<IBGButton name="Thumbnail" text="Thumbnail" config="button" size="80, 20" dock="DOCK_LEFT"/>
+						</Children>
+						<Children>
+							<IBGButton name="Report" text="Report" config="button" size="80, 20" dock="DOCK_LEFT"/>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel name="SyncListView" dock="DOCK_FILL" margin="2, 2, 2, 2">
+						<Children>
+							<IBGScrollBar size="0, 12" name="listctrlex_hscrollbar" dock="DOCK_BOTTOM" config="horizontalScrollBar"/>
+							<IBGRegionPanel name="ListCtrlExPanel" dock="DOCK_FILL">
+								<Children>
+									<IBGScrollBar size="12, 0" name="listctrlex_scrollbar" dock="DOCK_RIGHT" config="verticalScrollBar" unseen="true"/>
+									<IBGRegionPanel size="0, 0" name="listctrlex_panel" dock="DOCK_FILL" unseen="true"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

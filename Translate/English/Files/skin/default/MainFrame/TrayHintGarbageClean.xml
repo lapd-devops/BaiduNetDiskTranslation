@@ -1,0 +1,64 @@
+<UI version="1.0">
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelGarbageClean" size="308,186">
+		<Children>
+			<IBGRegionPanel dock="DOCK_TOP" margin="0,0,0,0" size="308,25">
+				<Children>
+					<IBDGuiCell size="24,20" margin="5,3,7,2" dock="DOCK_LEFT">
+						<Properties>
+							<bkground>
+								<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+							</bkground>
+						</Properties>
+					</IBDGuiCell>
+					<IBGButton name="nmBtnClose" margin="0,1,0,5" size="31,19" dock="DOCK_RIGHT" toolText="$2048">
+						<Properties>
+							<normalBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\GarbageClean\close_normal.png" changeLight="false" colorize="false"/>
+							</normalBkg>
+							<onBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\GarbageClean\close_hover.png" changeLight="false" colorize="false"/>
+							</onBkg>
+							<downBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\GarbageClean\close_down.png" changeLight="false" colorize="false"/>
+							</downBkg>
+						</Properties>
+					</IBGButton>
+					<IBGStaticEx name="nmStaticTitle" text="$3044" dock="DOCK_FILL" margin="1,5,0,0" textClr="0x333333">
+						<Properties>
+							<textFont>
+								<IBGFont weight="1000"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_FILL" name="nmPanelContent" margin="1,0,1,1">
+				<Children>
+					<IBGStaticEx name="contentLine1" text="$3038" autoCalcWidth="true" autoCalcHeight="true" textClr="0xffffff" margin="50,34,0,0" dock="DOCK_TOP">
+						<Properties>
+							<textFont>
+								<IBGFont height="22"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+					<IBGStaticEx name="contentLine2" text="$3039" autoCalcWidth="true" autoCalcHeight="true" textClr="0xffffff" margin="56,4,0,0" dock="DOCK_TOP">
+						<Properties>
+							<textFont>
+								<IBGFont height="22"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+					<IBGRegionPanel dock="DOCK_BOTTOM" size="306,46">
+						<Children>
+							<IBGButton name="scanBtn" size="122,32" text="$3043" margin="0,0,0,0" dock="DOCK_TOP" config="trayGarbageCleanBtn"/>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelContainer" size="338,138" ncHitTest="1">
+		<Children>
+		</Children>
+	</IBGRegionPanel>
+</UI>

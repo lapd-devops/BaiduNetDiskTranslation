@@ -1,0 +1,49 @@
+<UI version="1.0">
+	<IBGCommonWin name="FuncManageDialog" rect="0,0,550,390" sysBtnConfig="mainPanel_CapButton" toolWin="true" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="mainPanel">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="550,35" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,8" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx textClr="0x333333" text="$2621" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="550,355" margin="0,0,0,0" sizeAsParent="false" dock="DOCK_FILL" config="settingPanel">
+						<Children>
+							<!-- TAB按钮区域 -->
+							<IBGRegionPanel size="530,129" margin="10,8,10,122" dock="DOCK_TOP">
+								<Children>
+									<IBGButton name="BackupSettingBtn" dock="DOCK_LEFT" size="72,101" toolText="$2626" text="$2622" margin="4, 0, 0, 28" config="BigBackupImageBtn"/>
+									<IBGButton name="LockSettingBtn" dock="DOCK_LEFT" size="72,101" toolText="$2627" text="$2623" margin="35, 0, 0, 28" config="BigLockImageBtn"/>
+									<IBGButton name="NetSettingBtn" dock="DOCK_LEFT" size="72,101" toolText="$2628" text="$2624" margin="35, 0, 0, 28" config="BigNetImageBtn" unseen="true"/>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 主面板上的应用区域-->
+							<IBGRegionPanel size="550,96" margin="0,0,0,0" dock="DOCK_TOP" unseen="false">
+								<Children>
+									<IBGRegionPanel size="550,96" margin="0,0,0,0" dock="DOCK_TOP" config="funcAppInnerPanel">
+										<Children>
+											<IBGButton name="SelfDefBtn1" dock="DOCK_LEFT" size="74,72" margin="14, 18, 0, 6" config="iconButtonEmpty" enable="false"/>
+											<IBGButton name="SelfDefBtn2" dock="DOCK_LEFT" size="74,72" margin="33, 18, 0, 6" config="iconButtonEmpty" enable="false"/>
+											<IBGButton name="SelfDefBtn3" dock="DOCK_LEFT" size="74,72" margin="33, 18, 0, 6" config="iconButtonEmpty" enable="false" unseen="true"/>
+										</Children>
+									</IBGRegionPanel>
+									<IBGStaticEx size="90,15" textClr="0x908c84" text="$2625" margin="232,-93,228,1" dock="DOCK_TOP" config="StaticMainPanelApp"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

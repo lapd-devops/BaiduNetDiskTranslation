@@ -1,0 +1,57 @@
+<UI version="1.0">
+	<IBGCommonWin name="ServerFolderDlg" rect="0,0,414,312" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题-->
+					<IBGRegionPanel size="414,35" margin="0,1,0,0" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,8" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStatic name="title_name" size="500,0" endEllipsis="true" ncHitTest="0" text="$2227" color="0x333333" colorHilight="0x333333" colorPushed="0x333333" autoCalcHeight="true" autoCalcWidth="false" margin="7, 9, 1, 10" dock="DOCK_LEFT">
+							</IBGStatic>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 目录选择面板 -->
+					<IBGRegionPanel size="288,273" margin="1,0,1,0" dock="DOCK_FILL" sizeAsParent="false">
+						<Children>
+							<IBGRegionPanel size="290,232" margin="0,0,0,0" dock="DOCK_TOP">
+								<Children>
+									<IBGRegionPanel name="serverDataPanel" size="256,20" margin="20,3,14,3" dock="DOCK_TOP">
+										<Children>
+											<IBGGIFControl name="infoGif" dock="DOCK_LEFT" margin="3,0,0,0" image="Resource:MainFrame\\loading.gif" size="18, 18" supportOleDrop="true"></IBGGIFControl>
+											<IBGStaticEx name="opTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2228" margin="4, 3, 0, 3" dock="DOCK_LEFT"/>
+										</Children>
+									</IBGRegionPanel>
+									<IBGRegionPanel size="256,206" margin="17,0,17,0" dock="DOCK_TOP" config="BackupListPanel">
+										<Children>
+											<IBGRegionPanel size="250, 202" margin="1, 1, 1, 1" dock="DOCK_FILL">
+												<Children>
+													<IBGScrollBar size="18, 0" name="scrollbar" dock="DOCK_RIGHT" config="verticalScrollBarApp" unseen="true"/>
+													<IBGRegionPanel size="0, 0" name="panel" dock="DOCK_FILL" unseen="true"/>
+												</Children>
+											</IBGRegionPanel>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<!-- 按钮区域 -->
+							<IBGRegionPanel size="290,41" margin="0,0,0,0" dock="DOCK_TOP">
+								<Children>
+									<IBGButton name="NewFolderBtn" drawFocus="true" enable="true" dock="DOCK_LEFT" enableFocus="true" size="100,24" config="button" text="$2229" margin="18, 8, 17, 9"/>
+									<IBGButton name="CancelBtn" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2709" margin="0, 8, 17, 9"/>
+									<IBGButton name="OkBtn" drawFocus="true" enable="true" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2054" margin="0, 8, 10, 9"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

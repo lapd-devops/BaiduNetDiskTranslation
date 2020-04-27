@@ -1,0 +1,23 @@
+<UI version="1.0">
+	<IBGRegionPanel sizeAsParent="true" name="PopHint" ncHitTest="1">
+		<Children>
+			<IBGButton name="CloseBtn" size="12,12" margin="2,16,3,0" anchorPoints="3" dock="DOCK_RIGHT">
+				<Properties>
+					<normalBkg>
+						<IBGVeins file="Resource:MainFrame\Tip\close_01.gif" changeLight="false" colorize="false">
+						</IBGVeins>
+					</normalBkg>
+					<onBkg>
+						<IBGVeins file="Resource:MainFrame\Tip\close_02.gif" changeLight="false" colorize="false">
+						</IBGVeins>
+					</onBkg>
+					<downBkg>
+						<IBGVeins file="Resource:MainFrame\Tip\close_03.gif" changeLight="false" colorize="false">
+						</IBGVeins>
+					</downBkg>
+				</Properties>
+			</IBGButton>
+			<IBGStaticEx name="Content" autoCalcHeight="true" size="192,0" margin="6,12,6,0" text="" dock="DOCK_LEFT" wordBreak="true" unMultiline="false"></IBGStaticEx>
+		</Children>
+	</IBGRegionPanel>
+</UI>

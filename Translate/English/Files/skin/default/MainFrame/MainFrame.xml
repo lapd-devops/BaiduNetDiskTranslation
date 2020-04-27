@@ -1,0 +1,8 @@
+<UI version="1.0">
+	<IBGCommonWin name="MainFrame" toolWin="false" rect="0, 0, 800, 600">
+	</IBGCommonWin>
+	<IBGCommonWin name="MainFrameParent" unvariedSize="true" rect="0, 0, 100, 100" minSize="0,0" unseen="true">
+	</IBGCommonWin>
+	<IBGCommonWin name="CommonParent" unvariedSize="true" rect="-10000, -10000, -10000, -10000" minSize="0,0" unseen="true">
+	</IBGCommonWin>
+</UI>

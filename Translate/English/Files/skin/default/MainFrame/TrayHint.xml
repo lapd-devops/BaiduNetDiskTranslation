@@ -1,0 +1,67 @@
+<UI version="1.0">
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelTrayHintTemplateNew" ncHitTest="1">
+		<Children>
+			<IBGRegionPanel dock="DOCK_FILL" name="nmPanelContainer" margin="2,0,2,12"/>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelTrayShowTip" ncHitTest="1">
+		<Children>
+			<IBGRegionPanel margin="0,0,10,2" dock="DOCK_BOTTOM" size="100,16">
+				<Children>
+					<IBGStaticEx name="ForDetail" anchorPoints="256" autoCalcHeight="true" autoCalcWidth="true" text="$2659" margin="16, 2, 0, 0" handCursor="true" dock="DOCK_RIGHT">
+						<Children>
+							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+						</Children>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_FILL">
+				<Children>
+					<IBGGIFControl name="memberIcon" dock="DOCK_LEFT" margin="8,8,0,0" image="Resource:\\MainFrame\\TrayHint\\logo.png" size="16, 16"></IBGGIFControl>
+					<IBGStaticEx name="nmStaticHint" anchorPoints="256" dock="DOCK_LEFT" margin="10,8,0,0" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" textColorize="false" unMultiline="false" textClr="0x3d3d3d"/>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelTrayShowCommon" ncHitTest="1">
+		<Children>
+			<IBGGIFControl name="memberIcon" dock="DOCK_LEFT" margin="8,3,0,0" image="Resource:\\MainFrame\\TrayHint\\logo.png" size="16, 16"></IBGGIFControl>
+			<IBGCheckButton name="nmChkBtnNoPrompt" dock="DOCK_BOTTOM" size="100,16" config="checkButton" text="$2669" margin="4, 6, 0, 0"/>
+			<IBGStaticEx name="nmStaticHint" anchorPoints="256" dock="DOCK_FILL" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" textColorize="false" textClr="0x3d3d3d"/>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelTrayShowAutoUpdate" ncHitTest="1">
+		<Children>
+			<IBGRegionPanel margin="0,0,8,2" dock="DOCK_BOTTOM" size="100,15">
+				<Children>
+					<IBGStaticEx name="nmStaticCancel" margin="0,0,0,0" drawFocus="false" enableFocus="false" text="$2657" autoCalcHeight="true" autoCalcWidth="true" textColorize="false" dock="DOCK_RIGHT" textClr="0x3d3d3d">
+						<Properties>
+							<textFont>
+								<IBGFont underline="true"/>
+							</textFont>
+						</Properties>
+						<Children>
+							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+						</Children>
+					</IBGStaticEx>
+					<IBGStaticEx name="nmStaticInstall" margin="0,0,10,0" textClr="0x3d3d3d" drawFocus="false" enableFocus="false" text="$2656" autoCalcHeight="true" autoCalcWidth="true" textColorize="false" dock="DOCK_RIGHT">
+						<Properties>
+							<textFont>
+								<IBGFont underline="true"/>
+							</textFont>
+						</Properties>
+						<Children>
+							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+						</Children>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_FILL">
+				<Children>
+					<IBGGIFControl name="memberIcon" dock="DOCK_LEFT" margin="8,12,0,0" image="Resource:\\MainFrame\\TrayHint\\logo.png" size="16, 16"></IBGGIFControl>
+					<IBGStaticEx name="nmStaticMessage" margin="10,12,0,0" textClr="0x3d3d3d" autoCalcHeight="true" autoCalcWidth="true" anchorPoints="256" endEllipsis="true" textColorize="false" dock="DOCK_LEFT" text="$2658"/>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+</UI>

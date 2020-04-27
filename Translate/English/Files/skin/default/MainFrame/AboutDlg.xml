@@ -1,0 +1,71 @@
+<UI version="1.0">
+	<IBGCommonWin name="aboutDialog" rect="0,0,552,400" sysBtnConfig="mainPanel_CapButton" toolWin="true" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel size="552,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false" config="AboutTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,3" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2587" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 关于面板 -->
+					<!-- 图片区域 -->
+					<IBGRegionPanel size="552, 285" margin="0,0,0,0" dock="DOCK_TOP" config="AboutMidPanel">
+						<Children>
+							<IBGGIFControl dock="DOCK_TOP" margin="0,0,0,0" size="552, 259" image="Resource:MainFrame\AboutDlg\AboutBanner.png"/>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 底部区域 -->
+					<IBGRegionPanel size="552, 85" margin="0,0,0,0" dock="DOCK_TOP" config="AboutBottomPanel">
+						<Children>
+							<IBGRegionPanel size="400, 85" margin="24,10,0,0" dock="DOCK_LEFT">
+								<Children>
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2393" margin="0, 0, 0, 0" dock="DOCK_TOP"/>
+									<IBGRegionPanel size="400, 26" margin="0,0,0,0" dock="DOCK_TOP">
+										<Children>
+											<IBGStaticEx name="Version" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2588" margin="0, 5, 18, 5" dock="DOCK_LEFT"/>
+											<IBGStaticEx name="userProtocol" autoCalcHeight="true" autoCalcWidth="true" text="$2591" margin="0, 5, 0, 5" handCursor="true" dock="DOCK_LEFT">
+												<Children>
+													<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+												</Children>
+											</IBGStaticEx>
+										</Children>
+									</IBGRegionPanel>
+									<IBGRegionPanel size="400, 18" margin="0,0,0,11" dock="DOCK_TOP">
+										<Children>
+											<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2589" margin="0, 0, 0, 0" dock="DOCK_LEFT">
+												<Properties>
+													<textFont>
+														<IBGFont height="18"/>
+													</textFont>
+												</Properties>
+											</IBGStaticEx>
+											<IBGGIFControl dock="DOCK_LEFT" margin="3,2,0,7" size="9, 9" image="Resource:\\MainFrame\AboutDlg\CopyRight.png"></IBGGIFControl>
+											<IBGStaticEx name="copyrightYear" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" margin="3, 0, 0, 0" dock="DOCK_LEFT">
+												<Properties>
+													<textFont>
+														<IBGFont height="18"/>
+													</textFont>
+												</Properties>
+											</IBGStaticEx>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+							<IBGButton name="OKBtn" text="$2054" size="72,24" margin="0, 46, 17, 15" tabOrder="10" config="button" dock="DOCK_RIGHT"/>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

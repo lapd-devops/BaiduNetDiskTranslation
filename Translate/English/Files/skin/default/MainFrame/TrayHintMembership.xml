@@ -1,0 +1,58 @@
+<UI version="1.0">
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelMembership" size="308,186">
+		<Children>
+			<IBGRegionPanel dock="DOCK_TOP" margin="0,0,0,0" size="308,25">
+				<Children>
+					<IBDGuiCell size="24,20" margin="5,3,7,2" dock="DOCK_LEFT">
+						<Properties>
+							<bkground>
+								<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+							</bkground>
+						</Properties>
+					</IBDGuiCell>
+					<IBGButton name="nmBtnClose" margin="0,1,0,5" size="31,19" dock="DOCK_RIGHT" toolText="$2048">
+						<Properties>
+							<normalBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_normal.png" changeLight="false" colorize="false"/>
+							</normalBkg>
+							<onBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_hover.png" changeLight="false" colorize="false"/>
+							</onBkg>
+							<downBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_down.png" changeLight="false" colorize="false"/>
+							</downBkg>
+						</Properties>
+					</IBGButton>
+					<IBGStaticEx name="nmStaticTitle" text="$2530" dock="DOCK_FILL" margin="1,5,0,0" textClr="0x333333">
+						<Properties>
+							<textFont>
+								<IBGFont weight="1000"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_FILL" name="nmPanelContent" margin="1,0,1,1">
+				<Children>
+					<IBGStaticEx name="priTip1" autoCalcWidth="true" autoCalcHeight="true" textClr="0xf39b2a" margin="0,26,0,0" dock="DOCK_TOP">
+						<Properties>
+							<textFont>
+								<IBGFont height="22"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+					<IBGStaticEx name="priTip2" size="258,58" textClr="0x515152" margin="24,12,24,0" endEllipsis="true" unMultiline="false" dock="DOCK_TOP"/>
+					<IBGRegionPanel dock="DOCK_BOTTOM" size="306,44">
+						<Children>
+							<IBGButton name="renewBtn" size="110,32" text="$2529" margin="98,0,98,12" dock="DOCK_TOP" config="trayRenewBtn"/>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelContainer" size="308,186" ncHitTest="1">
+		<Children>
+		</Children>
+	</IBGRegionPanel>
+</UI>

@@ -1,0 +1,103 @@
+<UI version="1.0">
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelTrayHintTemplate" ncHitTest="1">
+		<Children>
+			<IBGRegionPanel dock="DOCK_TOP" margin="8,0,3,0" size="210,25">
+				<Children>
+					<IBDGuiCell size="24,20" margin="2,3,7,2" dock="DOCK_LEFT">
+						<Properties>
+							<bkground>
+								<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+							</bkground>
+						</Properties>
+					</IBDGuiCell>
+					<IBGButton name="nmBtnClose" margin="0,3,0,3" size="31,19" dock="DOCK_RIGHT">
+						<Properties>
+							<normalBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_normal.png" changeLight="false" colorize="false"/>
+							</normalBkg>
+							<onBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_hover.png" changeLight="false" colorize="false"/>
+							</onBkg>
+							<downBkg>
+								<IBGVeins file="Resource:MainFrame\TrayHint\close_down.png" changeLight="false" colorize="false"/>
+							</downBkg>
+						</Properties>
+					</IBGButton>
+					<IBGStaticEx name="nmStaticTitle" text="$2963" dock="DOCK_FILL" margin="1,5,0,0" textClr="0x333333">
+						<Properties>
+							<textFont>
+								<IBGFont weight="1000"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel dock="DOCK_FILL" name="nmPanelContainer" margin="0,0,0,0"/>
+		</Children>
+	</IBGRegionPanel>
+	<IBGRegionPanel sizeAsParent="true" name="nmPanelMessage" ncHitTest="1">
+		<Children>
+			<IBGRegionPanel dock="DOCK_BOTTOM" margin="0,0,0,0" size="210,20">
+				<Children>
+					<IBGStaticEx name="ForDetail" autoCalcHeight="true" autoCalcWidth="true" text="$2964" margin="0, 0, 10, 10" handCursor="true" dock="DOCK_RIGHT">
+						<Children>
+							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+						</Children>
+					</IBGStaticEx>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel name="nmPannelSingle" dock="DOCK_FILL" margin="0,0,0,0">
+				<Children>
+					<IBGStaticEx name="nmStaticHint" dock="DOCK_LEFT" margin="10,15,0,0" size="160,14" autoCalcHeight="true" endEllipsis="true" textColorize="false" textClr="0x333333">
+						<Properties>
+							<textFont>
+								<IBGFont height="18"/>
+							</textFont>
+						</Properties>
+					</IBGStaticEx>
+					<IBGStaticEx name="nmStaticNum" dock="DOCK_RIGHT" margin="0,15,10,0" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" textColorize="false" textClr="0x333333"/>
+				</Children>
+			</IBGRegionPanel>
+			<IBGRegionPanel name="nmPannelMulti" dock="DOCK_FILL" unseen="true" margin="0,0,0,0">
+				<Children>
+					<IBGRegionPanel name="nmPannelLine1" dock="DOCK_TOP" size="210,15" margin="0,0,0,0">
+						<Children>
+							<IBGStaticEx name="nmStaticHint1" dock="DOCK_LEFT" margin="10,0,0,0" size="160,0" autoCalcHeight="true" endEllipsis="true" textColorize="false" textClr="0x333333">
+								<Properties>
+									<textFont>
+										<IBGFont height="18"/>
+									</textFont>
+								</Properties>
+							</IBGStaticEx>
+							<IBGStaticEx name="nmStaticNum1" dock="DOCK_RIGHT" margin="0,0,10,0" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" textColorize="false" textClr="0x333333"/>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel name="nmPannelLine2" dock="DOCK_TOP" size="210,15" margin="0,9,0,0">
+						<Children>
+							<IBGStaticEx name="nmStaticHint2" dock="DOCK_LEFT" margin="10,0,0,0" size="160,0" autoCalcHeight="true" endEllipsis="true" textColorize="false" textClr="0x333333">
+								<Properties>
+									<textFont>
+										<IBGFont height="18"/>
+									</textFont>
+								</Properties>
+							</IBGStaticEx>
+							<IBGStaticEx name="nmStaticNum2" dock="DOCK_RIGHT" margin="0,0,10,0" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" textColorize="false" textClr="0x333333"/>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel name="nmPannelLine3" dock="DOCK_TOP" size="210,15" margin="0,9,0,0">
+						<Children>
+							<IBGStaticEx name="nmStaticHint3" dock="DOCK_LEFT" margin="10,0,0,0" size="160,0" autoCalcHeight="true" endEllipsis="true" textColorize="false" textClr="0x333333">
+								<Properties>
+									<textFont>
+										<IBGFont height="18"/>
+									</textFont>
+								</Properties>
+							</IBGStaticEx>
+							<IBGStaticEx name="nmStaticNum3" dock="DOCK_RIGHT" margin="0,0,10,0" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" textColorize="false" textClr="0x333333"/>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGRegionPanel>
+</UI>

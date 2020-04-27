@@ -1,0 +1,41 @@
+<UI version="1.0">
+	<IBGCommonWin name="netSpeedDetectReportDialog" rect="0,0,350,130" sysBtnConfig="mainPanel_CapButton" ncHitTest="1" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题-->
+					<IBGRegionPanel size="350,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false" config="AboutTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,3" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="title_name" textClr="0xffffff" text="$2956" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!--测试中文字提示部分-->
+					<IBGRegionPanel name="testTipPannel" size="350,75" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
+						<Children>
+							<IBGGIFControl name="gifRunning" margin="90, 17, 0, 0" image="Resource:MainFrame\\NetSpeedDlg\\loading.gif" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT"/>
+							<IBGStaticEx name="textTip" textClr="0x333333" text="" autoCalcHeight="true" autoCalcWidth="true" margin="2, 15, 0, 0" dock="DOCK_LEFT">
+								<Properties>
+									<textFont><IBGFont height="20"/></textFont>
+								</Properties>
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<!--按钮区域 -->
+					<IBGRegionPanel size="350, 40" margin="0,0,0,10" dock="DOCK_BOTTOM">
+						<Children>
+							<IBGButton name="RunBtn" text="" size="151,36" margin="200, 0, 200, 4" config="SpeedTestBtn" dock="DOCK_TOP"/>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

@@ -1,0 +1,36 @@
+<UI version="1.0">
+	<IBGCommonWin name="friendSelectDlg" rect="0,0,570,510" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="standardWebWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel margin="0,1,0,0" size="570,33" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,6" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx textClr="0x333333" text="$2119" autoCalcHeight="true" autoCalcWidth="true" margin="7, 8, 0, 9" dock="DOCK_LEFT">
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="570,445" margin="1,-1,1,1" sizeAsParent="false" dock="DOCK_FILL" config="webframePanel">
+						<Children>
+							<!-- 文件选择页面 -->
+							<IBGWebFrame name="webFramePanel" size="564,435" margin="0,0,0,0" dock="DOCK_FILL"/>
+							<!-- 网络异常页面 -->
+							<IBGRegionPanel name="netErrPanel" size="570,445" margin="0,0,0,0" dock="DOCK_FILL" unseen="true">
+								<Children>
+									<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2120" margin="215,200,265,185" dock="DOCK_TOP"/>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>

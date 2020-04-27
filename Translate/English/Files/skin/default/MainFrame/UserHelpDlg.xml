@@ -1,0 +1,83 @@
+<UI version="1.0">
+	<IBGCommonWin name="UserHelpDialog" rect="0,0,700,412" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="true" showMaxButton="false" config="standardWebWin">
+		<Children>
+			<IBGRegionPanel sizeAsParent="true">
+				<Children>
+					<!-- 标题栏 -->
+					<IBGRegionPanel name="titlePanel" margin="0,1,0,0" size="658,33" dock="DOCK_TOP" sizeAsParent="false" config="CommonTitlePanel">
+						<Children>
+							<IBDGuiCell size="24,20" margin="7,7,0,6" dock="DOCK_LEFT">
+								<Properties>
+									<bkground>
+										<IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGRegionPanel size="378,33" dock="DOCK_FILL" margin="0,0,70,0">
+								<Children>
+									<IBGStatic color="0x333333" colorHilight="0x333333" colorPushed="0x333333" name="titleStatic" ncHitTest="0" text="$2902" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" margin="7, 7, 0, 8" dock="DOCK_LEFT">
+										<Properties>
+											<textFont>
+												<IBGFont height="18"/>
+											</textFont>
+										</Properties>
+									</IBGStatic>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+					<!-- 底部区域 -->
+					<IBGRegionPanel size="658,30" margin="1,0,1,1" dock="DOCK_BOTTOM">
+						<Properties>
+							<bkground>
+								<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xffffff" clrEnd="0xffffff"/>
+							</bkground>
+						</Properties>
+						<Children>
+							<IBDGuiCell size="0,1" dock="DOCK_TOP">
+								<Properties>
+									<bkground>
+										<IBGBrush drawStyle="BRUSH_TYPE_HORIZONTAL" clrBegin="0xe5e5e5" clrEnd="0xe5e5e5"/>
+									</bkground>
+								</Properties>
+							</IBDGuiCell>
+							<IBGStaticEx name="viewMore" autoCalcHeight="true" autoCalcWidth="true" text="$2904" margin="3, 7, 12, 7" handCursor="true" dock="DOCK_RIGHT">
+								<Children>
+									<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
+								</Children>
+							</IBGStaticEx>
+						</Children>
+					</IBGRegionPanel>
+					<IBGRegionPanel size="658,316" margin="1,-1,1,0" sizeAsParent="false" dock="DOCK_FILL" config="webframePanel">
+						<Children>
+							<!-- 帮助页面 -->
+							<IBGWebFrame name="webFramePanel" size="540,316" margin="0,0,0,0" dock="DOCK_FILL">
+								<Properties>
+									<bkground>
+										<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xffffff" clrEnd="0xffffff"/>
+									</bkground>
+								</Properties>
+							</IBGWebFrame>
+							<!-- 网络异常页面 -->
+							<IBGRegionPanel name="netErrPanel" size="540,316" margin="0,0,0,0" dock="DOCK_FILL" unseen="true">
+								<Properties>
+									<bkground>
+										<IBGBrush drawStyle="BRUSH_TYPE_VERTICAL" clrBegin="0xffffff" clrEnd="0xffffff"/>
+									</bkground>
+								</Properties>
+								<Children>
+									<IBGRegionPanel name="netErrTipPanel" size="160,180" margin="190,61,190,75">
+										<Children>
+											<IBGGIFControl dock="DOCK_TOP" margin="27, 0, 30, 10" image="Resource:MainFrame\\info.png" size="108, 122"></IBGGIFControl>
+											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2903" margin="85, 3, 0, 0" dock="DOCK_TOP"/>
+										</Children>
+									</IBGRegionPanel>
+								</Children>
+							</IBGRegionPanel>
+						</Children>
+					</IBGRegionPanel>
+				</Children>
+			</IBGRegionPanel>
+		</Children>
+	</IBGCommonWin>
+</UI>
