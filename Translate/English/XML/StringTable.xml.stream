@@ -1138,18 +1138,18 @@
   <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CANCEL"   value="Close" />
 
   <!--在线编辑相关提示-->
-  <String id="IDS_ONLINEDIT_FILESIZE_TOOLARGE" value="文档过大，请下载后打开" />
-  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_TITLE" value="保存文档到网盘" />
-  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_TEXT" value="文档已修改，是否保存到网盘？\r\n隐藏空间内的文档更新后将直接覆盖。" />
-  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_BTN_OVERWRITE" value="覆盖更新" />
-  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_BTN_CANCEL" value="取消更新" />
-  <String id="IDS_ONLINEDIT_SAVEERROR_TITLE" value="电脑空间不足" />
-  <String id="IDS_ONLINEDIT_SAVEERROR_DISKNOSPACE" value="您的电脑空间不足，打开文档需占用本地空间，\r\n请清理后再试。" />
-  <String id="IDS_ONLINEDIT_SAVEERROR_BTN_OPEN" value="打开本地磁盘" />
-  <String id="IDS_ONLINEDIT_SAVEERROR_BTN_CLOSE" value="关闭" />
-  <String id="IDS_ONLINEDIT_APPLOCKED_TEXT" value="您的网盘已锁定，锁定期间无法更新上传文档，\r\n请先解锁网盘" />
-  <String id="IDS_ONLINEDIT_APPLOCKED_OK" value="知道了" />
-  <String id="IDS_ONLINEDIT_DOWNLOADED_AUTOOPEN" value="已经在下载中，完成后自动打开" />
+  <String id="IDS_ONLINEDIT_FILESIZE_TOOLARGE" value="The document is too large, please  download " />
+  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_TITLE" value="Save the document to disk " />
+  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_TEXT" value="The document has been modified, whether to save to the network drive it?\r\n the Safe Box within the document after the update will be directly covered." />
+  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_BTN_OVERWRITE" value="Overwrite" />
+  <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_BTN_CANCEL" value="Cancel" />
+  <String id="IDS_ONLINEDIT_SAVEERROR_TITLE" value="Computer not enough space " />
+  <String id="IDS_ONLINEDIT_SAVEERROR_DISKNOSPACE" value="Your computer runs out of space. It takes up local space to open the document.\r\nPlease clean up and try again." />
+  <String id="IDS_ONLINEDIT_SAVEERROR_BTN_OPEN" value="Open" />
+  <String id="IDS_ONLINEDIT_SAVEERROR_BTN_CLOSE" value="Close" />
+  <String id="IDS_ONLINEDIT_APPLOCKED_TEXT" value="Your network disk is locked. You cannot update uploaded files during the lock period. \r\nPlease unlock the network disk first" />
+  <String id="IDS_ONLINEDIT_APPLOCKED_OK" value="OK" />
+  <String id="IDS_ONLINEDIT_DOWNLOADED_AUTOOPEN" value="Already in download, opens automatically when completed" />
           
   <!--垃圾清理引导弹窗-->
   <String id="IDS_GARBAGE_FILE_CLEAN_TEXT_LINE1" value="There are a lot of duplicate files in your network drive" />
