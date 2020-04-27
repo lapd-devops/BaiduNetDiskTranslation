@@ -1,0 +1,53 @@
+<layer name="UserCardWnd" width="231" height="299" appwin="0" toolwindow="1" ncRect="5,5,5,5" translucent="1" nomaxsize="1">
+  <body>
+    <dlg name="dlg_main" pos="0,0,-0,-0" skin="usercard_notvip_bg">
+	  <dlg pos="7,12,-7,-7">
+	    <!--顶部面板-->
+	    <dlg name="dlg_top" pos="15,0,-15,@92">
+		  <dlg name="dlg_user" pos="0,22,-0,@20">
+			<link name="link_username" crtext="333333" font="0200:微软雅黑" crhover="696969" hoverfont="0200:微软雅黑" align="left" cursor="hand" dotted="1"/>
+		    <imgbtn name="btn_crown" pos="[5,|-9,@18,@18" skin="titlepanel_translucent" icoskin="titlepanel_vipclose" cursor="hand"/>
+		  </dlg>
+		  <progress name="quota_progress" pos="0,[12,-0,@5" bgskin="usercard_progress_gray" posskin="usercard_progress_green" min="0" max="100" value="0"/>
+		  <text name="txt_quota" pos="0,[8,-0,@16" crtext="333333" align="left">0G/0G</text>
+		</dlg>
+	  
+	    <!--中间面板-->
+		<dlg name="dlg_middle" pos="0,[0,-0,@76">
+		  <!--到期提醒-->
+		  <dlg name="dlg_endtime_info" pos="15,0,-12,@40">
+			<text name="txt_endtime" pos="0,14,@100,@16" crtext="4c4c4c" font="0000:微软雅黑" align="left">%str1517%</text>
+			<imgbtn name="btn_buy" pos="-46,10,-0,@24" skin="usercard_vip_btn" class="cls_usercard_vip_txt">%str1516%</imgbtn>
+	      </dlg>
+		  <!--超级会员特权-->
+		  <dlg name="dlg_privilege" pos="15,40,-15,-0">
+			<imgbtn name="btn_priv_5t_quota" pos="0,|-12,@24,@24" skin="titlepanel_translucent" icoskin="usercard_priv_5t_quota" cursor="hand" tip="%str1522%"/>
+			<imgbtn name="btn_priv_speed_download" pos="[18,|-12,@24,@24" skin="titlepanel_translucent" icoskin="usercard_priv_speed_download" cursor="hand" tip="%str1523%"/>
+			<imgbtn name="btn_priv_batch_upload" pos="[18,|-12,@24,@24" skin="titlepanel_translucent" icoskin="usercard_priv_batch_upload" cursor="hand" tip="%str1524%"/>
+			<imgbtn name="btn_priv_bigfile_upload" pos="[18,|-12,@24,@24" skin="titlepanel_translucent" icoskin="usercard_priv_bigfile_upload" cursor="hand" tip="%str1525%"/>
+			<imgbtn name="btn_priv_more" pos="[18,|-12,@24,@24" skin="titlepanel_translucent" icoskin="usercard_priv_more" cursor="hand" tip="%str1526%"/>
+		  </dlg>
+		</dlg>
+	  
+	    <!--底部面板-->
+	    <dlg name="dlg_bottom" pos="0,[0,-0,-0">
+			<button name="btn_personal_center" pos="0,0,-0,@28" class="cls_usercard_normal_btn" txtxoffset="15" tabstop="0">%str1512%</button>
+      <dlg pos="0,[0,-0,@28">
+          <button name="btn_help_center" pos="0,0,-0,-0" class="cls_usercard_normal_btn" txtxoffset="15" tabstop="0" show="1">%str1513%</button>
+          <button name="btn_my_point" pos="0,0,-0,-0" class="cls_usercard_normal_btn" txtxoffset="15" tabstop="0" show="0">%str1530%</button>
+          <text name="txt_my_point" pos="65,0,112,-0" class="cls_usercard_user_point_txt" show="0"></text>
+          <img name="btn_img_new" pos="92,7,@29,@13" skin="titlepanel_newfunction" show="0"/>
+          <text name="txt_exchange_my_point" pos="-65,0,-0,-0" crtext="4c4c4c" font="0000:微软雅黑" align="left" valign="middle" show="0">%str1531%</text>
+      </dlg>
+			<button name="btn_logout" pos="0,[0,-0,@28" class="cls_usercard_normal_btn" txtxoffset="15" tabstop="0">%str1514%</button>
+			<button name="btn_quit" pos="0,[0,-0,@28" class="cls_usercard_normal_btn" txtxoffset="15" tabstop="0">%str1515%</button>
+	    </dlg>
+	  </dlg>
+	  
+	  <!--到期提醒详情气泡-->
+	  <dlg name="dlg_endtime_tip" pos="9,138" skin="usercard_tip_mask" show="0">
+		<text name="txt_endtime_tip" pos="10,8,-10,-0" crtext="ffffff" align="left" multilines="1"></text>
+	  </dlg>
+	</dlg>
+  </body>
+</layer>

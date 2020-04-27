@@ -1,0 +1,14 @@
+<dlg name="Toolbar" skin="mainpanel_toolbar_bkg" pos="0,0,-0,-0">
+  <dlg pos="0,0,-0,-1" crbg="f9fafb"></dlg>
+  <dropbutton name="btn_safebox" class="toolbarbtn" icoskin="mainpanel_toolbar_safebox" drop-skin="mainpanel_toolbar_drop_arrow" icoxoffset="10" icoyoffset="5" txtxoffset="8" pos="5,4,@100,@32" cursor="arrow">%str2177%</dropbutton>
+  <dropbutton name="btn_add" class="toolbarbtn" icoskin="mainpanel_toolbar_add" drop-skin="mainpanel_toolbar_drop_arrow" icoxoffset="10" icoyoffset="5" txtxoffset="8" pos="-570,4,@79,@32" cursor="arrow">%str2163%</dropbutton>
+  <imgbtn name="btn_download" class="toolbarbtn" icoskin="mainpanel_toolbar_download" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="-486,4,@75,@32" cursor="arrow">%str2151%</imgbtn>
+  <imgbtn name="btn_createdir" class="toolbarbtn" icoskin="mainpanel_toolbar_createdir" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="-406,4,@110,@32" cursor="arrow">%str2154%</imgbtn>
+  <imgbtn name="btn_moveout" class="toolbarbtn" icoskin="mainpanel_toolbar_moveout" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="-291,4,@120,@32" cursor="arrow">%str2166%</imgbtn>
+  <imgbtn name="btn_lock" class="toolbarbtn" icoskin="mainpanel_toolbar_lock" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="-166,4,@100,@32" cursor="arrow">%str2167%</imgbtn>
+
+  <imgbtn name="btn_sort" skin="mainpanel_toolbar_sort" pos="-54,12" show="1" cursor="arrow" tip="%str2176%"></imgbtn>
+  <imgbtn name="btn_thumb" skin="mainpanel_toolbar_thumb" pos="-28,12" show="1" cursor="arrow" tip="%str2175%"></imgbtn>
+  <imgbtn name="btn_list" skin="mainpanel_toolbar_list" pos="-28,12" show="0" cursor="arrow" tip="%str2174%"></imgbtn>
+
+</dlg>

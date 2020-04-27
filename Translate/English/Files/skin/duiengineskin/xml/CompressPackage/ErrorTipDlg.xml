@@ -1,0 +1,19 @@
+<layer name="ErrorTipDlg" width="504" height="322" toolwindow="1" ncRect="0,0,0,0" resize="0" translucent="1" nomaxsize="1">
+  <body>
+    <dlg pos="0,0,-0,-0" class="cls_dlg_frame">
+      <!--标题栏-->
+      <caption pos="0,0,-0,38">
+        <img pos="10,8" skin="common_logo_main"/>
+        <text name="txt_title" pos="39,9" class="cls_dlg_title_text">%str855%</text>
+        <imgbtn name="btn_close" skin="btn_sys_close" pos="-34,1,-2,21" cursor="arrow" tip="%str250%" animate="1"/>
+      </caption>
+      <dlg pos="0,38,-0,98">
+        <text name="txt_error_info" pos="|-100,|-10,|100,|10" crtext="333333" font="0000:微软雅黑" textmode="25"/>
+      </dlg>
+      <dlg pos="12,98,-12,-12">
+        <img name="img_guide" pos="0,0,-0,-0" width="480" height="214" skin="errortipdlg_guide_bug_img"/>
+        <imgbtn name="btn_guide" pos="|-60,-50" width="120" height="37" skin="errortipdlg_buy_btn"/>
+      </dlg>
+    </dlg>  
+  </body>
+</layer>

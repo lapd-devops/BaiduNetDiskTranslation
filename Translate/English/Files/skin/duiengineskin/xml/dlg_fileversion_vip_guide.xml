@@ -1,0 +1,19 @@
+﻿<layer name="FileVersionVipGuideDlg"  width="504" height="320" appwin="0" ncRect="0,0,0,0"  resize="0" translucent="1"  nomaxsize="0">
+  <body>
+    <dlg pos="0,0,-0,-0" class="cls_dlg_frame">
+      <caption pos="0,0,-0,38">
+        <img pos="10,8" skin="common_logo_main"></img>
+        <text name="dlg_title" pos="39,9" class="cls_dlg_title_text">%str830%</text>
+        <imgbtn name="btn_close" skin="btn_sys_close" pos="-34,1,-2,21" cursor="arrow" tip="%str250%" animate="1"/>
+      </caption>
+      <dlg pos="0,38,-0,-0">
+        <dlg pos="0,0,-0,-0">
+          <text name="text_content" pos="125,20" crtext="636363">%str1100%</text>
+          <img pos="12,55" skin="fileversion_vip_guide_bkskin" />
+        </dlg>
+        <imgbtn name="btn_buy_vip" pos="320,-40,400,-15" cursor="arrow" animate="1" class="redbgbtn">%str1100%</imgbtn>
+        <imgbtn name="btn_close" pos="410,-40,490,-15" cursor="arrow" class="msgboxbtn">%str26%</imgbtn>
+      </dlg>
+    </dlg> 
+  </body>
+</layer>
