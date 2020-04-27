@@ -1078,9 +1078,9 @@
   <String id="IDS_SPEEDFEECBACKDLG_BUTTON_SUBMIT" value="提交" />
   <String id="IDS_SPEEDFEECBACKDLG_BUTTON_FINISH" value="完成" />
   
-  <!--速度慢提示-->
-  <String id="IDS_SPEEDFEECBACKTIP_SPEEDSLOW" value="传输速度不给力？" />
-  <String id="IDS_SPEEDFEECBACKTIP_FEEDBACK" value="我要反馈" />
+  <!--Slow speed-->
+  <String id="IDS_SPEEDFEECBACKTIP_SPEEDSLOW" value="Transfer speed is slow?" />
+  <String id="IDS_SPEEDFEECBACKTIP_FEEDBACK" value="Please leave feedback" />
 
   <!--提速相关日志-->
   <String id="IDS_GET_SPEEDUP_SERVICE_FAILED" value="Failed to get network acceleration package, error code [%d]" />
