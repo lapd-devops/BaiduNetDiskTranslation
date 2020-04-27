@@ -159,43 +159,43 @@
   <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_INPUT_WRONG" value="Verification code input error, please try again" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_REQUEST_WRONG" value="Verification code pull failed, please refresh and retry" />
 
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_1" value="网盘中已存在此文件，就没帮你拷过来" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_2" value="拷贝遇到问题，麻烦你重试一下" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_3" value="转存错误，错误码：%d" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_QCODE" value="二维码生成失败" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_ERR" value="验证码错误，请刷新重试" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_1" value="Network disk file already exists" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_2" value="There was a problem copying, please try again" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_3" value="Dump error, error code: %d" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_QCODE" value="Qcode generation failed" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_ERR" value="Verification code error, please refresh and retry" />
 
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_TOO_FREQ" value="分享次数超出限制，可以到“我的分享”中查看已分享的文件链接" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_SPAM" value="文件名有敏感词，优化一下吧" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_SENSITIVE_WORDS" value="描述内容有敏感词，优化一下吧" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_VIRUS" value="分享失败，文件中可能有病毒喔" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_SHORTURL_ERR" value="短链接生成失败" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_PASSWORD" value="外链访问提取码错误" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_FILE_NOT_EXIST" value="文件已被删除" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXPIRES" value="来晚一步，文件已被取消分享" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_ERROR_NORMAL" value="分享失败，错误码：%d" />
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_FSID" value="文件不存在，请刷新后重试" />
-  <String id="IDS_SHARE_NETWORK_FAIL" value="网络连接失败，请稍后重试" />
-  <String id="IDS_SHARE_CREATE_LINK" value="创建链接" />
-  <String id="IDS_SHARE_CREATING_LINK" value="正在创建分享链接，请稍候..." />
-  <String id="IDS_SHARE_COPY_LINK_SUCCESS" value="复制成功" />
-  <String id="IDS_SHARE_LINK_SHARE" value="通过QQ、微信、微博、QQ空间等分享给好友吧" />
-  <String id="IDS_SHARE_PRIVATELINK_WITH_NO_PWD_DESC" value="无需提取码，仅拥有链接的用户可以查看" />
-  <String id="IDS_SHARE_PRIVATELINK_WITH_PWD_DESC" value="仅限拥有提取码者可查看，更加隐私安全" />
-  <String id="IDS_SHARE_TABBUTTON_LINKSHARE" value="私密链接分享" />
-  <String id="IDS_SHARE_TABBUTTON_MEESAGESHARE" value="发给好友" />
-  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_PWD" value="有提取码" />
-  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD" value="无提取码" />
-  <String id="IDS_SHARE_LINK_TYPE" value="分享形式:" />
-  <String id="IDS_SHARE_POLICY_WARNNING" value="配合净网行动，百度网盘严厉打击不良信息、色情低俗信息的传播行为，如经发现，或将封号处理。" />
-  <String id="IDS_SHARE_PRIVATE_LINK_COPY" value="分享链接及提取码已复制" />
-  <String id="IDS_SHARE_PUBLIC_LINK_COPY" value="分享链接已复制" />
-  <String id="IDS_SHARE_BTN_CLOSE" value="关闭" />
-  <String id="IDS_SHARE_BTN_CANCEL" value="取消" />
-  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_LIMIT" value="有效期:" />
-  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_NONE" value="永久有效" />
-  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_7DAYS" value="7天" />
-  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1天" />
+ <String id="IDS_BAOHE_ERR_SHARE_LINK_TOO_FREQ" value="Share links exceeds the limit, go to My Share to view shared file links" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_SPAM" value="Filename contains sensitive (banned) words, please change" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_SENSITIVE_WORDS" value="It describes the contents of sensitive (banned) words" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_VIRUS" value="Oh, the file may have a virus. Share failed" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_SHORTURL_ERR" value="Short link generation failed" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_PASSWORD" value="Invalid Password" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_FILE_NOT_EXIST" value="File does not exist" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_EXPIRES" value="Share link has expired" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_ERROR_NORMAL" value="Share error code: %d" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_INVALID_FSID" value="File does not exist, please check file ID and retry" />
+  <String id="IDS_SHARE_NETWORK_FAIL" value="Network connection failed, please try again later" />
+  <String id="IDS_SHARE_CREATE_LINK" value="Create Link" />
+  <String id="IDS_SHARE_CREATING_LINK" value="Creating sharing link, please wait ..." />
+  <String id="IDS_SHARE_COPY_LINK_SUCCESS" value="Copy successful" />
+  <String id="IDS_SHARE_LINK_SHARE" value="Share with friends via QQ, WeChat, Weibo, QQ " />
+  <String id="IDS_SHARE_PRIVATELINK_WITH_NO_PWD_DESC" value="No fetch code required, only users with the link can view" />
+  <String id="IDS_SHARE_PRIVATELINK_WITH_PWD_DESC" value="Only those who have the extraction code can view it, more privacy and security" />
+  <String id="IDS_SHARE_TABBUTTON_LINKSHARE" value="Share Link" />
+  <String id="IDS_SHARE_TABBUTTON_MEESAGESHARE" value="Share w. Friend" />
+  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_PWD" value="With extraction code" />
+  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD" value="No extraction code" />
+  <String id="IDS_SHARE_LINK_TYPE" value="Share Type" />
+  <String id="IDS_SHARE_POLICY_WARNNING" value="WARNING: BAIDU will not allow spreading pornographic or vulgar stuff" />
+  <String id="IDS_SHARE_PRIVATE_LINK_COPY" value="Link and Password copied" />
+  <String id="IDS_SHARE_PUBLIC_LINK_COPY" value="Link copied" />
+  <String id="IDS_SHARE_BTN_CLOSE" value="Close" />
+  <String id="IDS_SHARE_BTN_CANCEL" value="Cancel" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_LIMIT" value="Valid:" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_NONE" value="Unlimited" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_7DAYS" value="7day" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1day" />
   <String id="IDS_SHARE_PUBLIC_LINK_DAYS_EXPIRE" value="Link%dDays expired" />
 
   <!-- 转存-->
@@ -219,90 +219,90 @@
   <!--文件类型面板-->
   <String id="IDS_FILETYPEPANEL_ALL" value="All files" />
 
-  <!--传输面板 -->
-  <String id="IDS_TRANPANEL_AUTOBACKUP_FOLDER_TEXT" value="自动备份文件夹" />
-  <String id="IDS_TRANPANEL_PORTABLEDEVBACKUP_FOLDER_TEXT" value="便携式设备备份文件夹" />
-  <String id="IDS_TRANPANEL_TOTAL_DOWN_PROGRESS" value="下载总进度" />
-  <String id="IDS_TRANPANEL_TOTAL_UP_PROGRESS" value="上传总进度" />
-  <String id="IDS_TRANPANEL_TIP_MORE_TASK" value="更多任务正在排队中..." />
-  <String id="IDS_TRANPANEL_STARTBTN" value="开始" />
-  <String id="IDS_TRANPANEL_PAUSEBTN" value="暂停" />
-  <String id="IDS_TRANPANEL_DELETEBTN" value="删除" />
-  <String id="IDS_TRANPANEL_TOTALSTARTBTN" value="全部开始" />
-  <String id="IDS_TRANPANEL_TOTALPAUSEBTN" value="全部暂停" />
-  <String id="IDS_TRANPANEL_TOTALDELETEBTN" value="全部取消" />
-  <String id="IDS_TRANPANEL_AUTOBACKUP_PAUSE" value="暂停自动备份" />
-  <String id="IDS_TRANPANEL_AUTOBACKUP_START" value="开始自动备份" />
-  <String id="IDS_TRANPANEL_AUTOBACKUP_DELETE" value="删除自动备份" />
-  <String id="IDS_TRANPANEL_PORTABLEDEV_PAUSE" value="暂停设备备份" />
-  <String id="IDS_TRANPANEL_PORTABLEDEV_START" value="开始设备备份" />
-  <String id="IDS_TRANPANEL_PORTABLEDEV_DELETE" value="删除设备备份" />
+  <!--Transmission panel -->
+  <String id="IDS_TRANPANEL_AUTOBACKUP_FOLDER_TEXT" value="Auto backup folder" />
+  <String id="IDS_TRANPANEL_PORTABLEDEVBACKUP_FOLDER_TEXT" value="Portable Device Backup Folder" />
+  <String id="IDS_TRANPANEL_TOTAL_DOWN_PROGRESS" value="Total Download Progress" />
+  <String id="IDS_TRANPANEL_TOTAL_UP_PROGRESS" value="Total Upload Progress" />
+  <String id="IDS_TRANPANEL_TIP_MORE_TASK" value="More tasks are queued ..." />
+  <String id="IDS_TRANPANEL_STARTBTN" value="Start" />
+  <String id="IDS_TRANPANEL_PAUSEBTN" value="Pause" />
+  <String id="IDS_TRANPANEL_DELETEBTN" value="Delete" />
+  <String id="IDS_TRANPANEL_TOTALSTARTBTN" value="Start All" />
+  <String id="IDS_TRANPANEL_TOTALPAUSEBTN" value="Pause All" />
+  <String id="IDS_TRANPANEL_TOTALDELETEBTN" value="Delete All" />
+  <String id="IDS_TRANPANEL_AUTOBACKUP_PAUSE" value="Auto Backup Pause" />
+  <String id="IDS_TRANPANEL_AUTOBACKUP_START" value="Auto Backup Start" />
+  <String id="IDS_TRANPANEL_AUTOBACKUP_DELETE" value="Auto Backup Delete" />
+  <String id="IDS_TRANPANEL_PORTABLEDEV_PAUSE" value="Portable Device Pause" />
+  <String id="IDS_TRANPANEL_PORTABLEDEV_START" value="Portable Device Start" />
+  <String id="IDS_TRANPANEL_PORTABLEDEV_DELETE" value="Portable Device Delete" />
   
-  <String id="IDS_TRANPANEL_OPENBTN" value="打开" />
-  <String id="IDS_TRANPANEL_CLEARHISBTN" value="清除所有记录" />
-  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP1" value="共传输完成" />
-  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP2" value="个文件！" />
-  <String id="IDS_TRANPANEL_OPENFOLDERBTN" value="打开所在文件夹" />
-  <String id="IDS_TRANPANEL_CLOUDUPLOAD" value="云上传" />
-  <String id="IDS_TRANPANEL_UPLOADED" value="上传完成" />
-  <String id="IDS_TRANPANEL_CLOUDDOWNLOAD" value="云下载" />
-  <String id="IDS_TRANPANEL_DOWNLOADING" value="正在下载" />
-  <String id="IDS_TRANPANEL_DOWNLOADED" value="下载完成" />
-  <String id="IDS_TRANPANEL_PAUSED_TIP" value="暂停中..." />
-  <String id="IDS_TRANPANEL_UPWAITING_TIP" value="等待上传..." />
-  <String id="IDS_TRANPANEL_DOWNWAITING_TIP" value="等待下载..." />
-  <String id="IDS_TRANPANEL_READINGFILE_TIP" value="正在读取文件" />
-  <String id="IDS_TRANPANEL_SELECTALL" value="全选" />
-  <String id="IDS_TRANPANEL_TOP" value="优先传输" />
-  <String id="IDS_TRANPANEL_TASKTYPE_UPLOAD" value="上传完成" />
-  <String id="IDS_TRANPANEL_TASKTYPE_DOWNLOAD" value="下载完成" />
-  <String id="IDS_TRANPANEL_TIP_RAPIDUPLOAD" value="极速秒传" />
-  <String id="IDS_TRANPANEL_TIP_DELETEALLUPTASK" value="确定取消全部上传任务？" />
-  <String id="IDS_TRANPANEL_TIP_DELETEALLDOWNTASK" value="确定取消全部下载任务？" />
-  <String id="IDS_TRANPANEL_TIP_DELETEALLHISTASK" value="确定要清空全部上传和下载记录吗？" />
-  <String id="IDS_TRANPANEL_TIP_SVIPGUIDE" value="开通超级会员，尊享极速下载" />
-  <String id="IDS_TIP_FILE_NOTEXIST" value="文件已修改或删除！" />
-  <String id="IDS_TIP_FILE_CANNOTOPEN" value="不支持打开此类型文件！" />
-  <String id="IDS_TIP_FOLDER_NOTEXIST" value="打开的文件夹不存在！" />
-  <String id="IDS_TIP_RAPIDUPLOAD" value="极速秒传" />
-  <String id="IDS_TIP_UPLOADCOMPLETE" value="上传完成" />
-  <String id="IDS_TIP_DOWNLOADCOMPLETE" value="下载完成" />
-  <String id="IDS_TIP_FILE_CANNOT_DOWNLOAD" value="文件已被删除，无法重新下载" />
-  <String id="IDS_TIP_ADDING_NEW_TASK" value="正在加入传输列表" />
-  <String id="IDS_TIP_MEMBER_PRIVILEGE" value="尊贵的超级会员，您可以上传超大文件哦~（最大20G）" />
-  <String id="IDS_TIP_P2P_DOWNLOAD_TASK" value="正在使用P2P加速下载，提升下载速度的同时也会将已下载的分享文件作为热点贡献给其他用户，提升整个网络的速度" />
-  <String id="IDS_TIP_NO_LOW_SPEED_TIP_AGAIN" value="不再提示" />
-  <String id="IDS_TIP_CANCEL_UPLOAD" value="取消上传" />
-  <String id="IDS_TIP_CANCEL_DOWNLOAD" value="取消下载" />
-  <String id="IDS_TIP_EXPAND_AUTOBACKUPITEM" value="展开自动备份项" />
-  <String id="IDS_TIP_COLLAPSED_AUTOBACKUPITEM" value="收拢自动备份项" />
-  <String id="IDS_TIP_DEL_HIS_ITEM" value="清除记录" />
-  <String id="IDS_TIP_OPEN_FILE" value="打开文件" />
-  <String id="IDS_TIP_NO_TRANS_TASK" value="当前没有传输任务喔~" />
-  <String id="IDS_TIP_NO_UPLOAD_TRANS_TASK" value="当前没有上传任务喔~"/>
-  <String id="IDS_TIP_NO_DOWNLOAD_TRANS_TASK" value="当前没有下载任务喔~"/>
-  <String id="IDS_TIP_NO_TRANS_RECORD" value="当前没有传输记录喔~" />
-  <String id="IDS_TRANPANEL_PAUSE_CLOUDTASK_BTN" value="全部暂停" />
-  <String id="IDS_TRANPANEL_START_CLOUDTASK_BTN" value="全部开始" />
-  <String id="IDS_TRANPANEL_CANCEL_CLOUDTASK_BTN" value="全部删除" />
-  <String id="IDS_TRANPANEL_CURRENT_DEVICE" value="本机" />
-  <String id="IDS_TRANPANEL_LOADING_DEVICE_TASK_LIST" value="正在加载网盘推送任务..." />
-  <String id="IDS_TRANPANEL_LOAD_DEVICE_TASK_FAIL" value="加载网盘推送任务失败，请稍候重试" />
-  <String id="IDS_TRANPANEL_PAUSING_CLOUDTASK_TIP" value="正在暂停网盘推送任务..." />
-  <String id="IDS_TRANPANEL_PAUSE_CLOUDTASK_FAIL_TIP" value="暂停网盘推送任务失败" />
-  <String id="IDS_TRANPANEL_STARTING_CLOUDTASK_TIP" value="正在开始网盘推送任务..." />
-  <String id="IDS_TRANPANEL_START_CLOUDTASK_FAIL_TIP" value="开始网盘推送任务失败" />
-  <String id="IDS_TRANPANEL_CANCELING_CLOUDTASK_TIP" value="正在操作中..." />
-  <String id="IDS_TRANPANEL_CANCEL_CLOUDTASK_FAIL_TIP" value="操作失败" />
-  <String id="IDS_TRANPANEL_MORE_CLOUDTASK_TIP" value="更多网盘推送任务" />
-  <String id="IDS_TRANPANEL_DELETE_CLOUDTASK_TIP" value="取消推送任务将中断传输，确定取消吗？" />
-  <String id="IDS_TRANPANEL_DST_DEVICE_OFFLINE" value="设备已离线，在线后可续传" />
-  <String id="IDS_TRANPANEL_DELETE_ALL_CLOUDTASK_TIP" value="确定要取消全部任务并删除记录吗？" />
-  <String id="IDS_TRANPANEL_CLOUDTASK_UNSTART_TIP" value="等待下载..." />
-  <String id="IDS_TRANPANEL_PUSH_DELAY_TIP" value="推送过程有稍许延迟，请耐心等待呦~ " />
-  <String id="IDS_TRANPANEL_DOWNLOAD_REQUESTING_TIP" value="下载请求中..." />
-  <String id="IDS_TRANPANEL_UPLOAD_REQUESTING_TIP" value="上传请求中..." />
-  <String id="IDS_TRANPANEL_REQUESTING_TIP" value="请求中..." />
+  <String id="IDS_TRANPANEL_OPENBTN" value="open" />
+  <String id="IDS_TRANPANEL_CLEARHISBTN" value="Clear history" />
+  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP1" value="Total transfers complete " />
+  <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP2" value=" files !" />
+  <String id="IDS_TRANPANEL_OPENFOLDERBTN" value="Open folder" />
+  <String id="IDS_TRANPANEL_CLOUDUPLOAD" value="Cloud upload" />
+  <String id="IDS_TRANPANEL_UPLOADED" value="Uploaded" />
+  <String id="IDS_TRANPANEL_CLOUDDOWNLOAD" value="Cloud download" />
+  <String id="IDS_TRANPANEL_DOWNLOADING" value="Downloading " />
+  <String id="IDS_TRANPANEL_DOWNLOADED" value="Downloaded" />
+  <String id="IDS_TRANPANEL_PAUSED_TIP" value="Paused..." />
+  <String id="IDS_TRANPANEL_UPWAITING_TIP" value="waiting for upload..." />
+  <String id="IDS_TRANPANEL_DOWNWAITING_TIP" value="Waiting for download..." />
+  <String id="IDS_TRANPANEL_READINGFILE_TIP" value="Reading file" />
+  <String id="IDS_TRANPANEL_SELECTALL" value="Select all" />
+  <String id="IDS_TRANPANEL_TOP" value="Top" />
+  <String id="IDS_TRANPANEL_TASKTYPE_UPLOAD" value="Complete" />
+  <String id="IDS_TRANPANEL_TASKTYPE_DOWNLOAD" value="Complete" />
+  <String id="IDS_TRANPANEL_TIP_RAPIDUPLOAD" value="Rapid upload" />
+  <String id="IDS_TRANPANEL_TIP_DELETEALLUPTASK" value="Delete all upload tasks?" />
+  <String id="IDS_TRANPANEL_TIP_DELETEALLDOWNTASK" value="Delete all download tasks?" />
+  <String id="IDS_TRANPANEL_TIP_DELETEALLHISTASK" value="Delete all upload and download history?" />
+  <String id="IDS_TRANPANEL_TIP_SVIPGUIDE" value="Open Super Membership and Enjoy Extreme Download" />
+  <String id="IDS_TIP_FILE_NOTEXIST" value="File does not exist !" />
+  <String id="IDS_TIP_FILE_CANNOTOPEN" value="Does not support opening of this file type !" />
+  <String id="IDS_TIP_FOLDER_NOTEXIST" value="Folder does not exist !" />
+  <String id="IDS_TIP_RAPIDUPLOAD" value="Rapid upload" />
+  <String id="IDS_TIP_UPLOADCOMPLETE" value="Complete" />
+  <String id="IDS_TIP_DOWNLOADCOMPLETE" value="Completed" />
+  <String id="IDS_TIP_FILE_CANNOT_DOWNLOAD" value="File has been deleted and can not re-download" />
+  <String id="IDS_TIP_ADDING_NEW_TASK" value="Adding new task" />
+  <String id="IDS_TIP_MEMBER_PRIVILEGE" value="Pro member, you can upload large files ~Maximum 20GB" />
+  <String id="IDS_TIP_P2P_DOWNLOAD_TASK" value="P2P is being used to accelerate downloads. Improved download speed will also enhance share speed for other users" />
+  <String id="IDS_TIP_NO_LOW_SPEED_TIP_AGAIN" value="Do not prompt again" />
+  <String id="IDS_TIP_CANCEL_UPLOAD" value="Delete upload" />
+  <String id="IDS_TIP_CANCEL_DOWNLOAD" value="Delete file" />
+  <String id="IDS_TIP_EXPAND_AUTOBACKUPITEM" value="Expand the automatic backup items" />
+  <String id="IDS_TIP_COLLAPSED_AUTOBACKUPITEM" value="Collapse the automatic backup items" />
+  <String id="IDS_TIP_DEL_HIS_ITEM" value="Clear item history" />
+  <String id="IDS_TIP_OPEN_FILE" value="Open file" />
+  <String id="IDS_TIP_NO_TRANS_TASK" value="Oh, no current transfers~" />
+  <String id="IDS_TIP_NO_UPLOAD_TRANS_TASK" value="There are currently no upload tasks ~"/>
+  <String id="IDS_TIP_NO_DOWNLOAD_TRANS_TASK" value="There are currently no download tasks ~"/>
+  <String id="IDS_TIP_NO_TRANS_RECORD" value="Oh, no current transfer records~" />
+  <String id="IDS_TRANPANEL_PAUSE_CLOUDTASK_BTN" value="Pause all" />
+  <String id="IDS_TRANPANEL_START_CLOUDTASK_BTN" value="Start all" />
+  <String id="IDS_TRANPANEL_CANCEL_CLOUDTASK_BTN" value="Cancel all" />
+  <String id="IDS_TRANPANEL_CURRENT_DEVICE" value="Current device" />
+  <String id="IDS_TRANPANEL_LOADING_DEVICE_TASK_LIST" value="Loading device cloud push task list..." />
+  <String id="IDS_TRANPANEL_LOAD_DEVICE_TASK_FAIL" value="Loading device cloud push task fails, try again" />
+  <String id="IDS_TRANPANEL_PAUSING_CLOUDTASK_TIP" value="Cloud push task is paused..." />
+  <String id="IDS_TRANPANEL_PAUSE_CLOUDTASK_FAIL_TIP" value="Cloud push task pause failure" />
+  <String id="IDS_TRANPANEL_STARTING_CLOUDTASK_TIP" value="Starting cloud push task..." />
+  <String id="IDS_TRANPANEL_START_CLOUDTASK_FAIL_TIP" value="Starting cloud push task failure" />
+  <String id="IDS_TRANPANEL_CANCELING_CLOUDTASK_TIP" value="Cancelling cloud task..." />
+  <String id="IDS_TRANPANEL_CANCEL_CLOUDTASK_FAIL_TIP" value="Cancelling cloud task failure" />
+  <String id="IDS_TRANPANEL_MORE_CLOUDTASK_TIP" value="More cloud push tasks" />
+  <String id="IDS_TRANPANEL_DELETE_CLOUDTASK_TIP" value="Delete push task will interrupt transfer?" />
+  <String id="IDS_TRANPANEL_DST_DEVICE_OFFLINE" value="The device is offline" />
+  <String id="IDS_TRANPANEL_DELETE_ALL_CLOUDTASK_TIP" value="You sure you want to cancel all tasks and delete records?" />
+  <String id="IDS_TRANPANEL_CLOUDTASK_UNSTART_TIP" value="Wait for download..." />
+  <String id="IDS_TRANPANEL_PUSH_DELAY_TIP" value="Slight delay in push process, please be patient~ " />
+  <String id="IDS_TRANPANEL_DOWNLOAD_REQUESTING_TIP" value="Download request..." />
+  <String id="IDS_TRANPANEL_UPLOAD_REQUESTING_TIP" value="Upload request..." />
+  <String id="IDS_TRANPANEL_REQUESTING_TIP" value="Request..." />
   <!--传输面板错误提示 -->
   
   <!--Transmission error solution link-->
@@ -595,10 +595,10 @@
   <String id="IDS_PROXYSETTING_STATIC_SOCKSPROXY"  value="Use SOCK proxy" />
   <String id="IDS_PROXYSETTING_STATIC_IEPROXY"     value="Use IE proxy" />
 
-  <!--远程推送设置-->
-  <String id="IDS_STATIC_CLOUDPUSH_TITLE"    value="休眠设置：" />
-  <String id="IDS_STATIC_PUSH_ON_SLEEP"    value="有传输任务时电脑不休眠" />
-  <String id="IDS_STATIC_PUSH_ON_SLEEP_TIP"    value="网盘在电脑睡眠时继续保持低耗传输保证传输任务顺利进行" />
+  <!--Remote push settings-->
+  <String id="IDS_STATIC_CLOUDPUSH_TITLE"    value="Remote Push" />
+  <String id="IDS_STATIC_PUSH_ON_SLEEP"    value="Push while sleeping" />
+  <String id="IDS_STATIC_PUSH_ON_SLEEP_TIP"    value="Baidu Cloud will continue to push task at a low speed while sleeping to maintain smooth progress" />
 
 
   <!-- 弹出气泡提示-->
