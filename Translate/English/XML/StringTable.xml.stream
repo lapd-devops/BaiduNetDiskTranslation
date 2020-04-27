@@ -1166,18 +1166,18 @@
   <String id="IDS_REWARD_PLAN_DLG_RETRY" value="Retry" />
 
   <!--自动备份气泡-->
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_TITLE" value="正在备份中..." />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_START_TIP" value="正在为您备份“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_END_TIP" value="”等多个文件" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_START_TIP" value="正在为您备份“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_TITLE" value="Backing up..." />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_START_TIP" value="Backing up for you" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_END_TIP" value="”Wait for multiple files" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_START_TIP" value="Is backing up for you" />
   <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_END_TIP" value="”" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_VIEW_DETAIL" value="查看进度>" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_TITLE" value="备份成功" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_START_TIP" value="已为您成功备份“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_END_TIP" value="”等%d个文件" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_START_TIP" value="已为您成功备份文件“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_VIEW_DETAIL" value="View progress" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_TITLE" value="Successful backup" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_START_TIP" value="Successfully backed up for you“" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_END_TIP" value="”Wait%dFiles" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_START_TIP" value="File has been successfully backed up for you“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_SINGLE_END_TIP" value="”" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_VIEW_DETAIL" value="立即查看>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_VIEW_DETAIL" value="View now>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_TITLE" value="文件备份未完成" />
   <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_START_TIP" value="“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_MULTI_END_TIP" value="”等%d个文件备份失败" />
