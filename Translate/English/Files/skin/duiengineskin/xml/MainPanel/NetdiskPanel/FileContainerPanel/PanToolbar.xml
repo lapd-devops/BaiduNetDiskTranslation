@@ -1,12 +1,12 @@
 <dlg name="Toolbar" skin="mainpanel_toolbar_bkg" pos="0,0,-0,-0">
   <dlg pos="0,0,-0,-1" crbg="f9fafb"></dlg>
-  <imgbtn name="btn_upload" class="toolbarbtn" icoskin="mainpanel_toolbar_upload" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="5,4,@75,@32" cursor="arrow">%str2150%</imgbtn>
-  <imgbtn name="btn_download" class="toolbarbtn" icoskin="mainpanel_toolbar_download" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@75,@32" cursor="arrow">%str2151%</imgbtn>
-  <imgbtn name="btn_createshare" class="toolbarbtn" icoskin="mainpanel_toolbar_createshare" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@75,@32" cursor="arrow">%str2152%</imgbtn>
-  <imgbtn name="btn_delete" class="toolbarbtn" icoskin="mainpanel_toolbar_delete" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@75,@32" cursor="arrow">%str2153%</imgbtn>
-  <imgbtn name="btn_createdir" class="toolbarbtn" icoskin="mainpanel_toolbar_createdir" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@110,@32" cursor="arrow">%str2154%</imgbtn>
-  <imgbtn name="btn_pdftoword" class="toolbarbtn" icoskin="mainpanel_toolbar_pdftoword" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="325,4,@110,@32" cursor="arrow" show="0">%str2181%</imgbtn>
-  <dropbutton name="btn_offlinedownload" class="toolbarbtn" icoskin="mainpanel_toolbar_offlinedownload" drop-skin="mainpanel_toolbar_drop_arrow" icoxoffset="10" icoyoffset="5" txtxoffset="8" pos="[5,4,@108,@32" cursor="arrow">%str2155%</dropbutton>
+  <imgbtn name="btn_upload" class="toolbarbtn" icoskin="mainpanel_toolbar_upload" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="5,4,@78,@32" cursor="arrow">%str2150%</imgbtn>
+  <imgbtn name="btn_download" class="toolbarbtn" icoskin="mainpanel_toolbar_download" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@95,@32" cursor="arrow">%str2151%</imgbtn>
+  <imgbtn name="btn_createshare" class="toolbarbtn" icoskin="mainpanel_toolbar_createshare" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@82,@32" cursor="arrow">%str2152%</imgbtn>
+  <imgbtn name="btn_delete" class="toolbarbtn" icoskin="mainpanel_toolbar_delete" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@78,@32" cursor="arrow">%str2153%</imgbtn>
+  <imgbtn name="btn_createdir" class="toolbarbtn" icoskin="mainpanel_toolbar_createdir" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="[5,4,@120,@32" cursor="arrow">%str2154%</imgbtn>
+  <imgbtn name="btn_pdftoword" class="toolbarbtn" icoskin="mainpanel_toolbar_pdftoword" icoxoffset="10" icoyoffset="5" txtxoffset="18" pos="325,4,@123,@32" cursor="arrow" show="0">%str2181%</imgbtn>
+  <dropbutton name="btn_offlinedownload" class="toolbarbtn" icoskin="mainpanel_toolbar_offlinedownload" drop-skin="mainpanel_toolbar_drop_arrow" icoxoffset="10" icoyoffset="5" txtxoffset="8" pos="[5,4,@146,@32" cursor="arrow">%str2155%</dropbutton>
   <dropbutton name="btn_more" class="toolbarbtn" icoskin="mainpanel_toolbar_more" drop-skin="mainpanel_toolbar_drop_arrow" icoxoffset="10" icoyoffset="5" txtxoffset="8" pos="[5,4,@87,@32" cursor="arrow">%str2159%</dropbutton>
   
   <imgbtn name="btn_sort" skin="mainpanel_toolbar_sort" pos="-54,12" show="1" cursor="arrow" tip="%str2176%"></imgbtn>
