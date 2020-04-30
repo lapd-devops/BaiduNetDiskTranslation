@@ -3,41 +3,41 @@
   <!--logo-->
   <img pos="15,20,@115,@26" skin="titlepanel_logo"></img>
   <!--我的网盘-->
-  <buttonex name="btn_mydisk" pos="165,23,@66,@37" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
+  <buttonex name="btn_mydisk" pos="185,17,@85,@42" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
 	normal-skin="titlepanel_underline_normal" hover-skin="titlepanel_underline_normal" down-skin="titlepanel_underline_hover"
 	check-skin="titlepanel_underline_hover" text-yoffset="-5">%str1500%</buttonex>
   <!--传输列表-->
-  <gifplayer name="gif_taskrun" pos="235,23,@15,@15" skin="titlepanel_taskrunning_gif" bulltimer="1" show="0"/>
-  <img name="img_taskpause" pos="235,34,@16,@16" skin="titlepanel_taskpause" show="0"/>
-  <buttonex name="btn_translist" pos="254,23,@66,@37" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
-  normal-skin="titlepanel_underline_normal" hover-skin="titlepanel_underline_normal" down-skin="titlepanel_underline_hover"
-  check-skin="titlepanel_underline_hover" text-yoffset="-5">%str1501%</buttonex>
+  <gifplayer name="gif_taskrun" pos="264,29,@16,@15" skin="titlepanel_taskrunning_gif" bulltimer="1" show="0"/>
+  <img name="img_taskpause" pos="264,29,@16,@16" skin="titlepanel_taskpause" show="0"/>
+  <buttonex name="btn_translist" pos="281,17,@58,@42" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
+	normal-skin="titlepanel_underline_normal" hover-skin="titlepanel_underline_normal" down-skin="titlepanel_underline_hover"
+	check-skin="titlepanel_underline_hover" text-yoffset="-5">%str1501%</buttonex>
   <img name="img_transnum" skin="titlepanel_redbg" show="0">
-  <text name="txt_transnum" pos="0,|-11,-0,@18" crtext="ffffff" font2="facename:Arial;adding:-1" align="center" valign="middle">0</text>
+	<text name="txt_transnum" pos="0,|-7,-0,@15" crtext="ffffff" font2="facename:Arial;adding:-1" align="center" valign="middle">0</text>
   </img>
   <!--好友分享-->
-  <buttonex name="btn_friendshare" pos="333,23,@47,@37" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
+  <buttonex name="btn_friendshare" pos="376,17,@40,@42" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
 	normal-skin="titlepanel_underline_normal" hover-skin="titlepanel_underline_normal" down-skin="titlepanel_underline_hover"
 	check-skin="titlepanel_underline_hover" text-yoffset="-5">%str1502%</buttonex>
-  <img name="img_reddot" pos="372,23,@8,@8" skin="titlepanel_reddot" show="0"/>
+  <img name="img_reddot" pos="430,25,@8,@8" skin="titlepanel_reddot" show="0"/>
   <!--功能宝箱-->
-  <buttonex name="btn_functionbox" pos="393,23,@70,@37" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
+  <buttonex name="btn_functionbox" pos="469,17,@65,@42" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
 	normal-skin="titlepanel_underline_normal" hover-skin="titlepanel_underline_normal" down-skin="titlepanel_underline_hover"
 	check-skin="titlepanel_underline_hover" text-yoffset="-5">%str290%</buttonex>
-  <img name="img_new" pos="451,22,@29,@13" skin="titlepanel_newfunction" show="0"/>
+  <img name="img_new" pos="521,22,@29,@13" skin="titlepanel_newfunction" show="0"/>
   <!--找资源-->
-  <buttonex name="btn_mall" pos="473,23,@52,@37" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
+  <buttonex name="btn_mall" pos="560,17,@43,@42" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
 	normal-skin="titlepanel_underline_normal" hover-skin="titlepanel_underline_normal" down-skin="titlepanel_underline_hover"
 	text-yoffset="-5">%str1529%</buttonex>
-  <img name="mall_img_new" pos="515,22,@29,@13" skin="titlepanel_newfunction" show="0"/>
-
+  <img name="mall_img_new" pos="600,22,@29,@13" skin="titlepanel_newfunction" show="0"/>
+  
   <!--用户头像-->
   <img name="img_userhead" pos="-350,|-15,@30,@30" skin="titlepanel_default_head">
 	<img name="img_userhead_frame" pos="0,0,-0,-0" skin="titlepanel_headframe"/>
   </img>
 
   <!--用户昵称-->
-  <text name="txt_nickname" pos="-320,|-8" crtext="333333" font="0000:Arial" align="left" cursor="arrow" maxwidth="200" dotted="1"></text>
+  <text name="txt_nickname" pos="-320,|-8" crtext="333333" font="0000:微软雅黑" align="left" cursor="arrow" maxwidth="200" dotted="1"></text>
   <!--会员身份标识-->
   <imgbtn name="btn_crown" pos="-265,|-9,@18,@18" skin="titlepanel_translucent" icoskin="titlepanel_vipclose" cursor="hand"/>
   <!--会员身份到期常驻提示面板-->
@@ -45,15 +45,15 @@
 	 <link name="txt_resident_expire" class="cls_titlepanel_resident_txt"></link>
 	 <link name="link_resident_expire" class="cls_titlepanel_resident_link"></link>
   </dlg>
-
+  
   <!--会员中心-->
-  <imgbtn name="btn_vipcenter" pos="-234,|-20,@101,@40" class="cls_titlepanel_vipcenter_btn" txtyoffset="2">%str1505%</imgbtn>
+  <imgbtn name="btn_vipcenter" pos="-234,|-20,@84,@40" class="cls_titlepanel_vipcenter_btn" txtyoffset="2">%str1505%</imgbtn>
   <!--消息-->
   <imgbtn name="btn_message" pos="-135,|-8,@15,@16" skin="titlepanel_message_btn" cursor="arrow" tip="%str1506%"></imgbtn>
   <img name="img_newmsg_reddot" pos="-124,28,@8,@8" skin="titlepanel_reddot" show="0"/>
   <!--设置-->
   <imgbtn name="btn_setting" pos="-110,|-8,@15,@16" skin="titlepanel_setting_btn" cursor="arrow" tip="%str1507%"></imgbtn>
-
+  
   <!--窗口属性-->
   <hr pos="-85,|-8,@1,@16" size="1" crbg="d6d8dd"/>
   <imgbtn name="btn_minimize" skin="titlepanel_minmize_btn" pos="-75,|-8,@15,@16" cursor="arrow" tip="%str251%"/>
