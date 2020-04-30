@@ -1152,7 +1152,7 @@
   <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_TEXT" value="Документ был изменен, следует ли сохранить его на сетевом диске? \r\nСейф внутри документа после того, как обновление будет непосредственно покрыто." />
   <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_BTN_OVERWRITE" value="Переписать" />
   <String id="IDS_ONLINEDIT_SAVESAFEBOXFILE_BTN_CANCEL" value="Отмена" />
-  <String id="IDS_ONLINEDIT_SAVEERROR_TITLE" value="Компьютеру не хватает места" />
+  <String id="IDS_ONLINEDIT_SAVEERROR_TITLE" value="Не достаточна места на вашем компьютере" />
   <String id="IDS_ONLINEDIT_SAVEERROR_DISKNOSPACE" value="На вашем компьютере не хватает места. Для открытия документа требуется локальное пространство. \r\nПроверьте очистку и попробуйте снова." />
   <String id="IDS_ONLINEDIT_SAVEERROR_BTN_OPEN" value="открыто" />
   <String id="IDS_ONLINEDIT_SAVEERROR_BTN_CLOSE" value="Закырть" />
