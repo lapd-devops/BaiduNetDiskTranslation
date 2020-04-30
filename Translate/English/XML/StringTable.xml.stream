@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- baseid = 1024-->
+<!-- ZloiSupport translation -->
+<!-- 01-may-2020 translation updated  -->
 <StringTable language="2052">
   <String id="IDS_STANDARDWIN_CLOSE" value="Close" />
   <String id="IDS_STANDARDWIN_MAX" value="Maximise" />
@@ -36,7 +38,6 @@
   <String id="IDS_PUSH_TOOMANY_PUSHFILES_TIP"  value="Push too many files, please choose less" />
   <String id="IDS_PUSH_TOOFREQ_PUSHFILES_TIP"  value="Push too often, please try again later" />
   <String id="IDS_PUSH_TARGETDEVICE_DISKISFULL_TIP"  value="Push device disk space is full, clean up then retry" />
- 
   <String id="IDS_PUSH_UNKNOWERROR_TIP"  value="Push files to the device failed with error code %d" />
   <String id="IDS_FOLDERNAVIGATOR_TEXT_ALLFILE" value="My Cloud" />
   <String id="IDS_FOLDERNAVIGATOR_TEXT_SAFEBOX" value="Hide within safebox" />
@@ -48,7 +49,6 @@
   <String id="IDS_HOTRESVIEW_LOAD_FAILED" value="There was a problem loading resource. Please wait a moment and then try again~" />
   <String id="IDS_HOTRESVIEW_TIP_NETWORK_ERROR" value="Please check network connection" />
   <String id="IDS_HOTRESVIEW_TIP_RETRY" value="retry" />
-
   
   <!--主面板标题栏--> 
   <String id="IDS_TIPTEXT_INVALID_UPLOADINGFILES" value="Does not support this type of file uploads" />
@@ -58,7 +58,6 @@
   <String id="IDS_TIPTEXT_EXIT_WITHTASKSPEEDING" value="After exiting, the speed download cannot continue. Are you sure you want to exit?" />
   <String id="IDS_TIP_TEXT_DOTPREFIXFOLDERNAME" value="Does not support as filename" />
   <String id="IDS_TIPTEXT_OPERATING" value="Please wait ..." />
-
 
   <!--新建下载任务对话框-->
   <String id="IDS_DOWNLOADTASK_TITLE_TEXT_FORQA" value="Set Download Directory" />
@@ -159,13 +158,13 @@
   <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_INPUT_WRONG" value="Verification code input error, please try again" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_REQUEST_WRONG" value="Verification code pull failed, please refresh and retry" />
 
-  <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_1" value="Network disk file already exists" />
+    <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_1" value="Network disk file already exists" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_2" value="There was a problem copying, please try again" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_TRANSFER_3" value="Dump error, error code: %d" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_QCODE" value="Qcode generation failed" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_VERIFYCODE_ERR" value="Verification code error, please refresh and retry" />
 
- <String id="IDS_BAOHE_ERR_SHARE_LINK_TOO_FREQ" value="Share links exceeds the limit, go to My Share to view shared file links" />
+  <String id="IDS_BAOHE_ERR_SHARE_LINK_TOO_FREQ" value="Share links exceeds the limit, go to My Share to view shared file links" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_SPAM" value="Filename contains sensitive (banned) words, please change" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_SENSITIVE_WORDS" value="It describes the contents of sensitive (banned) words" />
   <String id="IDS_BAOHE_ERR_SHARE_LINK_HIT_VIRUS" value="Oh, the file may have a virus. Share failed" />
@@ -194,10 +193,10 @@
   <String id="IDS_SHARE_BTN_CANCEL" value="Cancel" />
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_LIMIT" value="Valid:" />
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_NONE" value="Unlimited" />
-  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_7DAYS" value="7day" />
-  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1day" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_7DAYS" value="7天" />
+  <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1天" />
   <String id="IDS_SHARE_PUBLIC_LINK_DAYS_EXPIRE" value="Link%dDays expired" />
-
+  
   <!-- 转存-->
   <String id="IDS_TRANSFER_ERR_DEFAULT" value="Dump error code %d" />
   <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="File does not exist" />
@@ -218,8 +217,8 @@
 
   <!--文件类型面板-->
   <String id="IDS_FILETYPEPANEL_ALL" value="All files" />
-
-  <!--Transmission panel -->
+  
+  <!--传输面板 -->
   <String id="IDS_TRANPANEL_AUTOBACKUP_FOLDER_TEXT" value="Auto backup folder" />
   <String id="IDS_TRANPANEL_PORTABLEDEVBACKUP_FOLDER_TEXT" value="Portable Device Backup Folder" />
   <String id="IDS_TRANPANEL_TOTAL_DOWN_PROGRESS" value="Total Download Progress" />
@@ -238,7 +237,7 @@
   <String id="IDS_TRANPANEL_PORTABLEDEV_START" value="Portable Device Start" />
   <String id="IDS_TRANPANEL_PORTABLEDEV_DELETE" value="Portable Device Delete" />
   
-  <String id="IDS_TRANPANEL_OPENBTN" value="open" />
+ <String id="IDS_TRANPANEL_OPENBTN" value="open" />
   <String id="IDS_TRANPANEL_CLEARHISBTN" value="Clear history" />
   <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP1" value="Total transfers complete " />
   <String id="IDS_TRANPANEL_TOTALHISCOUNT_TIP2" value=" files !" />
@@ -305,13 +304,13 @@
   <String id="IDS_TRANPANEL_REQUESTING_TIP" value="Request..." />
   <!--传输面板错误提示 -->
   
-  <!--Transmission error solution link-->
+  <!--传输错误解决方案链接-->
   <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_TOO_BIG" value="File too big" />
   <String id="IDS_RESOLUTION_LOCAL_FILE_SIZE_SUPER_BIG" value="File to Super big" />
   <String id="IDS_RESOLUTION_SPACE_NOT_ENOUGH" value="Not enough space" />
   <String id="IDS_RESOLUTION_BACKUP_QUOTA_NOT_ENOUGH" value="Flow exceeds the limit, and there is no limit to the backup flow of the member" />
 
-  <!--Upload tips -->
+  <!--上传提示 -->
   <String id="IDS_ERRORTIP_UP_FAIL" value="Upload failed" />
   <String id="IDS_ERRORTIP_FILE_TOO_BIG" value="4GB max limit" />
   <String id="IDS_ERRORTIP_FILE_SUPER_BIG" value="Exceed%dGlimit" />
@@ -327,7 +326,7 @@
   <String id="IDS_ERRORTIP_FILE_CONTAIN_INVALID_BLOCK" value="File is incomplete and can not be uploaded" />
   <String id="IDS_ERRORTIP_TOOMUCH_FILE" value="Too many network disk files, upload failed"/>
 
-  <!--Download tips -->
+  <!--下载提示 -->
   <String id="IDS_ERRORTIP_DELETE_FILE_FAIL" value="Failed to delete local file" />
   <String id="IDS_ERRORTIP_CREATE_FILE_FAIL" value="Failed to create local file" />
   <String id="IDS_ERRORTIP_MOVE_FILE_FAIL" value="Failed to move local file" />
@@ -348,7 +347,7 @@
   <String id="IDS_ERRORTIP_FILE_FORBIDDEDN_BY_MIS" value="The document has been banned" />
   <String id="IDS_ERRORTIP_LINK_INVALID_FSID" value="File does not exist" />
   <String id="IDS_ERRORTIP_INVALID_FILE" value="File is incomplete and can not be downloaded" />
-<!--Cloud Push Task Tips -->
+  <!--云端推送任务提示 -->
   <String id="IDS_ERRORTIP_CLOUDTASK_DOWNLOAD_FAIL" value="Other download failed" />
   <String id="IDS_ERRORTIP_CLOUDTASK_WRITE_FILE_FAIL" value="Other file write failed" />
   <String id="IDS_ERRORTIP_CLOUDTASK_DISK_NO_SPACE" value="Insufficient space, clean up then retry" />
@@ -358,20 +357,20 @@
   <String id="IDS_ERRORTIP_CLOUDTASK_FILE_OCCUPIED" value="Other device push fail, file in use" />
   <String id="IDS_ERRORTIP_CLOUDTASK_NO_USB_PLUGED_INBOXORTV" value="No USB plugged in Box/TV" />
   
-  <!--Speed Up Tips -->
+  <!--加速服务提示 -->
   <String id="IDS_ERRORTIP_EXPERIENCE_SPEEDUP_FAIL" value="Experience Speed Up Failure" />
   <String id="IDS_ERRORTIP_SPEEDUPSERVICE_BINDED" value="Speed up service for current account is over" />
-  <!--Delete Tips-->
+  <!--删除提示-->
   <String id="IDS_DELETETIP_TEXT" value="You sure you want to delete %s?" />
   <String id="IDS_DELETEFILESTIP_TEXT" value="You sure you want to delete these %d files or folders?" />
   <String id="IDS_DELETEFILESTIP_TEXT_TIP" value="(You can recover deleted files in the Recycle Bin)" />
   <String id="IDS_DELETEFILESTIP_SAFEBOXTEXT_TIP" value="Hidden deleted files won't go in Recycle Bin" />
 
-  <!--The portable device Backup dialog box-->
+  <!--便携式设备备份对话框相关文案-->
   <String id="IDS_PORTABLE_DEVICE_VIDEO_POSTFIX_TIP_TEXT" value="Videos" />
   <String id="IDS_PORTABLE_DEVICE_PICTURE_POSTFIX_TIP_TEXT" value="Photos" />
 
-  <!--portable device tips-->
+  <!--便携式设备气泡提示-->
   <String id="IDS_PORTABLE_DEVICE_NOTIFY_IGNORE_TEXT" value="Ignore" />
   <String id="IDS_PORTABLE_DEVICE_NOTIFY_ONEKEYBACKUP_TEXT" value="One key backup" />
   <String id="IDS_PORTABLE_DEVICE_IMPORT_WINDOW_TITLE_PREFIX" value="Backup Photos -" />
@@ -516,7 +515,7 @@
   <String id="IDS_STATIC_BACKUP_MANAGE"   value=" Automatic backup folder manage" />
   <String id="IDS_SETTING_BUTTON_TEXT_MANAGE"   value="Manage" />
 
-  <String id="IDS_STATIC_PASSWORD_PROTECT"   value=" Password protection" />
+ <String id="IDS_STATIC_PASSWORD_PROTECT"   value=" Password protection" />
   <String id="IDS_STATIC_TRANSFER_COMPLETE_TIP"   value=" transfer is complete" />
   
   <String id="IDS_STATIC_SPACE_USED"   value="Capacity Used %s/Total space %s" />
@@ -546,7 +545,7 @@
 
   <String id="IDS_STATIC_RENEW_MEMBERSHIP_NOW_TIP" value="Renew now" />
   <String id="IDS_STATIC_SVIP_DEADLINE_TIP" value="Baidu NetDisk" />
-  <!--Automatic backup folder management -->
+  <!--自动备份文件夹管理 -->
   <String id="IDS_STATIC_BACKUP_TIP"   value="Automatic backup file folder" />
   <String id="IDS_STATIC_BACKUP_INFO"   value="Automatic backup" />
   <String id="IDS_STATIC_BACKUP_CHANGE_SERVERPATH"   value="Modify path" />
@@ -573,7 +572,7 @@
   <String id="IDS_BACKUP_STATIC_TOAST_TEXT" value="Success"/>
   <String id="IDS_BACKUP_SAFEBOX_TIP" value="Safe box does not support multiple versions"/>
   
-  <!--New user guide window -->
+  <!--新用户引导窗口 -->
   <String id="IDS_USERGUIDEPAGE_TITLE_FORQA"    value="Beginners guide" />
   <String id="IDS_USERGUIDEPAGE_TITLE"    value="Beginners guide" />
   <String id="IDS_USERGUIDEPAGE_SKIP_GUIDE"    value="Skip guide" />
@@ -581,7 +580,7 @@
   <String id="IDS_USERGUIDEPAGE_NEXT_STEP"     value="Next" />
   <String id="IDS_USERGUIDEPAGE_FINISH"        value="Complete" />
   
-    <!--Proxy Settings -->
+  <!--代理设置 -->
   <String id="IDS_PROXYSETTING_TITLE" value="Proxy settings" />
   <String id="IDS_PROXYSETTING_TITLE_NET_SETTING" value=" Network settings" />
   <String id="IDS_PROXYSETTING_STATIC_TYPE"        value="Type" />
@@ -595,8 +594,8 @@
   <String id="IDS_PROXYSETTING_STATIC_SOCKSPROXY"  value="Use SOCK proxy" />
   <String id="IDS_PROXYSETTING_STATIC_IEPROXY"     value="Use IE proxy" />
 
-  <!--Remote push settings-->
-  <String id="IDS_STATIC_CLOUDPUSH_TITLE"    value="Remote Push" />
+  <!--远程推送设置-->
+<String id="IDS_STATIC_CLOUDPUSH_TITLE"    value="Remote Push" />
   <String id="IDS_STATIC_PUSH_ON_SLEEP"    value="Push while sleeping" />
   <String id="IDS_STATIC_PUSH_ON_SLEEP_TIP"    value="Baidu Cloud will continue to push task at a low speed while sleeping to maintain smooth progress" />
 
@@ -710,7 +709,7 @@
   <String id="IDS_TRAYICON_TIP_UPLOADING" value="%.1f%% Uploading" />
   <String id="IDS_TRAYICON_TIP_DOWNLOADING" value="%.1f%% Downloading" />
   <String id="IDS_TRAYICON_TIP_TRANSERROR" value="Transfer error" />
-
+  
   <String id="IDS_NO_PROMPT" value="Do not prompt" />
   <String id="IDS_NO_SPACE" value="Insufficient Cloud space!" />
   <String id="IDS_FILE_PATH_INVALID" value="File path invalid !" />
@@ -732,7 +731,7 @@
   <String id="IDS_WAITING_PHONE_CONNECTION_TIP" value="Waiting for the phone connection..." />
   <String id="IDS_RECEIVE_FILE_SUCCESS_TIP" value="File received successfully" />
   <String id="IDS_SEND_FILE_SUCCESS_TIP" value="File sent successfully" />
-  <!--Prompt dialog box for read and write restrictions-->
+  <!--读写限制提示对话框-->
   <String id="IDS_TIP_WRITELIMITED_SECTION1" value="Because the system limits the file directory read/write permissions, the program will exit, you can retry" />
   <String id="IDS_TIP_WRITELIMITED_SECTION2" value="Baidu Cloud does not have sufficient permissions. Run Baidu Cloud as an administrator." />
   <String id="IDS_BUTTON_REDOWNLOAD" value="Download Baidu NetDisk" />
@@ -757,7 +756,7 @@
   <String id="IDS_STATIC_DETECT_TIP2" value="A few days using most used folder..." />
   <String id="IDS_DETECTDLG_DISK_ACEESS_DENY" value="Folders unable to access, Admin required" />
 
-  <!--Folder List Detection Window -->
+  <!--文件夹检测列表窗口 -->
   <String id="IDS_BACKUPLISTDLG_TITLENAME" value="Scan folder" />
   <String id="IDS_BTN_SELECT" value="Select" />
   <String id="IDS_BTN_BACKUP" value="Upload" />
@@ -768,26 +767,39 @@
   <String id="IDS_BACKUPLISTDLG_BACKUP_TIP" value="Automatic backup tips" />
   <String id="IDS_BACKUPLISTDLG_CHANGE_TIP" value="Change" />
   <String id="IDS_BACKUPLISTDLG_DELETE_TIP" value="Delete" />
+  <String id="IDS_BACKUPLISTDLG_VIP_USER_TIP" value="Dear member users, you can enjoy unlimited automatic folder backup~" />
+  <String id="IDS_BACKUPLISTDLG_SVIP_USER_TIP" value="Dear super member users, you can enjoy unlimited privileges for automatic folder backup traffic ~" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="You can use the automatic backup folder function to back up up to 2G files per month." />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_GUIDE_TIP" value="Open member automatic backup unlimited" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_BUY_VIP" value="Open now>" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_TIP" value="Used data this month：" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_GUIDE_TIP" value="Unlimited member backup traffic" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_EXCEED_TIP" value="Flow exceeded" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_NOT_ENOUGH_TIP" value="Insufficient flow " />
+  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TIP1" value="Automatic folder backup is now available for free trial ~" />
+  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TIP2" value="Automatically back up local folders, no longer worry about file loss" />
+  <String id="IDS_BACKUPLISTDLG_USER_GUIDE_TRY" value="Go try" />
 
-  <!--Push Files To The Device-->
+  <!--推送文件到设备-->
   <String id="IDS_DEVICE_NAME_PREFIX" value="(Can not push to device)" />
 
-  <!--New Features Guide Window -->
+  <!--新功能引导窗口 -->
   <String id="IDS_GUIDEPANEL_START_AUTO_BACKUP" value="Automatically start backup folder" />
   <String id="IDS_GUIDEPANEL_SELECT_BACKUP_DIR" value="Manually select backup folder" />
   <String id="IDS_GUIDEPANEL_ENABLESCAN" value="Enable Scan" />
   <String id="IDS_GUIDEPANEL_PHONE_START" value="Phone Start" />
-  <!--Multi-select Folder window -->
+  <!--多选文件夹窗口 -->
   <String id="IDS_MUTLTIFOLDERDLG_CLONETOCLOUD" value="Clone to cloud" />
   <String id="IDS_MUTLTIFOLDERDLG_SELECT_DIR" value="Frequently used files folder not detected, manually select it" />
   <String id="IDS_MUTLTIFOLDERDLG_BAOHE_WARNNING" value="The selected directory contains the synchronization disk directory. It will be repeated to continue to back up the network disk files. \r\nContinue?" />
 
+  
   <!--标题栏vip提示 -->
   <String id="IDS_TITLE_VIP_CLOSE_TIP" value="Upgrade Member" />
   <String id="IDS_TITLE_VIP_OPEN_TIP" value="Open Member" />
   <String id="IDS_TITLE_SVIP_OPEN_TIP" value="Super member opened" />
   <String id="IDS_TITLE_BUY_SPACE_TIP" value="Click to expand" />
-
+  
   <!--网络加速提示 -->
   <String id="IDS_SPEEDUP_BTN_TRY" value="Try it now" />
   <String id="IDS_SPEEDUP_BTN_BUY" value="Buy now" />
@@ -797,7 +809,7 @@
   <String id="IDS_SPEEDUP_END_DEFAULT_TIP" value="Buy speed up package and can enjoy accelerated speed" />
   <String id="IDS_SPEEDUP_REMINDING_TIP" value="(%d seconds of accelerated speed remaining)" />
   <String id="IDS_SPEEDUP_SPEEDING_TIP" value="Speed Up" />
-  <!--Tips for downloading coupons quickly -->
+  <!--极速下载券提示 -->
   <String id="IDS_SPEEDUP_BTN_EXTEND" value="Continue to accelerate" />
   <String id="IDS_SPEEDUPTICKET_REMINDING_TIP" value="(remaining %d seconds)" />
   <String id="IDS_SPEEDUPTICKET_REMINDING_1_TIP" value="(%d hours remaining)" />
@@ -815,16 +827,16 @@
   <String id="IDS_SPEEDUPTICKET_EXPIRE_MSGBOX_TITLE_TIP" value="Fast download coupon expired" />
   <String id="IDS_SPEEDUPTICKET_EXPIRE_MSGBOX_CONTENT_TIP" value="Open Super members to download quickly and without any worries about expiration" />
   <String id="IDS_SPEEDUPTICKET_EXPIRE_MSGBOX_BTN_TIP" value="Open Super member" />
-  <!--Membership acceleration tips-->
+  <!--Member accelerate Tips-->
   <String id="IDS_VIPSPEEDUP_EXPERIENCE_TIP" value="Speed trial privilege, " />
   <String id="IDS_VIPSPEEDUP_DOWN_EXPERIENCING_TIP" value="Speed privilege being tested, " />
   <String id="IDS_VIPSPEEDUP_FINISH_TIP" value="End of speed privilege trial" />
   <String id="IDS_VIPSPEEDUP_FINISH_DEFAULT_TIP" value="Enabling privilege to enjoy accelerated speed" />
- <!--Select the directory server-->
+  <!--Select the directory server-->
   <String id="IDS_STATIC_SERVERDIRDLG_INFO_TOOMUCHLEVEL" value="Limit exceeded: %d level directory supported." />
   <String id="IDS_STATIC_GET_SERVER_SUBDIR_FAIL"   value="Get Server Folder failed" />
 
-  <!--新建url离线下载任务对话框-->
+  <!--New offline download task dialog url-->
   <String id="IDS_URL_OFFLINEDOWNLOADTASK_TITLE_FORQA" value="New offline download task window" />
   <String id="IDS_URL_OFFLINEDOWNLOADTASK_TITLE" value="New download task" />
   <String id="IDS_URL_OFFLINEDOWNLOADTASK_INPUTLINK" value="Enter Download file link" />
@@ -849,7 +861,7 @@
   <String id="IDS_SELECT_TORRENT_TITLE" value="Open seed" />
   <String id="IDS_SELECT_TORRENT_OK" value="Upload" />
 
-  <!--New bt offline download task dialog-->
+  <!--新建bt离线下载任务对话框-->
   <String id="IDS_BT_OFFLINEDOWNLOADTASK_TITLE_FORQA" value="New offline BT task" />
   <String id="IDS_BT_OFFLINEDOWNLOADTASK_TITLE" value="New offline BT task" />
   <String id="IDS_BT_OFFLINEDOWNLOADTASK_BUYDOWNLOADPACKAGE" value="You can enjoy permanent free unlimited downloads" />
@@ -864,7 +876,8 @@
   <String id="IDS_BT_OFFLINEDOWNLOADTASK_SELECTEDCOUNT" value="Checked %d files" />
   <String id="IDS_BT_OFFLINEDOWNLOADTASK_SELECTFILETOOMUCH" value="Can only select a maximum of %d files pushed to the device" />
 
-  <!--View offline download list dialog-->
+
+  <!--查看离线下载列表对话框-->
   <String id="IDS_OFFLINEDOWNLOADLIST_TITLE_FORQA" value="Offline download task list" />
   <String id="IDS_OFFLINEDOWNLOADLIST_TITLE" value="Offline download task list" />
   <String id="IDS_OFFLINEDOWNLOADLIST_RUNBACK_BTNTEXT" value="Back" />
@@ -888,7 +901,7 @@
   <String id="IDS_OFFLINEDOWNLOADLIST_DELETED" value="Task deleted" />
   <String id="IDS_OFFLINEDOWNLOADLIST_PARTSUCCESS" value="Download partially successful" />
   
-  <!--New offline download task error prompt-->
+  <!--新建离线下载任务错误提示-->
   <String id="IDS_OFFLINEDOWNLOADTASK_TIP_PARAM_ERROR" value="Offline download error" />
   <String id="IDS_OFFLINEDOWNLOADTASK_TIP_RELOGIN" value="Please login and try again" />
   <String id="IDS_OFFLINEDOWNLOADTASK_TIP_USER_NOT_LOGIN" value="Please login and try again" />
@@ -916,9 +929,9 @@
   <String id="IDS_OFFLINEDOWNLOADTASK_WAITFOR_TASKCOMPLETE" value="Waiting for the current task to complete" />
 
   <!--离线下载活动对话框-->
-  <String id="IDS_OFFLINEDOWNLOADACTIVITY_KNOWN" value="I Know" />
+  <String id="IDS_OFFLINEDOWNLOADACTIVITY_KNOWN" value="I know" />
 
-  <!--Unlock dialog-->
+  <!--解锁对话框-->
   <String id="IDS_UNLOCKDLG_LOCKED" value="Baidu NetDisk locked" />
   <String id="IDS_UNLOCKDLG_UNLOCK" value="Unlock" />
   <String id="IDS_UNLOCKDLG_INPUT_PASSWORD" value="Please enter your login password" />
@@ -937,8 +950,7 @@
   <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TIP" value="For your file privacy and security, the network disk is locked. Does not affect ongoing transfer tasks" />
   <String id="IDS_UNLOCKDLG_LOCKED_REMIND_TOOLTIP" value="You have locked the network disk by manual lock/ automatic lock for a long time without operation / automatic lock of the network disk when the computer is locked. The lock network disk function is to protect your privacy and you can manage it in Settings-Security." />
 
-
-  <!--Hotkey, client lock-->
+  <!--热键，客户端锁定-->
   <String id="IDS_KEY_ALT" value="Alt" />
   <String id="IDS_KEY_SHIFT" value="Shift" />
   <String id="IDS_KEY_CONTROL" value="Ctrl" />
@@ -951,9 +963,9 @@
   <String id="IDS_HOTKEY_SYSTEMLOCKTIP" value="Automatic lock setting: When the computer is locked, the network disk will be locked automatically" />
   <String id="IDS_HOTKEYCONFLICT_TITLENAME" value="Hotkeys conflict" />
   <String id="IDS_HOTKEYCONFLICT_NOTIPAGAIN" value="Do not prompt" />
-  <String id="IDS_HOTKEYCONFLICT_MODIFYHOTKEYLINK" value="Modify network disk hotkey" />
-  <String id="IDS_HOTKEYCONFLICT_TIP_SUGGEST" value="It is recommended that you modify the hotkey of the conflicting software, or" />
-  <String id="IDS_HOTKEYCONFLICT_TIP" value="%s，Your hot key for locking Baidu network disk is occupied." />
+  <String id="IDS_HOTKEYCONFLICT_MODIFYHOTKEYLINK" value="Modify Baidu NetDisk hotkey" />
+  <String id="IDS_HOTKEYCONFLICT_TIP_SUGGEST" value="We recommend that you modify the software hotkey conflict, or" />
+  <String id="IDS_HOTKEYCONFLICT_TIP" value="%s, Baidu cloud lock hotkeys already in use." />
 
   <!--隐藏空间-->
   <String id="IDS_SETTINGDLG_SAFEBOX_TITLE" value="Safe Box: " />
@@ -1012,30 +1024,30 @@
   <String id="IDS_ACCOUNTBINFDLG_BTN_UNBIND"  value="Unbind" />
   <String id="IDS_ACCOUNTBINFDLG_TIP_PRIVATE"  value="First check if your phone number/email binding is done" />
   <String id="IDS_ACCOUNTBINFDLG_TIP_BINDSUCCESS"  value="Private files can be stored after the binding is successful" />
-  <!--Speedometer-->
-  <String id="IDS_STATIC_SPEEDTEST_NAME"  value="Speedometer" />
-  <String id="IDS_STATIC_SPEEDTEST_UPLOADSPEED"  value="Upload speed" />
-  <String id="IDS_STATIC_SPEEDTEST_DOWNLOADSPEED"  value="download speed" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEED"  value="speed" />
-  <String id="IDS_STATIC_SPEEDTEST_TESTING_HEADER"  value="Testing the largest in the current network" />
-  <String id="IDS_STATIC_SPEEDTEST_TESTING_TAIL"  value="speed..." />
-  <String id="IDS_STATIC_SPEEDTEST_MAXUPLOADSPEED"  value="Maximum upload speed：" />
-  <String id="IDS_STATIC_SPEEDTEST_MAXDOWNLOADSPEED"  value="Maximum download speed：" />
-  <String id="IDS_STATIC_SPEEDTEST_RUN"  value="Start speed measurement" />
-  <String id="IDS_STATIC_SPEEDTEST_RUNING"  value="Speed ​​measurement..." />
-  <String id="IDS_STATIC_SPEEDTEST_RERUN"  value="Re-test speed" />
-  <String id="IDS_STATIC_SPEEDTEST_BOTTOMBAR_TIP"  value="When measuring speed, it is recommended that you suspend other software that occupies network speed" />
-  <String id="IDS_STATIC_SPEEDTEST_ACTION_DOWNLOAD"  value="download" />
+  <!--测速器 -->
+   <String id="IDS_STATIC_SPEEDTEST_NAME"  value="Speed Test" />
+  <String id="IDS_STATIC_SPEEDTEST_UPLOADSPEED"  value="Upload Speed" />
+  <String id="IDS_STATIC_SPEEDTEST_DOWNLOADSPEED"  value="Download Speed" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEED"  value="Speed" />
+  <String id="IDS_STATIC_SPEEDTEST_TESTING_HEADER"  value="Testing Header" />
+  <String id="IDS_STATIC_SPEEDTEST_TESTING_TAIL"  value="Speed..." />
+  <String id="IDS_STATIC_SPEEDTEST_MAXUPLOADSPEED"  value="Maximum upload speed:" />
+  <String id="IDS_STATIC_SPEEDTEST_MAXDOWNLOADSPEED"  value="Maximum download speed:" />
+  <String id="IDS_STATIC_SPEEDTEST_RUN"  value="Run" />
+  <String id="IDS_STATIC_SPEEDTEST_RUNING"  value="Running..." />
+  <String id="IDS_STATIC_SPEEDTEST_RERUN"  value="Re-run" />
+  <String id="IDS_STATIC_SPEEDTEST_BOTTOMBAR_TIP"  value="hen running speed test, we recommend that you pause other softwares using speed" />
+  <String id="IDS_STATIC_SPEEDTEST_ACTION_DOWNLOAD"  value="Download" />
   <String id="IDS_STATIC_SPEEDTEST_ACTION_UPLOAD"  value="Upload" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOW"  value="，The speed is not awesome！" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_HIGHT"  value="，Lightning fast！" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP"  value="Upload is slower than download？" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP_TOOLTIP"  value="The bandwidth allocated by the operator to the upload service and the download service is different. Generally, the bandwidth of the download is greater than the upload, so the download speed will be faster than the upload speed." />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL"  value="Slow？" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP1"  value="1.The upload and download speed is limited by the bandwidth of your network operator. Theoretically, the larger the bandwidth, the faster the speed" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP2"  value="2.The more programs that occupy the network at the same time, the slower the upload and download speed" />
-  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP3"  value="3.Special operators (such as companies, campuses, etc.) may be limited by the operator" />
-  <String id="IDS_STATIC_SPEEDTEST_NETERROR_RUNNING"  value="Speed ​​test failed, no network connection" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOW"  value=", Speed is slow!" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_HIGHT"  value=", Fast as lightning!" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP"  value="Upload slower than the download?" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_DOWNBIGTHANUP_TOOLTIP"  value="Most network operators allocate higher download and slower upload bandwidth, so download speed will be faster than the upload speed" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL"  value="Slow?" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP1"  value="1.Upload and download speed is limited by the bandwidth of your network operator." />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP2"  value="2.At the same time running multiple network programs makes upload and download speed slow" />
+  <String id="IDS_STATIC_SPEEDTEST_SPEEDTIP_SLOWTAIL_TOOLTIP3"  value="3.Special operators (such as companies, campus , etc.) sometimes limit the speeds" />
+  <String id="IDS_STATIC_SPEEDTEST_NETERROR_RUNNING"  value="Speed Test failure, no network connection" />
   <String id="IDS_STATIC_SPEEDTEST_NETERROR_WAIT"  value="No network connection" />
 
   <!--Speed Test-->
@@ -1067,19 +1079,18 @@
   <String id="IDS_STATIC_PHONE_NEW_MESSAGE"  value="You have unread friends messages ~" />
   <String id="IDS_STATIC_PHONE_NEW_CALL"  value="You have missed friends calls ~" />
 
-  <!--Speed ​​feedback dialog-->
-  <String id="IDS_SPEEDFEECBACKDLG_TITLE" value="Speed ​​feedback" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_TIP" value="Please fill in the broadband number, so that we can more accurately locate the problem" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH" value="Broadband" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_UNIT" value="M"/>
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_EXAMPLE" value="（Example: If you are using Unicom 10M fiber, please fill in 10）" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SUBMIT_TIP" value="Please tell us your problem, we will solve it as soon as possible ~" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SPEED_TIP" value="Close the software that occupies the network speed (video, download, etc.) can greatly improve the transmission speed~" />
-  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_THANK_TIP" value="Thanks for your feedback! Baidu network disk will be resolved as soon as possible。" />
-  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_SUBMIT" value="submit" />
-  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_FINISH" value="carry out" />
+  <!--速度反馈对话框-->
+  <String id="IDS_SPEEDFEECBACKDLG_TITLE" value="Speed Feedback" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_TIP" value="Please fill in bandwidth, for more precise problem resolution" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH" value="Bandwidth" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_BANDWIDTH_EXAMPLE" value="(Example: If you are using Unicom 10M fiber, please fill out 10)" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SUBMIT_TIP" value="Please tell us your problem, we will solve as soon as possible ~" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_SPEED_TIP" value="Closing software using up speed(video, download, etc.) can greatly enhance the transmission speed ~" />
+  <String id="IDS_SPEEDFEECBACKDLG_STATIC_TEXT_THANK_TIP" value="Thank you for your feedback!" />
+  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_SUBMIT" value="Submit" />
+  <String id="IDS_SPEEDFEECBACKDLG_BUTTON_FINISH" value="Finish" />
   
-  <!--Slow speed-->
+  <!--速度慢提示-->
   <String id="IDS_SPEEDFEECBACKTIP_SPEEDSLOW" value="Transfer speed is slow?" />
   <String id="IDS_SPEEDFEECBACKTIP_FEEDBACK" value="Please leave feedback" />
 
@@ -1133,7 +1144,6 @@
 
   <!--关闭文档历史版本弹窗-->
   <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_TITLE"   value="File version Disable" />
-  
   <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_CONTENT"  value="Do you want to turn off the document history version feature? \r\nWhen closed, automatic backup and editing of updated documents will only keep the latest version." />
   <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CONFIRM"   value="Close historical version" />
   <String id="IDS_FILE_VERSION_DISABLE_MSGBOX_BTN_CANCEL"   value="Close" />
@@ -1166,13 +1176,13 @@
   <String id="IDS_REWARD_PLAN_DLG_NET_ERROR" value="Network connection failed, please try again later" />
   <String id="IDS_REWARD_PLAN_DLG_RETRY" value="Retry" />
 
-  <!--Automatic backup bubble-->
+  <!--自动备份气泡-->
   <String id="IDS_AUTOBACKUP_NOTIFY_START_TITLE" value="Backing up..." />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_START_TIP" value="Backing up for you" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_START_TIP" value="Is backing up for you“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_START_MULTI_END_TIP" value="”Wait for multiple files" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_START_TIP" value="Is backing up for you" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_START_TIP" value="Is backing up for you“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_START_SINGLE_END_TIP" value="”" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_START_VIEW_DETAIL" value="View progress" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_START_VIEW_DETAIL" value="View progress>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_TITLE" value="Successful backup" />
   <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_START_TIP" value="Successfully backed up for you“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_SUCCEED_MULTI_END_TIP" value="”Wait%dFiles" />
@@ -1187,16 +1197,16 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_NETWORK_FAIL_VIEW_DETAIL" value="View now>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_TITLE" value="File is occupied, it will be backed up automatically after closing" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_START_TIP" value="“" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_END_TIP" value="”Wait%dFiles have not been backed up" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_MULTI_END_TIP" value="”Wait%dFiles have not been backed up yet " />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_START_TIP" value="file“" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”Backup not yet completed" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="View now>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="Traffic exceeds limit, backup fails" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="This month, 2G backup traffic has been used up, membership activation, and backup files" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="This month, 2G backup traffic has been used up, membership activation, and backup" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="Unlimited" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="Open now>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="This month's automatic backup traffic is about to run out" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="This month's 2G backup traffic is about to run out and will not be able to back you up normally" /> 
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="This month's 2G backup traffic is about to run out and will not be able to back you up normally" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="Files, open membership, unlimited backup files" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="Open now>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="Traffic exceeds limit, automatic backup has been suspended" />
@@ -1205,12 +1215,12 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="Open now>" />
 
   <!--PDF转Word气泡-->
-  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="Conversion Successful" />
-  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="Successfully converted to Word document" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="Conversion succeeded" />
+  <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="Successfully converted to Word document“" />
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_END_TIP" value="”" />
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_VIEW_DETAIL" value="Open now>" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_TITLE" value="Conversion failed" />
-  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="You have a pdf file“" />
+  <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="You have a PDF file“" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”Conversion failed" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="View now>" />
 </StringTable>
