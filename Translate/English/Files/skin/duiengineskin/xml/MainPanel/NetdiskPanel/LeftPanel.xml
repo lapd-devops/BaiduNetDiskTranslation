@@ -48,7 +48,7 @@
 		</dlg>
 		<dlg pos="0,[6,-0,@18">
 			<text name="txt_quota" pos="0,0,@85,-0" crtext="333333" align="left"></text>
-			<link name="link_expand" pos="-60,0,-0,-0" class="cls_btn_weblink" align="right"></link>
+		    <link name="link_expand" pos="0,42,@150,0" class="cls_btn_weblink" align="left"></link>
 		</dlg>
 	</dlg>
 	<hr pos="-1,0,-0,-0" size="1" crbg="d6d8dd"/>
