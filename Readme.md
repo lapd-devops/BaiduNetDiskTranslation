@@ -3,7 +3,7 @@
 Localization of the **BaiduNetDisk** program for PC in **Russian(ru-RU) ,
 English(en-GB)**
 # Download 
-> [Russian localizaion](https://github.com/zloisupport/BaiduNetDiskTranslation/releases)
+> [Download localizaion](https://github.com/zloisupport/BaiduNetDiskTranslation/releases)
 # Screen
 
 Russian
@@ -13,6 +13,5 @@ Russian
 
 English
 
-[![imageban](https://i3.imageban.ru/thumbs/2020.05.01/9160db812e43d0415ec722a5b99da812.png)](https://imageban.ru/show/2020/05/01/9160db812e43d0415ec722a5b99da812/png)
+[![imageban](https://i3.imageban.ru/thumbs/2020.05.01/9160db812e43d0415ec722a5b99da812.png)](https://imageban.ru/show/2020/05/01/9160db812e43d0415ec722a5b99da812/png) [![imageban](https://i5.imageban.ru/thumbs/2020.05.01/a709622e66ebfe0b63436be3f0ea251b.png)](https://imageban.ru/show/2020/05/01/a709622e66ebfe0b63436be3f0ea251b/png)
 
-[![imageban](https://i5.imageban.ru/thumbs/2020.05.01/a709622e66ebfe0b63436be3f0ea251b.png)](https://imageban.ru/show/2020/05/01/a709622e66ebfe0b63436be3f0ea251b/png)
