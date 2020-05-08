@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- baseid = 1024-->
-<!-- ZloiSupport translation -->
-<!-- 01-may-2020 translation updated  -->
+<!-- ZloiSupport translation, based translation John Wayne -->
+<!-- 01-may-2020 -->
 <StringTable language="2052">
   <String id="IDS_STANDARDWIN_CLOSE" value="Close" />
   <String id="IDS_STANDARDWIN_MAX" value="Maximise" />
@@ -396,7 +396,7 @@
   <String id="IDS_STATIC_VCODE" value="Captcha:" />
   <String id="IDS_STATIC_INPUT_VCODE_TIP" value="Please enter the verification code" />
   <String id="IDS_STATIC_QUIT_APP_TIP" value="Exit immediately?" />
-  <String id="IDS_STATIC_APP_TITLE_NAME" value="Baidu NetDisk (English for 6.8.* by John_Wayne , ZloiSupport)" />
+  <String id="IDS_STATIC_APP_TITLE_NAME" value="Baidu NetDisk" />
   <String id="IDS_STATIC_USERNAME_FORMAT_ERROR_TIP" value="Incorrect Format" />
   <String id="IDS_STATIC_USERNAME_NOT_EXIST_TIP" value="Account does not exist" />
   <String id="IDS_STATIC_USERNAME_INPUT_TIP" value="Please enter Baidu account" />
