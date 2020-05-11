@@ -44,7 +44,7 @@
 							<IBGRegionPanel size="290,41" margin="0,0,0,0" dock="DOCK_TOP">
 								<Children>
 									<IBGButton name="NewFolderBtn" drawFocus="true" enable="true" dock="DOCK_LEFT" enableFocus="true" size="100,24" config="button" text="$2229" margin="18, 8, 17, 9"/>
-									<IBGButton name="CancelBtn" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2709" margin="0, 8, 17, 9"/>
+									<IBGButton name="CancelBtn" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2710" margin="0, 8, 17, 9"/>
 									<IBGButton name="OkBtn" drawFocus="true" enable="true" dock="DOCK_RIGHT" enableFocus="true" size="72,24" config="button" text="$2054" margin="0, 8, 10, 9"/>
 								</Children>
 							</IBGRegionPanel>

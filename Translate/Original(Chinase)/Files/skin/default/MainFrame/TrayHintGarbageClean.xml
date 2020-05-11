@@ -23,7 +23,7 @@
 							</downBkg>
 						</Properties>
 					</IBGButton>
-					<IBGStaticEx name="nmStaticTitle" text="$3044" dock="DOCK_FILL" margin="1,5,0,0" textClr="0x333333">
+					<IBGStaticEx name="nmStaticTitle" text="$3045" dock="DOCK_FILL" margin="1,5,0,0" textClr="0x333333">
 						<Properties>
 							<textFont>
 								<IBGFont weight="1000"/>
@@ -34,14 +34,14 @@
 			</IBGRegionPanel>
 			<IBGRegionPanel dock="DOCK_FILL" name="nmPanelContent" margin="1,0,1,1">
 				<Children>
-					<IBGStaticEx name="contentLine1" text="$3038" autoCalcWidth="true" autoCalcHeight="true" textClr="0xffffff" margin="50,34,0,0" dock="DOCK_TOP">
+					<IBGStaticEx name="contentLine1" text="$3039" autoCalcWidth="true" autoCalcHeight="true" textClr="0xffffff" margin="50,34,0,0" dock="DOCK_TOP">
 						<Properties>
 							<textFont>
 								<IBGFont height="22"/>
 							</textFont>
 						</Properties>
 					</IBGStaticEx>
-					<IBGStaticEx name="contentLine2" text="$3039" autoCalcWidth="true" autoCalcHeight="true" textClr="0xffffff" margin="56,4,0,0" dock="DOCK_TOP">
+					<IBGStaticEx name="contentLine2" text="$3040" autoCalcWidth="true" autoCalcHeight="true" textClr="0xffffff" margin="56,4,0,0" dock="DOCK_TOP">
 						<Properties>
 							<textFont>
 								<IBGFont height="22"/>
@@ -50,7 +50,7 @@
 					</IBGStaticEx>
 					<IBGRegionPanel dock="DOCK_BOTTOM" size="306,46">
 						<Children>
-							<IBGButton name="scanBtn" size="122,32" text="$3043" margin="0,0,0,0" dock="DOCK_TOP" config="trayGarbageCleanBtn"/>
+							<IBGButton name="scanBtn" size="122,32" text="$3044" margin="0,0,0,0" dock="DOCK_TOP" config="trayGarbageCleanBtn"/>
 						</Children>
 					</IBGRegionPanel>
 				</Children>

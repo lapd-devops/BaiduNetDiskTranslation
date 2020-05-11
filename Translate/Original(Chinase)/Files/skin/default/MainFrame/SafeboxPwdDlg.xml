@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0x333333" text="$2905" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2906" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
@@ -21,11 +21,11 @@
 						<Children>
 							<IBGRegionPanel size="400,56" margin="0,10,0,0" dock="DOCK_TOP">
 								<Children>
-									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2906" margin="45, 9, 0, 3" dock="DOCK_TOP"/>
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2907" margin="45, 9, 0, 3" dock="DOCK_TOP"/>
 									<IBGRegionPanel size="400,28" margin="0,0,0,0" dock="DOCK_TOP">
 										<Children>
 											<IBGStaticEx name="errorTip" autoCalcHeight="true" autoCalcWidth="true" textClr="0x2c6dff" margin="150, 9, 0, 3" dock="DOCK_LEFT" unseen="true"/>
-											<IBGStaticEx name="bindLinkTip" autoCalcHeight="true" autoCalcWidth="true" text="$2923" margin="0, 9, 0, 3" handCursor="true" unseen="true" dock="DOCK_LEFT">
+											<IBGStaticEx name="bindLinkTip" autoCalcHeight="true" autoCalcWidth="true" text="$2924" margin="0, 9, 0, 3" handCursor="true" unseen="true" dock="DOCK_LEFT">
 												<Children>
 													<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
 												</Children>
@@ -36,7 +36,7 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="310,25" margin="45,0,45,7" dock="DOCK_TOP">
 								<Children>
-									<IBGStaticEx size="104,0" autoCalcHeight="true" textClr="0x333333" text="$2907" margin="0, 3, 0, 4" dock="DOCK_LEFT">
+									<IBGStaticEx size="104,0" autoCalcHeight="true" textClr="0x333333" text="$2908" margin="0, 3, 0, 4" dock="DOCK_LEFT">
 										<Properties>
 											<textFont>
 												<IBGFont height="20"/>
@@ -48,7 +48,7 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="310,25" margin="45,10,45,7" dock="DOCK_TOP">
 								<Children>
-									<IBGStaticEx size="104,0" autoCalcHeight="true" textClr="0x333333" text="$2908" margin="0, 3, 0, 4" dock="DOCK_LEFT">
+									<IBGStaticEx size="104,0" autoCalcHeight="true" textClr="0x333333" text="$2909" margin="0, 3, 0, 4" dock="DOCK_LEFT">
 										<Properties>
 											<textFont>
 												<IBGFont height="20"/>
@@ -61,8 +61,8 @@
 							<!-- 按钮区域 -->
 							<IBGRegionPanel size="400,44" margin="0,5,0,10" sizeAsParent="false" dock="DOCK_BOTTOM">
 								<Children>
-									<IBGButton name="CancelBtn" tabOrder="14" dock="DOCK_RIGHT" enableFocus="true" size="80,25" config="button" text="$2913" margin="0, 7, 45, 12"/>
-									<IBGButton name="FixBtn" tabOrder="13" dock="DOCK_RIGHT" enableFocus="true" size="80,25" config="defaultBtn" text="$2911" margin="0, 7, 16, 12"/>
+									<IBGButton name="CancelBtn" tabOrder="14" dock="DOCK_RIGHT" enableFocus="true" size="80,25" config="button" text="$2914" margin="0, 7, 45, 12"/>
+									<IBGButton name="FixBtn" tabOrder="13" dock="DOCK_RIGHT" enableFocus="true" size="80,25" config="defaultBtn" text="$2912" margin="0, 7, 16, 12"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>
