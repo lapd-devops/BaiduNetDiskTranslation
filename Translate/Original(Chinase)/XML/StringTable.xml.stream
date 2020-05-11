@@ -442,7 +442,7 @@
   <String id="IDS_SETTINGDLG_TAB_ADVANCE_SETTING" value="安全" />
   <String id="IDS_SETTINGDLG_TAB_OTHER_SETTING" value="提醒" />
   <String id="IDS_STATIC_DISPALY_FLOATTING_DLG" value="桌面显示悬浮窗" />
-  <String id="IDS_STATIC_DISPALY_TRAY_TIP" value="传输完成气泡提示" />
+  <String id="IDS_STATIC_DISPALY_TRAY_TIP" value="传输状态气泡开关" />
   <String id="IDS_STATIC_DEVICE_ONLINE_TIP" value="设备上线提醒" />
   <String id="IDS_STATIC_AUTO_STARTUP" value="开机时启动百度网盘(推荐)" />
   <String id="IDS_STATIC_DISPLAY_VIRTUALDRIVE" value="在我的电脑中显示百度网盘" />
@@ -691,8 +691,9 @@
   <String id="IDS_TRAYICON_BUYSPEEDUPSERVICE" value="购买提速服务" />
   <String id="IDS_MENUID_COMMON_LOCK" value="锁定网盘" />
   <String id="IDS_MENUID_COMMON_UNLOCK" value="解除锁定" />
+  <String id="IDS_MENUID_UPLOAD_LOG" value="一键反馈" />
 
-  <!--托盘提示-->
+    <!--托盘提示-->
   <String id="IDS_COMMON_INSTALL" value="安装" />
   <String id="IDS_COMMON_CANCEL" value="取消" />
   <String id="IDS_COMMON_AUTOUPDATE" value="自动更新" />
@@ -1220,4 +1221,15 @@
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="您有一个PDF文件“" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”转换失败" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="立即查看>" />
+
+  <!--反馈气泡-->
+  <String id="IDS_UPLOADLOG_NOTIFY_SUCCEED_TITLE" value="反馈成功" />
+  <String id="IDS_UPLOADLOG_NOTIFY_SUCCEED_TIP" value="已收到您的反馈，我们会尽快为您处理~" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_TITLE" value="反馈失败" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_SERVER_TIP" value="服务器开小差了，请稍后重新反馈" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_TIP" value="反馈失败，请稍后重试" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_NETWORK_TIP" value="网络连接异常，请稍后重新反馈" />
+  <String id="IDS_UPLOADLOG_NOTIFY_START_TITLE" value="反馈处理中" />
+  <String id="IDS_UPLOADLOG_NOTIFY_START_TIP" value="正在接收您的反馈，请耐心等待~" />
+
 </StringTable>
