@@ -692,7 +692,7 @@
   <String id="IDS_TRAYICON_BUYSPEEDUPSERVICE" value="Купить проверку скорости" />
   <String id="IDS_MENUID_COMMON_LOCK" value="Заблокировать" />
   <String id="IDS_MENUID_COMMON_UNLOCK" value="Разблокировать" />
-
+  <String id="IDS_MENUID_UPLOAD_LOG" value="Отзыв одним нажатием" />
   <!--Подносы-->
   <String id="IDS_COMMON_INSTALL" value="Устанавливать" />
   <String id="IDS_COMMON_CANCEL" value="Отмена" />
@@ -1221,4 +1221,15 @@
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="У вас есть файл PDF“" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”Конвертация не удалась" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="Посмотреть сейчас>" />
+
+  <!--Пузырь обратной связи-->
+  <String id="IDS_UPLOADLOG_NOTIFY_SUCCEED_TITLE" value="Успешная обратная связь" />
+  <String id="IDS_UPLOADLOG_NOTIFY_SUCCEED_TIP" value="Ваш отзыв получен, мы рассмотрим его для вас как можно скорее~" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_TITLE" value="Ошибка обратной связи" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_SERVER_TIP" value="Сервер работает плохо, повторите попытку позже" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_TIP" value="Обратная связь не пройдена, попробуйте позже" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_NETWORK_TIP" value="Неправильное подключение к сети, пожалуйста, ответьте позже" />
+  <String id="IDS_UPLOADLOG_NOTIFY_START_TITLE" value="Обработка обратной связи" />
+  <String id="IDS_UPLOADLOG_NOTIFY_START_TIP" value="Ваш отзыв получен, пожалуйста, будьте терпеливы~" />
+  
 </StringTable>

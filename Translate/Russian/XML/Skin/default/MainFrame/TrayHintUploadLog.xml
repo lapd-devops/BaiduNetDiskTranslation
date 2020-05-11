@@ -1,0 +1,57 @@
+<UI version="1.0">
+    <IBGRegionPanel sizeAsParent="true" name="nmPanelUploadLog" size="285,70">
+        <Children>
+            <IBGRegionPanel dock="DOCK_TOP" margin="0,10,0,0" size="285,25">
+                <Children>
+                    <IBDGuiCell size="24,20" margin="14,3,7,2" dock="DOCK_LEFT">
+                        <Properties>
+                            <bkground>
+                                <IBGVeins file="Resource:MainFrame\login_logo.png" transparent="true" colorize="false"/>
+                            </bkground>
+                        </Properties>
+                    </IBDGuiCell>
+                    <IBGButton name="nmBtnClose" margin="0,1,0,5" size="31,19" dock="DOCK_RIGHT" toolText="$IDS_STANDARDWIN_CLOSE">
+                        <Properties>
+                            <normalBkg>
+                                <IBGVeins file="Resource:MainFrame\TrayHint\close_normal.png" changeLight="false" colorize="false"/>
+                            </normalBkg>
+                            <onBkg>
+                                <IBGVeins file="Resource:MainFrame\TrayHint\close_hover.png" changeLight="false" colorize="false"/>
+                            </onBkg>
+                            <downBkg>
+                                <IBGVeins file="Resource:MainFrame\TrayHint\close_down.png" changeLight="false" colorize="false"/>
+                            </downBkg>
+                        </Properties>
+                    </IBGButton>
+                    <IBGStaticEx name="nmStaticTitle" dock="DOCK_FILL" margin="1,5,0,0" textClr="0x666666">
+                        <Properties>
+                            <textFont>
+                                <IBGFont weight="1000"/>
+                            </textFont>
+                        </Properties>
+                    </IBGStaticEx>
+                </Children>
+            </IBGRegionPanel>
+
+            <IBGRegionPanel dock="DOCK_TOP" name="nmPanelContent" size="283,48" margin="1,4,1,1">
+                <Children>
+                    <IBGRegionPanel dock="DOCK_TOP" margin="13,0,13,0" size="255,20">
+                        <Children>
+                            <IBGStaticEx name="uploadLogTip" autoCalcHeight="true" autoCalcWidth="true" textClr="0x999999" endEllipsis="true" margin="0,0,0,0" dock="DOCK_LEFT">
+                                <Properties>
+                                    <textFont>
+                                        <IBGFont height="18" />
+                                    </textFont>
+                                </Properties>
+                            </IBGStaticEx>
+                        </Children>
+                    </IBGRegionPanel>
+                </Children>
+            </IBGRegionPanel>
+        </Children>
+    </IBGRegionPanel>
+    <IBGRegionPanel sizeAsParent="true" name="nmPanelContainer" size="285,88" ncHitTest="1">
+        <Children>
+        </Children>
+    </IBGRegionPanel>
+</UI>

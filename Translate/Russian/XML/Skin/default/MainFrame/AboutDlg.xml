@@ -30,6 +30,7 @@
 							<IBGRegionPanel size="400, 85" margin="24,10,0,0" dock="DOCK_LEFT">
 								<Children>
 									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2393" margin="0, 0, 0, 0" dock="DOCK_TOP"/>
+						
 									<IBGRegionPanel size="400, 26" margin="0,0,0,0" dock="DOCK_TOP">
 										<Children>
 											<IBGStaticEx name="Version" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2588" margin="0, 5, 18, 5" dock="DOCK_LEFT"/>
@@ -51,6 +52,7 @@
 											</IBGStaticEx>
 											<IBGGIFControl dock="DOCK_LEFT" margin="3,2,0,7" size="9, 9" image="Resource:\\MainFrame\AboutDlg\CopyRight.png"></IBGGIFControl>
 											<IBGStaticEx name="copyrightYear" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" margin="3, 0, 0, 0" dock="DOCK_LEFT">
+										
 												<Properties>
 													<textFont>
 														<IBGFont height="18"/>
@@ -62,6 +64,9 @@
 								</Children>
 							</IBGRegionPanel>
 							<IBGButton name="OKBtn" text="$2054" size="72,24" margin="0, 46, 17, 15" tabOrder="10" config="button" dock="DOCK_RIGHT"/>
+							<!-- <IBGButton name="OKBtn" text="$2054" size="72,24" margin="0, 65, 17, 15" tabOrder="10" config="button" dock="DOCK_RIGHT"/> -->
+						   <IBGStaticEx name="Versions" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="Translation By zloiSupport (12-May-2020)" margin="0, 66, 150, 15" dock="DOCK_RIGHT"/>
+
 						</Children>
 					</IBGRegionPanel>
 				</Children>

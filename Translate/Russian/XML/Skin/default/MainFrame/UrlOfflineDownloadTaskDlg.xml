@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2772" margin="1, 10, 3, 3" dock="DOCK_LEFT"/>
+							<IBGStaticEx textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2773" margin="1, 10, 3, 3" dock="DOCK_LEFT"/>
 						</Children>
 					</IBGRegionPanel>
 					<IBGRegionPanel size="552,244" margin="0,2,0,0" dock="DOCK_TOP" config="commonPanel">
@@ -22,14 +22,14 @@
 								<Children>
 									<IBGRegionPanel dock="DOCK_TOP" size="526,91" margin="0,0,0,0">
 										<Children>
-											<IBGStaticEx textClr="0x89683c" autoCalcHeight="true" autoCalcWidth="true" text="$2773" margin="14, 10, 0, 0" dock="DOCK_TOP"/>
-											<IBGEdit size="280, 30" defaultText="$2774" margin="12, 5, 12, 2" name="UrlEdit" dock="DOCK_TOP" config="edit"/>
+											<IBGStaticEx textClr="0x89683c" autoCalcHeight="true" autoCalcWidth="true" text="$2774" margin="14, 10, 0, 0" dock="DOCK_TOP"/>
+											<IBGEdit size="280, 30" defaultText="$2775" margin="12, 5, 12, 2" name="UrlEdit" dock="DOCK_TOP" config="edit"/>
 											<IBGRegionPanel dock="DOCK_TOP" size="526,26" margin="0,0,0,0">
 												<Children>
-													<IBGStaticEx textClr="0x373fcc" name="linkError" unseen="true" autoCalcHeight="true" autoCalcWidth="true" text="$2775" margin="14, 6, 12, 2" dock="DOCK_LEFT"/>
+													<IBGStaticEx textClr="0x373fcc" name="linkError" unseen="true" autoCalcHeight="true" autoCalcWidth="true" text="$2776" margin="14, 6, 12, 2" dock="DOCK_LEFT"/>
 													<IBGRegionPanel dock="DOCK_FILL" size="326,20" margin="0,4,14,2">
 														<Children>
-															<IBGStaticEx name="createTaskInfo" textClr="0x9c9c9c" autoCalcHeight="true" autoCalcWidth="true" unseen="true" text="$2799" margin="8, 1, 0, 1" dock="DOCK_RIGHT"/>
+															<IBGStaticEx name="createTaskInfo" textClr="0x9c9c9c" autoCalcHeight="true" autoCalcWidth="true" unseen="true" text="$2800" margin="8, 1, 0, 1" dock="DOCK_RIGHT"/>
 															<IBGGIFControl name="createTaskGif" margin="14,1,0,1" image="Resource:\\MainFrame\\FileVersionDlg\\loading.gif" unseen="true" size="18, 18" dock="DOCK_RIGHT"></IBGGIFControl>
 														</Children>
 													</IBGRegionPanel>
@@ -39,29 +39,29 @@
 									</IBGRegionPanel>
 									<IBGRegionPanel dock="DOCK_TOP" size="526,42" margin="0,5,0,0">
 										<Children>
-											<IBGStaticEx textClr="0x333333" name="saveTo" autoCalcHeight="true" autoCalcWidth="true" text="$2781" margin="14, 5, 3, 2" dock="DOCK_LEFT"/>
-											<IBGStatic name="downloadDir" autoCalcHeight="true" autoCalcWidth="true" colorHilight="0x333333" colorPushed="0x333333" color="0x333333" text="$2779" endEllipsis="true" margin="0,5,0,21" dock="DOCK_LEFT"/>
-											<IBGButton name="changeDirBtn" text="$2782" size="80,24" margin="15, 2, 16, 15" config="button" dock="DOCK_LEFT"/>
+											<IBGStaticEx textClr="0x333333" name="saveTo" autoCalcHeight="true" autoCalcWidth="true" text="$2782" margin="14, 5, 3, 2" dock="DOCK_LEFT"/>
+											<IBGStatic name="downloadDir" autoCalcHeight="true" autoCalcWidth="true" colorHilight="0x333333" colorPushed="0x333333" color="0x333333" text="$2780" endEllipsis="true" margin="0,5,0,21" dock="DOCK_LEFT"/>
+											<IBGButton name="changeDirBtn" text="$2783" size="80,24" margin="15, 2, 16, 15" config="button" dock="DOCK_LEFT"/>
 										</Children>
 									</IBGRegionPanel>
 									<IBGRegionPanel name="cloudDevicePanel" dock="DOCK_TOP" size="526,24" margin="0,0,0,15">
 										<Children>
-											<IBGCheckButton name="downloadToCheckBtn" dock="DOCK_LEFT" autoCalcWidth="true" size="220,16" check="false" config="checkButton" clrText="0x333333" text="$2787" margin="12, 3, 0, 5"/>
+											<IBGCheckButton name="downloadToCheckBtn" dock="DOCK_LEFT" autoCalcWidth="true" size="220,16" check="false" config="checkButton" clrText="0x333333" text="$2788" margin="12, 3, 0, 5"/>
 											<IBGStatic name="deviceName" autoCalcHeight="true" autoCalcWidth="true" colorHilight="0xe07c09" colorPushed="0xe07c09" color="0xe07c09" endEllipsis="true" unseen="true" margin="0, 3, 0, 3" dock="DOCK_LEFT"/>
-											<IBGButton name="selectDeviceBtn" text="$2788" size="80,24" margin="15, 0, 16, 0" config="button" enable="false" dock="DOCK_LEFT"/>
+											<IBGButton name="selectDeviceBtn" text="$2789" size="80,24" margin="15, 0, 16, 0" config="button" enable="false" dock="DOCK_LEFT"/>
 										</Children>
 									</IBGRegionPanel>
 								</Children>
 							</IBGRegionPanel>
 							<IBGRegionPanel dock="DOCK_BOTTOM" size="508,30" margin="22,6,22,8">
 								<Children>
-									<IBGStaticEx textClr="0x9c9c9c" autoCalcHeight="true" name="spaceAvailable" autoCalcWidth="true" text="$2783" margin="0, 8, 3, 2" dock="DOCK_LEFT"/>
-									<IBGStaticEx name="buySpace" autoCalcHeight="true" autoCalcWidth="true" text="$2784" margin="10, 8, 0, 0" handCursor="true" dock="DOCK_LEFT">
+									<IBGStaticEx textClr="0x9c9c9c" autoCalcHeight="true" name="spaceAvailable" autoCalcWidth="true" text="$2784" margin="0, 8, 3, 2" dock="DOCK_LEFT"/>
+									<IBGStaticEx name="buySpace" autoCalcHeight="true" autoCalcWidth="true" text="$2785" margin="10, 8, 0, 0" handCursor="true" dock="DOCK_LEFT">
 										<Children>
 											<IBGLinkItem config="linkItemNoUnderline" positionMode="true" position="0,-1"/>
 										</Children>
 									</IBGStaticEx>
-									<IBGButton name="startDownload" text="$2785" size="100,25" margin="0, 1, 0, 4" config="defaultBtn" dock="DOCK_RIGHT"/>
+									<IBGButton name="startDownload" text="$2786" size="100,25" margin="0, 1, 0, 4" config="defaultBtn" dock="DOCK_RIGHT"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>
