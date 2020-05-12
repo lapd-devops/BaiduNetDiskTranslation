@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0xffffff" text="$2932" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0xffffff" text="$2933" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
@@ -22,12 +22,12 @@
 						<Children>
 							<IBGRegionPanel size="552,20" margin="0,28,0,8" dock="DOCK_TOP" sizeAsParent="false">
 								<Children>
-									<IBGStaticEx textClr="0xc89443" text="$2933" autoCalcHeight="true" autoCalcWidth="true" margin="130, 0, 0, 0" dock="DOCK_LEFT">
+									<IBGStaticEx textClr="0xc89443" text="$2934" autoCalcHeight="true" autoCalcWidth="true" margin="130, 0, 0, 0" dock="DOCK_LEFT">
 										<Properties>
 											<textFont><IBGFont height="20" weight="1000"/></textFont>
 										</Properties>
 									</IBGStaticEx>
-									<IBGStaticEx textClr="0xc89443" text="$2934" autoCalcHeight="true" autoCalcWidth="true" margin="176, 0, 0, 0" dock="DOCK_LEFT">
+									<IBGStaticEx textClr="0xc89443" text="$2935" autoCalcHeight="true" autoCalcWidth="true" margin="176, 0, 0, 0" dock="DOCK_LEFT">
 										<Properties>
 											<textFont><IBGFont height="20" weight="1000"/></textFont>
 										</Properties>
@@ -74,7 +74,7 @@
 					<IBGRegionPanel name="testTipPannel" unseen="true" size="552,75" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
 						<Children>
 							<IBGGIFControl margin="140, 22, 0, 0" image="Resource:MainFrame\\NetSpeedDlg\\loading.gif" autoCalcHeight="true" autoCalcWidth="true" dock="DOCK_LEFT"/>
-							<IBGStaticEx textClr="0x333333" text="$2936" autoCalcHeight="true" autoCalcWidth="true" margin="0, 20, 0, 0" dock="DOCK_LEFT">
+							<IBGStaticEx textClr="0x333333" text="$2937" autoCalcHeight="true" autoCalcWidth="true" margin="0, 20, 0, 0" dock="DOCK_LEFT">
 								<Properties>
 									<textFont><IBGFont height="20"/></textFont>
 								</Properties>
@@ -84,7 +84,7 @@
 									<textFont><IBGFont height="20"/></textFont>
 								</Properties>
 							</IBGStaticEx>
-							<IBGStaticEx textClr="0x333333" text="$2937" autoCalcHeight="true" autoCalcWidth="true" margin="0, 20, 0, 0" dock="DOCK_LEFT">
+							<IBGStaticEx textClr="0x333333" text="$2938" autoCalcHeight="true" autoCalcWidth="true" margin="0, 20, 0, 0" dock="DOCK_LEFT">
 								<Properties>
 									<textFont><IBGFont height="20"/></textFont>
 								</Properties>
@@ -96,7 +96,7 @@
 						<Children>
 							<IBGRegionPanel size="552,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
 								<Children>
-									<IBGStaticEx textClr="0x333333" text="$2938" autoCalcHeight="true" autoCalcWidth="true" margin="140, 10, 0, 0" dock="DOCK_LEFT">
+									<IBGStaticEx textClr="0x333333" text="$2939" autoCalcHeight="true" autoCalcWidth="true" margin="140, 10, 0, 0" dock="DOCK_LEFT">
 										<Properties>
 											<textFont><IBGFont height="20"/></textFont>
 										</Properties>
@@ -120,7 +120,7 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="552,30" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
 								<Children>
-									<IBGStaticEx textClr="0x333333" text="$2939" autoCalcHeight="true" autoCalcWidth="true" margin="140, 6, 0, 0" dock="DOCK_LEFT">
+									<IBGStaticEx textClr="0x333333" text="$2940" autoCalcHeight="true" autoCalcWidth="true" margin="140, 6, 0, 0" dock="DOCK_LEFT">
 										<Properties>
 											<textFont><IBGFont height="20"/></textFont>
 										</Properties>
@@ -146,13 +146,13 @@
 					</IBGRegionPanel>
 					<IBGRegionPanel size="552, 36" margin="1,0,1,1" dock="DOCK_BOTTOM" config="NetSpeedBarPanel">
 						<Children>
-							<IBGStaticEx textClr="0x908c84" text="$2943" autoCalcHeight="true" autoCalcWidth="true" margin="12, 9, 0, 5" dock="DOCK_LEFT"/>
+							<IBGStaticEx textClr="0x908c84" text="$2944" autoCalcHeight="true" autoCalcWidth="true" margin="12, 9, 0, 5" dock="DOCK_LEFT"/>
 						</Children>
 					</IBGRegionPanel>
 					<!--按钮区域 -->
 					<IBGRegionPanel size="552, 40" margin="0,0,0,5" dock="DOCK_BOTTOM">
 						<Children>
-							<IBGButton name="FixBtn" text="$2940" size="151,36" margin="200, 0, 200, 4" config="SpeedTestBtn" dock="DOCK_TOP"/>
+							<IBGButton name="FixBtn" text="$2941" size="151,36" margin="200, 0, 200, 4" config="SpeedTestBtn" dock="DOCK_TOP"/>
 						</Children>
 					</IBGRegionPanel>
 				</Children>

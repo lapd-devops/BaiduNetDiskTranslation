@@ -13,16 +13,16 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0x333333" text="$2706" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2707" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
 					<!-- 底部按钮栏 -->
 					<IBGRegionPanel name="ButtonRegionPanel" size="552,45" dock="DOCK_BOTTOM" margin="0, 0, 0, 0" config="settingPanel">
 						<Children>
-							<IBGButton name="SelectBtn" drawFocus="true" dock="DOCK_LEFT" enableFocus="true" size="80,24" config="button" text="$2707" margin="22, 11, 0, 10"/>
-							<IBGButton name="CloseBtn" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="80,24" config="button" text="$2709" margin="0, 11, 22, 10"/>
-							<IBGButton name="BackupBtn" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="80,24" config="button" text="$2708" margin="0, 11, 8, 10"/>
+							<IBGButton name="SelectBtn" drawFocus="true" dock="DOCK_LEFT" enableFocus="true" size="80,24" config="button" text="$2708" margin="22, 11, 0, 10"/>
+							<IBGButton name="CloseBtn" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="80,24" config="button" text="$2710" margin="0, 11, 22, 10"/>
+							<IBGButton name="BackupBtn" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="80,24" config="button" text="$2709" margin="0, 11, 8, 10"/>
 						</Children>
 					</IBGRegionPanel>
 					<!-- 中间列表栏 -->
@@ -30,8 +30,8 @@
 						<Children>
 							<IBGRegionPanel size="552,35" margin="0,0,1,0" dock="DOCK_TOP" sizeAsParent="false">
 								<Children>
-									<IBGStaticEx name="DirsCountTip" textClr="0x333333" text="$2710" autoCalcHeight="true" autoCalcWidth="true" margin="22, 10, 3, 0" dock="DOCK_LEFT"/>
-									<IBGStaticEx textClr="0x9c9c9c" text="$2711" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 22, 0" dock="DOCK_RIGHT"/>
+									<IBGStaticEx name="DirsCountTip" textClr="0x333333" text="$2711" autoCalcHeight="true" autoCalcWidth="true" margin="22, 10, 3, 0" dock="DOCK_LEFT"/>
+									<IBGStaticEx textClr="0x9c9c9c" text="$2712" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 22, 0" dock="DOCK_RIGHT"/>
 								</Children>
 							</IBGRegionPanel>
 							<IBGRegionPanel name="BackupFolderListView" dock="DOCK_FILL" margin="22, 0, 22, 0" config="BackupListPanel">

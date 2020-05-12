@@ -128,15 +128,15 @@
 								<Children>
 									<!--引导文案最长490*36，高亮颜色0x0877d5(20h)-->
 									<IBGGIFControl dock="DOCK_LEFT" margin="14, 19, 8, 20" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\tip_smile.png" size="15, 15"></IBGGIFControl>
-									<IBGStaticEx name="guideSpeedupTip" autoCalcHeight="true" autoCalcWidth="true" text="$2765" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+									<IBGStaticEx name="guideSpeedupTip" autoCalcHeight="true" autoCalcWidth="true" text="$2766" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
 										<Properties>
 											<textFont>
 												<IBGFont height="18"/>
 											</textFont>
 										</Properties>
 									</IBGStaticEx>
-									<IBGButton name="tryBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2740" margin="20, 14, 0, 15"/>
-									<IBGButton name="closeBtn" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 22, 20, 22"/>
+									<IBGButton name="tryBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2741" margin="20, 14, 0, 15"/>
+									<IBGButton name="closeBtn" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2745" margin="0, 22, 20, 22"/>
 								</Children>
 							</IBGRegionPanel>
 							<IBGRegionPanel name="SpeedupBuyTipPanel" unseen="true" size="0,54" dock="DOCK_FILL">
@@ -156,23 +156,23 @@
 											</textFont>
 										</Properties>
 									</IBGStaticEx>
-									<IBGButton name="buyBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2741" margin="20, 14, 0, 15"/>
-									<IBGButton name="closeBtn1" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 22, 20, 22"/>
+									<IBGButton name="buyBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2742" margin="20, 14, 0, 15"/>
+									<IBGButton name="closeBtn1" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2745" margin="0, 22, 20, 22"/>
 								</Children>
 							</IBGRegionPanel>
 							<IBGRegionPanel name="SpeedupDeadlineTipPanel" unseen="true" size="0,54" dock="DOCK_FILL">
 								<Children>
 									<IBGGIFControl dock="DOCK_LEFT" margin="14, 19, 8, 20" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\tip_smile.png" size="15, 15"></IBGGIFControl>
-									<IBGStaticEx name="speedupEndTip" autoCalcHeight="true" autoCalcWidth="true" text="$2767" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+									<IBGStaticEx name="speedupEndTip" autoCalcHeight="true" autoCalcWidth="true" text="$2768" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
 										<Properties>
 											<textFont>
 												<IBGFont height="18"/>
 											</textFont>
 										</Properties>
 									</IBGStaticEx>
-									<IBGButton name="speedupExtendBtn" dock="DOCK_LEFT" autoCalcHeight="true" autoCalcWidth="true" config="SpeedupExtendBtn" text="$2748" unseen="true" margin="20, 14, 0, 15"/>
-									<IBGButton name="renewBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2743" margin="20, 14, 0, 15"/>
-									<IBGButton name="closeBtn2" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 22, 20, 22"/>
+									<IBGButton name="speedupExtendBtn" dock="DOCK_LEFT" autoCalcHeight="true" autoCalcWidth="true" config="SpeedupExtendBtn" text="$2749" unseen="true" margin="20, 14, 0, 15"/>
+									<IBGButton name="renewBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2744" margin="20, 14, 0, 15"/>
+									<IBGButton name="closeBtn2" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2745" margin="0, 22, 20, 22"/>
 									<IBGButton name="speedupExtendCornerBtn" dock="DOCK_NULL" size="0,15" autoCalcWidth="true" config="SpeedupCornerBtn" unseen="true" margin="0, 3, 0, 36"/>
 									<IBGButton name="renewCornerBtn" dock="DOCK_NULL" size="0,15" autoCalcWidth="true" config="SpeedupCornerBtn" unseen="true" margin="0, 3, 0, 36"/>
 								</Children>
@@ -186,14 +186,14 @@
 								<Children>
 									<!--引导文案最长490*36，高亮颜色0x0877d5(20h)-->
 									<IBGGIFControl dock="DOCK_LEFT" margin="14, 17, 8, 17" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\ticket.png" size="20, 20"></IBGGIFControl>
-									<IBGStaticEx name="guideTicketTip" autoCalcHeight="true" autoCalcWidth="true" text="$2765" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+									<IBGStaticEx name="guideTicketTip" autoCalcHeight="true" autoCalcWidth="true" text="$2766" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
 										<Properties>
 											<textFont>
 												<IBGFont height="18"/>
 											</textFont>
 										</Properties>
 									</IBGStaticEx>
-									<IBGButton name="ticketUseBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupUseBtn" text="$2740" margin="20, 14, 0, 15"/>
+									<IBGButton name="ticketUseBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupUseBtn" text="$2741" margin="20, 14, 0, 15"/>
 								</Children>
 							</IBGRegionPanel>
 							<IBGRegionPanel name="TicketUsingTipPanel" unseen="true" size="0,54" dock="DOCK_FILL">
@@ -218,16 +218,16 @@
 							<IBGRegionPanel name="TicketEndTipPanel" unseen="true" size="0,54" dock="DOCK_FILL">
 								<Children>
 									<IBGGIFControl dock="DOCK_LEFT" margin="14, 19, 8, 20" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\tip_ticket.png" size="15, 15"></IBGGIFControl>
-									<IBGStaticEx name="ticketEndTip" autoCalcHeight="true" autoCalcWidth="true" text="$2767" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+									<IBGStaticEx name="ticketEndTip" autoCalcHeight="true" autoCalcWidth="true" text="$2768" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
 										<Properties>
 											<textFont>
 												<IBGFont height="18"/>
 											</textFont>
 										</Properties>
 									</IBGStaticEx>
-									<IBGButton name="buyTicketBtn" dock="DOCK_LEFT" autoCalcHeight="true" autoCalcWidth="true" config="SpeedupExtendBtn" text="$2748" unseen="true" margin="20, 14, 0, 15"/>
-									<IBGButton name="buySvipBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2743" margin="20, 14, 0, 15"/>
-									<IBGButton name="ticketCloseBtn2" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 13, 20, 13"/>
+									<IBGButton name="buyTicketBtn" dock="DOCK_LEFT" autoCalcHeight="true" autoCalcWidth="true" config="SpeedupExtendBtn" text="$2749" unseen="true" margin="20, 14, 0, 15"/>
+									<IBGButton name="buySvipBtn" dock="DOCK_LEFT" size="100,25" config="SpeedupTryBtn" text="$2744" margin="20, 14, 0, 15"/>
+									<IBGButton name="ticketCloseBtn2" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2745" margin="0, 13, 20, 13"/>
 									<IBGButton name="buyTicketCornerBtn" dock="DOCK_NULL" size="0,15" autoCalcWidth="true" config="SpeedupCornerBtn" unseen="true" margin="0, 3, 0, 36"/>
 									<IBGButton name="buySvipCornerBtn" dock="DOCK_NULL" size="0,15" autoCalcWidth="true" config="SpeedupCornerBtn" unseen="true" margin="0, 3, 0, 36"/>
 								</Children>
@@ -285,19 +285,19 @@
 			<!-- 速度反馈提示区域 -->
 			<IBGRegionPanel name="SpeedFeedbackTipPannel" unseen="true" size="190,37" dock="DOCK_NULL" config="SpeedupTipPannel">
 				<Children>
-					<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" text="$2985" dock="DOCK_LEFT" textClr="0x333333" margin="10, 10, 0, 0">
+					<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" text="$2986" dock="DOCK_LEFT" textClr="0x333333" margin="10, 10, 0, 0">
 						<Properties>
 							<textFont>
 								<IBGFont height="18"/>
 							</textFont>
 						</Properties>
 					</IBGStaticEx>
-					<IBGStaticEx name="feedbackLink" autoCalcHeight="true" autoCalcWidth="true" text="$2986" margin="5, 10, 0, 2" handCursor="true" dock="DOCK_LEFT">
+					<IBGStaticEx name="feedbackLink" autoCalcHeight="true" autoCalcWidth="true" text="$2987" margin="5, 10, 0, 2" handCursor="true" dock="DOCK_LEFT">
 						<Children>
 							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
 						</Children>
 					</IBGStaticEx>
-					<IBGButton name="closeFeedBackBtn" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2744" margin="0, 7, 12, 6"/>
+					<IBGButton name="closeFeedBackBtn" dock="DOCK_RIGHT" size="10,10" config="SpeedupCloseBtn" toolText="$2745" margin="0, 7, 12, 6"/>
 				</Children>
 			</IBGRegionPanel>
 			<!-- 提速活动广告区域 -->

@@ -638,6 +638,7 @@
   <s id="1314">Select Delete item</s>
 
    <!--视频播放器-->
+  <s id="1383">The network is abnormal, please check the network and try again(%d)</s>
   <s id="1384">Do not remind again</s>
   <s id="1385">From old to new</s>
   <s id="1386">Playlist is empty</s>
@@ -665,7 +666,7 @@
   <s id="1408">Network outage, please check the network and try again ...</s>
   <s id="1409">Successfully added to download list</s>
   <s id="1410">Added to download list</s>
-  <s id="1411">subtitle</s>
+  <s id="1411">Subtitle</s>
   <s id="1412">Targeted to last viewed location.</s>
   <s id="1413">Play from scratch</s>
   <s id="1414">Switch</s>
@@ -711,12 +712,12 @@
   <s id="1454">Video is transcoding, please try again later</s>
   <s id="1455">This video is not supported yet</s>
   <s id="1456">Video transcoding failed, please try again</s>
-  <s id="1457">Double speed</s>
-  <s id="1458">0.75 times</s>
-  <s id="1459">normal</s>
-  <s id="1460">1.25 times</s>
-  <s id="1461">1.5 times</s>
-  <s id="1462">2.0 times</s>
+  <s id="1457">Speed</s>
+  <s id="1458">0.75x</s>
+  <s id="1459">1x</s>
+  <s id="1460">1.25x</s>
+  <s id="1461">1.5x</s>
+  <s id="1462">2.0x</s>
   <s id="1463">Open Super Member and enjoy double-speed playback</s>
   <s id="1464">Open now</s>
   <s id="1465">You can try it for free</s>
@@ -1174,4 +1175,38 @@
   <!--自动备份tip引导-->
   <s id="3300">The folder automatic backup function is now available\nfor free trial~</s>
 
+  <!--视频清晰度选择-->
+  <s id="3301">360P</s>
+  <s id="3302">480P</s>
+  <s id="3303">720P</s>
+  <s id="3304">1080P</s>
+  <s id="3305">2K</s>
+  <s id="3306">Quality:</s>
+  <s id="3307">Become a super member, you can unlock all the clarity of this film：</s>
+  <s id="3308">%d：</s>
+  <s id="3309">4K</s>
+  <s id="3310">2K</s>
+  <s id="3311">4K</s>
+  <s id="3312">Is switching to you</s>
+  <s id="3313">Resolution switching failed, please try again</s>
+  <s id="3314">Switched sharpness successfully</s>
+  <s id="3315">Sharpness...</s>
+  <s id="3316">360P</s>
+  <s id="3317">480P</s>
+  <s id="3318">720P</s>
+  <s id="3319">1080P</s>
+  <s id="3320">2K</s>
+  <s id="3321">4K</s>
+    
+  <!--File Uploadtip-->
+  <s id="3400">Save to Baidu Net Disk</s>
+  <s id="3401">Uploading to(%s) folder</s>
+  <s id="3402">Do not remind again</s>
+  <s id="3403">understood</s>
+  <s id="3404">Tips: Only the latest version of the file with the same name will be kept in the cloud</s>
+
+    <!--Device logout-->
+  <s id="3410">This device has been logged out</s>
+  <s id="3411">This device has been logged out! If not operated by yourself, please change the password in time to avoid the loss of stored data.</s> 
+  <s id="3412"> OK </s>
 </string>

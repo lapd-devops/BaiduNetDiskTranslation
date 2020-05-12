@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0x333333" text="$2696" autoCalcHeight="true" autoCalcWidth="true" margin="6, 6, 0, 6" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2697" autoCalcHeight="true" autoCalcWidth="true" margin="6, 6, 0, 6" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
@@ -30,11 +30,11 @@
 													</bkground>
 												</Properties>
 											</IBDGuiCell>
-											<IBGStaticEx text="$2697" autoCalcHeight="true" margin="3, 14, 0, 3" autoCalcWidth="true" dock="DOCK_LEFT">
+											<IBGStaticEx text="$2698" autoCalcHeight="true" margin="3, 14, 0, 3" autoCalcWidth="true" dock="DOCK_LEFT">
 											</IBGStaticEx>
 											<IBGStaticEx name="shutdowntip" autoCalcHeight="true" textClr="0x0000ff" autoCalcWidth="true" margin="3, 14, 0, 3" dock="DOCK_LEFT">
 											</IBGStaticEx>
-											<IBGStaticEx text="$2698" autoCalcHeight="true" margin="3, 14, 0, 3" autoCalcWidth="true" dock="DOCK_LEFT">
+											<IBGStaticEx text="$2699" autoCalcHeight="true" margin="3, 14, 0, 3" autoCalcWidth="true" dock="DOCK_LEFT">
 											</IBGStaticEx>
 										</Children>
 									</IBGRegionPanel>
@@ -42,8 +42,8 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="360,25" margin="0,18,0,1" sizeAsParent="false" dock="DOCK_BOTTOM">
 								<Children>
-									<IBGButton name="shutdownButton" text="$2699" size="80,24" margin="170, 1, 15, 0" tabOrder="14" config="button" dock="DOCK_LEFT"/>
-									<IBGButton name="cancelButton" text="$2700" size="80,24" margin="30, 1, 15, 0" tabOrder="15" config="button" dock="DOCK_RIGHT"/>
+									<IBGButton name="shutdownButton" text="$2700" size="80,24" margin="170, 1, 15, 0" tabOrder="14" config="button" dock="DOCK_LEFT"/>
+									<IBGButton name="cancelButton" text="$2701" size="80,24" margin="30, 1, 15, 0" tabOrder="15" config="button" dock="DOCK_RIGHT"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>

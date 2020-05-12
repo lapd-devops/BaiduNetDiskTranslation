@@ -1,0 +1,18 @@
+<layer name="DefinitionGuideDlg" width="420" height="230" appwin="0" ncRect="0,0,0,0" resize="0" translucent="1" nomaxsize="1">
+  <body>
+    <dlg pos="0,0,-0,-0" class="cls_dlg_frame">
+      <!--标题栏-->
+      <caption pos="1,1,-0,36">
+        <img pos="10,8" skin="common_logo_main"/>
+        <text name="definition_txt_title" pos="39,9" class="cls_dlg_title_text">%str1476%</text>  <!--开通超级会员-->
+        <imgbtn name="btn_close" skin="btn_sys_close" pos="-34,1,-2,21" cursor="arrow" tip="%str250%" animate="1"/>
+      </caption>
+      <dlg pos="1,37,-0,-0">
+        <img pos="185,23,@63,@51" name="img_guide" align="center" skin="video_definition_guidedlg_img"/>
+        <text name="definition_guide_text" pos="0,89,@420,@20" align="center" crtext="333333" font="0200:微软雅黑">%str3307%</text>   <!--3307成为超级会员，即可解锁本片所有清晰度-->
+        <imgbtn name="definition_btn_svip" pos="130,[20,@160,@36" align="center"  cursor="arrow" crtext="64360D" font="0000:微软雅黑" skin="video_definition_guidedlg_btn">%str1476%</imgbtn>
+      </dlg>
+    </dlg>
+  </body>
+</layer>
+

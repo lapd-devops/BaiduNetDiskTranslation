@@ -62,6 +62,7 @@
 <resid type="XML" name="IDR_DUI_VIDEODISPLAY_DIALOG" layer="1" file="xml\VideoPlaySDKDlg\VideoDisplayDlg.xml"/>
 <resid type="XML" name="IDR_DUI_VIDEOOPERATION_DIALOG" layer="1" file="xml\VideoPlaySDKDlg\VideoOperationDlg.xml"/>
 <resid type="XML" name="IDR_DUI_OVERSPEED_GUIDE_DIALOG" layer="1" file="xml\VideoPlaySDKDlg\OverspeedGuideDlg.xml"/>
+<resid type="XML" name="IDR_DUI_DEFINITION_GUIDE_DIALOG" layer="1" file="xml\VideoPlaySDKDlg\DefinitionGuideDlg.xml"/>
 <resid type="XML" name="IDR_DUI_NEXTBATCH_PANEL" file="xml\GarbageCleanDlg\NextBatchPanel.xml"/>
 <resid type="XML" name="IDR_DUI_MASKSVIPGUIDE_DIALOG" layer="1" file="xml\GarbageCleanDlg\MaskSvipGuideDlg.xml"/>
 <resid type="XML" name="IDR_DUI_ONEKEYCLEAN_PANEL" file="xml\GarbageCleanDlg\OneKeyCleanPanel.xml"/>
@@ -87,6 +88,7 @@
 <resid type="XML" name="IDR_DUI_FUNC_GUIDE_WND" layer="1" file="xml\MainPanel\FuncGuideWnd.xml"/>
 <resid type="XML" name="IDR_DUI_PDF_TO_WORD_GUIDE_DIALOG" layer="1" file="xml\dlg_pdf_to_word_vip_guide.xml"/>
 <resid type="XML" name="IDR_DUI_AUTOBACKUPTIP_DIALOG" layer="1" file="xml\dlg_autobackup_tip.xml"/>
+<resid type="XML" name="IDR_DUI_FILEUPLOADTIP_DIALOG" layer="1" file="xml\dlg_fileupload_tip.xml"/>
 
 <!--窗口背景资源-->
 <resid type="IMGX" name="IDP_MAIN_DLG_FRAME" file="image\common\window\windowBkg.png"  />
@@ -863,3 +865,12 @@
 <!--自动备份引导tip资源-->
 <resid type="IMGX" name="IDP_AUTOBACKUPTIP_DLG_BG" file="image\AutoBackupTipDlg\background.png"/>
 <resid type="IMGX" name="IDP_AUTOBACKUPTIP_DLG_CLOSE" file="image\AutoBackupTipDlg\close.png"/>
+
+<!--视频清晰度切换资源-->
+<resid type="IMGX" name="IDP_IMG_DEFINITION_SVIPONLY_SCRIPT" file="image\MainPanel\FunctionalBoxPanel\SvipOnly.png" />
+<resid type="IMGX" name="IDP_IMG_DEFINITION_FREE_SCRIPT" file="image\MainPanel\FunctionalBoxPanel\Free.png" />
+<resid type="IMGX" name="IDP_IMG_DEFINITION_SCRIPT" file="image\VideoPlayDlg\definition\image_bg.png" />
+<resid type="IMGX" name="IDP_IMG_DEFINITION_GUIDE_BUTTON" file="image\VideoPlayDlg\definition\svip_button.png" />
+<resid type="IMGX" name="IDP_VIDEO_DEFINITION_GUIDE_IMG" file="image\VideoPlayDlg\definition\ic_video.png"/>
+<resid type="IMGX" name="IDP_VIDEO_DEFINITION_NEW_IMG" file="image\VideoPlayDlg\definition\ic_new.png"/>
+<resid type="IMGX" name="IDP_VIDEO_TASKBAR_YELLOW_BTN_WORDS"   file="image\VideoPlayDlg\definition\yellow_words_btn.png" />

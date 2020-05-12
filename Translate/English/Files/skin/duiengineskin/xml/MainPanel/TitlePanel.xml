@@ -3,7 +3,7 @@
   <!--logo-->
   <img pos="15,20,@115,@26" skin="titlepanel_logo"></img>
   <!--我的网盘-->
-  <buttonex name="btn_mydisk" pos="185,17,@85,@42" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
+  <buttonex name="btn_mydisk" pos="185,17,@80,@42" class="cls_titlepanel_btn" crtext-uncheck="333333" crtext-check="06a8ff"
 	normal-skin="titlepanel_underline_normal" hover-skin="titlepanel_underline_normal" down-skin="titlepanel_underline_hover"
 	check-skin="titlepanel_underline_hover" text-yoffset="-5">%str1500%</buttonex>
   <!--传输列表-->

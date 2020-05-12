@@ -693,7 +693,8 @@
   <String id="IDS_TRAYICON_BUYSPEEDUPSERVICE" value="Buy Speed Service" />
   <String id="IDS_MENUID_COMMON_LOCK" value="Lock" />
   <String id="IDS_MENUID_COMMON_UNLOCK" value="Unlock" />
-
+  <String id="IDS_MENUID_UPLOAD_LOG" value="One-click feedback" />
+  
   <!--托盘提示-->
   <String id="IDS_COMMON_INSTALL" value="Install" />
   <String id="IDS_COMMON_CANCEL" value="Cancel" />
@@ -1223,4 +1224,15 @@
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_START_TIP" value="You have a PDF file“" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_END_TIP" value="”Conversion failed" />
   <String id="IDS_PDFTOWORD_NOTIFY_FAIL_VIEW_DETAIL" value="View now>" />
+
+  <!--Feedback bubble-->
+  <String id="IDS_UPLOADLOG_NOTIFY_SUCCEED_TITLE" value="Successful feedback" />
+  <String id="IDS_UPLOADLOG_NOTIFY_SUCCEED_TIP" value="Your feedback has been received, we will deal with it as soon as possible ~" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_TITLE" value="Feedback failed" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_SERVER_TIP" value="The server is running poorly, please re-feed back later" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_TIP" value="Feedback failed, please try again later" />
+  <String id="IDS_UPLOADLOG_NOTIFY_FAIL_NETWORK_TIP" value="The network connection is abnormal, please feedback again later" />
+  <String id="IDS_UPLOADLOG_NOTIFY_START_TITLE" value="Feedback processing" />
+  <String id="IDS_UPLOADLOG_NOTIFY_START_TIP" value="Your feedback is being received, please be patient ~" />
+
 </StringTable>

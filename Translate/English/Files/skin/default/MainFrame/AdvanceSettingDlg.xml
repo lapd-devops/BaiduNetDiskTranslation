@@ -1,5 +1,5 @@
 <UI version="1.0">
-	<IBGCommonWin name="advanceSettingDialog" rect="0,0,420,300" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="mainPanel">
+	<IBGCommonWin name="advanceSettingDialog" rect="0,0,480,330" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="false" showMaxButton="false" config="mainPanel">
 		<Children>
 			<IBGRegionPanel sizeAsParent="true">
 				<Children>
@@ -17,12 +17,12 @@
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
-					<IBGRegionPanel size="420,265" margin="0,0,0,0" sizeAsParent="false" dock="DOCK_FILL" config="settingPanel">
+					<IBGRegionPanel size="480,265" margin="0,0,0,0" sizeAsParent="false" dock="DOCK_FILL" config="settingPanel">
 						<Children>
 							<!-- P2P开关提示 -->
-							<IBGRegionPanel name="p2pTipPanel" size="180,155" position="230,5" config="SettingDlgTipPanel" dock="DOCK_NULL" unseen="true">
+							<IBGRegionPanel name="p2pTipPanel" size="240,185" position="230,5" config="SettingDlgTipPanel" dock="DOCK_NULL" unseen="true">
 								<Children>
-									<IBGStaticEx size="178,51" text="$2455" textClr="0x666666" unMultiline="FALSE" margin="6,4,6,0" dock="DOCK_LEFT">
+									<IBGStaticEx size="228,151" text="$2455" textClr="0x666666" unMultiline="FALSE" margin="6,4,6,0" dock="DOCK_LEFT">
 									</IBGStaticEx>
 								</Children>
 							</IBGRegionPanel>
@@ -39,14 +39,14 @@
 								</Children>
 							</IBGRegionPanel>
 							<!-- 远程推送提示 -->
-							<IBGRegionPanel name="sleepTipPanel" size="142,55" position="266,136" config="SettingDlgTipPanel" dock="DOCK_NULL" unseen="true">
+							<IBGRegionPanel name="sleepTipPanel" size="142,55" position="266,166" config="SettingDlgTipPanel" dock="DOCK_NULL" unseen="true">
 								<Children>
 									<IBGStaticEx size="133,51" text="$2576" textClr="0x666666" unMultiline="FALSE" margin="6,4,3,0" dock="DOCK_LEFT">
 									</IBGStaticEx>
 								</Children>
 							</IBGRegionPanel>
 							<!-- 远程推送 -->
-							<IBGRegionPanel size="420,48" margin="0,47,0,0" dock="DOCK_TOP" unseen="false">
+							<IBGRegionPanel size="420,48" margin="0,77,0,0" dock="DOCK_TOP" unseen="false">
 								<Children>
 									<IBGStaticEx size="62,16" text="$2574" margin="20,8,0,24" dock="DOCK_LEFT"/>
 									<!-- 省电模式不中断推送 -->
