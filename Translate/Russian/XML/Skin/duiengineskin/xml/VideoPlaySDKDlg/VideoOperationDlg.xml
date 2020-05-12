@@ -94,12 +94,12 @@
             <!--声音进度条-->
             <sliderbar name="sliderbar_volum_control" pos="-392,46" width="90" height="20" alpha="255" bgskin="video_prog_bg_volum" posskin="video_prog_bar_volum" thumbskin="video_volum_thumb_small" value="0" min="0" max="100"/>
             <!--倍速-->
-            <imgbtn name="btn_video_overspeed" pos="-289,38" width="62" height="36" class="cls_video_dlg_words_btn" cursor="arrow" txtalpha="0">%str1457%</imgbtn>
+            <imgbtn name="btn_video_overspeed" pos="-289,38" width="82" height="36" class="cls_video_dlg_words_btn" cursor="arrow" txtalpha="0">%str1457%</imgbtn>
             <imgbtn name="btn_video_model" pos="-289,38" width="62" height="36" class="cls_video_dlg_words_btn" cursor="arrow" txtalpha="0" show="0">%str1402%</imgbtn>
             <!--清晰度按钮-->
             <imgbtn name="btn_video_definition_mode" pos="-223,38" width="62" height="36" class="cls_video_definition_dlg_words_btn" cursor="arrow" txtalpha="0">%str1402%</imgbtn>
             <!--字幕-->
-            <imgbtn name="btn_video_subtitle" pos="-157,38" width="62" height="36" class="cls_video_dlg_words_btn" cursor="arrow" txtalpha="0" show="1">%str1411%</imgbtn>
+            <imgbtn name="btn_video_subtitle" pos="-169,38" width="92" height="36" class="cls_video_dlg_words_btn" cursor="arrow" txtalpha="0" show="1">%str1411%</imgbtn>
             <!--全屏-->
             <imgbtn name="btn_full_screen" pos="-87,40" width="32" height="32" skin="video_imglist_halfscreen" cursor="arrow"/>
             <!--列表-->

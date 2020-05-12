@@ -486,7 +486,7 @@
   <String id="IDS_STATIC_SETTING_AUTOBACKUP_TITLE" value="Автобэкап" />
   <String id="IDS_STATIC_SETTING_FRIENDSHARE_TITLE" value="Поделиться" />
   <String id="IDS_STATIC_FRIEND_MESSAGE_ONLY" value="Поделиться только с друзьями" />
-  <String id="IDS_SETTINGDLG_GENERAL_SETTING_TITLE" value="Основной" />
+  <String id="IDS_SETTINGDLG_GENERAL_SETTING_TITLE" value="Основные" />
   <String id="IDS_STATIC_SETTING_FRIENDVERIFY_TITLE" value="Подтверждение дружбы:" />
   <String id="IDS_STATIC_SETTING_FRIENDVERIFY_ALLOWANYONE" value="Разрешить кому угодно" />
   <String id="IDS_STATIC_SETTING_FRIENDVERIFY_NEEDVERIFYMESSAGE" value="Нужна информация для проверки" />

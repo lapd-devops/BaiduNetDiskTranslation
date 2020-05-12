@@ -1,5 +1,5 @@
 ﻿<DuiEngine>
-    <font face="微软雅黑" size="12"/>
+    <font face="Tahoma" size="12"/>
 
     <skins>
         <imgframe name="dlg_frame" src="IDP_MAIN_DLG_FRAME" left="5" right="5" top="40" bottom="60"/>
@@ -759,40 +759,40 @@
     </skins>
 
     <style>
-        <class name="cls_dlg_frame" skin="dlg_frame" font="0000:微软雅黑" crtext="FFFFFF" x-margin="0"/>
+        <class name="cls_dlg_frame" skin="dlg_frame" font="0000:Tahoma" crtext="FFFFFF" x-margin="0"/>
         <class name="cls_dlg_title_text" crtext="333333"/>
-        <class name="cls_btn_link" cursor="hand" crtext="333333" crhover="1e78d5" font="0000:微软雅黑" hoverfont="0002:微软雅黑"/>
-        <class name="cls_btn_weblink" cursor="hand" crtext="06a8ff" crhover="06a8ff" font="0000:微软雅黑" hoverfont="0002:微软雅黑" />
+        <class name="cls_btn_link" cursor="hand" crtext="333333" crhover="1e78d5" font="0000:Tahoma" hoverfont="0002:Tahoma"/>
+        <class name="cls_btn_weblink" cursor="hand" crtext="06a8ff" crhover="06a8ff" font="0000:Tahoma" hoverfont="0002:Tahoma" />
         <class name="cls_txt_red"  crtext="FF0000" />
-        <class name="cls_txt_black"  crtext="000000" font="0000:微软雅黑"/>
+        <class name="cls_txt_black"  crtext="000000" font="0000:Tahoma"/>
         <class name="toolbar_button_color" crtext="565656" />
-        <class name="cls_txt_white"  crtext="FFFFFF" font="0000:微软雅黑"/>
-        <class name="cls_txt_video_play_control" skin="video_imglist_control_bg" crhover="06a7ff" crtext="FFFFFF" font="0200:微软雅黑"/>
-        <class name="cls_txt_video_playlist_control" skin="video_imglist_control_bg" crtext="d2d2d2" crhover="06a7ff" font="0000:微软雅黑"/>
+        <class name="cls_txt_white"  crtext="FFFFFF" font="0000:Tahoma"/>
+        <class name="cls_txt_video_play_control" skin="video_imglist_control_bg" crhover="06a7ff" crtext="FFFFFF" font="0200:Tahoma"/>
+        <class name="cls_txt_video_playlist_control" skin="video_imglist_control_bg" crtext="d2d2d2" crhover="06a7ff" font="0000:Tahoma"/>
         <class name="Arial_txt_white_center" font="0004:Arial" textmode="25" crtext="FFFFFF" />
-        <class name="cls_toast_txt" font="0000:微软雅黑" textmode="25" crtext="FFFFFF" />
-        <class name="cls_toast_link" cursor="hand" crtext="FFFFFF" crhover="FFFFFF" font="0002:微软雅黑" hoverfont="0002:微软雅黑"/>
-        <class name="cls_message_box" skin="message_box_background" font="0000:微软雅黑" crtext="FFFFFF" x-margin="0"/>
+        <class name="cls_toast_txt" font="0000:Tahoma" textmode="25" crtext="FFFFFF" />
+        <class name="cls_toast_link" cursor="hand" crtext="FFFFFF" crhover="FFFFFF" font="0002:Tahoma" hoverfont="0002:Tahoma"/>
+        <class name="cls_message_box" skin="message_box_background" font="0000:Tahoma" crtext="FFFFFF" x-margin="0"/>
         <class name="cls_msgbox_title_text" crtext="333333"/>
         <!--主面板style定义-->
-        <class name="cls_mainpanel_filename_link" crtext="333333" crhover="06a8ff" font="0000:微软雅黑" hoverfont="0000:微软雅黑" align="left"/>
-        <class name="cls_addresspanel_dirname_link" cursor="hand" crtext="333333" crhover="06a8ff" font="0000:微软雅黑" hoverfont="0000:微软雅黑" align="left"/>
-        <class name="cls_addresspanel_searchbox_keyword_link" cursor="hand" crtext="333333" crhover="06a8ff" font="0000:微软雅黑" hoverfont="0002:微软雅黑" align="left"/>
-        <class name="cls_statuspanel_rewardplan_txt" crtext="ffa856" font="0000:微软雅黑" textmode="40025"/>
+        <class name="cls_mainpanel_filename_link" crtext="333333" crhover="06a8ff" font="0000:Tahoma" hoverfont="0000:Tahoma" align="left"/>
+        <class name="cls_addresspanel_dirname_link" cursor="hand" crtext="333333" crhover="06a8ff" font="0000:Tahoma" hoverfont="0000:Tahoma" align="left"/>
+        <class name="cls_addresspanel_searchbox_keyword_link" cursor="hand" crtext="333333" crhover="06a8ff" font="0000:Tahoma" hoverfont="0002:Tahoma" align="left"/>
+        <class name="cls_statuspanel_rewardplan_txt" crtext="ffa856" font="0000:Tahoma" textmode="40025"/>
         <!--便携式设备备份界面style定义-->
         <class name="portable_device_dialog_title" crtext="333333"/>
-        <class name="portable_device_backcount_text" crtext="333333" font="0200:微软雅黑" textmode="25"/>
-        <class name="portable_device_backtip_text" crtext="999999" font="0000:微软雅黑" textmode="25"/>
+        <class name="portable_device_backcount_text" crtext="333333" font="0200:Tahoma" textmode="25"/>
+        <class name="portable_device_backtip_text" crtext="999999" font="0000:Tahoma" textmode="25"/>
         <class name="portable_device_list_item_text" crtext="000000" font2="facename:宋体;bold:0;italic:0;underline:0;adding:-2"/>
         <class name="portable_device_number_text" crtext="449cde" font="0604:Arial" textmode="25"/>
 
-        <class name="device_list_item_tip" crtext="333333" font="0200:微软雅黑" textmode="25"/>
-        <class name="button" skin="btn_common" font="0000:微软雅黑" crtext="333333" crdisabled="91a7c0" textmode="25" x-margin="0"/>
-        <class name="normalbtn" skin="normalbtn" font="0000:微软雅黑" crtext="385e8b" crdisabled="91a7c0" textmode="25" x-margin="0"/>
-        <class name="defultbtn" skin="btn_default" font="0000:微软雅黑" crtext="ffffff" crdisabled="ffffff" textmode="25" x-margin="0"/>
-        <class name="msgboxbtn" skin="msgbox_btn" font="0000:微软雅黑" crtext="636363" crdisabled="636363" textmode="25" x-margin="0"/>
-        <class name="redbgbtn" skin="backup_update_red_btn" font="0000:微软雅黑" crtext="ffffff" crdisabled="ffffff" textmode="25" x-margin="0"/>
-        <class name="toolbarbtn" skin="mainpanel_toolbar_button" font="0000:微软雅黑" crtext="333333" crhover="06a8ff" crdisabled="999999" textmode="25" x-margin="0"/>
+        <class name="device_list_item_tip" crtext="333333" font="0200:Tahoma" textmode="25"/>
+        <class name="button" skin="btn_common" font="0000:Tahoma" crtext="333333" crdisabled="91a7c0" textmode="25" x-margin="0"/>
+        <class name="normalbtn" skin="normalbtn" font="0000:Tahoma" crtext="385e8b" crdisabled="91a7c0" textmode="25" x-margin="0"/>
+        <class name="defultbtn" skin="btn_default" font="0000:Tahoma" crtext="ffffff" crdisabled="ffffff" textmode="25" x-margin="0"/>
+        <class name="msgboxbtn" skin="msgbox_btn" font="0000:Tahoma" crtext="636363" crdisabled="636363" textmode="25" x-margin="0"/>
+        <class name="redbgbtn" skin="backup_update_red_btn" font="0000:Tahoma" crtext="ffffff" crdisabled="ffffff" textmode="25" x-margin="0"/>
+        <class name="toolbarbtn" skin="mainpanel_toolbar_button" font="0000:Tahoma" crtext="333333" crhover="06a8ff" crdisabled="999999" textmode="25" x-margin="0"/>
         <class name="toptext" textmode="20" />
         <class name="vcentertext" textmode="24" crtext="666666"/>
         <class name="rightvcentertext" textmode="26"/>
@@ -800,7 +800,7 @@
         <class name="righttext" textmode="22"/>
         <class name="Arial_txt_white" font="0000:Arial" textmode="25" crtext="FCF5F1" />
         <class name="Arial_txt_gray" font="0000:Arial" textmode="25" crtext="565656" />
-        <class name="pagectrl_num" font="0000:微软雅黑" hoverfont="0002:微软雅黑" textmode="40021" crtext="666666" />
+        <class name="pagectrl_num" font="0000:Tahoma" hoverfont="0002:Tahoma" textmode="40021" crtext="666666" />
 
         <class name="linkimage" cursor="hand"/>
         <class name="cls_border" cursor="hand" ncskin="skin_editnc" x-margin="2" y-margin="2"/>
@@ -808,143 +808,143 @@
         <class name="cls_password_edit" font="0600:Arial" textmode="24" />
         <class name="cls_edit_set" crtext="565656" x-margin="2" y-margin="2" ncskin="skin_editnc" skin="skin_edit_set" />
         <!--数据线面板style定义-->
-        <class name="btn_file_from_phone" skin="btn_default" font="0000:微软雅黑" crtext="ffffff" crdisabled="ffffff" textmode="25" x-margin="0"/>
-        <class name="phone_tip_text" crtext="06a8ff" font="0a00:微软雅黑" textmode="25"/>
-        <class name="datacable_tip_text" crtext="333333" font="0200:微软雅黑" textmode="25"/>
-        <class name="datacable_imagetip_text" crtext="999999" font="0200:微软雅黑" textmode="25"/>
-        <class name="datacable_devicename_text" crtext="06a8ff" font="0200:微软雅黑" textmode="40024"/>
-        <class name="datacable_peerdevicename_text" crtext="ffffff" font="0800:微软雅黑" textmode="40025"/>
-        <class name="datacable_discovery_device_text" font="0000:微软雅黑" crtext="666666" textmode="40025"/>
-        <class name="btn_try" skin="btn_common" font="0000:微软雅黑" crtext="333333" crdisabled="999999" textmode="25" x-margin="0"/>
-        <class name="datacable_quota_text" font="0000:微软雅黑" crtext="ffffff" textmode="40025"/>
-        <class name="datacable_time_text" crtext="ffffff" font="0a00:微软雅黑" textmode="25"/>
-        <class name="datacable_finish_text" crtext="6eb23d" font="0000:微软雅黑" textmode="29"/>
-        <class name="datacable_trans_count_text" crtext="6eb23d" font="0404:微软雅黑" textmode="40025"/>
-        <class name="datacable_disconnect_link" cursor="hand" crtext="449cde" crhover="0066cc" font="0202:微软雅黑" hoverfont="0202:微软雅黑" />
-        <class name="datacable_accept_file_text" crtext="999999" font="0a00:微软雅黑" textmode="25"/>
-        <class name="btn_send_file" skin="send_img_btn" font="0400:微软雅黑" crtext="333333" crdisabled="333333" textmode="25" x-margin="0"/>
-        <class name="datacable_trans_time_text" font="0000:微软雅黑" crtext="999999" textmode="40025"/>
-        <class name="datacable_trans_size_text" font="0000:微软雅黑" crtext="999999" textmode="40024"/>
-        <class name="datacable_trans_error_text" font="0000:微软雅黑" crtext="999999" textmode="40024"/>
-        <class name="datacable_trans_filename_text" font="0000:微软雅黑" crtext="3c6889" textmode="40024"/>
-        <class name="datacable_retry_link" cursor="hand" crtext="449cde" crhover="0066cc" font="0002:微软雅黑" hoverfont2="0002:微软雅黑" />
+        <class name="btn_file_from_phone" skin="btn_default" font="0000:Tahoma" crtext="ffffff" crdisabled="ffffff" textmode="25" x-margin="0"/>
+        <class name="phone_tip_text" crtext="06a8ff" font="0a00:Tahoma" textmode="25"/>
+        <class name="datacable_tip_text" crtext="333333" font="0200:Tahoma" textmode="25"/>
+        <class name="datacable_imagetip_text" crtext="999999" font="0200:Tahoma" textmode="25"/>
+        <class name="datacable_devicename_text" crtext="06a8ff" font="0200:Tahoma" textmode="40024"/>
+        <class name="datacable_peerdevicename_text" crtext="ffffff" font="0800:Tahoma" textmode="40025"/>
+        <class name="datacable_discovery_device_text" font="0000:Tahoma" crtext="666666" textmode="40025"/>
+        <class name="btn_try" skin="btn_common" font="0000:Tahoma" crtext="333333" crdisabled="999999" textmode="25" x-margin="0"/>
+        <class name="datacable_quota_text" font="0000:Tahoma" crtext="ffffff" textmode="40025"/>
+        <class name="datacable_time_text" crtext="ffffff" font="0a00:Tahoma" textmode="25"/>
+        <class name="datacable_finish_text" crtext="6eb23d" font="0000:Tahoma" textmode="29"/>
+        <class name="datacable_trans_count_text" crtext="6eb23d" font="0404:Tahoma" textmode="40025"/>
+        <class name="datacable_disconnect_link" cursor="hand" crtext="449cde" crhover="0066cc" font="0202:Tahoma" hoverfont="0202:Tahoma" />
+        <class name="datacable_accept_file_text" crtext="999999" font="0a00:Tahoma" textmode="25"/>
+        <class name="btn_send_file" skin="send_img_btn" font="0400:Tahoma" crtext="333333" crdisabled="333333" textmode="25" x-margin="0"/>
+        <class name="datacable_trans_time_text" font="0000:Tahoma" crtext="999999" textmode="40025"/>
+        <class name="datacable_trans_size_text" font="0000:Tahoma" crtext="999999" textmode="40024"/>
+        <class name="datacable_trans_error_text" font="0000:Tahoma" crtext="999999" textmode="40024"/>
+        <class name="datacable_trans_filename_text" font="0000:Tahoma" crtext="3c6889" textmode="40024"/>
+        <class name="datacable_retry_link" cursor="hand" crtext="449cde" crhover="0066cc" font="0002:Tahoma" hoverfont2="0002:Tahoma" />
         <!--手机忘带面板style定义-->
-        <class name="phone_panel_tip1_text" crtext="06a8ff" font="0a00:微软雅黑" textmode="24"/>
-        <class name="phone_panel_tip2_text" crtext="333333" font="0a00:微软雅黑" textmode="24"/>
-        <class name="phone_panel_tip3_text" crtext="666666" font="0200:微软雅黑" textmode="25"/>
-        <class name="phone_panel_tip4_text" crtext="999999" font="0004:微软雅黑" textmode="25"/>
-        <class name="phone_panel_name_text" crtext="333333" font="0200:微软雅黑" textmode="24"/>
-        <class name="phone_panel_time_text" crtext="999999" font="0000:微软雅黑" textmode="24"/>
-        <class name="phone_panel_msg_text" crtext="999999" font="0000:微软雅黑" textmode="40024"/>
-        <class name="phone_panel_msg_multi_text" crtext="999999" font="0000:微软雅黑" textmode="4"/>
-        <class name="phone_panel_calcsize_text" crtext="999999" font="0000:微软雅黑"/>
-        <class name="phone_panel_text" crtext="3c6889" font="0000:微软雅黑" textmode="25"/>
-        <class name="phone_panel_link" cursor="hand" crtext="3c6889" crhover="0696f5" font="0002:微软雅黑" hoverfont="0002:微软雅黑" textmode="40024"/>
-        <class name="btn_connect_phone" skin="phone_connect_btn" font="0600:微软雅黑" crtext="ffffff" crdisabled="ffffff" textmode="25" x-margin="0"/>
-        <class name="phone_tabsel_btn" skin="phone_tabsel_btn" crtext="0696f5" font="0000:微软雅黑" textmode="25"/>
-        <class name="phone_tabunsel_btn" skin="phone_tabunsel_btn" crtext="3c6889" font="0000:微软雅黑" textmode="25"/>
+        <class name="phone_panel_tip1_text" crtext="06a8ff" font="0a00:Tahoma" textmode="24"/>
+        <class name="phone_panel_tip2_text" crtext="333333" font="0a00:Tahoma" textmode="24"/>
+        <class name="phone_panel_tip3_text" crtext="666666" font="0200:Tahoma" textmode="25"/>
+        <class name="phone_panel_tip4_text" crtext="999999" font="0004:Tahoma" textmode="25"/>
+        <class name="phone_panel_name_text" crtext="333333" font="0200:Tahoma" textmode="24"/>
+        <class name="phone_panel_time_text" crtext="999999" font="0000:Tahoma" textmode="24"/>
+        <class name="phone_panel_msg_text" crtext="999999" font="0000:Tahoma" textmode="40024"/>
+        <class name="phone_panel_msg_multi_text" crtext="999999" font="0000:Tahoma" textmode="4"/>
+        <class name="phone_panel_calcsize_text" crtext="999999" font="0000:Tahoma"/>
+        <class name="phone_panel_text" crtext="3c6889" font="0000:Tahoma" textmode="25"/>
+        <class name="phone_panel_link" cursor="hand" crtext="3c6889" crhover="0696f5" font="0002:Tahoma" hoverfont="0002:Tahoma" textmode="40024"/>
+        <class name="btn_connect_phone" skin="phone_connect_btn" font="0600:Tahoma" crtext="ffffff" crdisabled="ffffff" textmode="25" x-margin="0"/>
+        <class name="phone_tabsel_btn" skin="phone_tabsel_btn" crtext="0696f5" font="0000:Tahoma" textmode="25"/>
+        <class name="phone_tabunsel_btn" skin="phone_tabunsel_btn" crtext="3c6889" font="0000:Tahoma" textmode="25"/>
 
         <!--功能宝箱style定义-->
-        <class name="functional_panel_btn_text" crtext="333333" crhover="999999" crpush="999999" font="0200:微软雅黑" textmode="21"/>
-        <class name="functional_panel_btn_tip" crtext="999999" font="0000:微软雅黑" textmode="21"/>
-        <class name="functional_panel_head_tip" crtext="333333" font="0c00:微软雅黑" textmode="25"/>
-        <class name="functional_panel_head_tip1" crtext="999999" font="0400:微软雅黑" textmode="25"/>
+        <class name="functional_panel_btn_text" crtext="333333" crhover="999999" crpush="999999" font="0200:Tahoma" textmode="21"/>
+        <class name="functional_panel_btn_tip" crtext="999999" font="0000:Tahoma" textmode="21"/>
+        <class name="functional_panel_head_tip" crtext="333333" font="0c00:Tahoma" textmode="25"/>
+        <class name="functional_panel_head_tip1" crtext="999999" font="0400:Tahoma" textmode="25"/>
         <!--菜单style定义-->
-        <class name="cls_menu" crtxt="000000" crtxtsel="000000" font="0000:微软雅黑"/>
+        <class name="cls_menu" crtxt="000000" crtxtsel="000000" font="0000:Tahoma"/>
         <!--登录窗口style定义-->
-        <class name="logindlg_login_btn" crtext="ffffff" crdisabled="ffffff" skin="btn_login" font="0400:微软雅黑" textmode="25"/>
-        <class name="logindlg_tip_text" crtext="333333" font="0200:微软雅黑" textmode="40025"/>
-        <class name="logindlg_captip_text" crtext="666666" font="0000:微软雅黑" textmode="40025"/>
-        <class name="logindlg_tip1_text" crtext="666666" font="0200:微软雅黑" textmode="40025"/>
-        <class name="logindlg_button" skin="btn_common" font="0200:微软雅黑" crtext="333333" crdisabled="91a7c0" textmode="25" x-margin="0"/>
+        <class name="logindlg_login_btn" crtext="ffffff" crdisabled="ffffff" skin="btn_login" font="0400:Tahoma" textmode="25"/>
+        <class name="logindlg_tip_text" crtext="333333" font="0200:Tahoma" textmode="40025"/>
+        <class name="logindlg_captip_text" crtext="666666" font="0000:Tahoma" textmode="40025"/>
+        <class name="logindlg_tip1_text" crtext="666666" font="0200:Tahoma" textmode="40025"/>
+        <class name="logindlg_button" skin="btn_common" font="0200:Tahoma" crtext="333333" crdisabled="91a7c0" textmode="25" x-margin="0"/>
         <!--分享style定义-->
-        <class name="share_panel_msg_text" crtext="999999" font="0000:微软雅黑" textmode="40024"/>
-        <class name="share_tab_btn" cursor="arrow" crtext="333333" crhover="06a8ff" font="0000:微软雅黑" textmode="25"/>
-        <class name="share_tab_btn_sel" cursor="arrow" crtext="ffffff" crhover="ffffff" font="0000:微软雅黑" textmode="25"/>
-        <class name="share_panel_common_text" crtext="333333" font="0000:微软雅黑" textmode="40024"/>
-        <class name="share_panel_name_text" crtext="333333" font="0200:微软雅黑" textmode="40024"/>
-        <class name="share_panel_tip_text" crtext="999999" font="0000:微软雅黑" textmode="40024"/>
-        <class name="share_panel_time_text" crtext="999999" font="0000:微软雅黑" textmode="40026"/>
-        <class name="share_panel_unread_num_text" crtext="ffffff" font="0000:微软雅黑" textmode="40025"/>
-        <class name="share_panel_username_text" crtext="333333" font="0400:微软雅黑" textmode="40025"/>
-        <class name="share_file_btn" cursor="arrow" crtext="ffffff" crdisabled="ffffff" skin="share_filebtn" font="0000:微软雅黑" textmode="25"/>
-        <class name="share_common_btn" cursor="arrow" crtext="333333" skin="share_commonbtn" font="0000:微软雅黑" textmode="25"/>
-        <class name="share_empty_text" crtext="333333" font="0000:微软雅黑" textmode="25"/>
-        <class name="share_panel_member_text" crtext="333333" font="0000:微软雅黑" textmode="40025"/>
-        <class name="share_panel_msg_title_text" crtext="333333" font="0200:微软雅黑" textmode="40025"/>
-        <class name="share_filefactory_btn" cursor="arrow" crtext="333333" crhover="06a8ff" crpush="06a8ff" skin="share_filefactorybtn" font="0000:微软雅黑" textmode="26"/>
-        <class name="share_back_btn" cursor="arrow" crtext="999999" crhover="35abf9" skin="share_backbtn" font="0000:微软雅黑" textmode="26"/>
-        <class name="share_msg_time_text" crtext="999999" font="0000:微软雅黑" textmode="40025"/>
-        <class name="share_msg_name_text" crtext="999999" font="0000:微软雅黑" textmode="40024"/>
-        <class name="share_self_name_text" crtext="999999" font="0000:微软雅黑" textmode="40026"/>
-        <class name="share_file_name_text" cursor="hand" crtext="333333" crhover="1e78d5" font="0000:微软雅黑" hoverfont="0002:微软雅黑" textmode="40024"/>
-        <class name="share_invite_text" crtext="999999" font="0000:微软雅黑"/>
-        <class name="share_newfriend_verify_text" crtext="666666" font="0000:微软雅黑" textmode="40024"/>
-        <class name="share_newfriend_reject_text" crtext="999999" font="0000:微软雅黑" textmode="40025"/>
-        <class name="share_newfriend_verify_panel_text" crtext="666666" font="0000:微软雅黑" textmode="40010"/>
-        <class name="share_msgdown_btn" cursor="arrow" crtext="333333" crhover="06a8ff" font="0200:微软雅黑" skin="share_msgdownbtn" textmode="40024"/>
-        <class name="share_groupqrcode_tip_text" crtext="06a8ff" font2="facename:微软雅黑;adding:-1" textmode="40825"/>
-        <class name="share_groupqrcode_fail_text" crtext="333333" font="0000:微软雅黑" textmode="40825"/>
-        <class name="share_groupqrcode_foibidden_text" crtext="333333" font="0000:微软雅黑" textmode="40815"/>
-        <class name="share_groupqrcode_scantip_text" crtext="999999" font2="facename:微软雅黑;adding:-1" textmode="40825"/>
-        <class name="share_groupqrcode_name_txt" crtext="333333" font="0200:微软雅黑" textmode="40825"/>
-        <class name="share_groupqrcode_desc_txt" crtext="999999" font2="facename:微软雅黑;adding:-1" textmode="40815"/>
+        <class name="share_panel_msg_text" crtext="999999" font="0000:Tahoma" textmode="40024"/>
+        <class name="share_tab_btn" cursor="arrow" crtext="333333" crhover="06a8ff" font="0000:Tahoma" textmode="25"/>
+        <class name="share_tab_btn_sel" cursor="arrow" crtext="ffffff" crhover="ffffff" font="0000:Tahoma" textmode="25"/>
+        <class name="share_panel_common_text" crtext="333333" font="0000:Tahoma" textmode="40024"/>
+        <class name="share_panel_name_text" crtext="333333" font="0200:Tahoma" textmode="40024"/>
+        <class name="share_panel_tip_text" crtext="999999" font="0000:Tahoma" textmode="40024"/>
+        <class name="share_panel_time_text" crtext="999999" font="0000:Tahoma" textmode="40026"/>
+        <class name="share_panel_unread_num_text" crtext="ffffff" font="0000:Tahoma" textmode="40025"/>
+        <class name="share_panel_username_text" crtext="333333" font="0400:Tahoma" textmode="40025"/>
+        <class name="share_file_btn" cursor="arrow" crtext="ffffff" crdisabled="ffffff" skin="share_filebtn" font="0000:Tahoma" textmode="25"/>
+        <class name="share_common_btn" cursor="arrow" crtext="333333" skin="share_commonbtn" font="0000:Tahoma" textmode="25"/>
+        <class name="share_empty_text" crtext="333333" font="0000:Tahoma" textmode="25"/>
+        <class name="share_panel_member_text" crtext="333333" font="0000:Tahoma" textmode="40025"/>
+        <class name="share_panel_msg_title_text" crtext="333333" font="0200:Tahoma" textmode="40025"/>
+        <class name="share_filefactory_btn" cursor="arrow" crtext="333333" crhover="06a8ff" crpush="06a8ff" skin="share_filefactorybtn" font="0000:Tahoma" textmode="26"/>
+        <class name="share_back_btn" cursor="arrow" crtext="999999" crhover="35abf9" skin="share_backbtn" font="0000:Tahoma" textmode="26"/>
+        <class name="share_msg_time_text" crtext="999999" font="0000:Tahoma" textmode="40025"/>
+        <class name="share_msg_name_text" crtext="999999" font="0000:Tahoma" textmode="40024"/>
+        <class name="share_self_name_text" crtext="999999" font="0000:Tahoma" textmode="40026"/>
+        <class name="share_file_name_text" cursor="hand" crtext="333333" crhover="1e78d5" font="0000:Tahoma" hoverfont="0002:Tahoma" textmode="40024"/>
+        <class name="share_invite_text" crtext="999999" font="0000:Tahoma"/>
+        <class name="share_newfriend_verify_text" crtext="666666" font="0000:Tahoma" textmode="40024"/>
+        <class name="share_newfriend_reject_text" crtext="999999" font="0000:Tahoma" textmode="40025"/>
+        <class name="share_newfriend_verify_panel_text" crtext="666666" font="0000:Tahoma" textmode="40010"/>
+        <class name="share_msgdown_btn" cursor="arrow" crtext="333333" crhover="06a8ff" font="0200:Tahoma" skin="share_msgdownbtn" textmode="40024"/>
+        <class name="share_groupqrcode_tip_text" crtext="06a8ff" font2="facename:Tahoma;adding:-1" textmode="40825"/>
+        <class name="share_groupqrcode_fail_text" crtext="333333" font="0000:Tahoma" textmode="40825"/>
+        <class name="share_groupqrcode_foibidden_text" crtext="333333" font="0000:Tahoma" textmode="40815"/>
+        <class name="share_groupqrcode_scantip_text" crtext="999999" font2="facename:Tahoma;adding:-1" textmode="40825"/>
+        <class name="share_groupqrcode_name_txt" crtext="333333" font="0200:Tahoma" textmode="40825"/>
+        <class name="share_groupqrcode_desc_txt" crtext="999999" font2="facename:Tahoma;adding:-1" textmode="40815"/>
         <!--批量上传窗口style定义-->
-        <class name="batchuploaddlg_guide_text" crtext="333333" font="0000:微软雅黑" textmode="40025"/>
-        <class name="autoupgrade_tip_dlg_link" crtext="ffec2e" font="0002:微软雅黑" textmode="40025" cursor="hand"/>
-        <class name="batchuploaddlg_defultbtn" skin="batch_upload_upgrade_btn" font="0000:微软雅黑" crtext="9d652e" crdisabled="9d652e" textmode="25" x-margin="0"/>
+        <class name="batchuploaddlg_guide_text" crtext="333333" font="0000:Tahoma" textmode="40025"/>
+        <class name="autoupgrade_tip_dlg_link" crtext="ffec2e" font="0002:Tahoma" textmode="40025" cursor="hand"/>
+        <class name="batchuploaddlg_defultbtn" skin="batch_upload_upgrade_btn" font="0000:Tahoma" crtext="9d652e" crdisabled="9d652e" textmode="25" x-margin="0"/>
 
         <!--自动备份升级style定义-->
-        <class name="backup_unlock_dlg_link" crtext="438af7" font="0002:微软雅黑" textmode="40025" cursor="hand"/>
+        <class name="backup_unlock_dlg_link" crtext="438af7" font="0002:Tahoma" textmode="40025" cursor="hand"/>
 
         <!--云解压style定义-->
-        <class name="passwordinputdlg_confirm_text" skin="btn_default" crtext="ffffff" crdisabled="ffffff" cursor="arrow" font="0200:微软雅黑" textmode="25"/>
-        <class name="compresspackage_filename_link" font="0000:微软雅黑" hoverfont="0002:微软雅黑" crtext="333333" cursor="hand" crhover="757880" textmode="40824"/>
-        <class name="compresspackage_font_lightdark" font="0000:微软雅黑" crtext="999999" cursor="arrow" textmode="25"/>
-        <class name="compresspackage_font_dark" font="0000:微软雅黑" crtext="333333" cursor="arrow" textmode="25"/>
-        <class name="preparedlg_vip_font" font="0201:微软雅黑" crtext="333333" cursor="arrow"/>
+        <class name="passwordinputdlg_confirm_text" skin="btn_default" crtext="ffffff" crdisabled="ffffff" cursor="arrow" font="0200:Tahoma" textmode="25"/>
+        <class name="compresspackage_filename_link" font="0000:Tahoma" hoverfont="0002:Tahoma" crtext="333333" cursor="hand" crhover="757880" textmode="40824"/>
+        <class name="compresspackage_font_lightdark" font="0000:Tahoma" crtext="999999" cursor="arrow" textmode="25"/>
+        <class name="compresspackage_font_dark" font="0000:Tahoma" crtext="333333" cursor="arrow" textmode="25"/>
+        <class name="preparedlg_vip_font" font="0201:Tahoma" crtext="333333" cursor="arrow"/>
         <!--用户引导面板style定义-->
-        <class name="guide_dlg_frame" skin="title_bkskin" font="0000:微软雅黑" crtext="FFFFFF" x-margin="0"/>
+        <class name="guide_dlg_frame" skin="title_bkskin" font="0000:Tahoma" crtext="FFFFFF" x-margin="0"/>
 
         <!--垃圾清理面板style定义-->
-        <class name="cls_scan_link" cursor="arrow" font="0500:微软雅黑" crtext="ffffff" crhover="9ec7fe" align="center"/>
-        <class name="cls_desc_txt" cursor="arrow" font="0200:微软雅黑" crtext="9ec7fe" align="center"/>
-        <class name="cls_garbageclean_return_link" cursor="arrow" font="0200:微软雅黑" crtext="ffffff" crhover="9ec7fe" crdisabled="9ec7fe"/>
-        <class name="cls_garbagecleanview_link" cursor="arrow" font="0200:微软雅黑" crtext="ffffff" crhover="9ec7fe" crdisabled="9ec7fe"/>
-        <class name="cls_garbageview_link" crtext="333333" crhover="333333" font="0000:微软雅黑" hoverfont="0002:微软雅黑" align="left"/>
-        <class name="cls_garbageview_txt" crtext="666666" font="0000:微软雅黑" align="left"/>
-        <class name="cls_garbageview_batch_txt" crtext="999999" font="0000:微软雅黑" align="center"/>
-        <class name="cls_parentpath_link" crtext="666666" font="0000:微软雅黑" hoverfont="0002:微软雅黑" align="left" cursor="hand"/>
+        <class name="cls_scan_link" cursor="arrow" font="0500:Tahoma" crtext="ffffff" crhover="9ec7fe" align="center"/>
+        <class name="cls_desc_txt" cursor="arrow" font="0200:Tahoma" crtext="9ec7fe" align="center"/>
+        <class name="cls_garbageclean_return_link" cursor="arrow" font="0200:Tahoma" crtext="ffffff" crhover="9ec7fe" crdisabled="9ec7fe"/>
+        <class name="cls_garbagecleanview_link" cursor="arrow" font="0200:Tahoma" crtext="ffffff" crhover="9ec7fe" crdisabled="9ec7fe"/>
+        <class name="cls_garbageview_link" crtext="333333" crhover="333333" font="0000:Tahoma" hoverfont="0002:Tahoma" align="left"/>
+        <class name="cls_garbageview_txt" crtext="666666" font="0000:Tahoma" align="left"/>
+        <class name="cls_garbageview_batch_txt" crtext="999999" font="0000:Tahoma" align="center"/>
+        <class name="cls_parentpath_link" crtext="666666" font="0000:Tahoma" hoverfont="0002:Tahoma" align="left" cursor="hand"/>
         <!--视频播放器样式定义-->
         <class name="cls_video_frame" font="0000:Arial" textmode="25" crtext="ffffff" crbg="000000"></class>
         <class name="cls_video_dlg_frame" skin="video_skin_bg_temp" font="0000" crtext="FFFFFF" x-margin="0"/>
         <class name="cls_video_dlg_model_select" crtext="ffffff" crhover="008AFF" skin="video_skin_toolbar_bg"/>
-        <class name="cls_video_dlg_words_btn" crtext="ffffff" font="0000:微软雅黑" skin="video_imglist_words_btn"/>
-        <class name="cls_video_definition_dlg_words_btn" crtext="ffffff" crhover="ffffff" font="0000:微软雅黑" skin="video_imglist_words_btn"/>
-        <class name="cls_video_subtitle_txt_gray" crtext="A4A4A4" font="0000:微软雅黑" crdisabled="4c4c4c"/>
-        <class name="cls_video_subtitle_txt_white" crtext="ffffff" font="0000:微软雅黑" crdisabled="4c4c4c"/>
-        <class name="cls_video_subtitle_txt_blue" crtext="3a8cff" font="0000:微软雅黑" crdisabled="4c4c4c"/>
-        <class name="cls_video_overspeed_item_blue_btn" skin="video_overspeed_blue_btn"  crtext="ffffff" crhover="ffffff" font="0000:微软雅黑" cursor="arrow"/>
-        <class name="cls_video_overspeed_item_blue_checked_btn" skin="video_overspeed_blue_btn"  crtext="3887ff" crhover="ffffff" font="0000:微软雅黑" cursor="arrow"/>
-        <class name="cls_video_overspeed_item_yellow_btn" skin="video_overspeed_yellow_btn" crtext="ffffff" crhover="1a1a1a" font="0000:微软雅黑" cursor="arrow"/>
-        <class name="cls_video_overspeed_item_yellow_checked_btn" skin="video_overspeed_yellow_btn" crtext="f9d680" crhover="1a1a1a" font="0000:微软雅黑" cursor="arrow"/>
-        <class name="cls_video_overspeed_vip_btn" crtext="f9d680" crhover="f9d680" font="0000:微软雅黑" skin="video_overspeed_svip_btn" cursor="arrow"/>
-        <class name="cls_video_playlist_filename" crtext="333333" crhover="06a8ff" font="0000:微软雅黑" hoverfont="0000:微软雅黑" align="left"/>
-        <class name="cls_video_playlist_tab_btn" crtext="d2d2d2" font="0200:微软雅黑" crhover="06a7ff" hoverfont="0200:微软雅黑" align="left" valign="middle" cursor="arrow"/>
+        <class name="cls_video_dlg_words_btn" crtext="ffffff" font="0000:Tahoma" skin="video_imglist_words_btn"/>
+        <class name="cls_video_definition_dlg_words_btn" crtext="ffffff" crhover="ffffff" font="0000:Tahoma" skin="video_imglist_words_btn"/>
+        <class name="cls_video_subtitle_txt_gray" crtext="A4A4A4" font="0000:Tahoma" crdisabled="4c4c4c"/>
+        <class name="cls_video_subtitle_txt_white" crtext="ffffff" font="0000:Tahoma" crdisabled="4c4c4c"/>
+        <class name="cls_video_subtitle_txt_blue" crtext="3a8cff" font="0000:Tahoma" crdisabled="4c4c4c"/>
+        <class name="cls_video_overspeed_item_blue_btn" skin="video_overspeed_blue_btn"  crtext="ffffff" crhover="ffffff" font="0000:Tahoma" cursor="arrow"/>
+        <class name="cls_video_overspeed_item_blue_checked_btn" skin="video_overspeed_blue_btn"  crtext="3887ff" crhover="ffffff" font="0000:Tahoma" cursor="arrow"/>
+        <class name="cls_video_overspeed_item_yellow_btn" skin="video_overspeed_yellow_btn" crtext="ffffff" crhover="1a1a1a" font="0000:Tahoma" cursor="arrow"/>
+        <class name="cls_video_overspeed_item_yellow_checked_btn" skin="video_overspeed_yellow_btn" crtext="f9d680" crhover="1a1a1a" font="0000:Tahoma" cursor="arrow"/>
+        <class name="cls_video_overspeed_vip_btn" crtext="f9d680" crhover="f9d680" font="0000:Tahoma" skin="video_overspeed_svip_btn" cursor="arrow"/>
+        <class name="cls_video_playlist_filename" crtext="333333" crhover="06a8ff" font="0000:Tahoma" hoverfont="0000:Tahoma" align="left"/>
+        <class name="cls_video_playlist_tab_btn" crtext="d2d2d2" font="0200:Tahoma" crhover="06a7ff" hoverfont="0200:Tahoma" align="left" valign="middle" cursor="arrow"/>
 
         <!--标题栏style定义-->
-        <class name="cls_titlepanel_btn" crtext="333333" font="0200:微软雅黑" crhover="06a8ff" hoverfont="0200:微软雅黑" align="left" valign="middle" cursor="arrow"/>
-        <class name="cls_titlepanel_vipcenter_btn" crtext="000000" font="0000:微软雅黑" textmode="40825" cursor="hand" skin="titlepanel_vipcenter_btn"/>
-        <class name="cls_titlepanel_resident_txt" crtext="c58c55" font="0000:微软雅黑" crhover="c58c55" hoverfont="0000:微软雅黑" align="left" cursor="arrow"/>
-        <class name="cls_titlepanel_resident_link" crtext="c58c55" font="0002:微软雅黑" crhover="c58c55" hoverfont="0002:微软雅黑" align="left" cursor="hand"/>
-        <class name="cls_usercard_normal_btn" skin="usercard_normal_btn" cursor="arrow" crtext="4c4c4c" crhover="4c4c4c" font="0000:微软雅黑" hoverfont="0000:微软雅黑" align="left"/>
-        <class name="cls_usercard_vip_txt" crtext="ffffff" font="0000:微软雅黑" cursor="arrow"/>
-        <class name="cls_usercard_user_point_txt" crtext="1e78d5" font="0000:微软雅黑" cursor="arrow" textmode="40824"/>
-        <class name="cls_usercard_svip_txt" crtext="946738" font="0000:微软雅黑" cursor="arrow"/>
+        <class name="cls_titlepanel_btn" crtext="333333" font="0200:Tahoma" crhover="06a8ff" hoverfont="0200:Tahoma" align="left" valign="middle" cursor="arrow"/>
+        <class name="cls_titlepanel_vipcenter_btn" crtext="000000" font="0000:Tahoma" textmode="40825" cursor="hand" skin="titlepanel_vipcenter_btn"/>
+        <class name="cls_titlepanel_resident_txt" crtext="c58c55" font="0000:Tahoma" crhover="c58c55" hoverfont="0000:Tahoma" align="left" cursor="arrow"/>
+        <class name="cls_titlepanel_resident_link" crtext="c58c55" font="0002:Tahoma" crhover="c58c55" hoverfont="0002:Tahoma" align="left" cursor="hand"/>
+        <class name="cls_usercard_normal_btn" skin="usercard_normal_btn" cursor="arrow" crtext="4c4c4c" crhover="4c4c4c" font="0000:Tahoma" hoverfont="0000:Tahoma" align="left"/>
+        <class name="cls_usercard_vip_txt" crtext="ffffff" font="0000:Tahoma" cursor="arrow"/>
+        <class name="cls_usercard_user_point_txt" crtext="1e78d5" font="0000:Tahoma" cursor="arrow" textmode="40824"/>
+        <class name="cls_usercard_svip_txt" crtext="946738" font="0000:Tahoma" cursor="arrow"/>
 
         <!--侧边栏style定义-->
-        <class name="cls_leftpanel_txt_normal" crtext="333333" font="0000:微软雅黑" align="left" cursor="arrow"/>
-        <class name="cls_leftpanel_txt_hover" crtext="06a8ff" font="0000:微软雅黑" align="left" cursor="arrow"/>
+        <class name="cls_leftpanel_txt_normal" crtext="333333" font="0000:Tahoma" align="left" cursor="arrow"/>
+        <class name="cls_leftpanel_txt_hover" crtext="06a8ff" font="0000:Tahoma" align="left" cursor="arrow"/>
         <class name="cls_leftpanel_progress_bkg" crbg="e1e1e1"/>
         <class name="cls_leftpanel_progress_frg_green" crbg="06a8ff"/>
         <class name="cls_leftpanel_progress_frg_yellow" crbg="ff9743"/>
@@ -953,45 +953,45 @@
         <class name="cls_leftpanel_category_push" crbg="e0f2fb"/>
 
         <!--传输列表左侧面板style定义-->
-        <class name="cls_transleftpanel_op_btn" crtext="333333" crhover="06a8ff" font="000:微软雅黑" align="left" cursor="arrow"/>
-        <class name="cls_leftpanel_guide_link" cursor="hand" crtext="1e78d5" crhover="1e78d5" font2="facename:微软雅黑;adding:-1" hoverfont2="facename:微软雅黑;underline:1;adding:-1" align="left"/>
-        <class name="cls_leftpanel_guide_txt" crtext="8b8b8b" font2="facename:微软雅黑;adding:-1" align="left"/>
+        <class name="cls_transleftpanel_op_btn" crtext="333333" crhover="06a8ff" font="000:Tahoma" align="left" cursor="arrow"/>
+        <class name="cls_leftpanel_guide_link" cursor="hand" crtext="1e78d5" crhover="1e78d5" font2="facename:Tahoma;adding:-1" hoverfont2="facename:Tahoma;underline:1;adding:-1" align="left"/>
+        <class name="cls_leftpanel_guide_txt" crtext="8b8b8b" font2="facename:Tahoma;adding:-1" align="left"/>
 
         <!--编辑窗口style定义-->
-        <class name="cls_wnd_edit" x-margin="2" y-margin="2" ncskin="edit_wnd_bkg" font="0400:微软雅黑" crtext="333333"/>
+        <class name="cls_wnd_edit" x-margin="2" y-margin="2" ncskin="edit_wnd_bkg" font="0400:Tahoma" crtext="333333"/>
         <!--主面板提速引导style定义-->
-        <class name="cls_speedup_tip_txt" crtext="333333" font="0000:微软雅黑" textmode="40824" cursor="arrow"/>
-        <class name="cls_speedup_btn_txt" crtext="1d1501" font="0000:微软雅黑" textmode="40825" skin="speeduptippanel_try_btn" cursor="arrow"/>
-        <class name="cls_speedupextend_btn_txt" crtext="06a7ff" font="0000:微软雅黑" textmode="40825" skin="speeduptickettippanel_extend_btn" cursor="arrow"/>
-        <class name="cls_speedupuse_btn_txt" crtext="ffffff" font="0000:微软雅黑" textmode="40825" skin="speeduptickettippanel_use_btn" cursor="arrow"/>
-        <class name="cls_speedupcorner_btn_txt" crtext="ffffff" font2="facename:微软雅黑;adding:-3" textmode="40825" skin="speeduptickettippanel_corner" cursor="arrow"/>
+        <class name="cls_speedup_tip_txt" crtext="333333" font="0000:Tahoma" textmode="40824" cursor="arrow"/>
+        <class name="cls_speedup_btn_txt" crtext="1d1501" font="0000:Tahoma" textmode="40825" skin="speeduptippanel_try_btn" cursor="arrow"/>
+        <class name="cls_speedupextend_btn_txt" crtext="06a7ff" font="0000:Tahoma" textmode="40825" skin="speeduptickettippanel_extend_btn" cursor="arrow"/>
+        <class name="cls_speedupuse_btn_txt" crtext="ffffff" font="0000:Tahoma" textmode="40825" skin="speeduptickettippanel_use_btn" cursor="arrow"/>
+        <class name="cls_speedupcorner_btn_txt" crtext="ffffff" font2="facename:Tahoma;adding:-3" textmode="40825" skin="speeduptickettippanel_corner" cursor="arrow"/>
 
-        <class name="cls_sub_director_panel_txt" cursor="hand" crtext="333333" crhover="1e78d5" font="0000:微软雅黑" textmode="40824"/>
+        <class name="cls_sub_director_panel_txt" cursor="hand" crtext="333333" crhover="1e78d5" font="0000:Tahoma" textmode="40824"/>
         <!--隐藏空间面板style定义-->
         <class name="cls_safeboxpanel_edit" x-margin="2" y-margin="2" ncskin="mainpanel_safebox_edit" crtext="757880"/>
         <class name="cls_safeboxpanel_vcode_edit" x-margin="2" y-margin="2" ncskin="mainpanel_safebox_edit" crtext="333333"/>
-        <class name="cls_safeboxpanel_act_btn" crtext="ffffff" crdisabled="ffffff" font="0200:微软雅黑" textmode="40825" cursor="arrow" skin="mainpanel_safebox_actbtn"/>
+        <class name="cls_safeboxpanel_act_btn" crtext="ffffff" crdisabled="ffffff" font="0200:Tahoma" textmode="40825" cursor="arrow" skin="mainpanel_safebox_actbtn"/>
         <!--图片预览面板-->
-        <class name="cls_imagepanel_link" cursor="hand" crtext="ffffff" crhover="ffffff" font="0000:微软雅黑" hoverfont="0002:微软雅黑" />
-        <class name="cls_imagepanel_txt_white" crtext="ffffff" font="0000:微软雅黑" align="left"/>
-        <class name="cls_imagepanel_txt_gray" crtext="999999" font="0000:微软雅黑" align="left"/>
-        <class name="cls_imagepanel_btn_collapse" skin="imageviewpanel_btn_collapse" crtext="ffffff" crhover="0586ff" font="0400:微软雅黑" textmode="40824" />
+        <class name="cls_imagepanel_link" cursor="hand" crtext="ffffff" crhover="ffffff" font="0000:Tahoma" hoverfont="0002:Tahoma" />
+        <class name="cls_imagepanel_txt_white" crtext="ffffff" font="0000:Tahoma" align="left"/>
+        <class name="cls_imagepanel_txt_gray" crtext="999999" font="0000:Tahoma" align="left"/>
+        <class name="cls_imagepanel_btn_collapse" skin="imageviewpanel_btn_collapse" crtext="ffffff" crhover="0586ff" font="0400:Tahoma" textmode="40824" />
 
         <!--外链分享列表面板-->
-        <class name="cls_sharelist_panel_copy_button" skin="sharelist_copy_btn2" font="0000:微软雅黑" crtext="333333" crdisabled="91a7c0" textmode="25" x-margin="0"/>
-        <class name="cls_dragdrop_link" cursor="arrow" crtext="555555" crhover="555555" font="0000:微软雅黑" textmode="40025"/>
+        <class name="cls_sharelist_panel_copy_button" skin="sharelist_copy_btn2" font="0000:Tahoma" crtext="333333" crdisabled="91a7c0" textmode="25" x-margin="0"/>
+        <class name="cls_dragdrop_link" cursor="arrow" crtext="555555" crhover="555555" font="0000:Tahoma" textmode="40025"/>
 
         <!--最近使用-->
-        <class name="cls_record_viewmore_num" crtext="d9d9d9" font="1000:微软雅黑" align="center" valign="middle"/>
-        <class name="cls_record_viewmore_txt" crtext="d9d9d9" font="0200:微软雅黑" align="center" valign="middle"/>
+        <class name="cls_record_viewmore_num" crtext="d9d9d9" font="1000:Tahoma" align="center" valign="middle"/>
+        <class name="cls_record_viewmore_txt" crtext="d9d9d9" font="0200:Tahoma" align="center" valign="middle"/>
         <!--最近使用-->
-        <class name="cls_func_guide_tip_txt" crtext="06a7ff" font="0000:微软雅黑" align="left" valign="middle"/>
-        <class name="cls_func_guide_tip_link" crtext="06a7ff" font="0002:微软雅黑" align="left" valign="middle"/>
+        <class name="cls_func_guide_tip_txt" crtext="06a7ff" font="0000:Tahoma" align="left" valign="middle"/>
+        <class name="cls_func_guide_tip_link" crtext="06a7ff" font="0002:Tahoma" align="left" valign="middle"/>
 
         <!--视频清晰度切换-->
-        <class name="cls_video_definition_item_blue_btn"  skin="video_overspeed_blue_btn" crtext="ffffff" crhover="ffffff" font="0000:微软雅黑" cursor="arrow"/>
-        <class name="cls_video_definition_item_yellow_btn" skin="video_overspeed_yellow_btn" crtext="ffffff" crhover="ffffff" font="0000:微软雅黑" cursor="arrow"/>
-        <class name="cls_video_definition_script_text" skin="definition_script" crtext="42230C"  font2="facename:微软雅黑;bold:0;italic:0;underline:0;adding:-2" cursor="arrow" align="center" valign="middle" />
+        <class name="cls_video_definition_item_blue_btn"  skin="video_overspeed_blue_btn" crtext="ffffff" crhover="ffffff" font="0000:Tahoma" cursor="arrow"/>
+        <class name="cls_video_definition_item_yellow_btn" skin="video_overspeed_yellow_btn" crtext="ffffff" crhover="ffffff" font="0000:Tahoma" cursor="arrow"/>
+        <class name="cls_video_definition_script_text" skin="definition_script" crtext="42230C"  font2="facename:Tahoma;bold:0;italic:0;underline:0;adding:-2" cursor="arrow" align="center" valign="middle" />
     </style>
 
     <objattr>
