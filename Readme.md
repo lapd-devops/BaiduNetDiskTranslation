@@ -2,7 +2,7 @@
 
 Localization of the **BaiduNetDisk** program for PC in 
 
-* **Russian(ru-RU)** :ru:
+* **Russian(ru-RU)** 
 * **English(en-GB)** 
 
 
