@@ -3,7 +3,7 @@
 Localization of the **BaiduNetDisk** program for PC in **Russian(ru-RU) ,
 English(en-GB)**
 # Download 
-> [Download localizaion](https://github.com/zloisupport/BaiduNetDiskTranslation/releases)
+> [Download localization](https://github.com/zloisupport/BaiduNetDiskTranslation/releases)
 
 > [Download a modified installer with a choice of localization language](https://drive.google.com/drive/folders/1bzDB5z8eOCnVITvIvLw8_0fuZdKNJ0UC)
 # Screen
