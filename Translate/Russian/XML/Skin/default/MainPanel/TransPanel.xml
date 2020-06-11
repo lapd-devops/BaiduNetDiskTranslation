@@ -21,8 +21,15 @@
 									</IBGRegionPanel>
 									<IBGButton name="delBtn" dock="DOCK_RIGHT" size="80,23" config="button" text="$2244" margin="0, 8, 20, 3"/>
 									<IBGButton name="opBtn" dock="DOCK_RIGHT" size="80,23" config="button" text="$2243" margin="12, 8, 8, 3" enable="false"/>
-									<IBGRegionPanel size="80,34" margin="0, 0, 0, 0" dock="DOCK_RIGHT">
+									<IBGRegionPanel size="160,34" margin="0, 0, 0, 0" dock="DOCK_RIGHT">
 										<Children>
+											<IBGStaticEx name="speedupSpeed" autoCalcHeight="true" autoCalcWidth="true" textClr="0xf9ab35" margin="8, 11, 0, 7" dock="DOCK_RIGHT">
+												<Properties>
+													<textFont>
+														<IBGFont height="16"/>
+													</textFont>
+												</Properties>
+											</IBGStaticEx>
 											<IBGStaticEx name="transSpeed" autoCalcHeight="true" autoCalcWidth="true" textClr="0xf9ab35" margin="0, 10, 0, 8" dock="DOCK_RIGHT"/>
 										</Children>
 									</IBGRegionPanel>
@@ -128,7 +135,7 @@
 								<Children>
 									<!--引导文案最长490*36，高亮颜色0x0877d5(20h)-->
 									<IBGGIFControl dock="DOCK_LEFT" margin="14, 19, 8, 20" image="Resource:MainFrame\\MainPanel\\SpeedupTip\\tip_smile.png" size="15, 15"></IBGGIFControl>
-									<IBGStaticEx name="guideSpeedupTip" autoCalcHeight="true" autoCalcWidth="true" text="$2765" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
+									<IBGStaticEx name="guideSpeedupTip" autoCalcHeight="true" autoCalcWidth="true" text="$2771" dock="DOCK_LEFT" textClr="0x333333" margin="0, 19, 0, 17">
 										<Properties>
 											<textFont>
 												<IBGFont height="18"/>

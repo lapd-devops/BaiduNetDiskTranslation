@@ -807,6 +807,15 @@
   <String id="IDS_SPEEDUP_END_DEFAULT_TIP" value="Купите пакет ускорения и можете наслаждаться ускоренной скоростью" />
   <String id="IDS_SPEEDUP_REMINDING_TIP" value="(осталось%d секунд ускоренной скорости)" />
   <String id="IDS_SPEEDUP_SPEEDING_TIP" value="Ускорить" />
+
+
+  <!--p2pУскорить советы -->
+  <String id="IDS_P2PSPEEDUP_OPEN_TIP" value="Включение функции ускорения загрузки может увеличить скорость загрузки для вас.%0.1f%%Пользователей получают%0.1fРаз быстрее" />
+  <String id="IDS_P2PSPEEDUP_OPEN_DEFAULT_TIP" value="Включение функции ускорения загрузки может повысить скорость загрузки для вас.3.2раз" />
+  <String id="IDS_P2PSPEEDUP_BTN_OPEN" value="Посмотреть и открыть" />
+  <String id="IDS_P2PSPEEDUP_SET_TIP" value="Ускорение в режиме ускорения, ускорено для вас%0.1f Раз вы можете управлять функцией ускорения загрузки на странице настроек." />
+  <String id="IDS_P2PSPEEDUP_BTN_SET" value="Установить" />
+
   <!--Советы по быстрой загрузке купонов -->
   <String id="IDS_SPEEDUP_BTN_EXTEND" value="Продолжайте ускоряться" />
   <String id="IDS_SPEEDUPTICKET_REMINDING_TIP" value="(оставшиеся%d секунд)" />
@@ -1212,7 +1221,7 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="Открытие VIP, неограниченное количество файлов резервных копий" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="Открыть сейчас>" />
 
-  <!--PDF转Word气泡-->
+  <!--PDF в Word Bubble-->
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="Преобразование выполнено успешно" />
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="Успешно преобразован в документ Word" />
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_END_TIP" value="”" />
@@ -1232,4 +1241,22 @@
   <String id="IDS_UPLOADLOG_NOTIFY_START_TITLE" value="Обработка обратной связи" />
   <String id="IDS_UPLOADLOG_NOTIFY_START_TIP" value="Ваш отзыв получен, пожалуйста, будьте терпеливы~" />
   
+
+   <!--Взаимо помощь-->
+   <String id="IDS_HELP_EACHOTHER_TITLE" value="Ускорение загрузки：" />
+   <String id="IDS_HELP_EACHOTHER_SWITCH" value="Используйте пропускную способность, чтобы ускорить загрузку или обменять очки" />
+   <String id="IDS_HELP_EACHOTHER_OVERSPEED_MODE" value="Режим ускорения" />
+   <String id="IDS_HELP_EACHOTHER_OVERSPEED_INTERPRETATION_TIP" value="В «режиме ускорения» пропускная способность загрузки на холостом ходу на стороне компьютера формируется в уникальный канал передачи для ускорения загрузки файлов и ввода их в канал передачи с использованием стороны компьютера. Baidu SkyDrive будет отдавать приоритет использованию пользователей в Интернете посредством интеллектуального управления передачей, не влияя на работу в Интернете." />
+   <String id="IDS_HELP_EACHOTHER_GET_SCORE_MODE" value="Режим ускоренной загрузки："/>
+   <String id="IDS_HELP_EACHOTHER_GET_SCORE_INTERPRETATION_TIP" value="В «Режимe ускоренной загрузки：» пользователь может получить вознаграждение в виде очков, соответствующее степени вклада, но не получает эффекта ускорения загрузки. Очки рассчитываются на ежедневной основе и будут начислены самое позднее до нуля на следующий день. Вы можете войти в приложение мобильного телефона сетевого диска и проверить точки в центре задач для получения подробной информации о точках."/>
+   <String id="IDS_CLOSE_P2P_TIP" value="Отключение функции ускорения загрузки больше не будет потреблять ресурсы и больше не будет использовать ускоренные услуги или бонусные баллы. Эта функция увеличила среднюю скорость пользователей в 3,2 раза, пожалуйста, используйте ее снова ~"/>
+   <String id="IDS_FIX_CLOSE_P2P" value="Отключить ускорение загрузки"/>
+   <String id="IDS_QUIT_CLOSE_P2P" value="Используйте это снова"/>
+   <String id="IDS_P2P_NON_SVIP_SPEEDUP_TIP" value="Ускорение загрузки %s"/>
+   <String id="IDS_P2P_SVIP_SPEEDUP_TIP" value="SVIP ускорить %s"/>
+   <String id="IDS_HELP_EACHOTHER_FUNCTION" value="Ускорение загрузки" />
+   <String id="IDS_P2P_SVIP_SPEEDUP_SLOW_TIP" value="SVIP Ускорение получения ссылки..."/>
+   <String id="IDS_HELP_EACHOTHER_CLOSE" value="Подойди ближе" />
+   <String id="IDS_HELP_EACHOTHER_OPEN" value="Перейти к открытию" />
+
 </StringTable>
