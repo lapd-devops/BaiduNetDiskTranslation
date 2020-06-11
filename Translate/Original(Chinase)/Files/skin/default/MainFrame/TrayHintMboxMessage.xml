@@ -23,7 +23,7 @@
 							</downBkg>
 						</Properties>
 					</IBGButton>
-					<IBGStaticEx name="nmStaticTitle" text="$2969" dock="DOCK_FILL" margin="1,5,0,0" textClr="0x333333">
+					<IBGStaticEx name="nmStaticTitle" text="$2974" dock="DOCK_FILL" margin="1,5,0,0" textClr="0x333333">
 						<Properties>
 							<textFont>
 								<IBGFont weight="1000"/>
@@ -39,7 +39,7 @@
 		<Children>
 			<IBGRegionPanel dock="DOCK_BOTTOM" margin="0,0,0,0" size="210,20">
 				<Children>
-					<IBGStaticEx name="viewDetail" autoCalcHeight="true" autoCalcWidth="true" text="$2970" margin="0, 0, 10, 10" handCursor="true" dock="DOCK_RIGHT">
+					<IBGStaticEx name="viewDetail" autoCalcHeight="true" autoCalcWidth="true" text="$2975" margin="0, 0, 10, 10" handCursor="true" dock="DOCK_RIGHT">
 						<Children>
 							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
 						</Children>

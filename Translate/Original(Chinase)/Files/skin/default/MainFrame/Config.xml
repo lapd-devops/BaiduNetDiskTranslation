@@ -1364,6 +1364,11 @@
       <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:MainFrame\MainPanel\SpeedupTip\ticket_bkg.png" stretchArea="0, 0, 12, 24"/>
     </Property>
   </Config>
+  <Config name="P2PSpeedupTipPannel" interface="IBGRegionPanel">
+    <Property name="bkground">
+      <IBGVeins drawStyle="DRAWMODE_33Mesh_TILE" file="Resource:MainFrame\MainPanel\SpeedupTip\p2p_bkg.png" stretchArea="0, 0, 12, 24"/>
+    </Property>
+  </Config>
   <Config name="SpeedupCloseBtn" interface="IBGButton">
      <Property name="anchorPoints" value="256"/>
      <Property name="normalClr" value="0x333333"/>
@@ -1454,6 +1459,24 @@
      </Property>
      <Property name="downBkg">
        <IBGVeins file="Resource:\MainFrame\MainPanel\SpeedupTip\buyticket.png" transparent="TRUE" veinsRect="68, 0, 102, 25" stretchArea="79,0,90,25" drawStyle="DRAWMODE_33Mesh" changeLight="false">
+       </IBGVeins>
+     </Property>
+  </Config>
+  <Config name="SpeedupP2PBtn" interface="IBGButton">
+     <Property name="anchorPoints" value="256"/>
+     <Property name="normalClr" value="0xffffff"/>
+     <Property name="onColor" value="0xffffff"/>
+     <Property name="downColor" value="0xffffff"/>
+     <Property name="normalBkg">
+       <IBGVeins file="Resource:\MainFrame\MainPanel\SpeedupTip\p2p_speedup_btn_normal.png" transparent="TRUE" stretchArea="12,4,22,16" drawStyle="DRAWMODE_33Mesh" changeLight="false">
+       </IBGVeins>
+     </Property>
+     <Property name="onBkg">
+       <IBGVeins file="Resource:\MainFrame\MainPanel\SpeedupTip\p2p_speedup_btn_hover.png" transparent="TRUE" stretchArea="12,4,22,16" drawStyle="DRAWMODE_33Mesh" changeLight="false">
+       </IBGVeins>
+     </Property>
+     <Property name="downBkg">
+       <IBGVeins file="Resource:\MainFrame\MainPanel\SpeedupTip\p2p_speedup_btn_hover.png" transparent="TRUE" stretchArea="12,4,22,16" drawStyle="DRAWMODE_33Mesh" changeLight="false">
        </IBGVeins>
      </Property>
   </Config>

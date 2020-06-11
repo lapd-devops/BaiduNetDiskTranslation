@@ -44,8 +44,9 @@
         <imgframe name="toast_fail_bg" src="IDP_TOAST_FAIL_BKG" left="15" top="15" right="15" bottom="15"/>
         <imgframe name="toast_vip_bg" src="IDP_TOAST_VIP_BKG" left="60" top="15" right="15" bottom="15"/>
         <imgframe name="toast_svip_bg" src="IDP_TOAST_SVIP_BKG" left="60" top="15" right="15" bottom="15"/>
+        <imgframe name="toast_p2p_bg" src="IDP_TOAST_P2P_BKG" left="2" top="2" right="2" bottom="2"/>
         <imgframe name="toast_ok_ico" src="IDP_TOAST_OK_ICO"/>
-        <imgframe name="toast_fail_ico" src="IDP_TOAST_FAIL_ICO"/>
+        <imgframe name="toast_fail_ico" src="IDP_TOAST_FAIL_ICO"/>    
         <gif name="gif_toast_loading" src="IDP_TOAST_LOADING"/>
 
         <imgframe name="pagectrl_prebtn_bkg" src="IDP_PAGECTRL_PREBTN" subwidth="16"/>
@@ -756,6 +757,10 @@
         <!--自动备份-->
         <imgframe name="autobackuptipdlg_bg" src="IDP_AUTOBACKUPTIP_DLG_BG"/>
         <imglst name="autobackuptipdlg_close_btn" src="IDP_AUTOBACKUPTIP_DLG_CLOSE" subwidth="8"/>
+
+        <!--互助提速功能-->
+        <imgframe name="p2p_help_eachother_green_btn" src="IDP_P2P_HELP_EACHOTHER_BTN" subwidth="214" />
+        <imgframe name="p2p_help_eachother_frame" src="IDP_P2P_HELP_EACHOTHER_FRAME" left="2" right="2" top="2" bottom="2"/>
     </skins>
 
     <style>
@@ -992,6 +997,8 @@
         <class name="cls_video_definition_item_blue_btn"  skin="video_overspeed_blue_btn" crtext="ffffff" crhover="ffffff" font="0000:微软雅黑" cursor="arrow"/>
         <class name="cls_video_definition_item_yellow_btn" skin="video_overspeed_yellow_btn" crtext="ffffff" crhover="ffffff" font="0000:微软雅黑" cursor="arrow"/>
         <class name="cls_video_definition_script_text" skin="definition_script" crtext="42230C"  font2="facename:微软雅黑;bold:0;italic:0;underline:0;adding:-2" cursor="arrow" align="center" valign="middle" />
+        <!--p2p互助提速-->
+        <class name="cls_p2p_help_eachother_green_frame" skin="p2p_help_eachother_frame" font="0000:微软雅黑" crtext="FFFFFF" x-margin="0"/>
     </style>
 
     <objattr>

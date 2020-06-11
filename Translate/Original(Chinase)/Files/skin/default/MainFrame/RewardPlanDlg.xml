@@ -15,7 +15,7 @@
 							</IBDGuiCell>
 							<IBGRegionPanel size="757,33" dock="DOCK_FILL" margin="0,0,70,0">
 								<Children>
-									<IBGStatic color="0x333333" colorHilight="0x333333" colorPushed="0x333333" name="docTitle" ncHitTest="0" text="$3046" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" margin="7, 7, 0, 8" dock="DOCK_LEFT">
+									<IBGStatic color="0x333333" colorHilight="0x333333" colorPushed="0x333333" name="docTitle" ncHitTest="0" text="$3051" autoCalcHeight="true" autoCalcWidth="true" endEllipsis="true" margin="7, 7, 0, 8" dock="DOCK_LEFT">
 										<Properties>
 											<textFont>
 												<IBGFont height="18"/>
@@ -35,7 +35,7 @@
 									<IBGRegionPanel name="netErrTipPanel" size="160,180" margin="349,197,349,197">
 										<Children>
 											<IBGGIFControl dock="DOCK_TOP" margin="27, 0, 30, 40" image="Resource:MainFrame\\info.png" size="108, 122"></IBGGIFControl>
-											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$3047" margin="5, 3, 0, 0" dock="DOCK_TOP"/>
+											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$3052" margin="5, 3, 0, 0" dock="DOCK_TOP"/>
 										</Children>
 									</IBGRegionPanel>
 								</Children>

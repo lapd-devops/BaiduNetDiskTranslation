@@ -807,7 +807,15 @@
   <String id="IDS_SPEEDUP_END_DEFAULT_TIP" value="购买加速包即可享受持续加速" />
   <String id="IDS_SPEEDUP_REMINDING_TIP" value="(剩余%d秒体验结束)" />
   <String id="IDS_SPEEDUP_SPEEDING_TIP" value="提速中" />
-  <!--极速下载券提示 -->
+
+  <!--p2p加速提示 -->
+  <String id="IDS_P2PSPEEDUP_OPEN_TIP" value="开启下载提速功能可以为您提升下载速度，已有%0.1f%%的用户获得%0.1f倍的加速效果" />
+  <String id="IDS_P2PSPEEDUP_OPEN_DEFAULT_TIP" value="开启下载提速功能可以为您提升下载速度，本功能已为开启用户平均提升3.2倍" />
+  <String id="IDS_P2PSPEEDUP_BTN_OPEN" value="查看并开启" />
+  <String id="IDS_P2PSPEEDUP_SET_TIP" value="正在通过提速模式加速，已为您提速%0.1f倍，可以在设置页面中管理下载提速功能。" />
+  <String id="IDS_P2PSPEEDUP_BTN_SET" value="去设置" />
+
+    <!--极速下载券提示 -->
   <String id="IDS_SPEEDUP_BTN_EXTEND" value="继续加速" />
   <String id="IDS_SPEEDUPTICKET_REMINDING_TIP" value="(剩余%d秒)" />
   <String id="IDS_SPEEDUPTICKET_REMINDING_1_TIP" value="(剩余%d小时)" />
@@ -1231,5 +1239,22 @@
   <String id="IDS_UPLOADLOG_NOTIFY_FAIL_NETWORK_TIP" value="网络连接异常，请稍后重新反馈" />
   <String id="IDS_UPLOADLOG_NOTIFY_START_TITLE" value="反馈处理中" />
   <String id="IDS_UPLOADLOG_NOTIFY_START_TIP" value="正在接收您的反馈，请耐心等待~" />
+
+   <!--互助提速-->
+   <String id="IDS_HELP_EACHOTHER_TITLE" value="下载提速：" />
+   <String id="IDS_HELP_EACHOTHER_SWITCH" value="利用闲置带宽为下载加速或换取积分" />
+   <String id="IDS_HELP_EACHOTHER_OVERSPEED_MODE" value="提速模式" />
+   <String id="IDS_HELP_EACHOTHER_OVERSPEED_INTERPRETATION_TIP" value="在“提速模式”下，将电脑端的空闲上传带宽组建成特有的传输通道，为使用电脑端下载并进入此传输通道的文件加速。百度网盘将通过智能化的传输控制，优先用户的上网使用，不影响上网体验。" />
+   <String id="IDS_HELP_EACHOTHER_GET_SCORE_MODE" value="积分模式"/>
+   <String id="IDS_HELP_EACHOTHER_GET_SCORE_INTERPRETATION_TIP" value="在“积分模式”下，用户可以获得与贡献度相匹配的积分奖励，但不享受下载加速效果。积分按天结算，最晚于次日零点前发放。您可以登录网盘手机APP，在任务中心的积分明细中查看到积分获取详情。"/>
+   <String id="IDS_CLOSE_P2P_TIP" value="关闭下载提速功能将不再产生资源消耗，同时也将不再享受加速服务或积分奖励。本功能已为开启用户平均提速3.2倍，再用用看吧~"/>
+   <String id="IDS_FIX_CLOSE_P2P" value="关闭下载提速"/>
+   <String id="IDS_QUIT_CLOSE_P2P" value="再用用看"/>
+   <String id="IDS_P2P_NON_SVIP_SPEEDUP_TIP" value="下载提速 %s"/>
+   <String id="IDS_P2P_SVIP_SPEEDUP_TIP" value="SVIP提速 %s"/>
+   <String id="IDS_HELP_EACHOTHER_FUNCTION" value="下载提速" />
+   <String id="IDS_P2P_SVIP_SPEEDUP_SLOW_TIP" value="SVIP加速链接获取中..."/>
+   <String id="IDS_HELP_EACHOTHER_CLOSE" value="去关闭" />
+   <String id="IDS_HELP_EACHOTHER_OPEN" value="去开启" />
 
 </StringTable>
