@@ -22,7 +22,7 @@
 							<IBGRegionPanel size="498,44" margin="0,40,0,0" dock="DOCK_TOP">
 								<Children>
 									<IBGGIFControl name="lockGif" dock="DOCK_LEFT" margin="148,0,0,0" image="Resource:\\MainFrame\\UnlockDlg\\lock.gif" size="44,44"></IBGGIFControl>
-									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2854" margin="14, 9, 0, 0" dock="DOCK_LEFT">
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2859" margin="14, 9, 0, 0" dock="DOCK_LEFT">
 										<Properties>
 											<textFont>
 												<IBGFont height="28"/>
@@ -33,14 +33,14 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="498,18" margin="0,10,0,0" dock="DOCK_TOP">
 								<Children>
-									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2869" margin="60, 0, 0, 0" dock="DOCK_LEFT">
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2874" margin="60, 0, 0, 0" dock="DOCK_LEFT">
 										<Properties>
 											<textFont>
 												<IBGFont height="18"/>
 											</textFont>
 										</Properties>
 									</IBGStaticEx>
-									<IBGGIFControl dock="DOCK_LEFT" size="18,18" margin="4, 0, 0, 0" toolText="$2870" image="Resource:MainFrame\\UnlockDlg\\question.png"></IBGGIFControl>
+									<IBGGIFControl dock="DOCK_LEFT" size="18,18" margin="4, 0, 0, 0" toolText="$2875" image="Resource:MainFrame\\UnlockDlg\\question.png"></IBGGIFControl>
 								</Children>
 							</IBGRegionPanel>
 							<IBGRegionPanel size="498,18" margin="0,25,0,0" dock="DOCK_TOP">
@@ -52,7 +52,7 @@
 											</textFont>
 										</Properties>
 									</IBGStaticEx>
-									<IBGStaticEx name="changeAccountLink" autoCalcHeight="true" autoCalcWidth="true" text="$2863" margin="8, 0, 0, 0" handCursor="true" dock="DOCK_LEFT">
+									<IBGStaticEx name="changeAccountLink" autoCalcHeight="true" autoCalcWidth="true" text="$2868" margin="8, 0, 0, 0" handCursor="true" dock="DOCK_LEFT">
 										<Children>
 											<IBGLinkItem config="UnlockDlgLinkItem" positionMode="true" position="0,-1"/>
 										</Children>
@@ -67,7 +67,7 @@
 											<IBGRegionPanel size="498,30" margin="0,8,0,0" dock="DOCK_TOP">
 												<Children>
 													<IBGStaticEx name="errorInfoStatic" autoCalcHeight="true" autoCalcWidth="true" textClr="0x6061f4" text="" margin="144, 8, 0, 6" dock="DOCK_LEFT" unseen="true"/>
-													<IBGStaticEx name="inputTipStatic" autoCalcHeight="true" autoCalcWidth="true" textClr="0x999999" text="$2856" margin="144, 8, 0, 6" dock="DOCK_LEFT" unseen="false">
+													<IBGStaticEx name="inputTipStatic" autoCalcHeight="true" autoCalcWidth="true" textClr="0x999999" text="$2861" margin="144, 8, 0, 6" dock="DOCK_LEFT" unseen="false">
 														<Properties>
 															<textFont>
 																<IBGFont height="18"/>
@@ -102,7 +102,7 @@
 											</IBGRegionPanel>
 											<IBGRegionPanel size="498,30" margin="0,10,0,0" dock="DOCK_TOP">
 												<Children>
-													<IBGButton name="unlockBtn" text="$2855" size="214,30" margin="142, 0, 142, 0" tabOrder="15" config="UnlockButton" dock="DOCK_TOP"/>
+													<IBGButton name="unlockBtn" text="$2860" size="214,30" margin="142, 0, 142, 0" tabOrder="15" config="UnlockButton" dock="DOCK_TOP"/>
 												</Children>
 											</IBGRegionPanel>
 										</Children>
@@ -120,8 +120,8 @@
 											<IBGRegionPanel name="qrcodeLoadFailPanel" size="100,100" margin="200,15,200,12" dock="DOCK_TOP" unseen="true" config="UnlockDlgQrcodeFramePanel">
 												<Children>
 													<IBGGIFControl dock="DOCK_TOP" margin="38,14,38,0" image="Resource:\\MainFrame\\UnlockDlg\\fail.png" size="24, 24"></IBGGIFControl>
-													<IBGStaticEx name="qrcodeErrorTip" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2860" margin="25, 3, 25, 0" dock="DOCK_TOP"/>
-													<IBGStaticEx name="refreshQrcodeLink" autoCalcHeight="true" autoCalcWidth="true" text="$2862" margin="25, 12, 25, 0" handCursor="true" dock="DOCK_TOP">
+													<IBGStaticEx name="qrcodeErrorTip" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2865" margin="25, 3, 25, 0" dock="DOCK_TOP"/>
+													<IBGStaticEx name="refreshQrcodeLink" autoCalcHeight="true" autoCalcWidth="true" text="$2867" margin="25, 12, 25, 0" handCursor="true" dock="DOCK_TOP">
 														<Children>
 															<IBGLinkItem config="UnlockDlgLinkItem" positionMode="true" position="0,-1"/>
 														</Children>
@@ -138,27 +138,27 @@
 											<IBGRegionPanel name="qrcodeUnlockingPanel" size="100,100" margin="200,15,200,12" dock="DOCK_TOP" unseen="true" config="UnlockDlgQrcodeFramePanel">
 												<Children>
 													<IBGGIFControl dock="DOCK_TOP" margin="41,31,41,0" image="Resource:\\MainFrame\\loading.gif" size="18, 18"></IBGGIFControl>
-													<IBGStaticEx size="45,16" textClr="0x666666" text="$2867" margin="33, 5, 22, 0" dock="DOCK_TOP"/>
+													<IBGStaticEx size="45,16" textClr="0x666666" text="$2872" margin="33, 5, 22, 0" dock="DOCK_TOP"/>
 												</Children>
 											</IBGRegionPanel>
-											<IBGStaticEx name="openNaDownloadLink" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2864" margin="119, 0, 119, 0" handCursor="true" dock="DOCK_TOP">
+											<IBGStaticEx name="openNaDownloadLink" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2869" margin="119, 0, 119, 0" handCursor="true" dock="DOCK_TOP">
 												<Children>
 													<IBGLinkItem config="UnlockDlgLinkItem" positionMode="true" position="3,9"/>
 												</Children>
 											</IBGStaticEx>
-											<IBGStaticEx name="scanSuccessTip" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2868" margin="164, 0, 164, 0" dock="DOCK_TOP" unseen="true"/>
+											<IBGStaticEx name="scanSuccessTip" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2873" margin="164, 0, 164, 0" dock="DOCK_TOP" unseen="true"/>
 										</Children>
 									</IBGRegionPanel>
 									<!-- 底部提示 -->
 									<IBGRegionPanel size="498,23" margin="0,5,0,0" dock="DOCK_BOTTOM">
 										<Children>
 											<IBGStaticEx name="hotKeyTip" autoCalcHeight="true" autoCalcWidth="true" text="" textClr="0x999999" margin="10, 0, 0, 7" dock="DOCK_LEFT"/>
-											<IBGStaticEx name="qrcodeUnlockLink" autoCalcHeight="true" autoCalcWidth="true" text="$2866" margin="0, 0, 10, 7" handCursor="true" dock="DOCK_RIGHT" unseen="true">
+											<IBGStaticEx name="qrcodeUnlockLink" autoCalcHeight="true" autoCalcWidth="true" text="$2871" margin="0, 0, 10, 7" handCursor="true" dock="DOCK_RIGHT" unseen="true">
 												<Children>
 													<IBGLinkItem config="UnlockDlgLinkItem" positionMode="true" position="0,-1"/>
 												</Children>
 											</IBGStaticEx>
-											<IBGStaticEx name="pwdUnlockLink" autoCalcHeight="true" autoCalcWidth="true" text="$2865" margin="0, 0, 10, 7" handCursor="true" dock="DOCK_RIGHT">
+											<IBGStaticEx name="pwdUnlockLink" autoCalcHeight="true" autoCalcWidth="true" text="$2870" margin="0, 0, 10, 7" handCursor="true" dock="DOCK_RIGHT">
 												<Children>
 													<IBGLinkItem config="UnlockDlgLinkItem" positionMode="true" position="0,-1"/>
 												</Children>

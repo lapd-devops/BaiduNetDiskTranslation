@@ -810,6 +810,14 @@
   <String id="IDS_SPEEDUP_END_DEFAULT_TIP" value="Buy speed up package and can enjoy accelerated speed" />
   <String id="IDS_SPEEDUP_REMINDING_TIP" value="(%d seconds of accelerated speed remaining)" />
   <String id="IDS_SPEEDUP_SPEEDING_TIP" value="Speed Up" />
+
+    <!--p2p加速提示 -->
+  <String id="IDS_P2PSPEEDUP_OPEN_TIP" value="Turning on the download speed-up function can increase the download speed for you.%0.1f%%Of users get%0.1fTimes faster" />
+  <String id="IDS_P2PSPEEDUP_OPEN_DEFAULT_TIP" value="Turning on the download speed-up function can increase the download speed for you. This function has improved the average 3.2 times for users" />
+  <String id="IDS_P2PSPEEDUP_BTN_OPEN" value="View and open" />
+  <String id="IDS_P2PSPEEDUP_SET_TIP" value="Speeding up in speed-up mode, has speeded up for you%0.1fTimes，You can manage the download speed-up function in the settings page." />
+  <String id="IDS_P2PSPEEDUP_BTN_SET" value="To set" />
+
   <!--极速下载券提示 -->
   <String id="IDS_SPEEDUP_BTN_EXTEND" value="Continue to accelerate" />
   <String id="IDS_SPEEDUPTICKET_REMINDING_TIP" value="(remaining %d seconds)" />
@@ -1234,5 +1242,23 @@
   <String id="IDS_UPLOADLOG_NOTIFY_FAIL_NETWORK_TIP" value="The network connection is abnormal, please feedback again later" />
   <String id="IDS_UPLOADLOG_NOTIFY_START_TITLE" value="Feedback processing" />
   <String id="IDS_UPLOADLOG_NOTIFY_START_TIP" value="Your feedback is being received, please be patient ~" />
+  
+  
+   <!--Mutual assistance-->
+   <String id="IDS_HELP_EACHOTHER_TITLE" value="Download speedup：" />
+   <String id="IDS_HELP_EACHOTHER_SWITCH" value="Use idle bandwidth to speed up downloads or redeem points" />
+   <String id="IDS_HELP_EACHOTHER_OVERSPEED_MODE" value="Speed ​​up mode" />
+   <String id="IDS_HELP_EACHOTHER_OVERSPEED_INTERPRETATION_TIP" value="In <<Speed ​​Up Mode>>，The idle upload bandwidth on the computer side is formed into a unique transmission channel to accelerate the files downloaded and entered into the transmission channel using the computer side. Baidu SkyDrive will give priority to users' online use through intelligent transmission control without affecting the online experience." />
+   <String id="IDS_HELP_EACHOTHER_GET_SCORE_MODE" value="Integral mode"/>
+   <String id="IDS_HELP_EACHOTHER_GET_SCORE_INTERPRETATION_TIP" value="In the <<Speed ​​Up Mode>>, users can get point rewards matching the contribution degree, but do not enjoy the download acceleration effect. Points are settled on a daily basis and will be distributed at the latest before zero the next day. You can log in to the mobile phone APP of the network disk and check the points in the task center for details of the points."/>
+   <String id="IDS_CLOSE_P2P_TIP" value="Turning off the download speed-up function will no longer consume resources, and will no longer enjoy accelerated services or bonus points. This function has increased the average speed of users by 3.2 times, please use it again~"/>
+   <String id="IDS_FIX_CLOSE_P2P" value="Turn off download speedup"/>
+   <String id="IDS_QUIT_CLOSE_P2P" value="Use it again"/>
+   <String id="IDS_P2P_NON_SVIP_SPEEDUP_TIP" value="Download speedup %s"/>
+   <String id="IDS_P2P_SVIP_SPEEDUP_TIP" value="SVIPSpeed ​​up %s"/>
+   <String id="IDS_HELP_EACHOTHER_FUNCTION" value="Download speedup" />
+   <String id="IDS_P2P_SVIP_SPEEDUP_SLOW_TIP" value="SVIPSpeeding up link acquisition..."/>
+   <String id="IDS_HELP_EACHOTHER_CLOSE" value="Go close" />
+   <String id="IDS_HELP_EACHOTHER_OPEN" value="Go to open" />
 
 </StringTable>

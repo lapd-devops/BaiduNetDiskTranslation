@@ -1209,4 +1209,20 @@
   <s id="3410">This device has been logged out</s>
   <s id="3411">This device has been logged out! If not operated by yourself, please change the password in time to avoid the loss of stored data.</s> 
   <s id="3412"> OK </s>
+
+    <!--Mutual assistance speed-up function-->
+  <s id="3415">Download speedup</s>
+  <s id="3416">[Download speedup] is to set the idle upload bandwidth on the computer side into a unique transmission channel to accelerate the files downloaded and entered into the transmission channel using the computer side. The upload bandwidth will continue to optimize the quality of the transmission channel. The higher the channel quality, the more obvious the acceleration effect.</s>
+  <s id="3417">What you get</s>
+  <s id="3418">You provide</s>
+  <s id="3419">Files downloaded through this transmission channel will have an acceleration effect.</s>
+  <s id="3420">Provide idle upload bandwidth to optimize the quality of download transmission channels.</s>
+  <s id="3421">I have read and agree</s>
+  <s id="3422">"Download Speed-up Function Agreement"</s>
+  <s id="3423">Turn on speed-up mode</s>
+  <s id="3424">Please read and tick the user agreement</s>
+  <s id="3428">The higher the quality of the transmission channel, the more obvious the acceleration effect.</s>
+  <s id="3429">Intelligent transmission control does not affect the online experience.</s>
+  <s id="3430">Special note: due to factors such as the network environment and file attributes, some files cannot enter this transmission channel and gain acceleration.</s>
+  <s id="3431">Turn on download speedup</s>
 </string>

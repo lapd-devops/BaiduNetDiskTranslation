@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2807" margin="1, 8, 3, 3" dock="DOCK_LEFT"/>
+							<IBGStaticEx textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2812" margin="1, 8, 3, 3" dock="DOCK_LEFT"/>
 						</Children>
 					</IBGRegionPanel>
 					<IBGRegionPanel name="contentContainer" size="552,292" margin="0,2,0,0" dock="DOCK_FILL" config="commonPanel">
@@ -32,7 +32,7 @@
 											</IBGRegionPanel>
 										</Children>
 									</IBGRegionPanel>
-									<IBGButton name="BackGroudBtn" dock="DOCK_RIGHT" size="80,24" config="button" text="$2808" margin="0, 10, 22, 11"/>
+									<IBGButton name="BackGroudBtn" dock="DOCK_RIGHT" size="80,24" config="button" text="$2813" margin="0, 10, 22, 11"/>
 								</Children>
 							</IBGRegionPanel>
 							<!--下载列表-->
@@ -54,7 +54,7 @@
 							<!--正在加载面板-->
 							<IBGRegionPanel name="loading_pannel" unseen="true" sizeAsParent="true" config="offlineDownloadBkgPanel" dock="DOCK_FILL" margin="22,16,22,0">
 								<Children>
-									<IBGStatic text="$2809" autoCalcHeight="true" color="0x666666" colorHilight="0x666666" colorPushed="0x666666" margin="180,110,150,100" autoCalcWidth="true" dock="DOCK_LEFT"/>
+									<IBGStatic text="$2814" autoCalcHeight="true" color="0x666666" colorHilight="0x666666" colorPushed="0x666666" margin="180,110,150,100" autoCalcWidth="true" dock="DOCK_LEFT"/>
 								</Children>
 							</IBGRegionPanel>
 							<!--加载错误面板-->
@@ -67,13 +67,13 @@
 											</bkground>
 										</Properties>
 									</IBDGuiCell>
-									<IBGStatic text="$2810" autoCalcHeight="true" color="0x0000FF" colorHilight="0x0000FF" colorPushed="0x0000FF" margin="150,0,0,92" autoCalcWidth="true" dock="DOCK_TOP"/>
+									<IBGStatic text="$2815" autoCalcHeight="true" color="0x0000FF" colorHilight="0x0000FF" colorPushed="0x0000FF" margin="150,0,0,92" autoCalcWidth="true" dock="DOCK_TOP"/>
 								</Children>
 							</IBGRegionPanel>
 							<!--加载成功，无离线下载任务-->
 							<IBGRegionPanel name="empty_pannel" unseen="false" sizeAsParent="true" config="offlineDownloadBkgPanel" dock="DOCK_FILL" margin="22,16,22,0">
 								<Children>
-									<IBGStaticEx text="$2811" autoCalcHeight="true" textClr="0x3c6889" margin="80,80,0,0" autoCalcWidth="true" dock="DOCK_TOP">
+									<IBGStaticEx text="$2816" autoCalcHeight="true" textClr="0x3c6889" margin="80,80,0,0" autoCalcWidth="true" dock="DOCK_TOP">
 										<Properties>
 											<textFont>
 												<IBGFont height="20"/>
@@ -82,8 +82,8 @@
 									</IBGStaticEx>
 									<IBGRegionPanel dock="DOCK_TOP" sizeAsParent="true">
 										<Children>
-											<IBGButton name="CreateNormalDownloadLink" dock="DOCK_LEFT" enableFocus="true" size="100,36" config="defaultBtn" text="$2812" margin="120,36,0,192"/>
-											<IBGButton name="CreateBTDownloadLink" dock="DOCK_LEFT" enableFocus="true" size="100,36" config="defaultBtn" text="$2813" margin="60,36,0,192"/>
+											<IBGButton name="CreateNormalDownloadLink" dock="DOCK_LEFT" enableFocus="true" size="100,36" config="defaultBtn" text="$2817" margin="120,36,0,192"/>
+											<IBGButton name="CreateBTDownloadLink" dock="DOCK_LEFT" enableFocus="true" size="100,36" config="defaultBtn" text="$2818" margin="60,36,0,192"/>
 										</Children>
 									</IBGRegionPanel>
 								</Children>

@@ -37,7 +37,7 @@
 							</downBkg>
 						</Properties>
 					</IBGButton>
-					<IBGStaticEx name="nmStaticTitle" text="$2964" dock="DOCK_FILL" endEllipsis="true" margin="1,5,0,0" textClr="0x333333">
+					<IBGStaticEx name="nmStaticTitle" text="$2969" dock="DOCK_FILL" endEllipsis="true" margin="1,5,0,0" textClr="0x333333">
 						<Properties>
 							<textFont>
 								<IBGFont weight="1000"/>

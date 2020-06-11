@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx textClr="0xFFFFFF" autoCalcHeight="true" autoCalcWidth="true" text="$2976" margin="1, 10, 3, 3" dock="DOCK_LEFT"/>
+							<IBGStaticEx textClr="0xFFFFFF" autoCalcHeight="true" autoCalcWidth="true" text="$2981" margin="1, 10, 3, 3" dock="DOCK_LEFT"/>
 						</Children>
 					</IBGRegionPanel>
 					<IBGRegionPanel size="526,236" margin="0,2,0,0" dock="DOCK_TOP" config="commonPanel">
@@ -22,18 +22,18 @@
 								<Children>
 									<IBGRegionPanel dock="DOCK_TOP" size="482,166" margin="0,0,0,0" config="offlineDownloadBkgPanel">
 										<Children>
-											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2977" margin="12, 12, 3, 3" dock="DOCK_TOP"/>
+											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2982" margin="12, 12, 3, 3" dock="DOCK_TOP"/>
 											<IBGRegionPanel dock="DOCK_TOP" size="482,30" margin="12,2,6,9">
 												<Children>
-													<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2978" margin="1, 5, 3, 0" dock="DOCK_LEFT"/>
+													<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2983" margin="1, 5, 3, 0" dock="DOCK_LEFT"/>
 													<IBGEdit editTextColor="0x999999" size="44, 22" margin="4, 2, 2, 6" name="BandwidthEdit" number="true" tabOrder="12" config="edit" dock="DOCK_LEFT"/>
-													<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2979" margin="2, 5, 3, 0" dock="DOCK_LEFT"/>
-													<IBGStaticEx textClr="0x999999" autoCalcHeight="true" autoCalcWidth="true" text="$2980" margin="0, 5, 3, 0" dock="DOCK_LEFT"/>
+													<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2984" margin="2, 5, 3, 0" dock="DOCK_LEFT"/>
+													<IBGStaticEx textClr="0x999999" autoCalcHeight="true" autoCalcWidth="true" text="$2985" margin="0, 5, 3, 0" dock="DOCK_LEFT"/>
 												</Children>
 											</IBGRegionPanel>
 											<IBGRegionPanel size="478,72" margin="12,2,12,2" dock="DOCK_TOP" config="SpeedFeedbackPanel">
 												<Children>
-													<IBGEdit editTextColor="0x333333" size="420, 60" margin="4, 1, 3, 1" name="DescEdit" limitType="UTF16" limitLength="500" defaultText="$2981" multiline="true" tabOrder="12" dock="DOCK_TOP" config="editNoBorder"/>
+													<IBGEdit editTextColor="0x333333" size="420, 60" margin="4, 1, 3, 1" name="DescEdit" limitType="UTF16" limitLength="500" defaultText="$2986" multiline="true" tabOrder="12" dock="DOCK_TOP" config="editNoBorder"/>
 													<IBGStaticEx name="LeftWordCountStatic" textClr="0x999999" autoCalcHeight="true" autoCalcWidth="true" margin="422, 0, 5, 2" dock="DOCK_BOTTOM"/>
 												</Children>
 											</IBGRegionPanel>
@@ -41,8 +41,8 @@
 									</IBGRegionPanel>
 									<IBGRegionPanel size="482,42" margin="0,0,0,0" dock="DOCK_BOTTOM">
 										<Children>
-											<IBGStaticEx textClr="0x999999" autoCalcHeight="true" autoCalcWidth="true" text="$2982" margin="12, 6, 3, 16" dock="DOCK_LEFT"/>
-											<IBGButton name="SubmitBtn" text="$2984" enable="false" size="70,23" margin="4, 2, 1, 16" tabOrder="16" config="button" dock="DOCK_RIGHT"/>
+											<IBGStaticEx textClr="0x999999" autoCalcHeight="true" autoCalcWidth="true" text="$2987" margin="12, 6, 3, 16" dock="DOCK_LEFT"/>
+											<IBGButton name="SubmitBtn" text="$2989" enable="false" size="70,23" margin="4, 2, 1, 16" tabOrder="16" config="button" dock="DOCK_RIGHT"/>
 										</Children>
 									</IBGRegionPanel>
 								</Children>
@@ -51,7 +51,7 @@
 								<Children>
 									<IBGRegionPanel size="482,166" margin="0,0,0,0" unseen="false" dock="DOCK_TOP" config="offlineDownloadBkgPanel">
 										<Children>
-											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2983" margin="30, 50, 0, 3" dock="DOCK_LEFT">
+											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2988" margin="30, 50, 0, 3" dock="DOCK_LEFT">
 												<Properties>
 													<textFont>
 														<IBGFont height="20"/>
@@ -63,7 +63,7 @@
 									</IBGRegionPanel>
 									<IBGRegionPanel size="482,42" margin="0,0,0,0" dock="DOCK_BOTTOM">
 										<Children>
-											<IBGButton name="FinishBtn" text="$2985" size="70,23" margin="4, 2, 1, 16" tabOrder="17" config="button" dock="DOCK_RIGHT"/>
+											<IBGButton name="FinishBtn" text="$2990" size="70,23" margin="4, 2, 1, 16" tabOrder="17" config="button" dock="DOCK_RIGHT"/>
 										</Children>
 									</IBGRegionPanel>
 								</Children>
